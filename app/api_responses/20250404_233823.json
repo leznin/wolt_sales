@@ -1,0 +1,3329 @@
+{
+  "category": {
+    "id": "672b4614ec8f4227aaf84707",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/5064e53a-d7ee-11ef-8058-a6d9b718f67b_________________.jpg",
+        "blurhash": "jeUK3wLKTKghncTtFlh4P;N3kPnt"
+      }
+    ],
+    "name": "გრიპი და გაციება",
+    "slug": "menucategory-51"
+  },
+  "categories": [
+    {
+      "id": "672b4614ec8f4227aaf84707",
+      "item_ids": [
+        "67125f62a6afb21202d83f0f",
+        "67125f62a6afb21202d83ef9",
+        "67125f62a6afb21202d83f76",
+        "67125f62a6afb21202d83f50",
+        "67125f62a6afb21202d83f9a",
+        "67125f62a6afb21202d83fda",
+        "67125f62a6afb21202d8402c",
+        "67125f62a6afb21202d84522",
+        "67125f62a6afb21202d845e9",
+        "67125f62a6afb21202d845cc",
+        "67125f62a6afb21202d845e6",
+        "67125f62a6afb21202d845d3",
+        "67125f62a6afb21202d84620",
+        "67125f62a6afb21202d84636",
+        "67125f62a6afb21202d8463c",
+        "67125f62a6afb21202d8460c",
+        "67125f62a6afb21202d8463d",
+        "67125f62a6afb21202d846af",
+        "67125f62a6afb21202d84688",
+        "67125f62a6afb21202d846a1",
+        "67125f62a6afb21202d846bb",
+        "67125f62a6afb21202d84682",
+        "67125f62a6afb21202d846b7",
+        "67125f62a6afb21202d846ab",
+        "67125f62a6afb21202d8469f",
+        "67125f62a6afb21202d846b2",
+        "67125f62a6afb21202d846bc",
+        "67125f62a6afb21202d84694",
+        "67125f62a6afb21202d8470c",
+        "67125f62a6afb21202d84737",
+        "67125f62a6afb21202d84809",
+        "67125f62a6afb21202d84956",
+        "67125f62a6afb21202d84977",
+        "67125f62a6afb21202d8495f",
+        "67125f62a6afb21202d849c5",
+        "67125f62a6afb21202d849fc",
+        "67125f62a6afb21202d84ab3",
+        "672b185cd9e4b0def87b0d80",
+        "672b185cd9e4b0def87b0dac",
+        "672b185cd9e4b0def87b0dc4",
+        "672b185cd9e4b0def87b0e29",
+        "672b185cd9e4b0def87b0ea5",
+        "672b185cd9e4b0def87b0e8c",
+        "672b185cd9e4b0def87b0edb",
+        "672b185cd9e4b0def87b0eab",
+        "672b185cd9e4b0def87b0ece",
+        "67125f62a6afb21202d842cf",
+        "67125f62a6afb21202d83f47",
+        "67125f62a6afb21202d84059",
+        "67125f62a6afb21202d8434e"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "67125f62a6afb21202d83f0f",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "e3e526077d4d4441f9c528588e95fb7b",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/bd1ebd84-ce5e-11ef-9208-6e222e0e61a9_1e4c5b135b.jpg",
+          "blurhash": "jeYv3KplXKGXKXuppCBD;;qFcyBC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "გერვეტინი პიტნის შაქრის გარეშე საწ.ტაბ.3მგ N20",
+      "options": [],
+      "original_price": 2405,
+      "price": 1671,
+      "purchasable_balance": 9,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d83ef9",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "cf6f9eacc7bb3c170b42a2bc9f85e2a0",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/694deb98-ce5a-11ef-a485-ba47bbef534a_04f96e3496.jpg",
+          "blurhash": "j9:LzRuGX;KCOYpClkKXPuFSgPmq"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "გერვეტინი სპრეი პიტნის ფლაკ.1.5მგ/მლ 30მლ",
+      "options": [],
+      "original_price": 2006,
+      "price": 1411,
+      "purchasable_balance": 16,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d83f76",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "0399496ecf41391a8e353532d841806f",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/ec321fb0-cdca-11ef-b7a0-e6401ebe9a91_8ef99c0798.jpg",
+          "blurhash": "jdYfbQh4;;TtPblmh5PbTtGGcQll"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ნოზეილინი თვალი/ცხვირს წვ.15მლ",
+      "options": [],
+      "original_price": 2359,
+      "price": 1777,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d83f50",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "af37003f4245e174d8575bfc5794d8d7",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/7eb1b5e0-cdca-11ef-8719-6ef0b29ab967_7ab575dd43.jpg",
+          "blurhash": "j7Z;zSh4;;TtllllOXTdPcCGh4pC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "დიდროფი სპრეი 0.05% 15მლ",
+      "options": [],
+      "original_price": 1005,
+      "price": 780,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d83f9a",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "c93e836c1dc1dd5c4c75d0bd9e9bad15",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/0cea829c-cdcb-11ef-bcfa-02dd600e9cc7_9d7eedd931.jpg",
+          "blurhash": "jeXL3LFB;;qYhlllOXPcXtlCcPOW"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "დიდროფი წვ.0.05% 10მლ",
+      "options": [],
+      "original_price": 639,
+      "price": 490,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d83fda",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "fa97d0f8bb49815233e93a7d09e866a1",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/934d91c6-cdd0-11ef-b7c8-b215f723547a_e9d5c90610.jpg",
+          "blurhash": "jeXePJTs;;8zTtGGgQll;:h58yTs"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "პაფესანი მენთოლი სპრეი ყელის 30მლ",
+      "options": [],
+      "original_price": 3370,
+      "price": 2420,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d8402c",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "0223f3830381b3698dd9339ae068fd88",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/040081fe-cdd0-11ef-8979-86b1291f8847_d5dde2b9ea.jpg",
+          "blurhash": "jgZKTICnX;FFp4plHcLcPKplgPHb"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "დიდროფი წვ.0.1% 10მლ",
+      "options": [],
+      "original_price": 684,
+      "price": 520,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d84522",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "8b7b3a5be802b984866989b788cc1b43",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/61a98fea-cdca-11ef-b883-2ae520b2187e_6e34b66efd.jpg",
+          "blurhash": "jeZ;7MJBX;mYPcllllLbTKuGcyFB"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ლიზობაქტი ორალური სპრეი კომპ. 30მლ",
+      "options": [],
+      "original_price": 2077,
+      "price": 1496,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d845e9",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "16c52270cd206d75a1b47bb02d6e9206",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/a8b0cbba-cdca-11ef-8c45-86a68f821bb4_7e7038eaa0.jpg",
+          "blurhash": "jaZfnRhl;;TcPcpCllKXLtqGl3Jl"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "რინოსედალი ცხვ.სპრეი 20მლ",
+      "options": [],
+      "original_price": 5986,
+      "price": 4240,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d845cc",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "1feb4e32ae5f051405daf0573fa787d8",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/095b5c3e-ce5f-11ef-a000-e691fbcaeb96_2d4f28f3c9.jpg",
+          "blurhash": "j8YKTLcP;;XuX:TtcPcy;;OHczhR"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ლორენზიმო ყელის სპრეი 20მლ",
+      "options": [],
+      "original_price": 3958,
+      "price": 2830,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d845e6",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "e67401dc3c6c53946c0a79db403c03e3",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/23ba8b54-cdce-11ef-8cb6-e6b823c7c687_18781473f7.jpg",
+          "blurhash": "jdYLjNpC;;KXp4tTLcCpTtGpd3pC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ფაურილი ცხვ. სპრეი 20მლ",
+      "options": [],
+      "original_price": 3885,
+      "price": 2779,
+      "purchasable_balance": 3,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d845d3",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "3bc33f80ba4a1f004d88bb6e4638377a",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/635a96da-cdcb-11ef-995b-d2cca6b324d0_28f28d87d7.jpg",
+          "blurhash": "jdYvvRpC;;OYKXGGllpBTcKGd4hl"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "მარინოსი სენსივიტი ცხვ.სპრეი 50მლ",
+      "options": [],
+      "original_price": 1650,
+      "price": 1181,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d84620",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "1594585e0b639d24c4474ea73298d957",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/7a552288-cdcb-11ef-8087-66925cb16ce7_36ccf211c9.jpg",
+          "blurhash": "jaZvrSGG;;lDOTpClGKWTttTcPGG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "სინუდრენი სპრეი 0.1% 15მლ",
+      "options": [],
+      "original_price": 4498,
+      "price": 3236,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d84636",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "c54ccbf4fbfbfff44f82d3f9d89921c2",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/2a6e3498-cdd1-11ef-bb99-a2970d801df1_f8ca02bd91.jpg",
+          "blurhash": "j9ZfjQhD;;SWOXllhmLcTKtCcOGX"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ეტოდექსი პირის ღრუს სპრეი 1.92მგ/მლ 30მლ",
+      "options": [],
+      "original_price": 1678,
+      "price": 1208,
+      "purchasable_balance": 10,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d8463c",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "d49b51d782b496e3d1882fda9027954f",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/f928e2b6-cdcb-11ef-b438-9a1aa46e263b_68abb4769c.jpg",
+          "blurhash": "j9Y;7Opl;;KYTcpChlKW;;GX4hpl"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "სინომარინი ნებულები ფლაკ.5მლ N18^",
+      "options": [],
+      "original_price": 3200,
+      "price": 2080,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d8460c",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "01cb0d7894a7c2de6990a2efa7e0ae0c",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/3839a3a8-cdce-11ef-b995-764b66ec9bbd_0599299165.jpg",
+          "blurhash": "j6:LDVKX;;h5TapDhqKFPttTgPCG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "სინომარინი სპრეი (ბავშვ)100მლ^",
+      "options": [],
+      "original_price": 3100,
+      "price": 2015,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d8463d",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "adf234b2036aa984df75c501cb2a1300",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/0a0adabc-cdd1-11ef-a018-0673988f4f93_ef4a20ea2e.jpg",
+          "blurhash": "j9ZvrTGH;;plKWtCpqCHXttC8PGH"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "სინომარინი სპრეი (მოზრდ)125მლ^",
+      "options": [],
+      "original_price": 3250,
+      "price": 2113,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d846af",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "ac00dc92dab20f5a42a8ae9ce304c052",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/3ccf5a22-cdcc-11ef-94f3-26836be8ffa4_85dc7a7df3.jpg",
+          "blurhash": "jiYujAkP;;PKLtlll4LcTJGWgPll"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ნაზოლი ადვანსი სპრეი 15მლ",
+      "options": [],
+      "original_price": 1745,
+      "price": 1295,
+      "purchasable_balance": 4,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d84688",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "a5e8d26cee6dc704dbf97b0101c22407",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/2b79ee28-cdcb-11ef-8062-b253822e87e7_10e00a1c94.jpg",
+          "blurhash": "jf:e;JBkX;DtPtpll4KYPtCHgPpl"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ნაზოლი ადვანსი სპრეი 30მლ",
+      "options": [],
+      "original_price": 2225,
+      "price": 1600,
+      "purchasable_balance": 4,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d846a1",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "66fd3157abcde89f5d5fbda6184adb57",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/bd2b0760-ce5e-11ef-81b7-ce68455d49dd_1e0d843734.jpg",
+          "blurhash": "jhT:rKd6;;TqXtllh4PcXJKDcQlq"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ნაზოლი აეროზ.0.05% 15მლ",
+      "options": [],
+      "original_price": 1630,
+      "price": 1210,
+      "purchasable_balance": 4,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d846bb",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "c34bd1590ae3c463ddf60a08a719e0d3",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/42cf5348-cdcf-11ef-a41a-eaf29e50a77e_bce467a574.jpg",
+          "blurhash": "jfXv7Rhm;;TbTslmd4OXTsKFcQhm"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ნაზოლი აეროზ.0.05% 30მლ",
+      "options": [],
+      "original_price": 2125,
+      "price": 1610,
+      "purchasable_balance": 5,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d84682",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "9b4657691e9781de9f4016cbce64bf43",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/6ebd1ae6-ce5e-11ef-9b24-1ed4ff0c66c9_0b03eda249.jpg",
+          "blurhash": "j8ZLvUGW;;pmplGGKXllTspCcQGG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "სელვა არომატიქსი ცხვ.სპრეი 150მლ",
+      "options": [],
+      "original_price": 4100,
+      "price": 3260,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d846b7",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "43da9492a89ad092df98416a209ad891",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/eff8f714-cdce-11ef-87a3-ea332429d44f_b23a96303e.jpg",
+          "blurhash": "j9ZvnQh4;;XJXJCqcPpCTtKXcPh4"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "აქვა მარის ექტოინი 20მლ",
+      "options": [],
+      "original_price": 2922,
+      "price": 2051,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d846ab",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "fd86d57db5f9342de307c959cf8a828e",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/e07dfad2-cdce-11ef-a58a-ea332429d44f_b4ec666ca1.jpg",
+          "blurhash": "jcY;fRGG;;unCHCnCmtVTstTcQCp"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "აქვა მარის პლიუსი ცხვ.სპრ.30მლ",
+      "options": [],
+      "original_price": 1655,
+      "price": 1270,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d8469f",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "a6949d1d98d9a15de42d9af8cf76adca",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/cda68ad2-cdc9-11ef-8c70-96ab5d238702_4b83dbfe9f.jpg",
+          "blurhash": "jcYv7Sh5;;XIPclml4KXXsKDcQhq"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "აქვა მარის სტრონგი ცხვ.სპრ.30მლ",
+      "options": [],
+      "original_price": 1740,
+      "price": 1245,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d846b2",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "fe44136dbd903da6a94e76610a4e2d2c",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/16f5e332-ce5f-11ef-b4a6-9a55f11bc3b4_2f72d88659.jpg",
+          "blurhash": "joTZTupBXKGXBCGGCqpT;;CGcPFB"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "აქვა მარისი ზღვის მარილი პაკ.N30",
+      "options": [],
+      "original_price": 2306,
+      "price": 1676,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d846bc",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "b068f1bc40520fd4ab3fd4c7e35eec92",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/52eb1da8-cdce-11ef-8a87-8658050463de_a2f587abd1.jpg",
+          "blurhash": "jhVezLKX;;h4KXpmlmKX;:tD8zuG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "აქვა მარისი ზღვის მარილი პაკ.N30+სისტემა ცხვ.ღრუს სანაც.",
+      "options": [],
+      "original_price": 3368,
+      "price": 2425,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d84694",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "6893a20cfe9e6ab72409be10bb263a6e",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/d4b45df8-cdcf-11ef-82fa-fe15b8cb54bb_cce8cc9eaa.jpg",
+          "blurhash": "jfZuLzGWX;plPLtGkPCCX;FVgyqp"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "პასტისინი ცაცხვით/თაფლით საწ.ტაბ.N24",
+      "options": [],
+      "original_price": 2500,
+      "price": 1750,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d8470c",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "66538b11f0b6a9f2070227b82ab9cbcc",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/540766c8-d32e-11ef-aa1b-6e3fefc3ed59_85d235a0a3.jpg",
+          "blurhash": "jfYfbOGp;;CGpCBUGXupTdCpd3tC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "აფრინი ექსტრო ცხვ.სპრეი 0.05% 15მლ.",
+      "options": [],
+      "original_price": 2575,
+      "price": 1288,
+      "purchasable_balance": 9,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d84737",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "dc80dac7af9c13212b25553fbb17c3fe",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/7f9100b0-d32e-11ef-a553-3e6c65e70c1e_c8262a2615.jpg",
+          "blurhash": "jvOrOYpC;;KXpCCpGGtChlGGOXpl"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "აფრინი ცხვ.სპრეი 0.05% 15მლ.",
+      "options": [],
+      "original_price": 2335,
+      "price": 1168,
+      "purchasable_balance": 6,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d84809",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "73de4120bf7638ad5125a80983cb1a85",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/88d9676a-9144-11ef-8c06-7aa745518326_d5c48c512c.jpg",
+          "blurhash": "j6:;zUpl;;PsPtpCgQGXT:GXcyl4"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ეტარინი აეროზ.50მკგ/1დოზა 16.8გრ",
+      "options": [],
+      "original_price": 4995,
+      "price": 3947,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d84956",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "c128213de17ef7104d5740cab5825b04",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/66fe87f9167d4c292915fbd6/14722fd0-8189-11ef-ab18-a63afaa0f948_deffdfd15c.jpg",
+          "blurhash": "jdX:;OGH;;GkPcllh4Pb;:Gl4ipX"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ლორობენი სავლები 200მლ",
+      "options": [],
+      "original_price": 2288,
+      "price": 1602,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d84977",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "e599135cb2dd3a5d1e4317eb0d7088f4",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/66fe87f9167d4c292915fbd6/e167bcee-8184-11ef-9488-16d0f91ad8d9_6ed43c5eb1.jpg",
+          "blurhash": "j8YvbQTt;;4hXJKWcQll;;cP8yXK"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ლორობენი სპრეი 30მლ",
+      "options": [],
+      "original_price": 2840,
+      "price": 1990,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d8495f",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "164a7a810a1ffaa8bcb874d6ef224cf6",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/789a4ad0-9140-11ef-945b-f6dcaa48ffad_7ef4107637.jpg",
+          "blurhash": "j4:LHXBW;;LalSCnKXtFXJGDczpp"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ლუკორინი სპრეი 20მლ",
+      "options": [],
+      "original_price": 3897,
+      "price": 3078,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d849c5",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "472aeee8a167cedbfe41e10437147b21",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/7d290fdc-9145-11ef-9571-924876a462cb_f073f9996e.jpg",
+          "blurhash": "j5:fDWpm;;PcTtGGd4lm;;GG4hll"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ნიზიტა მალამო 10გრ",
+      "options": [],
+      "original_price": 2378,
+      "price": 1679,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d849fc",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "9f3805c11a91715e377bc14657b3a255",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/8e0216be-9145-11ef-8709-faa138ac7aae_f91574fa14.jpg",
+          "blurhash": "j6:fDWpC;;PcPbpChlKXTtGGcQll"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ნიზიტა ცხვ.სპრეი 20მლ",
+      "options": [],
+      "original_price": 2649,
+      "price": 1870,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d84ab3",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "fadf882eed1f100adac36eef354315ad",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/e23a1c80-9141-11ef-8206-96fcc75c4866_341ded06b3.jpg",
+          "blurhash": "jgVKzzqC;;ppPdpChkGG;;KH8yql"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "სინუპრეტი დრაჟე N50",
+      "options": [],
+      "original_price": 3483,
+      "price": 2509,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "672b185cd9e4b0def87b0d80",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "ed8486591ae3913e4f6da492fa3fa643",
+      "description": "Pharmaline-იტალ.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/a370f764-cdd0-11ef-b01d-c6387b748d06_e83d66401a.jpg",
+          "blurhash": "j4:;LXGG;;KXXKCpcPpCTtCpcPtT"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ვისკოფლუ ცხვ.სპრეი 30მლ",
+      "options": [],
+      "original_price": 3491,
+      "price": 2514,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "672b185cd9e4b0def87b0dac",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "cd31eb856de21738f9b75ccb260cbd25",
+      "description": "MICROFARM-უკრ",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/21315954-ce5e-11ef-a3a7-6e222e0e61a9__3g80r99zx.jpg",
+          "blurhash": "jbZvrPKGTuGXuFKHtCpB;;pCcOpC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ინგალიპტი-H აეროზოლი 30მლ",
+      "options": [],
+      "original_price": 480,
+      "price": 432,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "672b185cd9e4b0def87b0dc4",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "9fdddd163eae66f9aa0ba4baf1936b25",
+      "description": "PROMOPHARMA-სან მარინო",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/7a8f0e5e-cdcf-11ef-ad76-9aa3e9825591_c8a7edad44.jpg",
+          "blurhash": "j6:LHVqG;;OCgPpVPtKDTcCph4pC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ლიჩენსედი ცხვ. სპრეი 15მლ",
+      "options": [],
+      "original_price": 3340,
+      "price": 2382,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "672b185cd9e4b0def87b0e29",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "baba5d921d95a37eab2559c947e12473",
+      "description": "LAB.ALDO-UNION S.A-ესპ",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/e058cdb2-cdcd-11ef-a406-02a2485a10e5_92111f5980.jpg",
+          "blurhash": "j3;fPXGG;;KWHctTFkGpPKyngOBW"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ნასოალდო ცხვ.სპრეი 50მკგ/1დოზა 140დოზა",
+      "options": [],
+      "original_price": 3502,
+      "price": 2450,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "672b185cd9e4b0def87b0ea5",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "7bbe93085c49321b79fbeeaa643e03da",
+      "description": "LYON SAGLIK-თურ",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/0974cdc0-cdd0-11ef-a277-f22ec267b750_d8cd9a0a1f.jpg",
+          "blurhash": "jhXeTLKX;;h5PbtTllGGXJpCcPKX"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "სინორესტი ცხვ.სპრეი N20+ბოთ.",
+      "options": [],
+      "original_price": 4000,
+      "price": 2873,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "672b185cd9e4b0def87b0e8c",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "19eeb6fc8e8c64fcf08ae5ef29582b9b",
+      "description": "Angelini-იტალ.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/7ee3f1da-cdd0-11ef-8cb4-86ce06fd899c_e3d49b5e27.jpg",
+          "blurhash": "jeYfbKKG;;lCPclBhlOYXKpC8OKG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ტანტუმ-ვერდე ფლაკ.0.15% 120მლ",
+      "options": [],
+      "original_price": 1229,
+      "price": 871,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "672b185cd9e4b0def87b0edb",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "8523c1346724c7217208de970a91ebd6",
+      "description": "Panin s.r.l.-",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/79e14e66-cdd1-11ef-94c7-96dd1f7e051f_fc03b28be3.jpg",
+          "blurhash": "jbY;rUKG;;llGFCppWtTTttScPGG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ფილმე ნაზალე სპრეი 20მლ",
+      "options": [],
+      "original_price": 5959,
+      "price": 4469,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "672b185cd9e4b0def87b0eab",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "265dcb43c8075b679cb245a4339aca26",
+      "description": "Panin s.r.l.-",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/2ce70a92-cdd1-11ef-bb97-ba33a0a89b5b_f9a768c663.jpg",
+          "blurhash": "jbY;rTGG;;pCGGtUpDCnTttTcPGG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ფილმე ოტო სპრეი 20მლ",
+      "options": [],
+      "original_price": 5959,
+      "price": 4469,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "672b185cd9e4b0def87b0ece",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "15191b5fd82bd58de702ca87e0772aee",
+      "description": "MEDANA PHARMA-პოლ",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/42f434a6-cdca-11ef-a9de-b679d2006f78_6b49be28e6.jpg",
+          "blurhash": "j4;fHXGG;;CGKXtTpFGGX;pT8iGG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ქსილოგელი ცხვ.გელი 0.05% 10გრ",
+      "options": [],
+      "original_price": 1888,
+      "price": 1360,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d842cf",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "9459d0f1bab6e9110693cb04e17cba5e",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/8245150a-ce5e-11ef-9476-1ed4ff0c66c9_0e88673555.jpg",
+          "blurhash": "jbXKPGh3XKPdh4GCKXpF;;PccPlk"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "დილოქსი ამპ.50მგ/მლ 2მლ N5",
+      "options": [],
+      "original_price": 3129,
+      "price": 2200,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d83f47",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "b150ee97b9ea407337059a8d35bd2dcc",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/3d72db72-cdcf-11ef-9f9b-86da3474b33e_bc1d0240ec.jpg",
+          "blurhash": "jeXuTTKR;:hclmGDKWpF;:lr4jKR"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ეფექტი ფლუ კაფს N10",
+      "options": [],
+      "original_price": 1035,
+      "price": 791,
+      "purchasable_balance": 3,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d84059",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "a89bbf3e81f7076c3818be87586145bb",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/bec73050-cdd0-11ef-b4db-ea332429d44f_e10798a318.jpg",
+          "blurhash": "jfWuHLP5;:lshrtCOSuG;;lr8zKR"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ქონდროქსილი ტაბ. N30",
+      "options": [],
+      "original_price": 5340,
+      "price": 3829,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67125f62a6afb21202d8434e",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "bcbc813d679ed65b148a1dd270e6550e",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/9f2092ae-cdd1-11ef-8f2c-9a962cf6bb14_ffafe15889.jpg",
+          "blurhash": "jnVKHDpS;;KHKXCGllpCKXCpllpS"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ჰასკოსეპტი ორალური სპრეი 0.15% 30მლ",
+      "options": [],
+      "original_price": 1695,
+      "price": 1221,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    }
+  ],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": "eyJsYXN0X251bSI6MTYxLCJwYWdlIjoyfQ==",
+    "page": 1
+  }
+}

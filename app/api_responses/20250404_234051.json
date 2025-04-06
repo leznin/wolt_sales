@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "6497fc1520a0ded989e3aa0e",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/635e776f417c3fe0fc2a5dd5/93e7646c-2571-11ee-9264-2a5b77b6a75b_bez_laktozy__1_.jpg",
+        "blurhash": "jiXuPNGG;;tTPctTh4CpTstTcQCp"
+      }
+    ],
+    "name": "Bez laktozy",
+    "slug": "bez-laktozy-409"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

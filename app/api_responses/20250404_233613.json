@@ -1,0 +1,4689 @@
+{
+  "city": "rustavi",
+  "created": {
+    "$date": 1743795373495
+  },
+  "expires_in_seconds": 900,
+  "name": "search",
+  "page_title": "Search results",
+  "search_bar_enabled": true,
+  "search_id": "3b8e2dd9-0e30-4cef-8ec2-fd42f57a9d27",
+  "search_results_layout": "SPLIT_VIEW",
+  "search_state": "CvAMCghjYXRlZ29yeRIYNjBkMzI3Y2QwMGM2YTQxZmY2NTVlOTBhEhg2MGY2N2VkZTAzNjhkMTM3YzkxYTFkM2USGDYwNmJmYTZkYTZkYWVmMjBkN2QzOTAxNBIYNjA5NGZjYWE4NThkMGUyZjNhMTI3MTcwEhg2MDZiZmE1ZmI2NTIzMjJlNjE3MmZmZDcSGDYyOGNjOGI5NDhjM2I3NTY5MDIxODEwMBIYNWY2YjI5ZjBhMGNmYWU5YjJjODMxZDc5Ehg2MTE2MzVkNzk1NzA5ZTQyMmE2MDJmZDgSGDViZmQ0MzA2MjJjODIwMDAwYjMxMTFjMxIYNjMyMzAxZmMwNjhhNDgzM2Q3YjRjZTFkEhg1ZmYzMjU5M2Y0YzcyZjk1Y2Q2NDI4ZjASGDU3MGY2YWVhMTZmZjI5NmZjZDljZDdkNBIYNjU2NDhjYjFkMTlkZDA1ZjVhYmUxOTMwEhg2MDZkNmYyY2I0NWE5MjJkNWMwMWM3YmQSGDYxMjc1Yzg4OWU4ZjJjZWQ0MjRhNzBmZBIYNWM0NWQ1OWNmM2M2NDAwMDBhNmZhYTdhEhg2MjFmN2NjMzllNDY5Y2EwYzY2MjE0YjMSGDYyZTc4MjdkYzhlZmU2YTQ5ZmJhMzY0ORIYNjBkMWUzY2U3MjhhN2ZkOGQ1ZjM4Y2ExEhg1ZjZiMjllNDBmZWYxM2NjOWQyYjE1NDYSGDYxMTYzNTkxZDA1YWJlOTA1MWZmNDg4ZBIYNWZhZTg0NWFlY2YzZDMzODZmZDA1OTk0Ehg2MDZiZmE3NmE2ZGFlZjIwZDdkMzkwMzQSGDYwOGE2YTNjNTg4NGZlNGU4NGRlMjljMRIYNjNkMmRmZDNmZjRhNzIyYmYwOWU0YjlhEhg1YmZkNDJmMmZjZTQ1ZjAwMGFjNWVmMDASGDYwNWIwMGE1MWU1OWVjY2I5NGE1OTJmMRIYNWJmZDQyZTZkYmQ5M2QwMDA5MjAyYjU0Ehg2MDk0ZmU0YjNmODk1NzljYmMzYmUxMGUSGDYwYWYzYzM2ZmRlYzRiNjQ5NjEzYzRiZhIYNWU3ZGFkNGE5MTFhOThiNDRiZTFjMTRjEhg2MGQ5YWFjZmRkMzYyMWU5Y2JkNzUwZWISGDVlN2RhY2IwOTExYTk4YjQ0YmRmMTg3MxIYNjBhYjZmNzUyNDRkNjZmMjg5NzIzMzI2Ehg1YmZkNDJkNTAzMDQ0ODAwMGE1YzYzNzMSGDVmYzc4YzIxYmFmNTJlMGVmNjJkMDU0MBIYNjBkMWRiYTM1NzFlZTVlMTM3ZDg1NTkyEhg2MThlMjM3ZWNhYjdjOWNlZTFhZGI1YjASGDY0MzNjYjcxNjE5ODc3ODMwYjJjMmUzOBIYNjA1YjEwOTU0YmU4NGY4MWU1YTNlYzEzEhg2MzQ1NTIwMWNiMWJiNDIzZjg4YzM2MjUSGDVkYTZiZWI5MzUxN2FiMzJkNDgyYTFlNRIYNjExNjM1YTJkMDVhYmU5MDUxZmY0OGM3Ehg2MWUxMzQzNGQ3MzVlNjE4MTNhNDBhYTYSGDYwNzU2MmU4YTYzY2Y0MmI4OWRiNDkyMhIYNjI2MDBjNDg5YmQzY2U0YzIyYTljNGY1Ehg2MTE2MzU5YTM2MDNkNDZiYjAxMjMzZmUSGDYwZDFlM2E4Y2VlNzBlZmQ1MTMwM2NkMBIYNWU4NDZjYzg3NGE3ZDE1OWQ1YTExODEwEhg1ZmRiNmRiY2I1OTYwOGY3MmM4YjdhODYSGDVjNWQ4Y2M1ZTc3ZjFmMDAwY2UyMjZiMRIYNjAxZDFhMjIxYzIxNmQwM2EyMDRiMTExEhg2MGQxZGQyYzE2MzZhZDBmM2QyNzJlNTESGDYwZDFkZGE5M2JiODM4YTg1MGQ4NjgyORIYNjIwM2NmZWYzZWEwYjliYWRhNmRjYTAxEhg1OGI1MWI4Yzg2OGEyNzE0OWU4Y2QxNjASGDVlN2RhY2Y2OTExYTk4YjQ0YmUwNTRkNRIYNjFlMTM0MjlkNzM1ZTYxODEzYTQwYWEwEhg2MTg1MmNhMWU3Y2YyYzU4ZmU4NjcwMzQSGDYzYWRiMmNlMWIwMTZlNmU1YWZhMzc1NBIYNjFlMTNjMjY0MGQ2OTY1YzMyZDc2NjFkEhg1NzBmOWVkYTE2ZmYyOTEwMDkzYzBiYWQSGDYzMGI2NWY3NTMwNmE0MjdkNGNlMzI4ZApjCgxwcm9kdWN0X2xpbmUSCHBoYXJtYWN5Egdncm9jZXJ5EhNnZW5lcmFsX21lcmNoYW5kaXNlEhFoZWFsdGhfYW5kX2JlYXV0eRIKcGV0X3N1cHBseRIMaG9tZV9hbmRfZGl5ChsKDGlzX3dvbHRfcGx1cxIFRmFsc2USBFRydWU=",
+  "sections": [
+    {
+      "content_id": "",
+      "hide_delivery_info": false,
+      "items": [
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5AEC6;JNsLb;:N4p3llTKHthlll",
+            "url": "https://imageproxy.wolt.com/assets/67331c960f3faf5038f53441"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "625e5528a2e1c06101113490",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j5AEC6;JNsLb;:N4p3llT:Hthlll"
+          },
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "GNG Pharma Rustavi",
+          "track_id": "venue-gng-pharma-rustavi",
+          "venue": {
+            "address": " Rustavi, near XXI m / r # 5 house",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": true,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 20,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "15-25"
+            },
+            "estimate_range": "15-25",
+            "favourite": false,
+            "franchise": "",
+            "id": "625e5528a2e1c06101113490",
+            "location": [
+              44.97032871,
+              41.57046389
+            ],
+            "name": "GNG Pharma Rustavi",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "Pharmacy",
+            "show_wolt_plus": false,
+            "slug": "gng-pharma-rustavi",
+            "tags": [
+              "healthy",
+              "pharmacy",
+              "Health"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j29FuqHc8ypCn;CXFlGX4ypTTtFC",
+            "url": "https://imageproxy.wolt.com/assets/6797638272cfd659ee800b67"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66fe7bed3163dd48a65ca696",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j29FuqHc8yqqn;CXFlGX4yq7TtFC"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "PharmHouse Rustavi Lomouri",
+          "track_id": "venue-pharm-house-rustavi-lomouri",
+          "venue": {
+            "address": "Niko Lomouri St ,",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 15,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "10-20",
+            "favourite": false,
+            "franchise": "",
+            "id": "66fe7bed3163dd48a65ca696",
+            "location": [
+              44.97794233,
+              41.56259914
+            ],
+            "name": "PharmHouse Rustavi Lomouri",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.2,
+              "volume": 0
+            },
+            "short_description": "Pharmacy",
+            "show_wolt_plus": false,
+            "slug": "pharm-house-rustavi-lomouri",
+            "tags": [
+              "pharmacy",
+              "hair products"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j29FuqHc8ypCn;CXFlGX4ypTTtFC",
+            "url": "https://imageproxy.wolt.com/assets/6797638072cfd659ee800b61"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66fe7bed708d2d013d35ac13",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j29FuqHc8yqqn;CXFlGX4yq7TtFC"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "PharmHouse Rustavi",
+          "track_id": "venue-pharm-house-rustavi",
+          "venue": {
+            "address": "HXFJ+XXR Rustavi",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 15,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "10-20",
+            "favourite": false,
+            "franchise": "",
+            "id": "66fe7bed708d2d013d35ac13",
+            "location": [
+              44.9823906,
+              41.5749875
+            ],
+            "name": "PharmHouse Rustavi",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "Pharmacy",
+            "show_wolt_plus": false,
+            "slug": "pharm-house-rustavi",
+            "tags": [
+              "pharmacy",
+              "hair products"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j29FuqHc8ypCn;CXFlGX4ypTTtFC",
+            "url": "https://imageproxy.wolt.com/assets/67976380a2da890ebfeb825a"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66fe7bedb5a039d8d9677107",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j29FuqHc8yqqn;CXFlGX4yq7TtFC"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "PharmHouse Rustavi Megobroba",
+          "track_id": "venue-pharm-house-rustavi-megobroba",
+          "venue": {
+            "address": "14 Megobroba St,",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 25,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "20-30",
+            "favourite": false,
+            "franchise": "",
+            "id": "66fe7bedb5a039d8d9677107",
+            "location": [
+              44.9840928,
+              41.5534349
+            ],
+            "name": "PharmHouse Rustavi Megobroba",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.0,
+              "volume": 0
+            },
+            "short_description": "Pharmacy",
+            "show_wolt_plus": false,
+            "slug": "pharm-house-rustavi-megobroba",
+            "tags": [
+              "pharmacy",
+              "hair products"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j29FuqHc8ypCn;CXFlGX4ypTTtFC",
+            "url": "https://imageproxy.wolt.com/assets/67976381a2da890ebfeb825c"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66fe7bee656e6d8590745ab0",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j29FuqHc8yqqn;CXFlGX4yq7TtFC"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "PharmHouse Rustavi Kostava",
+          "track_id": "venue-pharm-house-rustavi-kostava",
+          "venue": {
+            "address": "19 Kostava St,",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 25,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "20-30",
+            "favourite": false,
+            "franchise": "",
+            "id": "66fe7bee656e6d8590745ab0",
+            "location": [
+              45.01045977,
+              41.54316275
+            ],
+            "name": "PharmHouse Rustavi Kostava",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "short_description": "Pharmacy",
+            "show_wolt_plus": false,
+            "slug": "pharm-house-rustavi-kostava",
+            "tags": [
+              "pharmacy",
+              "hair products"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "jbVuDDpd4hlb;;GQ;;KROAKYKXKX",
+            "url": "https://imageproxy.wolt.com/assets/6746f3f62139fc0cc21e970d"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "60952dd1d3f8a0903b3c0713",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "jbVuDDpd4hlb;;GQ;;KROAKYKXKX"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Supta Sakhli Rustavi",
+          "track_id": "venue-supta-sakhli-rustavi",
+          "venue": {
+            "address": "რუსთავი, ლეონიძის და მესხიშვილის ქუჩების კვეთა",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 15,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "10-20",
+            "favourite": false,
+            "franchise": "",
+            "id": "60952dd1d3f8a0903b3c0713",
+            "location": [
+              44.9855453,
+              41.5671788
+            ],
+            "name": "Supta Sakhli Rustavi",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.6,
+              "volume": 0
+            },
+            "short_description": "Household Items & Hygiene",
+            "show_wolt_plus": false,
+            "slug": "supta-sakhli-rustavi",
+            "tags": [
+              "grocery"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j29FuqHc8ypCn;CXFlGX4ypTTtFC",
+            "url": "https://imageproxy.wolt.com/assets/6797638069d4c47b6d16790f"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66fe7bed5feb98ae9620b3db",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j29FuqHc8yqqn;CXFlGX4yq7TtFC"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "PharmHouse Afrika",
+          "track_id": "venue-pharm-house-afrika",
+          "venue": {
+            "address": "Besarion Chichinadze St 10",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "66fe7bed5feb98ae9620b3db",
+            "location": [
+              44.91587644,
+              41.671187
+            ],
+            "name": "PharmHouse Afrika",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.8,
+              "volume": 0
+            },
+            "short_description": "Pharmacy",
+            "show_wolt_plus": false,
+            "slug": "pharm-house-afrika",
+            "tags": [
+              "pharmacy",
+              "hair products"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j29FuqHc8ypCn;CXFlGX4ypTTtFC",
+            "url": "https://imageproxy.wolt.com/assets/6797638172cfd659ee800b63"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66fe7bee708d2d013d35ac16",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j29FuqHc8yqqn;CXFlGX4yq7TtFC"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "PharmHouse Moscow Ave",
+          "track_id": "venue-pharm-house-moscow-avenue",
+          "venue": {
+            "address": "Moscow Ave 39a",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 50,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "45-55",
+            "favourite": false,
+            "franchise": "",
+            "id": "66fe7bee708d2d013d35ac16",
+            "location": [
+              44.8838376,
+              41.672425
+            ],
+            "name": "PharmHouse Moscow Ave",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 10.0,
+              "volume": 0
+            },
+            "short_description": "Pharmacy",
+            "show_wolt_plus": false,
+            "slug": "pharm-house-moscow-avenue",
+            "tags": [
+              "pharmacy",
+              "hair products"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j29FuqHc8yqqn;CXFlGX4yq7TtFC",
+            "url": "https://imageproxy.wolt.com/assets/67976380a2da890ebfeb825b"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66fe7bedb3ed9bdf03cd7ab4",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j29FuqHc8yqqn;CXFlGX4yq7TtFC"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "PharmHouse Varketili",
+          "track_id": "venue-pharm-house-varketili",
+          "venue": {
+            "address": "4 Kaloubani St",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 70,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "65-75",
+            "favourite": false,
+            "franchise": "",
+            "id": "66fe7bedb3ed9bdf03cd7ab4",
+            "location": [
+              44.87090247,
+              41.68962287
+            ],
+            "name": "PharmHouse Varketili",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "Pharmacy",
+            "show_wolt_plus": false,
+            "slug": "pharm-house-varketili",
+            "tags": [
+              "pharmacy",
+              "hair products"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j0hA8ScO00XK5fh440Lc00GH;;h5",
+            "url": "https://imageproxy.wolt.com/assets/67335e024d6df41fd76597b6"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66796ee5a15c186bce94f901",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j0hk4ScP00;:0Lh44gKY00KX;;h4"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Best Pharma",
+          "track_id": "venue-best-pharma",
+          "venue": {
+            "address": "Javakheti St , N91 ",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 60,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "55-65"
+            },
+            "estimate_range": "55-65",
+            "favourite": false,
+            "franchise": "",
+            "id": "66796ee5a15c186bce94f901",
+            "location": [
+              44.87004712,
+              41.69769416
+            ],
+            "name": "Best Pharma",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.4,
+              "volume": 0
+            },
+            "short_description": "Pharmacy",
+            "show_wolt_plus": false,
+            "slug": "best-pharma",
+            "tags": [
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j0hA8ScO00XK5fh440Lc00GH;;h5",
+            "url": "https://imageproxy.wolt.com/assets/67335e2ba7cc62434f9d9791"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66966591f12167b8d5844893",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j0hA8ScO00XK5fh440Lc00GH;;h5"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Best Pharma Isani",
+          "track_id": "venue-best-pharma-isani",
+          "venue": {
+            "address": "Ketevan Tsamebuli Ave, Tbilisi 0144",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 60,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "55-65",
+            "favourite": false,
+            "franchise": "",
+            "id": "66966591f12167b8d5844893",
+            "location": [
+              44.82570241,
+              41.6875775
+            ],
+            "name": "Best Pharma Isani",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.2,
+              "volume": 0
+            },
+            "short_description": "Pharmacy",
+            "show_wolt_plus": false,
+            "slug": "best-pharma-isani",
+            "tags": [
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j29FuqHc8ypCn;CXFlGX4ypTTtFC",
+            "url": "https://imageproxy.wolt.com/assets/6797638072cfd659ee800b62"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66fe7bee08ce936f480fda87",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j29FuqHc8yqqn;CXFlGX4yq7TtFC"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "PharmHouse Metekhi",
+          "track_id": "venue-pharm-house-metekhi",
+          "venue": {
+            "address": "Metekhi St , N22",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 70,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "65-75",
+            "favourite": false,
+            "franchise": "",
+            "id": "66fe7bee08ce936f480fda87",
+            "location": [
+              44.81428075,
+              41.69179523
+            ],
+            "name": "PharmHouse Metekhi",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "Pharmacy",
+            "show_wolt_plus": false,
+            "slug": "pharm-house-metekhi",
+            "tags": [
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4JJLrnL;;IxTtTcOGdl;;h34ih3",
+            "url": "https://imageproxy.wolt.com/assets/674d57c42139fc0cc21ea5a7"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66fa6b277bac0dd801b8dcfd",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4JJLrnL;;IxTtTcOGdl;;h34ih3"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Pharmadepot Leonidze",
+          "track_id": "venue-pharmadepot-leonidze",
+          "venue": {
+            "address": "Leonidze st.4",
+            "badges": [
+              {
+                "text": "15K+ Items & Same In-store Prices!",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 75,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "70-80"
+            },
+            "estimate_range": "70-80",
+            "favourite": false,
+            "franchise": "",
+            "id": "66fa6b277bac0dd801b8dcfd",
+            "location": [
+              44.800003,
+              41.692597
+            ],
+            "name": "Pharmadepot Leonidze",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "Where the pharmacist cares about your health!",
+            "show_wolt_plus": false,
+            "slug": "pharmadepot-leonidze",
+            "tags": [
+              "pharmacy",
+              "hair products"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j29FuqHc8ypCn;CXFlGX4ypTTtFC",
+            "url": "https://imageproxy.wolt.com/assets/6797638272cfd659ee800b68"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66fe7bee854a373bcfbf8481",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j29FuqHc8yqqn;CXFlGX4yq7TtFC"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "PharmHouse AghmashenebeliAve",
+          "track_id": "venue-pharm-house-aghmashenebeli-avenue",
+          "venue": {
+            "address": "89/24 Davit Aghmashenebeli Ave,",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 75,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "70-80",
+            "favourite": false,
+            "franchise": "",
+            "id": "66fe7bee854a373bcfbf8481",
+            "location": [
+              44.79759121,
+              41.70993904
+            ],
+            "name": "PharmHouse AghmashenebeliAve",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.8,
+              "volume": 0
+            },
+            "short_description": "Pharmacy",
+            "show_wolt_plus": false,
+            "slug": "pharm-house-aghmashenebeli-avenue",
+            "tags": [
+              "pharmacy",
+              "hair products"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j29FuqHc8yqqn;CXFlGX4yq7TtFC",
+            "url": "https://imageproxy.wolt.com/assets/67ab22c103636059300f8f86"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "67ab21cdba4e4ed6d10ee407",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j29puqHccypCn;CXFlGX4ypTTtFC"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "PharmHouse Rustaveli",
+          "track_id": "venue-pharmhouse-rustaveli",
+          "venue": {
+            "address": "PQ2W+664",
+            "badges": [
+              {
+                "text": "New",
+                "variant": "primary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "67ab21cdba4e4ed6d10ee407",
+            "location": [
+              44.7955781,
+              41.7005125
+            ],
+            "name": "PharmHouse Rustaveli",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.8,
+              "volume": 0
+            },
+            "short_description": "Pharmacy",
+            "show_wolt_plus": false,
+            "slug": "pharmhouse-rustaveli",
+            "tags": [
+              "pharmacy",
+              "hair products"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j3sndCXK02hqfePtlIGA40AO;:pW",
+            "url": "https://imageproxy.wolt.com/assets/674ce7c32139fc0cc21ea364"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66796d0e035d00f4dfa32be7",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j3sndCXK02hqfePtlIKA40AO;:pW"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Vitamini Varketili",
+          "track_id": "venue-vitamini-varketili",
+          "venue": {
+            "address": "67 Javakheti Street",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 60,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "55-65",
+            "favourite": false,
+            "franchise": "",
+            "id": "66796d0e035d00f4dfa32be7",
+            "location": [
+              44.87024714,
+              41.69766367
+            ],
+            "name": "Vitamini Varketili",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.4,
+              "volume": 0
+            },
+            "short_description": "Chain of vitamin stores",
+            "show_wolt_plus": false,
+            "slug": "vitamini-varketili",
+            "tags": [
+              "Health",
+              "healthy",
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j3sndCXK02hqfePtlIGA40AO;:pW",
+            "url": "https://imageproxy.wolt.com/assets/674ce7c32139fc0cc21ea366"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66c48697a5e669746c02174b",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j3sndCXK02hqfePtlIGA40AO;:pW"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Vitamini Orbelianze",
+          "track_id": "venue-vitamini-orbelianze",
+          "venue": {
+            "address": "1 Vekua Street",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 70,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "65-75",
+            "favourite": false,
+            "franchise": "",
+            "id": "66c48697a5e669746c02174b",
+            "location": [
+              44.80412454,
+              41.69761935
+            ],
+            "name": "Vitamini Orbelianze",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "Chain of vitamin stores",
+            "show_wolt_plus": false,
+            "slug": "vitamini-orbelianze",
+            "tags": [
+              "vitamins ",
+              "Health",
+              "healthy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j3sndCXK02hqfePtlIGA40AO;:pW",
+            "url": "https://imageproxy.wolt.com/assets/674ce7c52139fc0cc21ea367"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66796d0e8ee164777a797e77",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j3sndCXK02hqfePtlIKA40AO;:pW"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Vitamini Nadzaladevi",
+          "track_id": "venue-vitamini-nadzaladevi",
+          "venue": {
+            "address": "Karvasla Mall 2nd Floor",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "66796d0e8ee164777a797e77",
+            "location": [
+              44.8022684,
+              41.7191253
+            ],
+            "name": "Vitamini Nadzaladevi",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 10.0,
+              "volume": 0
+            },
+            "short_description": "Chain of vitamin stores",
+            "show_wolt_plus": false,
+            "slug": "vitamini-nadzaladevi",
+            "tags": [
+              "Health",
+              "healthy",
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6YL3LlB;;Pc;;KX8PlSXLCqcPCG",
+            "url": "https://imageproxy.wolt.com/assets/67335f4ea7cc62434f9da008"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "6720e20c2c225fa065412aea",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j6Yu;LlB;;Pc;;KX8zlSXKCqh3CG"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Zoma Samgori",
+          "track_id": "venue-zoma-samgori",
+          "venue": {
+            "address": "5 მეველეს ქუჩა, ",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 70,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "65-75",
+            "favourite": false,
+            "franchise": "",
+            "id": "6720e20c2c225fa065412aea",
+            "location": [
+              44.8533285,
+              41.6836101
+            ],
+            "name": "Zoma Samgori",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "short_description": "Clean House",
+            "show_wolt_plus": false,
+            "slug": "zoma-samgori",
+            "tags": [
+              "cleaning products",
+              "home",
+              "soap"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j2WU1s8hM0XKXKl4h4GYY0X;n;cy",
+            "url": "https://imageproxy.wolt.com/assets/67e010c650b2ed6da5303c3b"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "67dab4c9328a1098d7ab20b5",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4DEpVX;4hTJMO;:;;TtTL;:XbdI"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Smart Chughureti",
+          "track_id": "venue-smart-chughureti",
+          "venue": {
+            "address": "36 Kosta Khetagurovi St, T'bilisi",
+            "badges": [
+              {
+                "text": "New",
+                "variant": "primary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "60-70"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "67dab4c9328a1098d7ab20b5",
+            "location": [
+              44.8072198,
+              41.7020826
+            ],
+            "name": "Smart Chughureti",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "short_description": "Supermarket",
+            "show_wolt_plus": false,
+            "slug": "smart-chughureti",
+            "tags": [
+              "groceries",
+              "grocery",
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4JJLrnL;;IxTtTcOGdl;;h34ih3",
+            "url": "https://imageproxy.wolt.com/assets/674d57c79e772119688b8cb3"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "61b713bad1f7d8f58844ddac",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4JJLrnL;;IxTtTcOGdl;;h34ih3"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Pharmadepot 300 Aragveli",
+          "track_id": "venue-pharmadepot-300-aragveli",
+          "venue": {
+            "address": "Tsinandali St 8/18",
+            "badges": [
+              {
+                "text": "15K+ Items & Same In-store Prices!",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 70,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "65-75"
+            },
+            "estimate_range": "65-75",
+            "favourite": false,
+            "franchise": "",
+            "id": "61b713bad1f7d8f58844ddac",
+            "location": [
+              44.82741205,
+              41.68829098
+            ],
+            "name": "Pharmadepot 300 Aragveli",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.4,
+              "volume": 0
+            },
+            "short_description": "Where the pharmacist cares about your health!",
+            "show_wolt_plus": false,
+            "slug": "pharmadepot-300-aragveli",
+            "tags": [
+              "pharmacy",
+              "cosmetics",
+              "hair products"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6KrCUTL4hTKfuJjTuczXtl4JQLc",
+            "url": "https://imageproxy.wolt.com/assets/674ce5bc2139fc0cc21ea359"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "6272546337a757658b2c2e6e",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j6KrCUTL4hTKfuJjTuczXtl4JQLc"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "PSP Rustavi",
+          "track_id": "venue-psp-rustavi",
+          "venue": {
+            "address": "16 Megobroba Ave",
+            "badges": [
+              {
+                "text": "16K+ Items & Same In-store Prices",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 15,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "10-20",
+            "favourite": false,
+            "franchise": "",
+            "id": "6272546337a757658b2c2e6e",
+            "location": [
+              44.98369965,
+              41.5538995
+            ],
+            "name": "PSP Rustavi",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "PSP Pharmacy",
+            "show_wolt_plus": false,
+            "slug": "psp-rustavi",
+            "tags": [
+              "pharmacy",
+              "cosmetics",
+              "hair products"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j2HaGD0000OI9sTcTKTt;;hmh4KC",
+            "url": "https://imageproxy.wolt.com/assets/674ce64f9e772119688b89cc"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "608915392364e650b4c60d53",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j2HWSG00008i4STaX;Ts;;OXpCTb"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Aversi Rustavi",
+          "track_id": "venue-aversi-rustavi",
+          "venue": {
+            "address": "3 მესხიშვილის ქუჩა, Rustavi",
+            "badges": [
+              {
+                "text": "17K+ Items & Same In-store Prices",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 10,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "5-15"
+            },
+            "estimate_range": "5-15",
+            "favourite": false,
+            "franchise": "",
+            "id": "608915392364e650b4c60d53",
+            "location": [
+              44.97994629,
+              41.56264156
+            ],
+            "name": "Aversi Rustavi",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "short_description": "Everything For Your Health And Beauty!",
+            "show_wolt_plus": false,
+            "slug": "aversi-rustavi",
+            "tags": [
+              "pharmacy",
+              "Health",
+              "cosmetics"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6KrCUTL4hTKfuJjTuczXtl4JQLc",
+            "url": "https://imageproxy.wolt.com/assets/674ce5bc9e772119688b899d"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "644283b32ce3a46eca515bcd",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j6KrCUTL4hTKfuJjTuczXtl4JQLc"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "PSP Moscow Avenue",
+          "track_id": "venue-psp-moscave",
+          "venue": {
+            "address": "39a Moscow Ave",
+            "badges": [
+              {
+                "text": "16K+ Items & Same In-store Prices",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "644283b32ce3a46eca515bcd",
+            "location": [
+              44.8839247,
+              41.6722807
+            ],
+            "name": "PSP Moscow Avenue",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "PSP Pharmacy",
+            "show_wolt_plus": false,
+            "slug": "psp-moscave",
+            "tags": [
+              "cosmetics",
+              "hair products",
+              "Health"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6KrCUTL4hTKfuJjTuczXtl4JQLc",
+            "url": "https://imageproxy.wolt.com/assets/674ce5bca4ddbc0e1be400da"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "644283b3fbe5ed24cd1ce6db",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j6KrCUTL4hTKfuJjTuczXtl4JQLc"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "PSP Isani",
+          "track_id": "venue-psp-isan",
+          "venue": {
+            "address": "Monk Gabriel Salosi Ave 40a",
+            "badges": [
+              {
+                "text": "16K+ Items & Same In-store Prices",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "644283b3fbe5ed24cd1ce6db",
+            "location": [
+              44.843751,
+              41.67666035
+            ],
+            "name": "PSP Isani",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.8,
+              "volume": 0
+            },
+            "short_description": "PSP Pharmacy",
+            "show_wolt_plus": false,
+            "slug": "psp-isan",
+            "tags": [
+              "cosmetics",
+              "hair products",
+              "Health"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6KrCUTL4hTKfuJjTuczXtl4JQLc",
+            "url": "https://imageproxy.wolt.com/assets/674ce5c09e772119688b89a5"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "644283b371043fc4bec1af46",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j6KrCUTL4hTKfuJjTuczXtl4JQLc"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "PSP Sukhishvili",
+          "track_id": "venue-psp-suxishvili",
+          "venue": {
+            "address": "15 sukhishvili street",
+            "badges": [
+              {
+                "text": "16K+ Items & Same In-store Prices",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "644283b371043fc4bec1af46",
+            "location": [
+              44.87680431,
+              41.70182977
+            ],
+            "name": "PSP Sukhishvili",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "PSP Pharmacy",
+            "show_wolt_plus": false,
+            "slug": "psp-suxishvili",
+            "tags": [
+              "cosmetics",
+              "hair products",
+              "Health"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6KrCUTL4hTKfuJjTuczXtl4JQLc",
+            "url": "https://imageproxy.wolt.com/assets/674ce5bda4ddbc0e1be400de"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "644283b3cb1754e7fff7fa9b",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j6KrCUTL4hTKfuJjTuczXtl4JQLc"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "PSP Vazisubani",
+          "track_id": "venue-psp-vazisubani",
+          "venue": {
+            "address": "Teopane davitaia Str",
+            "badges": [
+              {
+                "text": "16K+ Items & Same In-store Prices",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "644283b3cb1754e7fff7fa9b",
+            "location": [
+              44.85232491,
+              41.70003974
+            ],
+            "name": "PSP Vazisubani",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "PSP Pharmacy",
+            "show_wolt_plus": false,
+            "slug": "psp-vazisubani",
+            "tags": [
+              "cosmetics",
+              "hair products",
+              "Health"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4JJLrnL;;IxTtTcOGdl;;h34ih3",
+            "url": "https://imageproxy.wolt.com/assets/674d57c39e772119688b8c97"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "645111b049a6ed3347f65385",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4JJLrnL;;IxTtTcOGdl;;h34ih3"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Pharmadepot Gabriel Salosi",
+          "track_id": "venue-pharmadepot-gabriel-salosi",
+          "venue": {
+            "address": "137 Gabriel Salosi St",
+            "badges": [
+              {
+                "text": "15K+ Items & Same In-store Prices!",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 60,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "55-65",
+            "favourite": false,
+            "franchise": "",
+            "id": "645111b049a6ed3347f65385",
+            "location": [
+              44.86132817,
+              41.67313464
+            ],
+            "name": "Pharmadepot Gabriel Salosi",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.8,
+              "volume": 0
+            },
+            "short_description": "Where the pharmacist cares about your health!",
+            "show_wolt_plus": false,
+            "slug": "pharmadepot-gabriel-salosi",
+            "tags": [
+              "cosmetics",
+              "Health",
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j9BHTv0ZchcZQPR3mYWY4ROY;IdS",
+            "url": "https://imageproxy.wolt.com/assets/674d5784a4ddbc0e1be403a1"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "645111b068b61f92814d6faa",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j9BHTv0ZchcZQPR3mYWY4ROY;IdS"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "GPC East Point",
+          "track_id": "venue-gpc-east-point",
+          "venue": {
+            "address": "East Point",
+            "badges": [
+              {
+                "text": "15K+ Items & Same In-store Prices!",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "645111b068b61f92814d6faa",
+            "location": [
+              44.8959303,
+              41.6914466
+            ],
+            "name": "GPC East Point",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "One of the largest pharmaceutical companies in Georgia",
+            "show_wolt_plus": false,
+            "slug": "gpc-east-point",
+            "tags": [
+              "cosmetics",
+              "Health",
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6KrCUTL4hTKfuJjTuczXtl4JQLc",
+            "url": "https://imageproxy.wolt.com/assets/674ce5bba4ddbc0e1be400d7"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66544d2c90bf1f973e175388",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j6KrCUTL4hTKfuJjTuczXtl4JQLc"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "PSP Mtatsminda",
+          "track_id": "venue-psp-ingorokva",
+          "venue": {
+            "address": "17 Pavle Ingorokva Street",
+            "badges": [
+              {
+                "text": "16K+ Items & Same In-store Prices",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 70,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "65-75",
+            "favourite": false,
+            "franchise": "",
+            "id": "66544d2c90bf1f973e175388",
+            "location": [
+              44.7963935,
+              41.6957082
+            ],
+            "name": "PSP Mtatsminda",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.8,
+              "volume": 0
+            },
+            "short_description": "Pharmacy",
+            "show_wolt_plus": false,
+            "slug": "psp-ingorokva",
+            "tags": [
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6KrCUTL4hTKfuJjTuczXtl4JQLc",
+            "url": "https://imageproxy.wolt.com/assets/674ce5bea4ddbc0e1be400df"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "644283b3cca08c40d5a23eed",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j6KrCUTL4hTKfuJjTuczXtl4JQLc"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "PSP Amaghleba",
+          "track_id": "venue-psp-amagleba",
+          "venue": {
+            "address": "ამაღლების ქ. N9",
+            "badges": [
+              {
+                "text": "16K+ Items & Same In-store Prices",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "644283b3cca08c40d5a23eed",
+            "location": [
+              44.79552577,
+              41.6900193
+            ],
+            "name": "PSP Amaghleba",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "PSP Pharmacy",
+            "show_wolt_plus": false,
+            "slug": "psp-amagleba",
+            "tags": [
+              "cosmetics",
+              "hair products",
+              "Health"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6KrCUTL4hTKfuJjTuczXtl4JQLc",
+            "url": "https://imageproxy.wolt.com/assets/674ce5b99e772119688b8996"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "644283b278c52901feeccc29",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j6KrCUTL4hTKfuJjTuczXtl4JQLc"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "PSP Petriashvili",
+          "track_id": "venue-psp-petriashvili",
+          "venue": {
+            "address": "Petriashvili N26",
+            "badges": [
+              {
+                "text": "16K+ Items & Same In-store Prices",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 75,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "70-80",
+            "favourite": false,
+            "franchise": "",
+            "id": "644283b278c52901feeccc29",
+            "location": [
+              44.7796904,
+              41.7060407
+            ],
+            "name": "PSP Petriashvili",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.8,
+              "volume": 0
+            },
+            "short_description": "PSP Pharmacy",
+            "show_wolt_plus": false,
+            "slug": "psp-petriashvili",
+            "tags": [
+              "cosmetics",
+              "hair products",
+              "Health"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j9BHTv0ZchcZQPR3mYWY4ROY;IdS",
+            "url": "https://imageproxy.wolt.com/assets/674d5783a4ddbc0e1be40396"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "620f7a07d126797f724d5ac6",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j9BHTv0ZchcZQPR3mYWY4ROY;IdS"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "GPC Galleria",
+          "track_id": "venue-gpc-galleria",
+          "venue": {
+            "address": "2/4 Shota Rustaveli Ave",
+            "badges": [
+              {
+                "text": "15K+ Items & Same In-store Prices!",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 70,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "65-75",
+            "favourite": false,
+            "franchise": "",
+            "id": "620f7a07d126797f724d5ac6",
+            "location": [
+              44.80026922,
+              41.69447014
+            ],
+            "name": "GPC Galleria",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "Pharmacy",
+            "show_wolt_plus": false,
+            "slug": "gpc-galleria",
+            "tags": [
+              "pharmacy",
+              "hair products",
+              "cosmetics"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j2HaGD0000OI9sTcTKTt;;hmh4KC",
+            "url": "https://imageproxy.wolt.com/assets/674ce64fa4ddbc0e1be40123"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "602e2d7f61d9c63aefd35d20",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j2HWSG00008i4STaX;Ts;;OXpCTb"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Aversi Aramiantsi",
+          "track_id": "venue-aversi-tsinandali",
+          "venue": {
+            "address": "10 Tsinandali St",
+            "badges": [
+              {
+                "text": "17K+ Items & Same In-store Prices",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "602e2d7f61d9c63aefd35d20",
+            "location": [
+              44.82748941,
+              41.68856807
+            ],
+            "name": "Aversi Aramiantsi",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.8,
+              "volume": 0
+            },
+            "short_description": "Everything For Your Health And Beauty!",
+            "show_wolt_plus": false,
+            "slug": "aversi-tsinandali",
+            "tags": [
+              "pharmacy",
+              "Health",
+              "cosmetics"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6KrCUTL4hTKfuJjTuczXtl4JQLc",
+            "url": "https://imageproxy.wolt.com/assets/674ce5c0a4ddbc0e1be400ed"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "641d798de82733b25e40657e",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j6KrCUTL4hTKfuJjTuczXtl4JQLc"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "PSP Avlabari",
+          "track_id": "venue-psp-ketevan-tsamebuli",
+          "venue": {
+            "address": "Ketevan Tsamebuli Ave. 2",
+            "badges": [
+              {
+                "text": "16K+ Items & Same In-store Prices",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "641d798de82733b25e40657e",
+            "location": [
+              44.81537057,
+              41.6928413
+            ],
+            "name": "PSP Avlabari",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.8,
+              "volume": 0
+            },
+            "short_description": "PSP Pharmacy",
+            "show_wolt_plus": false,
+            "slug": "psp-ketevan-tsamebuli",
+            "tags": [
+              "Health",
+              "healthy",
+              "cosmetics"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j3wEir;;00Pc8lus;;TultTsPk8y",
+            "url": "https://imageproxy.wolt.com/assets/674ce60ea4ddbc0e1be40103"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "6035ff8fcd3c7088b6c72a23",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j3wEir;;00Pc8lus;;TultTsPk8y"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Impex Pushkini",
+          "track_id": "venue-impex-pushkini",
+          "venue": {
+            "address": "Pushkini str # 5/7",
+            "badges": [
+              {
+                "text": "2K+ Items & Same In-store Prices",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 80,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "75-85",
+            "favourite": false,
+            "franchise": "",
+            "id": "6035ff8fcd3c7088b6c72a23",
+            "location": [
+              44.80232671,
+              41.69385915
+            ],
+            "name": "Impex Pushkini",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.0,
+              "volume": 0
+            },
+            "short_description": "Pharmacy",
+            "show_wolt_plus": false,
+            "slug": "impex-pushkini",
+            "tags": [
+              "pharmacy",
+              "hair products",
+              "Health"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j2HaGD0000OI9sTcTKTt;;hmh4KC",
+            "url": "https://imageproxy.wolt.com/assets/674ce64ca4ddbc0e1be40116"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "668d3143f54a90517a47f00e",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j2HWSG00008i4STaX;Ts;;OXpCTb"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Aversi Baratashvili",
+          "track_id": "venue-aversi-baratashvili",
+          "venue": {
+            "address": "2 Nikoloz Baratashvili St, T'bilisi",
+            "badges": [
+              {
+                "text": "17K+ Items & Same In-store Prices",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "668d3143f54a90517a47f00e",
+            "location": [
+              44.80403839,
+              41.69681356
+            ],
+            "name": "Aversi Baratashvili",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.8,
+              "volume": 0
+            },
+            "short_description": "Everything For Your Health And Beauty!",
+            "show_wolt_plus": false,
+            "slug": "aversi-baratashvili",
+            "tags": [
+              "cosmetics",
+              "hair products",
+              "Health"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4JJLrnL;;IxTtTcOGdl;;h34ih3",
+            "url": "https://imageproxy.wolt.com/assets/674d57c2a4ddbc0e1be403f7"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "5fe5a4bc3a227e42d7105fee",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4JJLrnL;;IxTtTcOGdl;;h34ih3"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Pharmadepot Varketili",
+          "track_id": "venue-pharmadepot-varketili",
+          "venue": {
+            "address": "Varketili 3 IV Micro-District",
+            "badges": [
+              {
+                "text": "15K+ Items & Same In-store Prices!",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 70,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "65-75",
+            "favourite": false,
+            "franchise": "",
+            "id": "5fe5a4bc3a227e42d7105fee",
+            "location": [
+              44.87711755,
+              41.70832109
+            ],
+            "name": "Pharmadepot Varketili",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "Where the pharmacist cares about your health!",
+            "show_wolt_plus": false,
+            "slug": "pharmadepot-varketili",
+            "tags": [
+              "pharmacy",
+              "cosmetics",
+              "hair products"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j3wEir;;00Pc8lus;;TultTsPk8y",
+            "url": "https://imageproxy.wolt.com/assets/674ce612a4ddbc0e1be40106"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "6036146a24e3a4edaf332c54",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j3wEir;;00Pc8lus;;TultTsPk8y"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Impex Moscow Avenue",
+          "track_id": "venue-impex-moscow-avenue",
+          "venue": {
+            "address": "moscow avenue 1",
+            "badges": [
+              {
+                "text": "2K+ Items & Same In-store Prices",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "6036146a24e3a4edaf332c54",
+            "location": [
+              44.85498296,
+              41.68485126
+            ],
+            "name": "Impex Moscow Avenue",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.4,
+              "volume": 0
+            },
+            "show_wolt_plus": false,
+            "slug": "impex-moscow-avenue",
+            "tags": [
+              "pharmacy",
+              "Health",
+              "cosmetics"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4JJLrnL;;IxTtTcOGdl;;h34ih3",
+            "url": "https://imageproxy.wolt.com/assets/674d57c79e772119688b8cbd"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "645111b0d2540c0216c60523",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4JJLrnL;;IxTtTcOGdl;;h34ih3"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Pharmadepot Kakheti Highway",
+          "track_id": "venue-pharmadepot-kakheti-highway",
+          "venue": {
+            "address": "36 Kakheti Hwy",
+            "badges": [
+              {
+                "text": "15K+ Items & Same In-store Prices!",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 55,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "50-60",
+            "favourite": false,
+            "franchise": "",
+            "id": "645111b0d2540c0216c60523",
+            "location": [
+              44.85602849,
+              41.68726099
+            ],
+            "name": "Pharmadepot Kakheti Highway",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.8,
+              "volume": 0
+            },
+            "short_description": "Where the pharmacist cares about your health!",
+            "show_wolt_plus": false,
+            "slug": "pharmadepot-kakheti-highway",
+            "tags": [
+              "cosmetics",
+              "Health",
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j7Xubxh4;;PJjcLtEPl4h4PuF4l4",
+            "url": "https://imageproxy.wolt.com/assets/67dd5451ae9cdb38b992485d"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "63777eab7c83f1a194cba4bc",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j7Xubxh4;;PJjcLtEPl4h4PuF4l4"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Black Market",
+          "track_id": "venue-black-market",
+          "venue": {
+            "address": "Vasil Barnov st. 53a",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "63777eab7c83f1a194cba4bc",
+            "location": [
+              44.7815444,
+              41.70518758
+            ],
+            "name": "Black Market",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.8,
+              "volume": 0
+            },
+            "short_description": "Official reseller in Georgia\nOnly authentic, original products from official brands. \nProducts sold from the store will be returned only if the product is defective. Otherwise, the sold products will not be returned",
+            "show_wolt_plus": false,
+            "slug": "black-market",
+            "tags": [
+              "make up ",
+              "cosmetics",
+              "perfume"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4JJLrnL;;IxTtTcOGdl;;h34ih3",
+            "url": "https://imageproxy.wolt.com/assets/674d57c92139fc0cc21ea5d6"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "5fe322ccffc71967ee3e2c4b",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4JJLrnL;;IxTtTcOGdl;;h34ih3"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Pharmadepot Avlabari",
+          "track_id": "venue-pharmadepot-avlabari",
+          "venue": {
+            "address": "11 Meskhishvili St",
+            "badges": [
+              {
+                "text": "15K+ Items & Same In-store Prices!",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 70,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "65-75",
+            "favourite": false,
+            "franchise": "",
+            "id": "5fe322ccffc71967ee3e2c4b",
+            "location": [
+              44.81471138,
+              41.69335537
+            ],
+            "name": "Pharmadepot Avlabari",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.8,
+              "volume": 0
+            },
+            "short_description": "Where the pharmacist cares about your health!",
+            "show_wolt_plus": false,
+            "slug": "pharmadepot-avlabari",
+            "tags": [
+              "pharmacy",
+              "hair products",
+              "cosmetics"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5OWlMTLXsmZ;y4A8Pl4N3huXrp4",
+            "url": "https://imageproxy.wolt.com/assets/6733111c7ca12735832d3498"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "633c39afb47e37af4bc80b37",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j5OWlMTLXsmZ;y4A8Pl4N3huXrp4"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Mailo Isani",
+          "track_id": "venue-maylo-isani",
+          "venue": {
+            "address": "121 Monk Gabriel Salosi Ave",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 50,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "45-55",
+            "favourite": false,
+            "franchise": "",
+            "id": "633c39afb47e37af4bc80b37",
+            "location": [
+              44.85754356,
+              41.67374866
+            ],
+            "name": "Mailo Isani",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.8,
+              "volume": 0
+            },
+            "short_description": "Pet Supply 🐾",
+            "show_wolt_plus": false,
+            "slug": "maylo-isani",
+            "tags": [
+              "dogfood",
+              "pet food",
+              "pet supply"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4JJLrnL;;IxTtTcOGdl;;h34ih3",
+            "url": "https://imageproxy.wolt.com/assets/674d57c69e772119688b8cae"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "61b6fa5de6fb6eee7df9dea2",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4JJLrnL;;IxTtTcOGdl;;h34ih3"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Pharmadepot Melikishvili",
+          "track_id": "venue-pharmadepot-melikishvili",
+          "venue": {
+            "address": "#6 Melikishvili Avenue",
+            "badges": [
+              {
+                "text": "15K+ Items & Same In-store Prices!",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 75,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "70-80",
+            "favourite": false,
+            "franchise": "",
+            "id": "61b6fa5de6fb6eee7df9dea2",
+            "location": [
+              44.78545227,
+              41.70669454
+            ],
+            "name": "Pharmadepot Melikishvili",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "Where the pharmacist cares about your health!",
+            "show_wolt_plus": false,
+            "slug": "pharmadepot-melikishvili",
+            "tags": [
+              "pharmacy",
+              "hair products",
+              "cosmetics"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "jbVuDDpd4hlb;;GQ;;KROAKYKXKX",
+            "url": "https://imageproxy.wolt.com/assets/6746f3ef2139fc0cc21e9706"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "5ef06725335406cc0bed1df1",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "jaVuDDpd4glb;;GP;;KROAKYKXKY"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Supta Sakhli Isani",
+          "track_id": "venue-supta-sakhli-isani",
+          "venue": {
+            "address": "3 Navtlughi St",
+            "badges": [
+              {
+                "text": "5000 Products",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 75,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "70-80",
+            "favourite": false,
+            "franchise": "",
+            "id": "5ef06725335406cc0bed1df1",
+            "location": [
+              44.84142118,
+              41.68600686
+            ],
+            "name": "Supta Sakhli Isani",
+            "online": false,
+            "price_range": 1,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.2,
+              "volume": 0
+            },
+            "short_description": "Household Items & Hygiene",
+            "show_wolt_plus": false,
+            "slug": "supta-sakhli-isani",
+            "tags": [
+              "grocery",
+              "home"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j0cnV9h44iPcd3GGGGpC00Pc;:hk",
+            "url": "https://imageproxy.wolt.com/assets/67bc24114db6f7453943322a"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "5e8ae4a93091944cfe176a22",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j3rmdl8z40Td4Ah6hCh400Pd;;cP"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Goodwill Galleria Tbilisi",
+          "track_id": "venue-goodwill-galleria-tbilisi",
+          "venue": {
+            "address": "2/4 Shota Rustaveli Ave",
+            "badges": [
+              {
+                "text": "Goodwill",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 75,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "70-80",
+            "favourite": false,
+            "franchise": "",
+            "id": "5e8ae4a93091944cfe176a22",
+            "location": [
+              44.80006275,
+              41.69462993
+            ],
+            "name": "Goodwill Galleria Tbilisi",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.4,
+              "volume": 0
+            },
+            "short_description": "The first hypermarket chain in Georgia",
+            "show_wolt_plus": false,
+            "slug": "goodwill-galleria-tbilisi",
+            "tags": [
+              "groceries",
+              "grocery",
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j1iBtlXK534hTJKXl4ll0hcy;;;:",
+            "url": "https://imageproxy.wolt.com/assets/67331ceded22780d46251376"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "653a5b2dc898fa163a1c515c",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j0t7:1PtllrdHcd4lC40lCJklCgy"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Morevi Records",
+          "track_id": "venue-morevi-records",
+          "venue": {
+            "address": "Akaki Shanidze 15",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 70,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "65-75"
+            },
+            "estimate_range": "65-75",
+            "favourite": false,
+            "franchise": "",
+            "id": "653a5b2dc898fa163a1c515c",
+            "location": [
+              44.7807463,
+              41.7066868
+            ],
+            "name": "Morevi Records",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "short_description": "Records Shop",
+            "show_wolt_plus": false,
+            "slug": "morevi-records",
+            "tags": [],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6KrCUTL4hTKfuJjTuczXtl4JQLc",
+            "url": "https://imageproxy.wolt.com/assets/674ce5bea4ddbc0e1be400e2"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "60f68f1816be040fa73d7461",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j6KrCUTL4hTKfuJjTuczXtl4JQLc"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "PSP Varketili",
+          "track_id": "venue-psp-varketili",
+          "venue": {
+            "address": "Kaloubani Street # 4",
+            "badges": [
+              {
+                "text": "16K+ Items & Same In-store Prices",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "60-70"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "60f68f1816be040fa73d7461",
+            "location": [
+              44.87315162,
+              41.68947146
+            ],
+            "name": "PSP Varketili",
+            "online": true,
+            "price_range": 3,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.8,
+              "volume": 0
+            },
+            "short_description": "Pharmacy",
+            "show_wolt_plus": false,
+            "slug": "psp-varketili",
+            "tags": [
+              "pharmacy",
+              "hair products",
+              "cosmetics"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5AEC6;JNsLb;:N4p3llTKHthlll",
+            "url": "https://imageproxy.wolt.com/assets/67331c5324e6e85f44324155"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "624ad9737a524f3f48e0d339",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j5AEC6;JNsLb;:N4p3llTKHthlll"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "GNG Pharma Samgori",
+          "track_id": "venue-gng-pharma-samgori",
+          "venue": {
+            "address": "9 ქინძმარაულის ქუჩა, Tbilisi",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 55,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "50-60"
+            },
+            "estimate_range": "50-60",
+            "favourite": false,
+            "franchise": "",
+            "id": "624ad9737a524f3f48e0d339",
+            "location": [
+              44.88983619,
+              41.66514079
+            ],
+            "name": "GNG Pharma Samgori",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.2,
+              "volume": 0
+            },
+            "short_description": "Pharmacy",
+            "show_wolt_plus": false,
+            "slug": "gng-pharma-samgori",
+            "tags": [
+              "Health",
+              "healthy",
+              "hair products"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6KrCUTL4hTKfuJjTuczXtl4JQLc",
+            "url": "https://imageproxy.wolt.com/assets/674ce5c19e772119688b89a8"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "6272520194f326b4313959e8",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j6KrCUTL4hTKfuJjTuczXtl4JQLc"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "PSP Ortachala",
+          "track_id": "venue-psp-ortachala",
+          "venue": {
+            "address": "39 Gorgasali St",
+            "badges": [
+              {
+                "text": "16K+ Items & Same In-store Prices",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 55,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "50-60"
+            },
+            "estimate_range": "50-60",
+            "favourite": false,
+            "franchise": "",
+            "id": "6272520194f326b4313959e8",
+            "location": [
+              44.82332821,
+              41.68233935
+            ],
+            "name": "PSP Ortachala",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "PSP Pharmacy",
+            "show_wolt_plus": false,
+            "slug": "psp-ortachala",
+            "tags": [
+              "cosmetics",
+              "pharmacy",
+              "hair products"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5AEC6;JNsLb;:N4p3llTKHthlll",
+            "url": "https://imageproxy.wolt.com/assets/6732092acc36c63296339d86"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "625e539950c7bac3041f9766",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j5AEC6;JNsLb;:N4p3llT:Hthlll"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "GNG Pharma Vazisubani",
+          "track_id": "venue-gng-pharma-vazisubani",
+          "venue": {
+            "address": " Vazisubani settlement, wagon # 1",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 80,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "75-85"
+            },
+            "estimate_range": "75-85",
+            "favourite": false,
+            "franchise": "",
+            "id": "625e539950c7bac3041f9766",
+            "location": [
+              44.85557307,
+              41.69613538
+            ],
+            "name": "GNG Pharma Vazisubani",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "Pharmacy",
+            "show_wolt_plus": false,
+            "slug": "gng-pharma-vazisubani",
+            "tags": [
+              "Health",
+              "healthy",
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6KrCUTL4hTKfuJjTuczXtl4JQLc",
+            "url": "https://imageproxy.wolt.com/assets/674ce5bfa4ddbc0e1be400e7"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "60f684b98dbd70e356b2e47b",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j6KrCUTL4hTKfuJjTuczXtl4JQLc"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "PSP Vekua",
+          "track_id": "venue-psp-mtatsminda-krtsanisi",
+          "venue": {
+            "address": "vekua street 1",
+            "badges": [
+              {
+                "text": "16K+ Items & Same In-store Prices",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "60-70"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "60f684b98dbd70e356b2e47b",
+            "location": [
+              44.8033699,
+              41.6968486
+            ],
+            "name": "PSP Vekua",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.8,
+              "volume": 0
+            },
+            "short_description": "Pharmacy",
+            "show_wolt_plus": false,
+            "slug": "psp-mtatsminda-krtsanisi",
+            "tags": [
+              "cosmetics",
+              "pharmacy",
+              "hair products"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j2HaGD0000OI9sTcTKTt;;hmh4KC",
+            "url": "https://imageproxy.wolt.com/assets/674ce64fa4ddbc0e1be40120"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "602e246c2e7a916428a272cb",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j2HWSG00008i4STaX;Ts;;OXpCTb"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Aversi Varketili",
+          "track_id": "venue-aversi-varketili",
+          "venue": {
+            "address": "Romanoz Khomleli St. 1",
+            "badges": [
+              {
+                "text": "17K+ Items & Same In-store Prices",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 60,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "55-65"
+            },
+            "estimate_range": "55-65",
+            "favourite": false,
+            "franchise": "",
+            "id": "602e246c2e7a916428a272cb",
+            "location": [
+              44.87112643,
+              41.6913411
+            ],
+            "name": "Aversi Varketili",
+            "online": true,
+            "price_range": 1,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "Everything For Your Health And Beauty!",
+            "show_wolt_plus": false,
+            "slug": "aversi-varketili",
+            "tags": [
+              "pharmacy",
+              "Health",
+              "cosmetics"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6KrCUTL4hTKfuJjTuczXtl4JQLc",
+            "url": "https://imageproxy.wolt.com/assets/674ce5c0a4ddbc0e1be400eb"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "631f0d3448b9f6e11cbbb574",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j6KrCUTL4hTKfuJjTuczXtl4KlLc"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "PSP Aghmashenebeli",
+          "track_id": "venue-psp-aghmashenebeli",
+          "venue": {
+            "address": "97 Davit Aghmashenebeli Ave",
+            "badges": [
+              {
+                "text": "16K+ Items & Same In-store Prices",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "60-70"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "631f0d3448b9f6e11cbbb574",
+            "location": [
+              44.79656695,
+              41.71088902
+            ],
+            "name": "PSP Aghmashenebeli",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "PSP Pharmacy",
+            "show_wolt_plus": false,
+            "slug": "psp-aghmashenebeli",
+            "tags": [
+              "pharmacy",
+              "cosmetics",
+              "hair products"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j9BHTv0ZchcZQPR3mYWY4ROY;IdS",
+            "url": "https://imageproxy.wolt.com/assets/674d5784a4ddbc0e1be4039d"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "645111b09be5bc5a15ce13ff",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j9BHTv0ZchcZQPR3mYWY4ROY;IdS"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "GPC Varketili",
+          "track_id": "venue-gpc-varketili",
+          "venue": {
+            "address": "Varketili, Khomleli 1",
+            "badges": [
+              {
+                "text": "15K+ Items & Same In-store Prices!",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "60-70"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "645111b09be5bc5a15ce13ff",
+            "location": [
+              44.87141021,
+              41.69147004
+            ],
+            "name": "GPC Varketili",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "One of the largest pharmaceutical companies in Georgia",
+            "show_wolt_plus": false,
+            "slug": "gpc-varketili",
+            "tags": [
+              "cosmetics",
+              "Health",
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j2HaGD0000OI9sTcTKTt;;hmh4KC",
+            "url": "https://imageproxy.wolt.com/assets/674ce64f9e772119688b89cb"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "64cba1b191ab5f580bf46e89",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j2HWSG00008i4STaX;Ts;;OXpCTb"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Aversi Ortachala",
+          "track_id": "venue-aversi-ortachala",
+          "venue": {
+            "address": "Gorgasali St 79",
+            "badges": [
+              {
+                "text": "17K+ Items & Same In-store Prices",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 55,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "50-60"
+            },
+            "estimate_range": "50-60",
+            "favourite": false,
+            "franchise": "",
+            "id": "64cba1b191ab5f580bf46e89",
+            "location": [
+              44.82870014,
+              41.67530983
+            ],
+            "name": "Aversi Ortachala",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "Everything For Your Health And Beauty!",
+            "show_wolt_plus": false,
+            "slug": "aversi-ortachala",
+            "tags": [
+              "cosmetics",
+              "hair products",
+              "Health"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j9BHTv0ZchcZQPR3mYWY4ROY;IdS",
+            "url": "https://imageproxy.wolt.com/assets/674d5784a4ddbc0e1be4039c"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "5fdb28195c58fcae709a462f",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j9BHTv0ZchcZQPR3mYWY4ROY;IdS"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "GPC Moscow Avenue",
+          "track_id": "venue-gpc-moscow-avenue",
+          "venue": {
+            "address": "39 a Moscow Avenue 2",
+            "badges": [
+              {
+                "text": "15K+ Items & Same In-store Prices!",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 70,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "65-75"
+            },
+            "estimate_range": "65-75",
+            "favourite": false,
+            "franchise": "",
+            "id": "5fdb28195c58fcae709a462f",
+            "location": [
+              44.88426544,
+              41.67219638
+            ],
+            "name": "GPC Moscow Avenue",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.8,
+              "volume": 0
+            },
+            "short_description": "One of the largest pharmaceutical companies in Georgia",
+            "show_wolt_plus": false,
+            "slug": "gpc-moscow-avenue",
+            "tags": [
+              "pharmacy",
+              "Health",
+              "cosmetics"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4JJLrnL;;IxTtTcOGdl;;h34ih3",
+            "url": "https://imageproxy.wolt.com/assets/674d57c19e772119688b8c7f"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66544b9cfd67850816267eca",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4JJLrnL;;IxTtTcOGdl;;h34ih3"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Pharmadepot Rustaveli",
+          "track_id": "venue-pharmadepot-rustaveli",
+          "venue": {
+            "address": "52 Rustaveli Ave",
+            "badges": [
+              {
+                "text": "15K+ Items & Same In-store Prices!",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 75,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "70-80"
+            },
+            "estimate_range": "70-80",
+            "favourite": false,
+            "franchise": "",
+            "id": "66544b9cfd67850816267eca",
+            "location": [
+              44.79043179,
+              41.70337442
+            ],
+            "name": "Pharmadepot Rustaveli",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "One of the largest pharmaceutical companies in Georgia",
+            "show_wolt_plus": false,
+            "slug": "pharmadepot-rustaveli",
+            "tags": [
+              "pharmacy",
+              "Health"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j9BHTv0ZchcZQPR3mYWY4ROY;IdS",
+            "url": "https://imageproxy.wolt.com/assets/674d57859e772119688b8c29"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "645111b0ea551312ed87b429",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j9BHTv0ZchcZQPR3mYWY4ROY;IdS"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "GPC Rustaveli",
+          "track_id": "venue-gpc-rustaveli",
+          "venue": {
+            "address": "Rustaveli Ave 16",
+            "badges": [
+              {
+                "text": "15K+ Items & Same In-store Prices!",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "60-70"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "645111b0ea551312ed87b429",
+            "location": [
+              44.7967757,
+              41.6993901
+            ],
+            "name": "GPC Rustaveli",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.8,
+              "volume": 0
+            },
+            "short_description": "One of the largest pharmaceutical companies in Georgia",
+            "show_wolt_plus": false,
+            "slug": "gpc-rustaveli",
+            "tags": [
+              "cosmetics",
+              "Health",
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j9BHTv0ZchcZQPR3mYWY4ROY;IdS",
+            "url": "https://imageproxy.wolt.com/assets/674d57879e772119688b8c4f"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "5fdb27c75c58fcae709a4505",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j9BHTv0ZchcZQPR3mYWY4ROY;IdS"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "GPC Gorgasali",
+          "track_id": "venue-gpc-gorgsasali",
+          "venue": {
+            "address": "39 Gorgasali Street",
+            "badges": [
+              {
+                "text": "15K+ Items & Same In-store Prices!",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 60,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "55-65"
+            },
+            "estimate_range": "55-65",
+            "favourite": false,
+            "franchise": "",
+            "id": "5fdb27c75c58fcae709a4505",
+            "location": [
+              44.8229014,
+              41.68313024
+            ],
+            "name": "GPC Gorgasali",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.8,
+              "volume": 0
+            },
+            "short_description": "One of the largest pharmaceutical companies in Georgia",
+            "show_wolt_plus": false,
+            "slug": "gpc-gorgsasali",
+            "tags": [
+              "pharmacy",
+              "hair products",
+              "cosmetics"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j9BHTv0ZchcZQPR3mYWY4ROY;IdS",
+            "url": "https://imageproxy.wolt.com/assets/674d57879e772119688b8c44"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "63972c586a3f832e3d0f5aab",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j9BHTv0ZchcZQPR3mYWY4ROY;IdS"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "GPC Avlabari",
+          "track_id": "venue-gpc-avlabari",
+          "venue": {
+            "address": "Ketevan Tsamebuli Ave 2",
+            "badges": [
+              {
+                "text": "15K+ Items & Same In-store Prices!",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "60-70"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "63972c586a3f832e3d0f5aab",
+            "location": [
+              44.81536546,
+              41.6929771
+            ],
+            "name": "GPC Avlabari",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "One of the largest pharmaceutical companies in Georgia💙",
+            "show_wolt_plus": false,
+            "slug": "gpc-avlabari",
+            "tags": [
+              "pharmacy",
+              "hair products",
+              "cosmetics"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j2WE1r8hM0XKXKl4h4GYY0X;n;cy",
+            "url": "https://imageproxy.wolt.com/assets/6793740d79b89042e84bfeca"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65cb2f6539975570844d2163",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j5DUpVX;4hTtkO;:;;TtX;XtRQdr"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Smart Pepela",
+          "track_id": "venue-smart-pepela",
+          "venue": {
+            "address": "Kakheti Hwy Service Rd",
+            "badges": [
+              {
+                "text": "2K+ Items & Same In-store Prices",
+                "variant": "secondary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "GEO",
+            "currency": "GEL",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 60,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "55-65"
+            },
+            "estimate_range": "55-65",
+            "favourite": false,
+            "franchise": "",
+            "id": "65cb2f6539975570844d2163",
+            "location": [
+              44.88949193,
+              41.68459236
+            ],
+            "name": "Smart Pepela",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "Supermarket",
+            "show_wolt_plus": false,
+            "slug": "smart-pepela",
+            "tags": [
+              "grocery",
+              "groceries",
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        }
+      ],
+      "name": "venues",
+      "template": "search-result-list",
+      "title": "Restaurants and stores"
+    }
+  ],
+  "show_large_title": false,
+  "show_map": false,
+  "sorting_and_filtering_v2": {
+    "sections": [
+      {
+        "role": "filtering",
+        "slug": "product_line",
+        "type": "single_select",
+        "values": [
+          {
+            "selected": true,
+            "slug": "all",
+            "title": "All results"
+          },
+          {
+            "selected": false,
+            "slug": "grocery",
+            "title": "Grocery"
+          },
+          {
+            "selected": false,
+            "slug": "pharmacy",
+            "title": "Pharmacy"
+          },
+          {
+            "selected": false,
+            "slug": "pet_supply",
+            "title": "Pet supply"
+          },
+          {
+            "selected": false,
+            "slug": "health_and_beauty",
+            "title": "Health & beauty"
+          },
+          {
+            "selected": false,
+            "slug": "home_and_diy",
+            "title": "Home & DIY"
+          },
+          {
+            "selected": false,
+            "slug": "general_merchandise",
+            "title": "General merchandise"
+          }
+        ]
+      },
+      {
+        "role": "sorting",
+        "slug": "sort_by",
+        "title": "Sort by",
+        "type": "single_select",
+        "values": [
+          {
+            "selected": true,
+            "slug": "recommended",
+            "title": "Recommended"
+          },
+          {
+            "selected": false,
+            "slug": "distance",
+            "title": "Distance"
+          },
+          {
+            "selected": false,
+            "slug": "rating",
+            "title": "Rating"
+          },
+          {
+            "selected": false,
+            "slug": "delivery_fee",
+            "title": "Delivery price"
+          },
+          {
+            "selected": false,
+            "slug": "delivery_estimate",
+            "title": "Delivery time"
+          }
+        ]
+      },
+      {
+        "role": "filtering",
+        "slug": "delivers_now",
+        "type": "toggle",
+        "values": [
+          {
+            "selected": false,
+            "slug": "delivers_now_toggle",
+            "title": "Delivers to you now"
+          }
+        ]
+      }
+    ]
+  },
+  "track_id": "discovery:search:split-view"
+}

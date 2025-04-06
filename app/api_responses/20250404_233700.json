@@ -1,0 +1,227 @@
+{
+  "category": {
+    "id": "673af2d0f2a47c6dc25b64c3",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/b3b147fc-e552-11ef-902c-a6775b4dc19c_____________________.jpg",
+        "blurhash": "j3RsuXn;eYkxX;cQT;cg8gLdGZ;:"
+      }
+    ],
+    "name": "აბაზანის აქსესუარები",
+    "slug": "menucategory-68"
+  },
+  "categories": [
+    {
+      "id": "673af2d0f2a47c6dc25b64c3",
+      "item_ids": [
+        "673afd6c1a8bc3c49e789819",
+        "67e29ca080a22a0c009b15a1",
+        "67e29ca080a22a0c009b15ae"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "673afd6c1a8bc3c49e789819",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "7b32c86785f0dd881a7f5db59c7d0a44",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/c0dc7e52-a587-11ef-8df4-0e45b99e6af8_2e0d4c88ec.jpg",
+          "blurhash": "j9Z;nTGX;;xlLtpCoPKXTtCpcPpD"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "NOVAX - ნოვაქსი აბაზანის ღრუბელი მასაჟორით N1პაოლა 0489",
+      "options": [],
+      "original_price": null,
+      "price": 580,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67e29ca080a22a0c009b15a1",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "dff5646b89f22e62020bb17d7dc0204b",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706db391447594e3bfb00cb/4723c00c-0964-11f0-a1a7-36fd2efe7558_60a8db530f.jpg",
+          "blurhash": "j3;fLXKX;;BTSGCpeXpCPctTl4Gp"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Miniso მინისო შხაპის ქუდი/Wavy Dots Waterproof N2 2472",
+      "options": [],
+      "original_price": null,
+      "price": 695,
+      "purchasable_balance": 6,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67e29ca080a22a0c009b15ae",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "9776db776ed8dc5779b99c27b43215fe",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706db391447594e3bfb00cb/8b07608a-0964-11f0-a228-b680b2c8fd8b_e21427212e.jpg",
+          "blurhash": "j4;fLWGG;;GpjcCpNltTTctTd4Cq"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Miniso მინისო შხაპის ქუდი/Disney Animals Collection Waterproof N3 7201",
+      "options": [],
+      "original_price": null,
+      "price": 895,
+      "purchasable_balance": 6,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    }
+  ],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

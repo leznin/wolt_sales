@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "673719d023be7f0d04d1275d",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6049b49ab072332fba2fcd6a/eb75c8c8-a27e-11ef-a013-9621748bd9a3_476872.jpg",
+        "blurhash": "j5V:fDPtCXXK;;PbtlLc;;l4Pth4"
+      }
+    ],
+    "name": "ბავშვის  მოვლა",
+    "slug": "menucategory-68"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

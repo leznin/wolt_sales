@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "641b7b7e6d77518b3d4f8e95",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/635e776f417c3fe0fc2a5dd5/a28b0fbe-256c-11ee-98e9-f6eb6db4e17f_shutterstock_2270589341__1_.jpg",
+        "blurhash": "jlXujwGX;;BlPcGGhlllX;pCcyGX"
+      }
+    ],
+    "name": "Smaki Azji",
+    "slug": "smaki-azji-154"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

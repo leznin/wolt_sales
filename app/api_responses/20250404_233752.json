@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "66473d407b7bcfe55230d1ad",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f84c93a471b04e60b3204a/0d6d5844-2271-11ef-8276-668c91bee782___________________________.jpg",
+        "blurhash": "jcWKnD95X;TbTKHbgPBl;;PbcylD"
+      }
+    ],
+    "name": "ბავშვის კვების აქსესუარები",
+    "slug": "menucategory-17"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

@@ -1,0 +1,104 @@
+{% extends "admin/base.html" %}
+
+{% block title %}Добавление рекламы{% endblock %}
+
+{% block page_title %}Добавление рекламы{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('admin.static', filename='css/stylesADS.css') }}">
+<link rel="stylesheet" href="{{ url_for('admin.static', filename='css/stylesAddAd.css') }}">
+
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="section-header">
+        <h2>Добавление рекламы</h2>
+        <p>Создайте новый рекламный материал для показа во время загрузки</p>
+    </div>
+    
+    <div class="ad-form">
+        <form action="{{ url_for('admin.add_ad') }}" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <label>Предпросмотр видео</label>
+                <div class="video-preview" id="video-preview">
+                    <span>Загрузите видео для предпросмотра</span>
+                </div>
+            </div>
+            
+            <div class="form-grid">
+                <div class="form-group">
+                    <label for="title">Название рекламы</label>
+                    <input type="text" id="title" name="title" class="form-control" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="redirect_url">URL для перехода</label>
+                    <input type="url" id="redirect_url" name="redirect_url" class="form-control" required>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="description">Описание</label>
+                <textarea id="description" name="description" class="form-control" rows="3"></textarea>
+            </div>
+            
+            <div class="form-grid">
+                <div class="form-group">
+                    <label for="video">Видео</label>
+                    <input type="file" id="video" name="video" class="form-control" accept="video/*" required>
+                    <small>Рекомендуемый формат: MP4, максимальный размер: 5MB</small>
+                </div>
+                
+                <div class="form-group">
+                    <label for="priority">Приоритет показа (0-100)</label>
+                    <input type="number" id="priority" name="priority" class="form-control" min="0" max="100" value="50">
+                    <small>Чем выше значение, тем чаще будет показываться реклама</small>
+                </div>
+            </div>
+            
+            <div class="form-grid">
+                <div class="form-group">
+                    <label for="display_time">Время показа (сек)</label>
+                    <input type="number" id="display_time" name="display_time" class="form-control" min="1" max="30" value="5">
+                </div>
+                
+                <div class="form-group">
+                    <label for="skip_after">Возможность пропуска после (сек)</label>
+                    <input type="number" id="skip_after" name="skip_after" class="form-control" min="0" max="30" value="3">
+                    <small>0 - если пропуск не разрешен</small>
+                </div>
+            </div>
+            
+            <div class="form-group" style="display: flex; gap: 10px;">
+                <button type="submit" class="btn-primary">Добавить рекламу</button>
+                <a href="{{ url_for('admin.ads') }}" class="btn-secondary">Отмена</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const videoInput = document.getElementById('video');
+        const videoPreview = document.getElementById('video-preview');
+        
+        videoInput.addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                const videoURL = URL.createObjectURL(file);
+                videoPreview.innerHTML = '';
+                
+                const video = document.createElement('video');
+                video.src = videoURL;
+                video.controls = true;
+                video.style.width = '100%';
+                video.style.height = '100%';
+                video.style.objectFit = 'cover';
+                
+                videoPreview.appendChild(video);
+            }
+        });
+    });
+</script>
+{% endblock %}

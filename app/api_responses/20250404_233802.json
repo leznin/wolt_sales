@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "6414619a8a58b0a65716ebdc",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/616573c75cd3d74137d0343c/335a43f6-3e9a-11ef-bfd7-f6ad7fbee424___________.jpg",
+        "blurhash": "jcXcf4Pt;;OYTKhCllSX;tKX93h4"
+      }
+    ],
+    "name": "ტკბილეული",
+    "slug": "menucategory-19"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "67d97b6c1d4933f9744adcb0",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6638c8b0d58a3ce2d02d968e/da767b48-0440-11f0-a7cf-ee0a93080b80_kawa_czekolada_wolt__1_.jpg",
+        "blurhash": "jaG9i6;;LcTtTbl4lCh5TKLcGHd5"
+      }
+    ],
+    "name": "Świat Czekolady",
+    "slug": "swiat-czekolady-636"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

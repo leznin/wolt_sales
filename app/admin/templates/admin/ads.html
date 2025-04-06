@@ -1,0 +1,189 @@
+{% extends "admin/base.html" %}
+
+{% block title %}Управление рекламой{% endblock %}
+
+{% block page_title %}Управление рекламой{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('admin.static', filename='css/stylesADS.css') }}">
+
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="section-header">
+        <h2>Управление рекламой</h2>
+        <p>Управляйте рекламными материалами, которые будут показываться во время загрузки приложения</p>
+    </div>
+    
+    <a href="{{ url_for('admin.add_ad') }}" class="add-ad-button">
+        <span class="material-symbols-rounded">add</span>
+        <span>Добавить новую рекламу</span>
+    </a>
+    
+    <div class="ads-container">
+        {% if ads %}
+            {% for ad in ads %}
+            <div class="ad-card" data-id="{{ ad.id }}">
+                <div class="ad-video-container">
+                    <video class="ad-video" src="{{ url_for('static', filename=ad.video_url) }}" muted></video>
+                    <div class="ad-priority">Приоритет: {{ ad.priority }}</div>
+                </div>
+                <div class="ad-info">
+                    <div class="ad-title">{{ ad.title }}</div>
+                    <div class="ad-description">{{ ad.description }}</div>
+                    <div class="ad-stats">
+                        <div>
+                            <span class="stats-badge">
+                                <i class="fas fa-eye"></i> {{ ad.views }} просмотров
+                            </span>
+                        </div>
+                        <div>
+                            <span class="stats-badge">
+                                <i class="fas fa-mouse-pointer"></i> {{ ad.clicks }} кликов
+                            </span>
+                        </div>
+                    </div>
+                    <div class="ad-duration">
+                        <i class="fas fa-clock duration-icon"></i>
+                        <span>Длительность: {{ ad.display_time }}с</span>
+                        {% if ad.skip_after > 0 %}
+                        <span> (пропуск через {{ ad.skip_after }}с)</span>
+                        {% endif %}
+                    </div>
+                    <div class="ad-actions">
+                        <div class="action-buttons">
+                            <a href="{{ url_for('admin.preview_ad', ad_id=ad.id) }}" target="_blank" class="btn-action btn-preview">
+                                <i class="fas fa-play"></i> Просмотр
+                            </a>
+                            <a href="{{ url_for('admin.edit_ad', ad_id=ad.id) }}" class="btn-action btn-edit">
+                                <i class="fas fa-edit"></i> Изменить
+                            </a>
+                            <button class="btn-action btn-delete delete-ad" data-id="{{ ad.id }}">
+                                <i class="fas fa-trash"></i> Удалить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="toggle-container">
+                        <span class="toggle-label">{% if ad.is_active %}Активна{% else %}Неактивна{% endif %}</span>
+                        <label class="toggle-switch">
+                            <input type="checkbox" class="toggle-ad" data-id="{{ ad.id }}" {% if ad.is_active %}checked{% endif %}>
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        {% else %}
+            <div class="no-ads">
+                <i class="fas fa-film fa-3x no-ads-icon"></i>
+                <h3>Нет рекламных материалов</h3>
+                <p>Добавьте свою первую рекламу, нажав на кнопку выше</p>
+            </div>
+        {% endif %}
+    </div>
+</div>
+
+<!-- Модальное окно подтверждения удаления -->
+<div id="deleteModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3 class="modal-title">Подтверждение удаления</h3>
+        <p class="modal-message">Вы уверены, что хотите удалить эту рекламу? Это действие нельзя отменить.</p>
+        <div class="modal-actions">
+            <button id="cancelDelete" class="btn-modal btn-cancel">Отмена</button>
+            <form id="deleteForm" method="POST">
+                <button type="submit" class="btn-modal btn-confirm">Удалить</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Предпросмотр видео при наведении
+        const videos = document.querySelectorAll('.ad-video');
+        videos.forEach(video => {
+            const card = video.closest('.ad-card');
+            
+            card.addEventListener('mouseenter', function() {
+                video.play().catch(e => console.log('Автовоспроизведение отключено'));
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                video.pause();
+                video.currentTime = 0;
+            });
+        });
+        
+        // Переключение статуса активности
+        const toggles = document.querySelectorAll('.toggle-ad');
+        toggles.forEach(toggle => {
+            toggle.addEventListener('change', function() {
+                const adId = this.dataset.id;
+                const isActive = this.checked;
+                const statusLabel = this.closest('.toggle-container').querySelector('.toggle-label');
+                
+                fetch(`/adminqsc/api/ad/toggle/${adId}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    }
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        statusLabel.textContent = isActive ? 'Активна' : 'Неактивна';
+                    } else {
+                        // Возвращаем переключатель в исходное состояние
+                        this.checked = !isActive;
+                        statusLabel.textContent = !isActive ? 'Активна' : 'Неактивна';
+                        alert(data.message || 'Произошла ошибка при изменении статуса рекламы');
+                    }
+                })
+                .catch(error => {
+                    console.error('Ошибка:', error);
+                    this.checked = !isActive;
+                    statusLabel.textContent = !isActive ? 'Активна' : 'Неактивна';
+                    alert('Произошла ошибка при изменении статуса рекламы');
+                });
+            });
+        });
+        
+        // Модальное окно удаления
+        const modal = document.getElementById('deleteModal');
+        const deleteButtons = document.querySelectorAll('.delete-ad');
+        const closeButton = document.querySelector('.close');
+        const cancelButton = document.getElementById('cancelDelete');
+        const deleteForm = document.getElementById('deleteForm');
+        
+        deleteButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                const adId = this.dataset.id;
+                const adTitle = this.closest('.ad-card').querySelector('.ad-title').textContent;
+                
+                // Обновляем текст в модальном окне
+                document.querySelector('.modal-message').textContent = 
+                    `Вы уверены, что хотите удалить рекламу "${adTitle}"? Это действие нельзя отменить.`;
+                
+                deleteForm.action = `/adminqsc/api/ad/delete/${adId}`;
+                modal.style.display = 'block';
+            });
+        });
+        
+        closeButton.addEventListener('click', function() {
+            modal.style.display = 'none';
+        });
+        
+        cancelButton.addEventListener('click', function() {
+            modal.style.display = 'none';
+        });
+        
+        window.addEventListener('click', function(event) {
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+    });
+</script>
+{% endblock %}

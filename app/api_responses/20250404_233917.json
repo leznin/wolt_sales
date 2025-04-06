@@ -1,0 +1,359 @@
+{
+  "category": {
+    "id": "63aab08d42645922f4bd8c4a",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/a3a64ece-84fc-11ed-ac64-9e6551335230_4743318100760.jpeg",
+        "blurhash": "joVunAtT;;GGh4tTPcGGGXy8pltT"
+      }
+    ],
+    "name": "თავის მოვლა მამაკაცებისთვის",
+    "slug": "menucategory-45"
+  },
+  "categories": [
+    {
+      "id": "63aab08d42645922f4bd8c4a",
+      "item_ids": [
+        "67b71fd487ffd33b501a0a90",
+        "67b71fd487ffd33b501a0a99",
+        "67b71fd487ffd33b501a0a9f",
+        "67c6e3db9e6e52378e590329",
+        "67c6e3db9e6e52378e59031d"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "67b71fd487ffd33b501a0a90",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "a34d867478358a7923a5564ad07d3e41",
+      "description": "Axeman Body wash სპეციალურად მამაკაცებისთვის შექმნილი შხაპის გელია, რომელიც გაჯერებულია ტყის არყის ხის ფოთლის ექსტრაქტით. ეს უკანასკნელი კანის ნამდვილ ბუნებრივ მკურნალად და გამაძლიერებლად არის მიჩნეული. ხოლო არნიკა, რომელიც გელის ერთ-ერთი კომპონენტია, არის ანტიბაქტერიული ინგრედიენტი, რომელიც ხელს უწყობს კანის დამშვიდებას და ანთების შემცირებას. გელი შეიცავს ტყის გამაგრილებელ სურნელს. ის ხელს უწყობს ჯანსაღი კანის შენარჩუნებას, ნაზად ასუფთავებს და აცოცხლებს კანს. შეგმატებთ თავდაჯერებულობას და ორიგინალურობას.\n\nბრენდის შესახებ\n\nBeauty Jar არის ბუნებრივი კოსმეტიკური ბრენდი, რომელიც იწარმოება ლატვიაში - აღმოსავლეთ ევროპის ერთ-ერთ ყველაზე მწვანე და სუფთა ქვეყანაში.\n\nბრენდი იყენებს ბუნებრივ ინგრედიენტებს, ხელნაკეთ წარმოებას და ეკოლოგიურად სუფთა მიდგომას.\nპროდუქტში შემავალი ინგრედინეტების 90%-ზე მეტი არის ნატურალური, ბუნებრივი და მათი ტესტირება არ ხდება ცხოველებზე.\nარ შეიცავს პარაბენებსა და ნატრიუმის სულფატებს, რომლებიც იწვევენ კანის სიმშრალესა და სიუხეშეს.\n\nპროდუქცია მოთავსებულია მარტივად გამოსაყენებელ, უმაღლესი ხარისხის, გადამამუშავებად ქილებში, რომლებიც არ იწვევენ ეკოლოგიურ დაბინძურებას.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f581ca58c142b3b9e2716d/d3aa62a8-e847-11ef-bbc4-2ac6dec0dfa3_axeman_ezgif.com_resize.jpg",
+          "blurhash": "jfX:;LGG;;tTKXtTpCCpXKtT8yCp"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "BEAUTY JAR - Axeman Body wash(100მლ)",
+      "options": [],
+      "original_price": null,
+      "price": 1300,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67b71fd487ffd33b501a0a99",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "aed0755b70771ee9de565c292b010b65",
+      "description": "Like a Boss არის მამაკაცებისთვის განკუთვნილი შამპუნისა და შხაპის გელის ჰარმონიული ნაზავი, ორი პროდუქტი გაერთიანებული ერთ შეფუთვაში. ზღვის მცენარეები აუმჯობესებს სისხლის მიმოქცევას სკალპში, რაც ხელს უწყობს ფესვების გამაგრებას და თმის ცვენის თავიდან აცილებას. ალოე ვერა არის ბიოგენური სტიმულატორი, ის ააქტიურებს კანის შეხორცებას და აჩქარებს ორგანიზმში ბუნებრივ პროცესებს. \n\nბრენდის შესახებ\n\nBeauty Jar არის ბუნებრივი კოსმეტიკური ბრენდი, რომელიც იწარმოება ლატვიაში - აღმოსავლეთ ევროპის ერთ-ერთ ყველაზე მწვანე და სუფთა ქვეყანაში.\n\nბრენდი იყენებს ბუნებრივ ინგრედიენტებს, ხელნაკეთ წარმოებას და ეკოლოგიურად სუფთა მიდგომას.\nპროდუქტში შემავალი ინგრედინეტების 90%-ზე მეტი არის ნატურალური, ბუნებრივი და მათი ტესტირება არ ხდება ცხოველებზე.\nარ შეიცავს პარაბენებსა და ნატრიუმის სულფატებს, რომლებიც იწვევენ კანის სიმშრალესა და სიუხეშეს.\n\nპროდუქცია მოთავსებულია მარტივად გამოსაყენებელ, უმაღლესი ხარისხის, გადამამუშავებად ქილებში, რომლებიც არ იწვევენ ეკოლოგიურ დაბინძურებას.\n\nგამოყენების წესი:\nწაისვით გელი სველ თმაზე და ტანზე, ააქაფეთ და კარგად ჩამოიბანეთ წყლით. საჭიროების შემთხვევაში გაიმეორეთ.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f581ca58c142b3b9e2716d/bcfc39ca-ef7a-11ef-89e3-ba194b3cc2a1_like_a_boss_min_ezgif.com_resize.jpg",
+          "blurhash": "jkYuLGpl;;LcLcCpllpCrtyGEPBl"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "BEAUTY JAR - Like a Boss 2 in 1 shampoo / shower gel(250მლ)",
+      "options": [],
+      "original_price": null,
+      "price": 2500,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67b71fd487ffd33b501a0a9f",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "5407d73c995b60057a7d1d414d23a1dd",
+      "description": "Eat Sleep Shower Repeat არის მამაკაცებისთვის განკუთვნილი შამპუნისა და შხაპის გელის ჰარმონიული ნაზავი, ორი პროდუქტი გაერთიანებული ერთ შეფუთვაში. ლიმონისა და პიტნის ენერგიული ნაზავი განაახლებს თქვენს კანს, მოაშორებს მას ჭუჭყსა და ბაქტერიებს. როზმარინი გააუმჯობესებს სისხლის მიმოქცევას და ხელს შეუწყობს თმის ზრდას. შესანიშნავი ფორმულა ყოველდღიური შხაპისა და განსაკუთრებით ვარჯიშის შემდგომი აბაზანისთვის!\n\nბრენდის შესახებ\n\nBeauty Jar არის ბუნებრივი კოსმეტიკური ბრენდი, რომელიც იწარმოება ლატვიაში - აღმოსავლეთ ევროპის ერთ-ერთ ყველაზე მწვანე და სუფთა ქვეყანაში.\n\nბრენდი იყენებს ბუნებრივ ინგრედიენტებს, ხელნაკეთ წარმოებას და ეკოლოგიურად სუფთა მიდგომას.\nპროდუქტში შემავალი ინგრედინეტების 90%-ზე მეტი არის ნატურალური, ბუნებრივი და მათი ტესტირება არ ხდება ცხოველებზე.\nარ შეიცავს პარაბენებსა და ნატრიუმის სულფატებს, რომლებიც იწვევენ კანის სიმშრალესა და სიუხეშეს.\n\nპროდუქცია მოთავსებულია მარტივად გამოსაყენებელ, უმაღლესი ხარისხის, გადამამუშავებად ქილებში, რომლებიც არ იწვევენ ეკოლოგიურ დაბინძურებას.\n\nგამოყენების წესი:\nწაისვით გელი სველ თმაზე და ტანზე, ააქაფეთ და კარგად ჩამოიბანეთ წყლით. საჭიროების შემთხვევაში გაიმეორეთ.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f581ca58c142b3b9e2716d/2badf4e8-ef7c-11ef-9f99-cebf649b5076_7bj60_3804_ezgif.com_resize.jpg",
+          "blurhash": "jiXeTLtV;;GGPcCplltTTrCpd5tT"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "BEAUTY JAR - Eat Sleep Shower Repeat 2 in 1 men shampoo & body wash(250მლ)",
+      "options": [],
+      "original_price": null,
+      "price": 2600,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67c6e3db9e6e52378e590329",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "b8736434c023b21aacb26cb7945c64f4",
+      "description": "როდესაც საქმე ეხება წვერის ჯანმრთელობასა და სათანადო ზრუნვას, მნიშვნელოვანია, დაეყრდნოთ მაღალხარისხიან პროდუქტებს.\n\nMy Beard My Rules წვერის კარაქი შესანიშნავი არჩევანია, რომელიც მნიშვნელოვნად აუმჯობესებს წვერის ხარისხს და დაიცავს ტენიანობის დაკარგვისაგან. მისი ფორმულა დამყარებულია ცხრა ორგანულ ზეთზე, რომლებიც უმნიშვენლოვანესია თმის ზრდის სტიმულირებისთვის. ავოკადოს, ყურძნის თესლისა და ნუშის ზეთები კვებავს და ატენიანებს წვერს. არგანის ზეთი ღრმად აღწევს თმის ღეროში და ამაგრებს მას შეიგნიდან. ხოლო ჩაის ხის ზეთი გამოირჩევა ანტი-ბაქტერიული თვისებებით.\n\nბრენდის შესახებ\n\nBeauty Jar არის ბუნებრივი კოსმეტიკური ბრენდი, რომელიც იწარმოება ლატვიაში - აღმოსავლეთ ევროპის ერთ-ერთ ყველაზე მწვანე და სუფთა ქვეყანაში.\n\nბრენდი იყენებს ბუნებრივ ინგრედიენტებს, ხელნაკეთ წარმოებას და ეკოლოგიურად სუფთა მიდგომას.\nპროდუქტში შემავალი ინგრედინეტების 90%-ზე მეტი არის ნატურალური, ბუნებრივი და მათი ტესტირება არ ხდება ცხოველებზე.\nარ შეიცავს პარაბენებსა და ნატრიუმის სულფატებს, რომლებიც იწვევენ კანის სიმშრალესა და სიუხეშეს.\n\nპროდუქცია მოთავსებულია მარტივად გამოსაყენებელ, უმაღლესი ხარისხის, გადამამუშავებად ქილებში, რომლებიც არ იწვევენ ეკოლოგიურ დაბინძურებას.\n\nგამოყენების წესი:\nაიღეთ მცირე რაოდენობით კარაქი, გაათბეთ ხელში და კარგად შეიზილეთ წვერზე. ამის შემდეგ წვერი დაივარცხნეთ. პროდუქტის გამოყენება რეკომენდირებულია ყოველდღიურად, ძილის წინ, დაბანის შემდეგ.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f581ca58c142b3b9e2716d/761a035a-f049-11ef-87ae-9aef0a77fb39_my_beard_my_rules_min_ezgif.com_resize.jpg",
+          "blurhash": "jkOcD8BW;;uCcQu7llCp;;CFcPtD"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "BEAUTY JAR - My Beard My Rules 99% Beard butter(90გრ)",
+      "options": [],
+      "original_price": null,
+      "price": 4200,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67c6e3db9e6e52378e59031d",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "c35e363a3e92aa8977826915c1ae77f6",
+      "description": "Multi-Tool Men shampoo bar საუკეთესოა არჩევანია მამაკაცებისთვის. მისში შემავალი კომპპონენტების მრავალფეროვნება განაპირობებს მის უნივერსაულორაბს, სწორედ ამიტომ, იგი ერთნაირად ეფექტური, თმის, წვერისა და სხეულის მოვლის საშუალებაა. ნახშირი ღრმად ასუფთავებს კანს და თმას მტვრისგან, ჭუჭყისგან, ოფლისა და ჭარბი ცხიმისგან. ბერგამოტის ზეთს აქვს ანტიბაქტერიული ეფექტი, ხსნის ქავილს, აფერხებს ქერტლის წარმოქმნას და ამშვიდებს კანს უჯრედულ დონეზე. კაკაოს კარაქი და ქოქოსის ზეთი კვებავს და არბილებს მშრალ თმას და კანს.\n\nბრენდის შესახებ\n\nBeauty Jar არის ბუნებრივი კოსმეტიკური ბრენდი, რომელიც იწარმოება ლატვიაში - აღმოსავლეთ ევროპის ერთ-ერთ ყველაზე მწვანე და სუფთა ქვეყანაში.\n\nბრენდი იყენებს ბუნებრივ ინგრედიენტებს, ხელნაკეთ წარმოებას და ეკოლოგიურად სუფთა მიდგომას.\nპროდუქტში შემავალი ინგრედინეტების 90%-ზე მეტი არის ნატურალური, ბუნებრივი და მათი ტესტირება არ ხდება ცხოველებზე.\nარ შეიცავს პარაბენებსა და ნატრიუმის სულფატებს, რომლებიც იწვევენ კანის სიმშრალესა და სიუხეშეს.\n\nპროდუქცია მოთავსებულია მარტივად გამოსაყენებელ, უმაღლესი ხარისხის, გადამამუშავებად ქილებში, რომლებიც არ იწვევენ ეკოლოგიურ დაბინძურებას.\n\nგამოყენების წესი:\nდაასველეთ მყარი შამპუნი წყლით და შეიზილეთ ხელებს შორის, სანამ არ წარმოიქმნება რბილი და კრემისებური ქაფი. ამის შემდეგ წაისვით ქაფი სველ თმაზე, წვერზე, ან სხეულზე.\nგამოყენების შემდეგ შეინახეთ საპნის ჭურჭელში ან სხვა კონტეინერში.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f581ca58c142b3b9e2716d/ed138cec-f049-11ef-9b20-16c88cf09fb9_multi_tool_800x800_1_ezgif.com_resize.jpg",
+          "blurhash": "jnVe7vTtTthlOWllGHKX;;cQh3KW"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "BEAUTY JAR - Multi-Tool Men shampoo bar for hair body and bear(60გრ)",
+      "options": [],
+      "original_price": null,
+      "price": 2700,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    }
+  ],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

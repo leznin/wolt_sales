@@ -1,0 +1,584 @@
+{% extends "admin/base.html" %}
+
+{% block title %}Телеграм рассылка{% endblock %}
+{% block stylesTG %}
+    <link rel="stylesheet" href="{{ url_for('admin.static', filename='css/stylesTG.css') }}">
+{% endblock %}
+{% block page_title %}Телеграм рассылка{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="tabs">
+        <button class="tab-btn active" data-tab="compose">Создать рассылку</button>
+        <button class="tab-btn" data-tab="history">История рассылок</button>
+    </div>
+
+    <div class="tab-content active" id="compose">
+        <form id="telegram-form" method="POST" action="{{ url_for('admin.telegramSendler') }}" enctype="multipart/form-data">
+            <div class="form-grid">
+                <div class="input-group">
+                    <h3>Получатели</h3>
+                    <div class="filter-section">
+                        <select id="recipient" name="recipient" required>
+                            <option value="" disabled selected>Какой город отслеживают</option>
+                            {% for city in cities %}
+                                <option value="{{ city.city }}">{{ city.city }}</option>
+                            {% endfor %}
+                            <option value="all">Все города</option>
+                        </select>
+                        
+                        <select id="language" name="language">
+                            <option value="" selected>Все языки</option>
+                            {% for language in languages %}
+                                <option value="{{ language.lang }}">{{ language.lang }}</option>
+                            {% endfor %}
+                        </select>
+                        
+                        <select id="premium" name="premium">
+                            <option value="" selected>Все пользователи</option>
+                            <option value="premium">Только премиум</option>
+                            <option value="non_premium">Без премиума</option>
+                        </select>
+                        
+                        <div class="advanced-filters">
+                            <details>
+                                <summary>Расширенные фильтры</summary>
+                                <div class="filter-content">
+                                    <label>
+                                        Активность пользователя:
+                                        <select name="activity">
+                                            <option value="" selected>Все пользователи</option>
+                                            <option value="active">Активные (последние 7 дней)</option>
+                                            <option value="inactive">Неактивные (более 30 дней)</option>
+                                        </select>
+                                    </label>
+                                    
+                                    <label>
+                                        Дата регистрации:
+                                        <select name="registration_date">
+                                            <option value="" selected>Все пользователи</option>
+                                            <option value="new">Новые (последние 7 дней)</option>
+                                            <option value="old">Старые (более 30 дней)</option>
+                                        </select>
+                                    </label>
+                                </div>
+                            </details>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <h3>Сообщение</h3>
+                    <div class="message-section">
+                        <textarea id="message" name="message" rows="5" 
+                                placeholder="Сообщение..." required></textarea>
+                                
+                        <div class="media-upload">
+                            <label for="media" class="media-label">
+                                <span class="material-symbols-rounded">add_photo_alternate</span>
+                                <span>Добавить медиа</span>
+                            </label>
+                            <input type="file" id="media" name="media" 
+                                accept="image/*,video/*" hidden>
+                            <div id="media-preview" class="media-preview"></div>
+                        </div>
+                        
+                        <div class="options">
+                            <label><input type="checkbox" name="disable_notification" value="true"> Без звука</label>
+                            <label><input type="checkbox" name="protect_content" value="true"> Защита от пересылки</label>
+                            <label><input type="checkbox" name="schedule" id="schedule-toggle" value="true"> Отложенная отправка</label>
+                        </div>
+                        
+                        <div id="schedule-options" class="schedule-options" style="display: none;">
+                            <input type="datetime-local" name="schedule_time" id="schedule_time">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="preview-section">
+                <h3>Предпросмотр</h3>
+                <div class="message-preview">
+                    <div class="preview-header">
+                        <span class="bot-name">Ваш бот</span>
+                        <span class="time">{{ now.strftime('%H:%M') }}</span>
+                    </div>
+                    <div class="preview-content" id="preview-content">
+                        <p>Предпросмотр сообщения будет здесь...</p>
+                    </div>
+                    <div class="preview-media" id="preview-media"></div>
+                </div>
+            </div>
+
+            <div class="send-stats">
+                <div class="stat">
+                    <span class="stat-label">Примерный охват:</span>
+                    <span class="stat-value" id="estimated-reach">0</span>
+                </div>
+            </div>
+
+            <div class="actions">
+                <button type="submit" class="btn send">
+                    <span class="material-symbols-rounded">send</span> Отправить
+                </button>
+                <button type="button" class="btn estimate" id="estimate-btn">
+                    <span class="material-symbols-rounded">calculate</span> Рассчитать охват
+                </button>
+            </div>
+
+            <div class="progress-container">
+                <div class="progress-bar" id="progress-bar">
+                    <div class="progress" id="progress"></div>
+                </div>
+                <div class="status" id="send-status">
+                    <span id="status-text"></span>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="tab-content" id="history">
+        <h3>История рассылок</h3>
+        <div class="history-list">
+            {% if broadcast_history %}
+                {% for broadcast in broadcast_history %}
+                <div class="history-item">
+                    <div class="history-item-header">
+                        <span class="history-date">{{ broadcast.created_at.strftime('%d.%m.%Y %H:%M') }}</span>
+                        <span class="history-status {% if broadcast.status == 'completed' %}success{% elif broadcast.status == 'scheduled' %}pending{% else %}pending{% endif %}">
+                            {% if broadcast.status == 'completed' %}
+                                Отправлено
+                            {% elif broadcast.status == 'scheduled' %}
+                                Запланировано
+                            {% else %}
+                                В процессе
+                            {% endif %}
+                        </span>
+                    </div>
+                    <div class="history-item-content">
+                        <p>{{ broadcast.message[:100] }}{% if broadcast.message|length > 100 %}...{% endif %}</p>
+                    </div>
+                    <div class="history-item-footer">
+                        <span class="history-recipients">
+                            Получатели: 
+                            {% if broadcast.recipient_filter %}
+                                {% set filter_json = broadcast.recipient_filter %}
+                                {% if filter_json is string %}
+                                    {% set filter_json = broadcast.recipient_filter|tojson %}
+                                {% endif %}
+                                {% if 'recipient' in filter_json %}
+                                    {% if filter_json.recipient == 'all' %}
+                                        Все города
+                                    {% else %}
+                                        {{ filter_json.recipient|capitalize if filter_json.recipient else 'Все города' }}
+                                    {% endif %}
+                                {% else %}
+                                    Все пользователи
+                                {% endif %}
+                            {% else %}
+                                Все пользователи
+                            {% endif %}
+                        </span>
+                        <button class="btn small view-details" data-id="{{ broadcast.id }}">Детали</button>
+                    </div>
+                </div>
+                {% endfor %}
+            {% else %}
+                <div class="history-empty">История рассылок пуста</div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<!-- Модальное окно для деталей рассылки -->
+<div id="broadcast-details-modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>Детали рассылки</h3>
+        <div id="broadcast-details">
+            <div class="details-loading">Загрузка...</div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+
+{% block scripts %}
+<script>
+    // Переключение вкладок
+    const tabButtons = document.querySelectorAll('.tab-btn');
+    const tabContents = document.querySelectorAll('.tab-content');
+    
+    tabButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            // Удаляем активный класс у всех кнопок и содержимого
+            tabButtons.forEach(btn => btn.classList.remove('active'));
+            tabContents.forEach(content => content.classList.remove('active'));
+            
+            // Добавляем активный класс к нажатой кнопке
+            button.classList.add('active');
+            
+            // Показываем соответствующее содержимое
+            const tabId = button.getAttribute('data-tab');
+            document.getElementById(tabId).classList.add('active');
+        });
+    });
+
+    // Форма отправки
+    const form = document.getElementById('telegram-form');
+    const progressBar = document.getElementById('progress-bar');
+    const progress = document.getElementById('progress');
+    const status = document.getElementById('send-status');
+    const statusText = document.getElementById('status-text');
+    const messageInput = document.getElementById('message');
+    const previewContent = document.getElementById('preview-content');
+    const mediaInput = document.getElementById('media');
+    const mediaPreview = document.getElementById('media-preview');
+    const previewMedia = document.getElementById('preview-media');
+    const scheduleToggle = document.getElementById('schedule-toggle');
+    const scheduleOptions = document.getElementById('schedule-options');
+    const estimateBtn = document.getElementById('estimate-btn');
+    const estimatedReach = document.getElementById('estimated-reach');
+
+    // Обработка отложенной отправки
+    scheduleToggle.addEventListener('change', () => {
+        scheduleOptions.style.display = scheduleToggle.checked ? 'block' : 'none';
+    });
+
+    // Предпросмотр сообщения
+    messageInput.addEventListener('input', updatePreview);
+    
+    function updatePreview() {
+        const messageText = messageInput.value.trim();
+        previewContent.innerHTML = messageText ? messageText.replace(/\n/g, '<br>') : 'Предпросмотр сообщения будет здесь...';
+    }
+
+    // Предпросмотр медиа
+    mediaInput.addEventListener('change', () => {
+        const file = mediaInput.files[0];
+        if (file) {
+            const reader = new FileReader();
+            
+            reader.onload = function(e) {
+                const mediaType = file.type.startsWith('image/') ? 'image' : 'video';
+                
+                // Очищаем предыдущий предпросмотр
+                mediaPreview.innerHTML = '';
+                previewMedia.innerHTML = '';
+                
+                if (mediaType === 'image') {
+                    const img = document.createElement('img');
+                    img.src = e.target.result;
+                    mediaPreview.appendChild(img);
+                    
+                    const previewImg = document.createElement('img');
+                    previewImg.src = e.target.result;
+                    previewMedia.appendChild(previewImg);
+                } else {
+                    const video = document.createElement('video');
+                    video.src = e.target.result;
+                    video.controls = true;
+                    mediaPreview.appendChild(video);
+                    
+                    const previewVideo = document.createElement('video');
+                    previewVideo.src = e.target.result;
+                    previewVideo.controls = true;
+                    previewMedia.appendChild(previewVideo);
+                }
+                
+                // Показываем кнопку удаления
+                const removeBtn = document.createElement('button');
+                removeBtn.className = 'remove-media';
+                removeBtn.innerHTML = '<span class="material-symbols-rounded">delete</span>';
+                removeBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    mediaInput.value = '';
+                    mediaPreview.innerHTML = '';
+                    previewMedia.innerHTML = '';
+                });
+                
+                mediaPreview.appendChild(removeBtn);
+            };
+            
+            reader.readAsDataURL(file);
+        }
+    });
+
+    // Рассчитать охват
+    estimateBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        
+        // Получаем данные из формы
+        const formData = {
+            recipient: document.getElementById('recipient').value,
+            language: document.getElementById('language').value,
+            premium: document.getElementById('premium').value,
+            activity: document.querySelector('select[name="activity"]').value,
+            registration_date: document.querySelector('select[name="registration_date"]').value
+        };
+        
+        // Отправляем запрос на сервер
+        fetch('{{ url_for("admin.estimate_reach") }}', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData)
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                estimatedReach.textContent = data.reach;
+            } else {
+                console.error('Ошибка при расчете охвата:', data.error);
+                estimatedReach.textContent = 'Ошибка';
+            }
+        })
+        .catch(error => {
+            console.error('Ошибка при отправке запроса:', error);
+            estimatedReach.textContent = 'Ошибка';
+        });
+    });
+
+    // Отправка формы
+    form.addEventListener('submit', (e) => {
+        // Проверка формы
+        if (!form.checkValidity()) {
+            form.reportValidity();
+            return;
+        }
+        
+        // Показываем прогресс-бар и статус
+        progressBar.style.display = 'block';
+        status.style.display = 'block';
+        statusText.textContent = 'Отправка рассылки...';
+        progress.style.width = '0%';
+        
+        // Анимация прогресса (для визуального эффекта)
+        let progressWidth = 0;
+        const interval = setInterval(() => {
+            progressWidth += 2;
+            progress.style.width = `${progressWidth}%`;
+            
+            if (progressWidth >= 100) {
+                clearInterval(interval);
+            }
+        }, 100);
+    });
+
+    // Модальное окно для деталей рассылки
+    const modal = document.getElementById('broadcast-details-modal');
+    const modalContent = document.getElementById('broadcast-details');
+    const closeBtn = document.querySelector('.close');
+    
+    // Закрытие модального окна
+    closeBtn.addEventListener('click', () => {
+        modal.style.display = 'none';
+    });
+    
+    // Закрытие модального окна при клике вне его
+    window.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            modal.style.display = 'none';
+        }
+    });
+    
+    // Открытие модального окна с деталями рассылки
+    document.querySelectorAll('.view-details').forEach(button => {
+        button.addEventListener('click', () => {
+            const broadcastId = button.getAttribute('data-id');
+            
+            // Показываем модальное окно
+            modal.style.display = 'block';
+            modalContent.innerHTML = '<div class="details-loading">Загрузка...</div>';
+            
+            // Получаем данные рассылки
+            fetch(`{{ url_for("admin.get_broadcast_details", broadcast_id=0) }}`.replace('0', broadcastId))
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        const broadcast = data.broadcast;
+                        
+                        // Форматируем дату
+                        const createdAt = new Date(broadcast.created_at);
+                        const formattedDate = createdAt.toLocaleString('ru-RU', {
+                            day: '2-digit',
+                            month: '2-digit',
+                            year: 'numeric',
+                            hour: '2-digit',
+                            minute: '2-digit'
+                        });
+                        
+                        // Определяем статус
+                        let status = 'В процессе';
+                        let statusClass = 'pending';
+                        
+                        if (broadcast.status === 'completed') {
+                            status = 'Отправлено';
+                            statusClass = 'success';
+                        } else if (broadcast.status === 'scheduled') {
+                            status = 'Запланировано';
+                            statusClass = 'pending';
+                        } else if (broadcast.status === 'error') {
+                            status = 'Ошибка';
+                            statusClass = 'error';
+                        }
+                        
+                        // Форматируем время отправки
+                        let sentTime = '';
+                        if (broadcast.sent_at) {
+                            const sentDate = new Date(broadcast.sent_at);
+                            sentTime = sentDate.toLocaleString('ru-RU', {
+                                day: '2-digit',
+                                month: '2-digit',
+                                year: 'numeric',
+                                hour: '2-digit',
+                                minute: '2-digit'
+                            });
+                        }
+                        
+                        // Форматируем запланированное время
+                        let scheduledTime = '';
+                        if (broadcast.scheduled_time) {
+                            const scheduledDate = new Date(broadcast.scheduled_time);
+                            scheduledTime = scheduledDate.toLocaleString('ru-RU', {
+                                day: '2-digit',
+                                month: '2-digit',
+                                year: 'numeric',
+                                hour: '2-digit',
+                                minute: '2-digit'
+                            });
+                        }
+                        
+                        // Получаем данные о фильтрах получателей
+                        let filter = {};
+                        if (broadcast.recipient_filter) {
+                            try {
+                                // Если recipient_filter - строка, пытаемся распарсить JSON
+                                if (typeof broadcast.recipient_filter === 'string') {
+                                    filter = JSON.parse(broadcast.recipient_filter);
+                                } else {
+                                    // Если уже объект, используем как есть
+                                    filter = broadcast.recipient_filter;
+                                }
+                            } catch (e) {
+                                console.error('Ошибка при парсинге JSON recipient_filter:', e);
+                            }
+                        }
+                        
+                        const recipient = filter.recipient || 'all';
+                        const language = filter.language || 'all';
+                        const premium = filter.premium || 'all';
+                        const activity = filter.activity || 'all';
+                        const registrationDate = filter.registration_date || 'all';
+                        
+                        // Форматируем данные о получателях
+                        let recipientText = recipient === 'all' ? 'Все города' : recipient.charAt(0).toUpperCase() + recipient.slice(1);
+                        let languageText = language === 'all' ? 'Все языки' : language.charAt(0).toUpperCase() + language.slice(1);
+                        let premiumText = premium === 'premium' ? 'Только премиум' : 
+                                         premium === 'non_premium' ? 'Без премиума' : 'Все пользователи';
+                        let activityText = activity === 'active' ? 'Активные (последние 7 дней)' : 
+                                          activity === 'inactive' ? 'Неактивные (более 30 дней)' : 'Все пользователи';
+                        let registrationText = registrationDate === 'new' ? 'Новые (последние 7 дней)' : 
+                                              registrationDate === 'old' ? 'Старые (более 30 дней)' : 'Все пользователи';
+                        
+                        // Формируем HTML с деталями рассылки
+                        let html = `
+                            <div class="broadcast-details">
+                                <div class="details-header">
+                                    <span class="details-date">${formattedDate}</span>
+                                    <span class="details-status ${statusClass}">${status}</span>
+                                </div>
+                                
+                                <div class="details-section">
+                                    <h4>Сообщение</h4>
+                                    <div class="details-message">${broadcast.message.replace(/\n/g, '<br>')}</div>
+                                </div>
+                                
+                                <div class="details-section">
+                                    <h4>Параметры рассылки</h4>
+                                    <div class="details-params">
+                                        <div class="param">
+                                            <span class="param-label">Получатели:</span>
+                                            <span class="param-value">${recipientText}</span>
+                                        </div>
+                                        <div class="param">
+                                            <span class="param-label">Язык:</span>
+                                            <span class="param-value">${languageText}</span>
+                                        </div>
+                                        <div class="param">
+                                            <span class="param-label">Премиум:</span>
+                                            <span class="param-value">${premiumText}</span>
+                                        </div>
+                                        <div class="param">
+                                            <span class="param-label">Активность:</span>
+                                            <span class="param-value">${activityText}</span>
+                                        </div>
+                                        <div class="param">
+                                            <span class="param-label">Дата регистрации:</span>
+                                            <span class="param-value">${registrationText}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="details-section">
+                                    <h4>Настройки</h4>
+                                    <div class="details-settings">
+                                        <div class="setting">
+                                            <span class="setting-label">Без звука:</span>
+                                            <span class="setting-value">${broadcast.disable_notification ? 'Да' : 'Нет'}</span>
+                                        </div>
+                                        <div class="setting">
+                                            <span class="setting-label">Защита от пересылки:</span>
+                                            <span class="setting-value">${broadcast.protect_content ? 'Да' : 'Нет'}</span>
+                                        </div>
+                                        <div class="setting">
+                                            <span class="setting-label">Отложенная отправка:</span>
+                                            <span class="setting-value">${broadcast.scheduled ? 'Да' : 'Нет'}</span>
+                                        </div>
+                                        ${scheduledTime ? `
+                                        <div class="setting">
+                                            <span class="setting-label">Запланированное время:</span>
+                                            <span class="setting-value">${scheduledTime}</span>
+                                        </div>
+                                        ` : ''}
+                                    </div>
+                                </div>
+                                
+                                <div class="details-section">
+                                    <h4>Результаты</h4>
+                                    <div class="details-results">
+                                        <div class="result">
+                                            <span class="result-label">Отправлено:</span>
+                                            <span class="result-value">${broadcast.sent_count} пользователям</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                ${broadcast.media_url ? `
+                                <div class="details-section">
+                                    <h4>Медиа</h4>
+                                    <div class="details-media">
+                                        <img src="${broadcast.media_url}" alt="Медиа">
+                                    </div>
+                                </div>
+                                ` : ''}
+                            </div>
+                        `;
+                        
+                        modalContent.innerHTML = html;
+                    } else {
+                        modalContent.innerHTML = `<div class="details-error">Ошибка: ${data.error}</div>`;
+                    }
+                })
+                .catch(error => {
+                    console.error('Ошибка при получении данных рассылки:', error);
+                    modalContent.innerHTML = '<div class="details-error">Ошибка при загрузке данных</div>';
+                });
+        });
+    });
+
+    // Инициализация
+    updatePreview();
+</script>
+{% endblock %}

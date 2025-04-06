@@ -1,0 +1,3332 @@
+{
+  "category": {
+    "id": "4fffac9a12a6e3db9219251c",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/09cb86d0-7a28-11ee-ab20-d2cd7ebf0606_photo_output__1_.jpeg",
+        "blurhash": "jfW:DCKG;;pGlHllKWOX;;tV8ypB"
+      }
+    ],
+    "name": "Accessories / Tools / Brushes",
+    "slug": "accessories-tools-brushes-104"
+  },
+  "categories": [
+    {
+      "id": "4fffac9a12a6e3db9219251c",
+      "item_ids": [
+        "63d4fd2ed4e3d2ed37c10a66",
+        "6409f5d650fcfa699063726e",
+        "64c63089641fc8bfe6acf2ce",
+        "64c652a0ce1d69da9f68da21",
+        "64f4360f6cb93008cf782df4",
+        "650993a85a433f84fb38e559",
+        "651564382cf61986a33798b5",
+        "652b9917dd91b026dd07cbb0",
+        "6534db6c67d75ed7ad885bc7",
+        "659a760e808fc226fb29f194",
+        "65c87bc03ddebfb2d128eb48",
+        "65c886b3906c223211bb1405",
+        "65d74e5ebfff54cf2119f098",
+        "65ddb1cd855244e5f2f8e893",
+        "660e5bad64d0c9e804b54a92",
+        "661b9553f7b91be6773f8128",
+        "661ba72473b1edf8b2836c51",
+        "6661879ceaabf046498e924f",
+        "666187c193cd3b50fead567b",
+        "666187ee855aaf8d5c1d4b11",
+        "666188dbd7e98e7dbf86cda6",
+        "66b472c393b2927588d901fc",
+        "66d57018087ff6ca72371eb9",
+        "66d57c3ec17688024bf96272",
+        "66d57c6fbf0d77da70162ea8",
+        "670fab22e042b09da5f60ff1",
+        "675ea52eeff7b14717d7dbc4",
+        "675ea5510ab92d05eca3bc45",
+        "677a3d8cf485ded9a1855038",
+        "677a5792d0b3a23db3cd4002",
+        "67a87a59e36643357a041526",
+        "67a87a93f54f5db3a72acd5c",
+        "67a884223c994529f207e1f1",
+        "67a88a1c3e377965a2fd1dc0",
+        "67a88a41a8d63b45d5e0e4c4",
+        "67cbea722fc5ad8944eeee3a",
+        "67cd7c16940112a92b0a3e84",
+        "67d680a75087e5efcd0882d3",
+        "67d680edd35d646df1011c5e",
+        "67d68135902193a5ba42f9f7",
+        "67d688cac2775ea574c7d0bc",
+        "67d688eb3f47a071c85c745e",
+        "67d6890df2d635158283a0a3",
+        "67d6892e6203bc51a6cb6aff",
+        "67d6894c063a9220e41f7771",
+        "67d6896adf8a12f5c3e1c681",
+        "67d689998ae4fd4a860a1f2a",
+        "67d689e6d35d646df101fc20",
+        "67d6a19d8276df080c7df124",
+        "67d6aa903edb93c2e215cdbd"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "63d4fd2ed4e3d2ed37c10a66",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "c213355c37db6efeea762180d20e7f2c",
+      "description": "OVAL PADDLE BRUSH",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/cd4d7cdc-c062-11ee-a94b-e622a41bb373_img_3345.png",
+          "blurhash": "j6:vDVGG;;GGcPCpTttTTtCpcPtT"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "COMPLEX CULTURE",
+      "options": [],
+      "original_price": null,
+      "price": 10062,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6409f5d650fcfa699063726e",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "59f7dacfc1fb101041bb820b62294b5a",
+      "description": "PARFUM d'INTERIEUR\n250 ML",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/dbe7cc16-c062-11ee-aab1-2eaaa3c8ee83_img_3346.png",
+          "blurhash": "j6TtTtll;;h4XKpC8yKXXKpC8yKX"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "RITUALS",
+      "options": [],
+      "original_price": null,
+      "price": 7826,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "64c63089641fc8bfe6acf2ce",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "c93353c0d6f12c1ce1de09d502fb7f2a",
+      "description": "FOUNDATION PUMP",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/680019e8-2ebd-11ee-9b42-2af30ff568f8_img_5120.jpg",
+          "blurhash": "jbUe3xh4;;TtPcGGllllXKCn8ypT"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ESTEE LAUDER",
+      "options": [],
+      "original_price": null,
+      "price": 4476,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "64c652a0ce1d69da9f68da21",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "a4d0001b19c8f2e550f9bf0f515455f0",
+      "description": "5 PIECE BRUSH SET",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/b9ce5f96-2ed1-11ee-a4f0-3ef221d79fcf_img_5182.jpg",
+          "blurhash": "jbVujAKX;;h4PcgPpCTt;;ll8yBT"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "BEAUTY FOR REAL",
+      "options": [],
+      "original_price": null,
+      "price": 8050,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "64f4360f6cb93008cf782df4",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "9a2fc5f134e652db2f9485275229df45",
+      "description": "HAIR BAND",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/bdedba84-4a2b-11ee-b319-dad66fae41b8_img_6552.jpg",
+          "blurhash": "j4Y;nSTt;;00TcPcKXh4;;Tth4qG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "MOROCCANOIL",
+      "options": [],
+      "original_price": null,
+      "price": 3357,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "650993a85a433f84fb38e559",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "ac9cff20b4e219a9bd7ab08971e434a1",
+      "description": "BLEACH RESISTANT HAIR TOWEL",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/e0269bf2-56e7-11ee-8d5f-0ac2b8d76d47_img_7485.jpg",
+          "blurhash": "jpTJPrCpX;CqPctTpCCp;;tU8ytT"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "MOROCCANOIL",
+      "options": [],
+      "original_price": null,
+      "price": 10071,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "651564382cf61986a33798b5",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "7b8a0a6eaa16c2f4c866044dd8e65afd",
+      "description": "5-PC BRUSH SET WITH BAG",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/a7c6d5a8-5df2-11ee-a367-cac75dcaf17a_img_7863.jpg",
+          "blurhash": "jjnFS9l4XPKINdl5r3LbLkBrp6GR"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "TRESLUCE",
+      "options": [],
+      "original_price": null,
+      "price": 14547,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "652b9917dd91b026dd07cbb0",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "36ca04bce7468c8188ce4727e70774df",
+      "description": "COMPLEXION ESSENTIALS BRUSH SET",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/1a54f25a-6b2f-11ee-992c-1622122eaeb5_img_8831.jpg",
+          "blurhash": "j8XuHF8y;;;;hlcPGpXK;;Tt8y8P"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "BEAUTY JAZMINE",
+      "options": [],
+      "original_price": null,
+      "price": 11190,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6534db6c67d75ed7ad885bc7",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "e150add5acb33abc659683699cfb18d1",
+      "description": "MINI PADDLE",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/ee4ec4a8-70b3-11ee-85d9-fe3eb1ce0fdc_img_9118.jpg",
+          "blurhash": "j4:LLXGG;;GFh4CpPctCTttTcPCp"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "MOROCCANOIL",
+      "options": [],
+      "original_price": null,
+      "price": 12309,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "659a760e808fc226fb29f194",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "3119f11f23ecd7397e14307edf281e9c",
+      "description": "PADDLE ICONIC CERAMIC BRUSH",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/79a9617c-ad43-11ee-bfb7-3a7b51dd795c_img_2382.jpg",
+          "blurhash": "j5:fzUh4;;cPcPGGTullPctTh4GG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "MOROCCANOIL",
+      "options": [],
+      "original_price": null,
+      "price": 14547,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "65c87bc03ddebfb2d128eb48",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "d15c4fd0354f1429878afeceaa3d38f4",
+      "description": "2X BRUSH SET : POWDER & COMPLEXION",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/ea0087e6-c8b1-11ee-8826-f2e5528e6bb5_img_3631.jpg",
+          "blurhash": "j8X:XKKW;;hlPch4llTt;;uq4htB"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "BEAUTY FOR REAL",
+      "options": [],
+      "original_price": null,
+      "price": 13428,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "65c886b3906c223211bb1405",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "b158de69906aae7715e393f8f836069b",
+      "description": "4X BRUSH SET",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/70a62458-c8b8-11ee-8a2e-76a407830c1e_img_3658.jpg",
+          "blurhash": "jaZvnQCp;;KXKCpCpWGGPdpCh3GG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ESTEE LAUDER",
+      "options": [],
+      "original_price": null,
+      "price": 10071,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "65d74e5ebfff54cf2119f098",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "7b75e11b27b88408c999c658ffed2be0",
+      "description": "YOUR TIME TO SHINE",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/ae911e44-d187-11ee-beb8-96fb841b41f3_img_4553.jpg",
+          "blurhash": "j2ZfjP8ymG4iPcTtllcP;;tT4hBT"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "MOTD",
+      "options": [],
+      "original_price": null,
+      "price": 3357,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "65ddb1cd855244e5f2f8e893",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "44b51caae1b84fb0fdadee842720cf07",
+      "description": "CUTE FLOWER ROSE BEAR HANDMADE",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/79bc85dc-d556-11ee-9948-022322f20b71_img_4891.jpg",
+          "blurhash": "jlW:byh4;;TtPcplllKXPKCGgPpl"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "JUST FOR YOU",
+      "options": [],
+      "original_price": null,
+      "price": 16785,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "660e5bad64d0c9e804b54a92",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "d49b3e4d37ad3f6e993feda208768bed",
+      "description": "ALL OVER SHADOW BRUSH",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/f2937754-f257-11ee-84d1-5a9a2cec3799_img_6974.jpg",
+          "blurhash": "jlXJXoX;llJ3h4KXllLcGXpmFSlC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "MAKE",
+      "options": [],
+      "original_price": null,
+      "price": 10071,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "661b9553f7b91be6773f8128",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "1d70bbef6062943d80544e8c0f9c27c8",
+      "description": "LUXURY EYE SHADOW BRUSH SET",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/f3ce99a2-fa39-11ee-888d-224e9a937cd7_img_7529.jpg",
+          "blurhash": "j1:ffR00T;00ljtFPeCCTIpC8jKX"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ELOISE",
+      "options": [],
+      "original_price": null,
+      "price": 5595,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "661ba72473b1edf8b2836c51",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "4ebede4d0210960d20792bd308920736",
+      "description": "BRUSHES SET : FOUNDATION BRUSH + KABUKI BRUSH + DUO EYESHADOW BRUSH + BAG",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/91a2450c-fa44-11ee-b84b-1a6bd9c5d555_img_7585.jpg",
+          "blurhash": "jaW:zzGmX;cPPclllmKYX;pFcxKT"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "KIKO",
+      "options": [],
+      "original_price": null,
+      "price": 16785,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6661879ceaabf046498e924f",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "f3b8d8f3f57857a5698e7e3ae85264b9",
+      "description": "HIGHLIGHTER BRUSH",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/ee1c66c6-23ea-11ef-b331-eef4bc1e7d54_img_0758.jpg",
+          "blurhash": "j0yEGaGG;:GGcPtTPcCp00pC00pC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "LARUCE",
+      "options": [],
+      "original_price": null,
+      "price": 7833,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "666187c193cd3b50fead567b",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "09ccec7fe87a67941ee51ed504f74900",
+      "description": "CONTOUR BRUSH",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/043d760c-23eb-11ef-a0b7-3ac52db1be14_img_0759.jpg",
+          "blurhash": "j0yoC98yPb4hcPtTPdCp00XK8y;;"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "LARUCE",
+      "options": [],
+      "original_price": null,
+      "price": 7833,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "666187ee855aaf8d5c1d4b11",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "60ac51ae68d8d7ed61e7acdaa244d98e",
+      "description": "CONTOUR BLENDING BRUSH",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/1ebc6178-23eb-11ef-808a-16dc61df0c92_img_0760.jpg",
+          "blurhash": "j0y8y84hPc00cPCpTttT00;;8y;;"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "LARUCE",
+      "options": [],
+      "original_price": null,
+      "price": 7833,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "666188dbd7e98e7dbf86cda6",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "c2b678ceaa60012d120b5aed30a343e7",
+      "description": "LUXURY BRUSHES 2X",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/ab919a46-23eb-11ef-9103-e689a45125d4_img_0764.jpg",
+          "blurhash": "j0xUi54xL:008yllTtPc00;L80;;"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "LUNA MAGIC",
+      "options": [],
+      "original_price": null,
+      "price": 8952,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "66b472c393b2927588d901fc",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "04c7c63b8a43b736b4e4e45bf3bff075",
+      "description": "FACE CLEANSER + MAKEUP REMOVER COTTON PADS 5X",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/4c1e9440-5557-11ef-a120-4a059a296868_img_5180.jpg",
+          "blurhash": "j0xEq6gP;;GZcPpCTtGG00Pd00pj"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "PIXI",
+      "options": [],
+      "original_price": null,
+      "price": 6714,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "66d57018087ff6ca72371eb9",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "05e178a0492ff832dfa9899a3f86e6fe",
+      "description": "COMB",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/1c2f7bf6-6901-11ef-b34f-3ad27a80418a_img_6380.jpg",
+          "blurhash": "j1wUu7h4;:8yh4lCPcOX00Pc0hXK"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "MOROCCANOIL",
+      "options": [],
+      "original_price": null,
+      "price": 7833,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "66d57c3ec17688024bf96272",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "7761a880a8d7a4dac98b331c55b04556",
+      "description": "25 MM ICONIC CERAMIC BRUSH",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/59c139f8-6908-11ef-af00-b2f224e43d95_img_6410.jpg",
+          "blurhash": "j0y8y88yXt4hKGtTmqGp00XK8P;;"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "MOROCCANOIL",
+      "options": [],
+      "original_price": null,
+      "price": 14547,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "66d57c6fbf0d77da70162ea8",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "ed38774efb2b4a61f7268d0b8b054e54",
+      "description": "35 MM ICONIC CERAMIC BRUSH",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/768f412e-6908-11ef-a052-f645c5065417_img_6411.jpg",
+          "blurhash": "j0y8y88y;;4htlCpGXtT00XK4h;;"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "MOROCCANOIL",
+      "options": [],
+      "original_price": null,
+      "price": 16785,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "670fab22e042b09da5f60ff1",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "5133f789c5a5ef8366236553accfabef",
+      "description": "MY MINI BATH BOMBS VANILLA & TONKA 4X20G",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/65566b6e-8bb6-11ef-a039-ce0ea38cf065_image_123650291___2024_10_16t155613.201.jpg",
+          "blurhash": "j2wDZ:4hX;X:LcGmlllG00;;408i"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "MARIONNAUD",
+      "options": [],
+      "original_price": null,
+      "price": 4480,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "675ea52eeff7b14717d7dbc4",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "f37a65e8cad108e8fcfab00f6d989d1d",
+      "description": "EYE SMUDGER BRUSG",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/4a7ad91e-bac9-11ef-b108-8a54c7701214_photo_output__7_.jpeg",
+          "blurhash": "j3:LDVPt;;gPXKh4cPTuPtOXl4d4"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "CHARLOTTE TILBURY",
+      "options": [],
+      "original_price": null,
+      "price": 8960,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "675ea5510ab92d05eca3bc45",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "0a87a85da4d8ff9c510b905ad4cfa4e0",
+      "description": "LIP BRUSH",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/5f99f9d8-bac9-11ef-9046-f625ca249d70_photo_output__4_.jpeg",
+          "blurhash": "j3:;HWPc;;cPTKl4cPPtPtKGh3hl"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "CHARLOTTE TILBURY",
+      "options": [],
+      "original_price": null,
+      "price": 8960,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "677a3d8cf485ded9a1855038",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "2ff7b040f2d91449e8a0dc46a69738b4",
+      "description": "PROFESSIONAL COMB FOR ALL CURLS & COILS",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/fb3c7258-cb3b-11ef-b423-961653d6a293_photo_output__12_.png",
+          "blurhash": "j5;fLVKXX;plGGCpCGtTX;plcxKX"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "KERASTASE",
+      "options": [],
+      "original_price": null,
+      "price": 8960,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "677a5792d0b3a23db3cd4002",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "5883407ad65b6b01f67d08d39bc6f8be",
+      "description": "QUICK EASY MAKEUP LOOK IN 5 CASE",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/7e5d8fa0-cb4b-11ef-9dfe-8ac70303e1cf_photo_output__77_.jpeg",
+          "blurhash": "j8Stvn4hTtXK;;h4cPXt;;XKpCcP"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "CHARLOTTE TILBURY",
+      "options": [],
+      "original_price": null,
+      "price": 10080,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67a87a59e36643357a041526",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "7167a14ec780bd5cad9f5e2154c70d54",
+      "description": "LIGHT BROWN HEADBAND",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/43e8c3c6-e6cb-11ef-a8be-dab1442e8f96_photo_output___2025_02_09t135013.720.jpeg",
+          "blurhash": "j8ZffOl4;;Tth4llPcKXTth4cPPc"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "HAND MADE",
+      "options": [],
+      "original_price": null,
+      "price": 2875,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67a87a93f54f5db3a72acd5c",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "a6ce3b05b58492a87353a2470a6d1b59",
+      "description": "BLACK HEADBAND",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/664986c6-e6cb-11ef-9748-eaeae3f6fef2_photo_output__31_.png",
+          "blurhash": "j7Z;vTGG;;pCh4llPcPc;;pC8yKX"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "HAND MADE",
+      "options": [],
+      "original_price": null,
+      "price": 2875,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67a884223c994529f207e1f1",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "521e0c4d1708d381e826c0515ca94f3b",
+      "description": "6X PIECE SET OF FLOWER HAIR CLIPS MINIS",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/191b5b9e-e6d1-11ef-b9ba-ea9efa37ecfa_photo_output___2025_02_09t143034.147.jpeg",
+          "blurhash": "jgUtTnKX;;llKqGXqFl4;;CD8yBW"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "HAIR CLIPS",
+      "options": [],
+      "original_price": null,
+      "price": 3450,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67a88a1c3e377965a2fd1dc0",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "df365c11bf58821eac3d269a034e36c2",
+      "description": "3X PIECE HAIR CLIPS",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": {
+        "disable_text": "Sold out",
+        "disable_reason": null
+      },
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/a8dfdb8a-e6d4-11ef-bcce-0a5469477b42_photo_output___2025_02_09t145644.118.jpeg",
+          "blurhash": "j6:vvULc;;gPPcpChlKXX;ll8hPc"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "HAIR CLIPS",
+      "options": [],
+      "original_price": null,
+      "price": 2875,
+      "purchasable_balance": 0,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67a88a41a8d63b45d5e0e4c4",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "1495d5758aa3bad7f4dc85f5a4bb7e62",
+      "description": "4X PIECE HAIR CLIPS",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/befd7030-e6d4-11ef-8bc2-621e1717e435_photo_output___2025_02_09t145638.268.jpeg",
+          "blurhash": "j8:frQBS;;KXPcKXllh3X;uqcyGm"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "HAIR CLIPS",
+      "options": [],
+      "original_price": null,
+      "price": 2875,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67cbea722fc5ad8944eeee3a",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "cdb39bfa7e95464607eaba0aa9d1d0f8",
+      "description": "BRUSH SET",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/a8532142-fbea-11ef-b261-72ad6be65310_photo_output.png",
+          "blurhash": "j4ZfbOiX;;R4rdgPFkTK;;Kn8hiX"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "SHADES BY SHAN",
+      "options": [],
+      "original_price": null,
+      "price": 8050,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67cd7c16940112a92b0a3e84",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "29f2673bee1e0d0283a0fb7aa950d4e7",
+      "description": "COTTON BROWN HEADBAND",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/0c4b1e08-fcda-11ef-8350-0eab9409fa8c_photo_output__31_.jpeg",
+          "blurhash": "jfPYL8;;h4cyKXtBKXll;;XKtTh3"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "HEADBAND",
+      "options": [],
+      "original_price": null,
+      "price": 2875,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67d680a75087e5efcd0882d3",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "134db6725f5c2c15213859a878304083",
+      "description": "WONDERS ON THE WORLD 3X25ML",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/1117207a-023a-11f0-bcd6-a6c39212656c_photo_output__34_.jpeg",
+          "blurhash": "jeWenyPc;;cPPcplh4GXXLpTcPKG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "MARVIS",
+      "options": [],
+      "original_price": null,
+      "price": 11500,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67d680edd35d646df1011c5e",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "c0c4f239fe9ea387abd400e0e0454e4d",
+      "description": "FLAVOUR COLLECTION 7X25ML",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/386db76a-023a-11f0-bf23-0a6e4f660f5d_photo_output__2_.png",
+          "blurhash": "jjTJTtmWXKFCllBDGGGG;;JCcPuG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "MARVIS",
+      "options": [],
+      "original_price": null,
+      "price": 25300,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67d68135902193a5ba42f9f7",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "3ef05a69a5e41bbac4141637e29ea64e",
+      "description": "BOAR BRISTLE TEASING BRUSH",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/659c21ea-023a-11f0-9dbd-b692421e4d53_photo_output__32_.jpeg",
+          "blurhash": "j4:fzUcP;;XKcP8yPc;;Ttll8yCq"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "MOROCCANOIL",
+      "options": [],
+      "original_price": null,
+      "price": 18400,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67d688cac2775ea574c7d0bc",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "4b889a785ee19185df8ee07a4ef72c6f",
+      "description": "TRAVEL SET GREEN",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/ea582f24-023e-11f0-9874-7aab1f1813e1_photo_output__43_.jpeg",
+          "blurhash": "jpYuPwqDX;JGn7CnJapTTtC8gPuo"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "CURAPROX",
+      "options": [],
+      "original_price": null,
+      "price": 10350,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67d688eb3f47a071c85c745e",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "a36377b6f525d13ec93828fcfacc4cab",
+      "description": "TRAVEL SET ORANGE",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/fe825682-023e-11f0-824f-062e33f0bcc7_photo_output__44_.jpeg",
+          "blurhash": "jmZ:HBGGT;tSNluGiXBCPKBCkOuG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "CURAPROX",
+      "options": [],
+      "original_price": null,
+      "price": 10350,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67d6890df2d635158283a0a3",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "0a78be7b398137d22f9c5a8aa4009afc",
+      "description": "TRAVEL SET BABY PINK",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/124c2080-023f-11f0-a8c2-c6c45759a673_photo_output__42_.jpeg",
+          "blurhash": "joY:7DuqX;GBFIGDCRlGPJpTgPGF"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "CURAPROX",
+      "options": [],
+      "original_price": null,
+      "price": 10350,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67d6892e6203bc51a6cb6aff",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "5876a235214fc3eb49e56454709e91d7",
+      "description": "TREAVEL SET BLUE",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/261f02bc-023f-11f0-9739-72ae38916d19_photo_output__41_.jpeg",
+          "blurhash": "jiWKDJGG;;BCiYBWNkqCXJuncPBW"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "CURAPROX",
+      "options": [],
+      "original_price": null,
+      "price": 10350,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67d6894c063a9220e41f7771",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "fb6e96a79204c22c68f51ca3919c5a35",
+      "description": "TRAVEL SET PINK",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/37df7630-023f-11f0-a551-7ea30f07883e_photo_output__40_.jpeg",
+          "blurhash": "jpY:fwGGX;pBFauFr6BDPuxSgPuG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "CURAPROX",
+      "options": [],
+      "original_price": null,
+      "price": 10350,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67d6896adf8a12f5c3e1c681",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "0a7d5ae3f041de0bfab7667573f244ca",
+      "description": "TRAVEL SET YELLOW",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/499d2a52-023f-11f0-9df4-eecf284f1b2b_photo_output__37_.jpeg",
+          "blurhash": "joY:TwpBX;KXPkGDhclFPduqh3FS"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "CURAPROX",
+      "options": [],
+      "original_price": null,
+      "price": 10350,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67d689998ae4fd4a860a1f2a",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "4ca46ac02b61cbf471d0cf608d9621fb",
+      "description": "KARAKUM 25ML",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/6616d9b2-023f-11f0-b797-82c8dbdebfc8_photo_output__36_.jpeg",
+          "blurhash": "j6:LDVGG;;tTCpypGGtTTttTcPGG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "MARVIS",
+      "options": [],
+      "original_price": null,
+      "price": 4025,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67d689e6d35d646df101fc20",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "0257429096336c4bfd74c3ff72613a07",
+      "description": "RAMBAS 25 ML",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/93b1229c-023f-11f0-8dd0-6e569878634b_photo_output__38_.jpeg",
+          "blurhash": "j6:;HUGG;;GGlECpKWtTPuCpgPtT"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "MARVIS",
+      "options": [],
+      "original_price": null,
+      "price": 4025,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67d6a19d8276df080c7df124",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "e67471bffb33460c2fc859aa4702b614",
+      "description": "COMPLEXION TEINT",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/b675f0ba-024d-11f0-8425-ee9b1720ea66_photo_output__49_.jpeg",
+          "blurhash": "j8Z;vTGG;;pCcPCpTtpCKXCplltT"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "E.L.F.",
+      "options": [],
+      "original_price": null,
+      "price": 4600,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67d6aa903edb93c2e215cdbd",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "c71b532f4b1435e227156ad5c2f55be2",
+      "description": "BRUSH SET",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/0bcf5a2e-0253-11f0-94a9-42408415ec0b_photo_output__58_.jpeg",
+          "blurhash": "j9WKzCOX;;hlXKcycPXKXKKX8yFC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "BYOD",
+      "options": [],
+      "original_price": null,
+      "price": 12650,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    }
+  ],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": "eyJsYXN0X251bSI6MTkyLCJwYWdlIjoyfQ==",
+    "page": 1
+  }
+}

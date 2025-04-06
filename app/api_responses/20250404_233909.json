@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "33aa69d4b62e7ac8df7a97c0",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63ea248bb8266e2bcfa6945b/13bd42b2-ac35-11ed-96c6-06e2dd26514e_62747_1.jpeg",
+        "blurhash": "jaY;fPGm;;qXTbtCdluG;;lm4hKX"
+      }
+    ],
+    "name": "განმავითარებელი",
+    "slug": "menucategory-33"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

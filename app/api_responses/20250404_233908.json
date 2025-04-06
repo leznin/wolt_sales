@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "d4e05ff50ca386aa6e7b235d",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63ea248bb8266e2bcfa6945b/6b322efe-ac35-11ed-b5c0-1264a906b4eb_45697_1.jpeg",
+        "blurhash": "jdYLbNGX;;llKGtTpDGG;;tT4hGG"
+      }
+    ],
+    "name": "Disney სათამაშოები",
+    "slug": "disney-95"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

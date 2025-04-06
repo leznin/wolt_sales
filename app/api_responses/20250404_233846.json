@@ -1,0 +1,1942 @@
+{
+  "assortment_id": "62e13d95d468b530b4d5a046",
+  "loading_strategy": "partial",
+  "primary_language": "ka",
+  "selected_language": "ka",
+  "available_languages": [
+    {
+      "autotranslated": true,
+      "language": "de",
+      "name": "German"
+    },
+    {
+      "autotranslated": true,
+      "language": "en",
+      "name": "English"
+    },
+    {
+      "autotranslated": true,
+      "language": "fr",
+      "name": "French"
+    },
+    {
+      "autotranslated": false,
+      "language": "ka",
+      "name": "Georgian"
+    },
+    {
+      "autotranslated": true,
+      "language": "ru",
+      "name": "Russian"
+    }
+  ],
+  "compliance_info": {
+    "badges": [],
+    "disclaimers": null,
+    "how_search_works": null,
+    "lowest_price_calculation_interval_in_days": 30,
+    "should_display_original_price_for_unit_price": false,
+    "should_display_price_by_subtracting_deposit": false
+  },
+  "categories": [
+    {
+      "id": "63e4c03be215058d0cb74cb8",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/616f01cf9b23921bda3d8e03/adde99ce-fb71-11ec-9883-323ff073f4f7_8ce4beee_f38b_11ec_9ba3_5a290b60158b_screenshot_2022_06_24_at_11.01.36.jpeg",
+          "blurhash": "j4lcvFhH0Hh5hXBTpBuq4WtC;GyH"
+        }
+      ],
+      "name": "კოლოფი",
+      "slug": "menucategory-1",
+      "subcategories": [
+        {
+          "id": "63e4c03be215058d0cb74d1e",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6005536012d2f905d74364cf/de971902-274f-11ec-b959-cae6847e53aa_screenshot_2021_10_07_at_13.18.10.jpeg",
+              "blurhash": "j4iInEmH0qNBmHBSJRuq0CFS;GmH"
+            }
+          ],
+          "name": "კოლოფი",
+          "slug": "menucategory-39",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03be215058d0cb74d1c",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/61921136d072169fe897849a/85327aac-7bac-11ed-b106-eabbbc4ddb6d_____________________.jpeg",
+              "blurhash": "j3wHXz8S;;0ih5hrPcX40jlC;ZOX"
+            }
+          ],
+          "name": "ელექტრონული კოლოფი",
+          "slug": "menucategory-37",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "63e4c03be215058d0cb74d14",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/616f01cf9b23921bda3d8e03/a6ddc714-f20f-11ec-8003-7ef87936fa45_alcohol.jpeg",
+          "blurhash": "jfW:fEKG;;lWuIpWFRKlqJpCFzKH"
+        }
+      ],
+      "name": "ალკოჰოლური სასმელი",
+      "slug": "menucategory-22",
+      "subcategories": [
+        {
+          "id": "63e4c03ce215058d0cb75456",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/3dbcfd04-15a9-11ee-86ac-6a94c6dcb16e_4860103352217.jpg",
+              "blurhash": "j9ZLvRKX;;llPdtShjGGTtpCcPKX"
+            }
+          ],
+          "name": "ლუდი",
+          "slug": "menucategory-155",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb7547f",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/baa83e62-15ab-11ee-970f-ba8448d05c3c_5099873089798.jpg",
+              "blurhash": "jbZLjQCp;;GGPttTh4CpPtCpgPtT"
+            }
+          ],
+          "name": "ვისკი, კონიაკი, ბრენდი",
+          "slug": "menucategory-156",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb75496",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/2d650e86-6034-11ed-b688-3ee5e3f91616_4850021590044.jpeg",
+              "blurhash": "j7;fHUGXX;plLcColktTTKtScyCH"
+            }
+          ],
+          "name": "არაყი, ჭაჭა",
+          "slug": "menucategory-157",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb754f4",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/e0eced7e-15a7-11ee-926e-4a0ba3e0dde5_4860006041195.jpg",
+              "blurhash": "j9ZLrSCp;;GGTtCpcPtTTtCpd3tT"
+            }
+          ],
+          "name": "ღვინო",
+          "slug": "menucategory-159",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb7552c",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/3925c76a-6034-11ed-af94-7af5e46f1b9a_4820097894902.jpeg",
+              "blurhash": "j7;LDTGGT;GHLttVkPCnLttVkPCD"
+            }
+          ],
+          "name": "სხვა ალკოჰოლური სასმელები",
+          "slug": "menucategory-160",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "63e4c03be215058d0cb74d15",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/616f01cf9b23921bda3d8e03/af84ff5e-f20f-11ec-a56d-22bcf024d41c_ualkoholo.jpeg",
+          "blurhash": "jcWKTIpB;;KZOYGqlklRPdyHl3BA"
+        }
+      ],
+      "name": " უალკოჰოლო სასმელი",
+      "slug": "menucategory-23",
+      "subcategories": [
+        {
+          "id": "63e4c03ce215058d0cb75537",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/0c91a58e-15ab-11ee-a021-1a9edcec4ae1_4860112000086.jpg",
+              "blurhash": "jcY;fQGp;;GGLctUllCoXKypczxT"
+            }
+          ],
+          "name": "ენერგეტიკული სასმელი",
+          "slug": "menucategory-162",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb75551",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/51337122-15ab-11ee-88f6-fe1dbbc13bb7_5449000189325.jpg",
+              "blurhash": "jf:vfMGGX;tCLcupl5BSGXu9tlBT"
+            }
+          ],
+          "name": "ცივი ყავა, ჩაი",
+          "slug": "menucategory-163",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb75562",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/392aebf0-15ab-11ee-bc49-0ee3dd254a45_5449000000286.jpg",
+              "blurhash": "jbZvfPGG;;CpTtCocPtTLttTkPGG"
+            }
+          ],
+          "name": "კოლა",
+          "slug": "menucategory-164",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb75591",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/4b38ce34-15ab-11ee-99a3-1a7848672861_5449000155726.jpg",
+              "blurhash": "j6;fDUGG;;GGOXBThmupTKCncypU"
+            }
+          ],
+          "name": "წვენი",
+          "slug": "menucategory-165",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb755cc",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/2b669b2e-15a9-11ee-ae9f-0ee3dd254a45_4860103350145.jpg",
+              "blurhash": "jcY;fOGG;;llXKtT8yGGPdtTh4GG"
+            }
+          ],
+          "name": "ლიმონათი",
+          "slug": "menucategory-166",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb755ff",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/dcdc2ee0-15aa-11ee-a950-8e2de966bb02_4860108710579.jpg",
+              "blurhash": "ja:fnRGG;;GGPcuph4BCPcCoh4pU"
+            }
+          ],
+          "name": "კომპოტი",
+          "slug": "menucategory-168",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb755d9",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/f2f92550-15a7-11ee-90ec-1ecc0ec49258_4860001590193.jpg",
+              "blurhash": "j5:LHXGG;;GGTctTd4CpFSxTqGup"
+            }
+          ],
+          "name": "წყალი",
+          "slug": "menucategory-167",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "642d226fe1028c89e6489d28",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/619246139bfb7fcc743641b9/ee6ac272-d37c-11ed-b8af-ae223f859bc6_4860019001018.jpeg",
+              "blurhash": "j2;vXZKX;;KXTctThlCpXuCp8OtT"
+            }
+          ],
+          "name": "მინერალური წყალი",
+          "slug": "menucategory-204",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "63e4c03be215058d0cb74d17",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/616f01cf9b23921bda3d8e03/f56fa8ca-f20f-11ec-9146-6611abe98fc1_mza_kveba.jpeg",
+          "blurhash": "jhXKrvKG;;lCBlCquXpCTdq8h4FT"
+        }
+      ],
+      "name": "მზა კვება ",
+      "slug": "menucategory-29",
+      "subcategories": [
+        {
+          "id": "63e4c03ce215058d0cb7563b",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/616f01cf9b23921bda3d8e03/567f53d8-be12-11ef-a72a-8ac6822e9a10_4760065705901.jpg",
+              "blurhash": "jdZvjNKX;;h4lCCpKGpCTKpCcyKX"
+            }
+          ],
+          "name": "მზა კვება",
+          "slug": "menucategory-173",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "63e4c03be215058d0cb74cbb",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/616f01cf9b23921bda3d8e03/9d69f71c-f20e-11ec-a132-8a6f4c635962_gayinuli.jpeg",
+          "blurhash": "jfVuDPGG;:GGpCy8KGxTTcy7d4y9"
+        }
+      ],
+      "name": " გაყინული პროდუქცია ",
+      "slug": "menucategory-15",
+      "subcategories": [
+        {
+          "id": "63e4c03ce215058d0cb74dda",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/81049406-15a8-11ee-ad66-920a13bf6c9b_4860009625019.jpg",
+              "blurhash": "jb:ffOqV;;NqpltTGXGqX;FF8hmV"
+            }
+          ],
+          "name": "გაყინული ნახევარფაბრიკატები",
+          "slug": "menucategory-55",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb74df2",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/8407eb0c-6032-11ed-ab53-ea0ce130f551_2200116.jpeg",
+              "blurhash": "jgYK;IqW;;JlKYGHpllBvctCFlGH"
+            }
+          ],
+          "name": "გაყინული ფრინველის ხორცი",
+          "slug": "menucategory-56",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb74e02",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/86e0982e-6032-11ed-a24f-fa4168f02fa6_2200245.jpeg",
+              "blurhash": "j6Z;zSPc;;h4PdpllkKX;;l44xPc"
+            }
+          ],
+          "name": "გაყინული თევზი",
+          "slug": "menucategory-57",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb74e0e",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/88e7bfbc-6032-11ed-ac3b-2aa3abaf3d83_2200250.jpeg",
+              "blurhash": "j7:vnQTtX;cyPtpTl4GF;;gPchPt"
+            }
+          ],
+          "name": "გაყინული ხორცი",
+          "slug": "menucategory-58",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb74e1c",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/071f3ce8-15aa-11ee-b887-06903cffa828_4860009786949.jpg",
+              "blurhash": "j9ZvjPGH;;tBLctSlkCq;;pC4hGH"
+            }
+          ],
+          "name": "ნაყინი",
+          "slug": "menucategory-61",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "63e4c03be215058d0cb74cba",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/616f01cf9b23921bda3d8e03/f050acf0-f20e-11ec-b20b-926a5cb2ff3b_rdzis_nawarmi.jpeg",
+          "blurhash": "jeVe;UmH;:SkqCBWKaqmGYJSpkiH"
+        }
+      ],
+      "name": "რძის ნაწარმი და კვერცხი",
+      "slug": "menucategory-7",
+      "subcategories": [
+        {
+          "id": "63e4c03be215058d0cb74d24",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/47e0d3c2-15aa-11ee-9ab6-6a9a036d5bb4_4860051001298.jpg",
+              "blurhash": "jcYLjTlC;;PbhnCGOWpCXJKG8zhm"
+            }
+          ],
+          "name": "რძე, ნაღები",
+          "slug": "menucategory-43",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03be215058d0cb74d34",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/56143f14-6034-11ed-ac30-1e9d7757d9b2_4607037121867.jpeg",
+              "blurhash": "jcXKXJKW;;h5KYKYpkh3;;pl4hLc"
+            }
+          ],
+          "name": "ყველი",
+          "slug": "menucategory-44",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03be215058d0cb74d59",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/01b7c0ce-15a8-11ee-9b1e-0a45c5b528f7_4860007947052.jpg",
+              "blurhash": "jaYLfQlC;;OXPctThluq;;GG4hlm"
+            }
+          ],
+          "name": "კვერცხი",
+          "slug": "menucategory-45",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03be215058d0cb74d63",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/6385e03c-6032-11ed-bbb9-06b67be36ade_4600699506584.jpeg",
+              "blurhash": "jdZLnOKX;;h4TctTh4GGTKpCcOKX"
+            }
+          ],
+          "name": "მაიონეზი",
+          "slug": "menucategory-46",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03be215058d0cb74d76",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/a13bc798-6032-11ed-97ee-82b4e63f5a2f_3228022910023.jpeg",
+              "blurhash": "jbYuTHJG;;mWJjFFqHqD;;qD8hFD"
+            }
+          ],
+          "name": "კარაქი, სპრედი, მარგარინი, მცენარეული ცხიმი",
+          "slug": "menucategory-47",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03be215058d0cb74d97",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/616f01cf9b23921bda3d8e03/e4d1034c-e337-11ec-a812-52aeff659f49_4607026550739.jpeg",
+              "blurhash": "jaZvnQGG;;tWGHtVGlCnKYtTlkGF"
+            }
+          ],
+          "name": "რძის შემცველი დესერტი",
+          "slug": "menucategory-48",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb74dab",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/4fb373a6-6034-11ed-9b5e-2aa3abaf3d83_4607109473665.jpeg",
+              "blurhash": "joTJ;yGH;;pBOBuphHBSTstSh4Gq"
+            }
+          ],
+          "name": "შესქელებული რძე",
+          "slug": "menucategory-49",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb74dbd",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/8ac40664-15aa-11ee-aef5-96edb4638eca_4860051004961.jpg",
+              "blurhash": "jbZffTlm;;PbKRpDlrGGXJGF8zlC"
+            }
+          ],
+          "name": "არაჟანი, ხაჭო",
+          "slug": "menucategory-51",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb74dc9",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/550b8006-15aa-11ee-a867-06903cffa828_4860051004237.jpg",
+              "blurhash": "jhW;3Rqp;;KFplupGHFSTsFTgQqq"
+            }
+          ],
+          "name": "მაწონი, კეფირი",
+          "slug": "menucategory-52",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "63e4c03be215058d0cb74d13",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/616f01cf9b23921bda3d8e03/6e43f8e2-f20f-11ec-833b-56483f36fa24_xil_bostani.jpeg",
+          "blurhash": "jqTendJn;;naCpupCpBTDsqVF4Jm"
+        }
+      ],
+      "name": "ხილ-ბოსტნეული",
+      "slug": "--21",
+      "subcategories": [
+        {
+          "id": "63e4c03ce215058d0cb75431",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/c33a72ae-6032-11ed-b383-c28c5fe58fea_2205004.jpeg",
+              "blurhash": "jf;fnIqIPLJzLcGpl4pCPLGCkNlr"
+            }
+          ],
+          "name": "ხილი",
+          "slug": "menucategory-152",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb75443",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/930aa388-6032-11ed-a443-1a9e1ec64ff7_2205263.jpeg",
+              "blurhash": "je;fnKpmT;PbPdGGl4pCPLGGgxll"
+            }
+          ],
+          "name": "ბოსტნეული",
+          "slug": "menucategory-153",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "63e4c03be215058d0cb74cbc",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/616f01cf9b23921bda3d8e03/a4cb3ffc-f20e-11ec-9bdf-32ff647a6948_bakalea.jpeg",
+          "blurhash": "jjZt;vlCX;OXKXGplCpCTdGGh4ll"
+        }
+      ],
+      "name": " ბაკალეა ",
+      "slug": "menucategory-11",
+      "subcategories": [
+        {
+          "id": "63e4c03ce215058d0cb74e2f",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/0c9e2374-15a9-11ee-a03f-c6b8e0489f85_4860101990565.jpg",
+              "blurhash": "j8:;DTKXX;lkPctTh4GGPttCgPGG"
+            }
+          ],
+          "name": "ზეთი და ძმარი",
+          "slug": "menucategory-63",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb74e4e",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/d57dee9a-15aa-11ee-9a05-8e2de966bb02_4860108710029.jpg",
+              "blurhash": "j5;fLWGFX;KXTuCpgPtCTKCqcypC"
+            }
+          ],
+          "name": "მურაბა, ჯემი, თაფლი",
+          "slug": "menucategory-64",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb74e66",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/a7243b40-15a9-11ee-b48e-2e63ac50ae4d_4860008160399.jpg",
+              "blurhash": "jmWeHCGW;;lltDpDCFGGTdpCh3GW"
+            }
+          ],
+          "name": "მწნილი",
+          "slug": "menucategory-65",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb74e84",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/a62ce84e-6033-11ed-8180-c233faaacbf9_4860001260829.jpeg",
+              "blurhash": "j2;vTYGG;;PcOXCppGpC;;GG4gll"
+            }
+          ],
+          "name": "აჯიკა და მდოგვი",
+          "slug": "menucategory-66",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb74e90",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/ec0547a0-15a8-11ee-9c1c-ba5d0d492e75_4860101961084.jpg",
+              "blurhash": "jxQt3gCp;;tTKXtTlmCqKXCplltT"
+            }
+          ],
+          "name": "საწებელი და სოუსი",
+          "slug": "menucategory-67",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb74ee0",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/90b69fc4-6032-11ed-aac2-424d572e1092_4600699510956.jpeg",
+              "blurhash": "jjY:LGpB;;KYHcuqp4BCPtGFgPlC"
+            }
+          ],
+          "name": "კეტჩუპი და ტყემალი",
+          "slug": "menucategory-69",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb74f06",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/4168c008-6034-11ed-b740-a204238c82fa_4820002270128.jpeg",
+              "blurhash": "j9:LnSFCX;HcLcCpp4pCPtuGkPFC"
+            }
+          ],
+          "name": "საცხობი მასალები და სუნელები",
+          "slug": "menucategory-71",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "6447dd38489460b57f84f20b",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/c626b966-15ac-11ee-b88a-026652558aea_84103086.jpg",
+              "blurhash": "jmYuDvFWX;qCGGGmGmpWTLCDgOtG"
+            }
+          ],
+          "name": "მზა კვება",
+          "slug": "menucategory-209",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "63e4c03be215058d0cb74d11",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/616f01cf9b23921bda3d8e03/56efaf56-f20f-11ec-a803-6611abe98fc1_burguli.jpeg",
+          "blurhash": "jn:KbjGGP;pDGDCnuqtWKHtTlBGF"
+        }
+      ],
+      "name": " ბურღული",
+      "slug": "menucategory-19",
+      "subcategories": [
+        {
+          "id": "63e4c03ce215058d0cb752cc",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/62311f6c-6032-11ed-b366-2aa3abaf3d83_2200174.jpeg",
+              "blurhash": "jcZ;fMBS;;GXPtKXh3l4XKCocypC"
+            }
+          ],
+          "name": "ბურღული ასაწონი",
+          "slug": "menucategory-124",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb752d3",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/9dab007a-15aa-11ee-93c9-5e959484337d_4860107250199.jpg",
+              "blurhash": "jaY;rTpT;;KX;KBV8yqnPbGGh6pm"
+            }
+          ],
+          "name": "ფქვილი",
+          "slug": "menucategory-125",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb752e0",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/716e2394-6032-11ed-8873-5ebb4d5c88de_4600819030333.jpeg",
+              "blurhash": "jlV:nDGX;;tkF4FSuXmHTcJSh4ir"
+            }
+          ],
+          "name": "შვრია, მიუსლი",
+          "slug": "menucategory-126",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb752f3",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/3faed1a8-6034-11ed-93b8-2aa3abaf3d83_4820008126139.jpeg",
+              "blurhash": "jqV:bvll;;PbGHGGFSpCPtGGh4lm"
+            }
+          ],
+          "name": "მზა საუზმე",
+          "slug": "menucategory-128",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb75300",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/da522622-15a8-11ee-9c0c-ba496086186b_4860101960186.jpg",
+              "blurhash": "jgXePHGX;;l4iJpTNQGFHdBCp4qG"
+            }
+          ],
+          "name": "მაკარონი, სპაგეტი, ვერმიშელი",
+          "slug": "menucategory-129",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb7533f",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/d6ca5246-15a7-11ee-a6aa-4a9716fbe9e4_4860004550361.jpg",
+              "blurhash": "jgYeXJll;;PcGXtTplGGPtGGgPlC"
+            }
+          ],
+          "name": "წიწიბურა",
+          "slug": "menucategory-130",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb75347",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/aee77c12-15a8-11ee-ade4-be6055b9bc6b_4860100260317.jpg",
+              "blurhash": "jdYfbNpC;;OXcPpCTtKXTtGGcPpC"
+            }
+          ],
+          "name": "ბრინჯი",
+          "slug": "menucategory-131",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb75357",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/b39facd4-15a8-11ee-ba6b-e6940e83a031_4860100261710.jpg",
+              "blurhash": "jfX;3LpC;;Pch4pCPcKGTtGGd4pC"
+            }
+          ],
+          "name": "შაქარი",
+          "slug": "menucategory-133",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb75360",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/b3a149cc-15a8-11ee-9522-9a4f1024aea3_4860100261017.jpg",
+              "blurhash": "jkW:HGKX;;llhmGFOWpChlCpKXCp"
+            }
+          ],
+          "name": "სხვა ბურღული",
+          "slug": "menucategory-135",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "63e4c03be215058d0cb74d0d",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/616f01cf9b23921bda3d8e03/cd71a766-f20e-11ec-922c-22bcf024d41c_konsecacia.jpeg",
+          "blurhash": "jgVeDyBC;;GXGGCptCpTPtCGgPpl"
+        }
+      ],
+      "name": " კონსერვაცია ",
+      "slug": "menucategory-4",
+      "subcategories": [
+        {
+          "id": "63e4c03ce215058d0cb750e1",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/58f4ff1a-15ac-11ee-9b5d-72d072c6cb1f_6935897618332.jpg",
+              "blurhash": "jcZLnMGH;;FBmYypJlBTTuBSh3qH"
+            }
+          ],
+          "name": "სიმინდი",
+          "slug": "menucategory-90",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb750e9",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/da602b5a-15a8-11ee-97ab-6a9bfde0e065_4860101960315.jpg",
+              "blurhash": "jgYeXLKX;;h4Fmu9qWCnGHtCpBGG"
+            }
+          ],
+          "name": "ზეთისხილი",
+          "slug": "menucategory-91",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb750f4",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/c1875ffc-6033-11ed-841e-ea0ce130f551_4760065705093.jpeg",
+              "blurhash": "jiXKXHGG;;pBqntTGGCpKYtTllCp"
+            }
+          ],
+          "name": "ბარდა",
+          "slug": "menucategory-92",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb750fc",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/f54a93a6-15ad-11ee-b89f-cecc5ff2b910_8690508402417.jpg",
+              "blurhash": "jkXeHDll;;PcdlpSPbGqPcGGh4ll"
+            }
+          ],
+          "name": "ლობიო",
+          "slug": "menucategory-93",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb75107",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/cc2b2178-6033-11ed-a01e-c6ab33c367bc_4751007731386.jpeg",
+              "blurhash": "jhW:zGll;;Pch5pCOWGG;;KW8ihm"
+            }
+          ],
+          "name": "თევზის კონსერვი",
+          "slug": "menucategory-94",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb75128",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/c91a85dc-6033-11ed-8aeb-122bc4129f18_4760018500546.jpeg",
+              "blurhash": "jdX:PHKX;;lmTtpCgPGG;;pC8yKG"
+            }
+          ],
+          "name": "ხორცის კონსერვი",
+          "slug": "menucategory-95",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb7513c",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/c18fe190-6033-11ed-bf6a-faf40fbd195b_4760065709732.jpeg",
+              "blurhash": "jqXKbvCG;;FCFmtTqWCGB5BTvbuq"
+            }
+          ],
+          "name": "ტომატ პასტა",
+          "slug": "menucategory-96",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb7514c",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/54a6a12a-15ac-11ee-9700-5e959484337d_6935623565015.jpg",
+              "blurhash": "jfYL3LCp;;GGqqCpGmtSXKCp8ytS"
+            }
+          ],
+          "name": "სოკო",
+          "slug": "menucategory-97",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "6447dd9b0b4cf86989ca798f",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/3a4fe7bc-15ae-11ee-8d81-1ac396be96c5_8690635060733.jpg",
+              "blurhash": "jdZfjNpD;;KXKHuppBBTXLGF8ypm"
+            }
+          ],
+          "name": "მზა სადილი",
+          "slug": "menucategory-210",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "63e4c03be215058d0cb74d10",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/616f01cf9b23921bda3d8e03/47244db6-f20f-11ec-b613-3664b9d75592_tkbileuli.jpeg",
+          "blurhash": "jhWK7GGH;;tAFRBCqHqGHdtCp3CH"
+        }
+      ],
+      "name": " ტკბილეული ",
+      "slug": "menucategory-18",
+      "subcategories": [
+        {
+          "id": "63e4c03ce215058d0cb7523e",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/a9748c92-6032-11ed-9945-5a06076f6313_42113270.jpeg",
+              "blurhash": "j8ZvnTiY;;Rjl4KXKXh4;;NA4ieI"
+            }
+          ],
+          "name": "საღეჭი რეზინი",
+          "slug": "menucategory-115",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb75255",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/619211b7d4caac00586d81b2/f4b63950-a167-11ed-9890-f221e9cf0efe_40111490.jpeg",
+              "blurhash": "jfXKPHGX;;FTCpCpCqtU;;pC8huG"
+            }
+          ],
+          "name": "მარმელადი, დრაჟე, ჟელე, გრილიაჟი, ლუხუმი,ზეფირი",
+          "slug": "menucategory-116",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb75294",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/c5d27856-15ac-11ee-a55e-ba8448d05c3c_80974482.jpg",
+              "blurhash": "ja:vjQKW;;llntCGMPpCTKpCgyKX"
+            }
+          ],
+          "name": "საბავშვო კვერცხი",
+          "slug": "menucategory-117",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb7529c",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/8816c68a-6034-11ed-9329-369538c0db8e_46034595.jpeg",
+              "blurhash": "j5:fvSTL;;8gTKh3gPTu;;gO4hTL"
+            }
+          ],
+          "name": "კანფეტი",
+          "slug": "menucategory-118",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb752b6",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/bcad6d98-15ad-11ee-aa57-f2d5a88f6347_8681451500404.jpg",
+              "blurhash": "jgWK;PlX;;OBJBKGmHhl;:Gm8ylX"
+            }
+          ],
+          "name": "ტკბილეულის შეკვრა",
+          "slug": "menucategory-119",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "6447ddc4f48fc6c113510d5f",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/e907327e-15a9-11ee-9639-06903cffa828_4860009782224.jpg",
+              "blurhash": "jtRcXall;;Pcd4upPbFTXKplcPKX"
+            }
+          ],
+          "name": "შოკოლადის ნაკრები",
+          "slug": "menucategory-211",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "6447ddcdfa9139dfbc07b579",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/8dc29320-15ab-11ee-8167-96edb4638eca_5000159461122.jpg",
+              "blurhash": "j9ZLnSGG;;GFCpCoGGtU;;BT4hpV"
+            }
+          ],
+          "name": "შოკოლადის ბატონი",
+          "slug": "menucategory-212",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "6447ddd70b606db1cc6e23f1",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/3f8ec73a-15ad-11ee-a2c4-62b0a72b9999_7622201750312.jpg",
+              "blurhash": "jfX;3LGG;;tVP5CohrtTh5tVPaCm"
+            }
+          ],
+          "name": "შოკოლადის ფილა",
+          "slug": "menucategory-213",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "6447dde5f48fc6c113510d69",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/b89b5174-6032-11ed-b182-96bfce843e6a_4002309009612.jpeg",
+              "blurhash": "jjXKDEpC;;KXPtCph4pTTKGGgPpB"
+            }
+          ],
+          "name": "შოკოლადის კრემი",
+          "slug": "menucategory-214",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "6447ddf1cce18f7014dc341f",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/8dd81970-15ab-11ee-9a8c-1ac396be96c5_5000159384209.jpg",
+              "blurhash": "jjU:7yGW;;GqPdCnh4tV;;pC8yqn"
+            }
+          ],
+          "name": "შოკოლადის შეკვრა",
+          "slug": "menucategory-215",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "63e4c03be215058d0cb74d12",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/616f01cf9b23921bda3d8e03/60904b1a-f20f-11ec-beb6-56424785f130_sneki.jpeg",
+          "blurhash": "jn:;3jCoPLGGBCtTGHCpLcCplktT"
+        }
+      ],
+      "name": " სნეკი ",
+      "slug": "menucategory-20",
+      "subcategories": [
+        {
+          "id": "63e4c03ce215058d0cb7537c",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/ab9a5612-15ab-11ee-a6f6-12fa86eb8128_5053990101542.jpg",
+              "blurhash": "jgYL3LGG;;BTuXCpFltTGICppBpD"
+            }
+          ],
+          "name": "ჩიფსი, სუხარიკი",
+          "slug": "menucategory-137",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb753b0",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/39253bb0-6034-11ed-bf7e-fa0e1d058fe1_4820111210343.jpeg",
+              "blurhash": "jnUubKGG;;pClaCnKStVl4GGLcpC"
+            }
+          ],
+          "name": "ანჩოუსი",
+          "slug": "menucategory-138",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb753b4",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/ac6d54b4-15aa-11ee-a556-9e0507c8bf99_4860106080056.jpg",
+              "blurhash": "j8:;vSFTX;GXHctTFlGqTKCGcypC"
+            }
+          ],
+          "name": "მზესუმზირა",
+          "slug": "menucategory-139",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb753c3",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/e66a90f2-15a8-11ee-b683-1e1e9cfd3b0c_4860101960896.jpg",
+              "blurhash": "jdYKXLLc;;h4hcqqL5FSTKplcPKY"
+            }
+          ],
+          "name": "მიწისთხილი, თხილი",
+          "slug": "menucategory-140",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb753e5",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/43d36126-15ac-11ee-84db-bef0aa0c767f_5941194000061.jpg",
+              "blurhash": "joZ:DBCpX;GGJGCpqCtTprxUGBuo"
+            }
+          ],
+          "name": "კრეკერი, მარილიანი ჩხირები",
+          "slug": "menucategory-142",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb753f9",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/f2f8c056-15a7-11ee-a3da-1ecc0ec49258_4860006680011.jpg",
+              "blurhash": "jnYKTAqpX;GGKXCnplpVLctVl4CD"
+            }
+          ],
+          "name": "პურის ჩხირი",
+          "slug": "menucategory-144",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb753ff",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/1cf1f996-6035-11ed-bca0-26c4b1a098b6_8693181006828.jpeg",
+              "blurhash": "jrVujwCF;;BGJStVqGCCpDtTGpCG"
+            }
+          ],
+          "name": "ნუში, ფისტაშკა",
+          "slug": "menucategory-145",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb75411",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/cc9e8a06-15a9-11ee-9209-6a9a036d5bb4_4860009190289.jpg",
+              "blurhash": "jpYKTxGmX;urKXCplmtDTttVgPGC"
+            }
+          ],
+          "name": "ჩირი, ქიშმიში",
+          "slug": "menucategory-148",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb7541a",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/8eceb36c-15aa-11ee-b734-628499070467_4860102350177.jpg",
+              "blurhash": "jmXKDDKG;;hmhktTKXGpLcpTl4KG"
+            }
+          ],
+          "name": "ბურბუშელა, პოპკორნი",
+          "slug": "menucategory-149",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "63e4c03be215058d0cb74d18",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/616f01cf9b23921bda3d8e03/c864c248-f20f-11ec-b4b8-ea8d87e6be4a_sakonditro.jpeg",
+          "blurhash": "jk:eLqCFT;GppSxUKGCnLcBTlluG"
+        }
+      ],
+      "name": " საკონდიტრო ",
+      "slug": "menucategory-25",
+      "subcategories": [
+        {
+          "id": "63e4c03ce215058d0cb75659",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/591c17b6-15ad-11ee-af96-e24420044f61_7622210375742.jpg",
+              "blurhash": "joMYLocP;;TtlGKCGChpXclChlKX"
+            }
+          ],
+          "name": "ორცხობილა, ბისკვიტი, რულეტი",
+          "slug": "menucategory-175",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb756af",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/616f01cf9b23921bda3d8e03/5c04c70a-e338-11ec-93fd-a6bb495232c3_4860009782705.jpeg",
+              "blurhash": "jhYePECG;;BCPcBSllqq;;BS8hCG"
+            }
+          ],
+          "name": "ვაფლი, ბლითი",
+          "slug": "menucategory-176",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb756ee",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/0ab30a02-15ae-11ee-ae6e-1a7848672861_8690526023755.jpg",
+              "blurhash": "jgY:XCllX;PcKXupplBC;;GG8xll"
+            }
+          ],
+          "name": "კრუასანი, კექსი",
+          "slug": "menucategory-179",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb756fb",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/f2faf86c-15a7-11ee-9e02-063e1a36de16_4860006620178.jpg",
+              "blurhash": "jkUZHnuG;;KFTtGGh4tT;;BC8ypC"
+            }
+          ],
+          "name": "სუხარი",
+          "slug": "menucategory-182",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb7570c",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/eecf3ed8-15a7-11ee-9df0-8a2bfb8f6008_4860006181341.jpg",
+              "blurhash": "jeYf3MKX;;h4qHCpBBtCX;pC8yKX"
+            }
+          ],
+          "name": "ნამცხვარი, ტორტი",
+          "slug": "menucategory-184",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "63e4c03be215058d0cb74d16",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/616f01cf9b23921bda3d8e03/ba4ec514-f20f-11ec-9ae2-8ac43c637b11_pur_funtusheuli.jpeg",
+          "blurhash": "jrY:39GGT;lmpCCpGGtCPcpDl4GG"
+        }
+      ],
+      "name": " პურ-ფუნთუშეული  ",
+      "slug": "--24",
+      "subcategories": [
+        {
+          "id": "63e4c03ce215058d0cb75610",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/d16a6dbc-15a8-11ee-9c16-1ecc0ec49258_4860101500702.jpg",
+              "blurhash": "jcZvfOKX;;l4PctTl5CGOYtShlGG"
+            }
+          ],
+          "name": "პური",
+          "slug": "menucategory-170",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb75637",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/6f48f290-15ab-11ee-b011-6a9a036d5bb4_4869002020654.jpg",
+              "blurhash": "j5:vLYCG;:KXKYCptlpD;JGp4zpD"
+            }
+          ],
+          "name": "ხლებცი",
+          "slug": "menucategory-171",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "63e4c03be215058d0cb74d0f",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/616f01cf9b23921bda3d8e03/314985b0-f20f-11ec-bfa1-0a224b83d230_yava.jpeg",
+          "blurhash": "jwRsuUqG;;JBCqtTCnGpOlFCibqG"
+        }
+      ],
+      "name": " ყავა  და ჩაი",
+      "slug": "menucategory-16",
+      "subcategories": [
+        {
+          "id": "63e4c03ce215058d0cb751a7",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/99ffd0bc-15b0-11ee-a1d2-e2e5cd493f55_8714599106082.jpg",
+              "blurhash": "jxSZLlu6;;GqKXpSpmGGlntTKVGp"
+            }
+          ],
+          "name": "ყავა",
+          "slug": "menucategory-111",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb75205",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/c39cb8e6-6033-11ed-ae38-9e78f90a75d4_4760062101508.jpeg",
+              "blurhash": "jjZvbzlmXLPaGGtVCmCmXLKCcOhr"
+            }
+          ],
+          "name": "ჩაი",
+          "slug": "menucategory-112",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb7523c",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/4fb66ac0-6034-11ed-997b-2aa3abaf3d83_4607085683317.jpeg",
+              "blurhash": "jjYeXHCp;;GGhmtVOXCnKZCplkpD"
+            }
+          ],
+          "name": "კაკაო",
+          "slug": "menucategory-113",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "63e4c03be215058d0cb74d0e",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/616f01cf9b23921bda3d8e03/0f1fcc7e-f20f-11ec-af96-9a472b27c28a_xorc_produqtebi.jpeg",
+          "blurhash": "jmYdHnGGX;tTtlCpGXtTPtpCgQGG"
+        }
+      ],
+      "name": " ხორც-პროდუქტები ",
+      "slug": "--9",
+      "subcategories": [
+        {
+          "id": "63e4c03ce215058d0cb75150",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/64fe1e66-6032-11ed-a8c5-5ebb4d5c88de_2208461.jpeg",
+              "blurhash": "jfZ:XGtTX;GGTKCpgOpCT;GpcypT"
+            }
+          ],
+          "name": "სოსისი, სარდელი",
+          "slug": "menucategory-101",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb75167",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/622fc810-6032-11ed-a036-2a7bd982d66e_2208460.jpeg",
+              "blurhash": "jbZLnQpC;;KYKGCppVpCPtCpgPpC"
+            }
+          ],
+          "name": "ძეხვეული",
+          "slug": "menucategory-102",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb75190",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/8d35911c-15a8-11ee-a031-36514a8b16d8_4860009626054.jpg",
+              "blurhash": "j9:fnQll;;TtgPGXPtl4X;KX8hh4"
+            }
+          ],
+          "name": "ხორცის დელიკატესები",
+          "slug": "menucategory-103",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "6447dfb4ab237d3123d3ab42",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/9d44006a-15ae-11ee-b00c-4aea5393b391_8698720405315.jpg",
+              "blurhash": "j8Z;vSqo;;KXPcCph4pT;;G78hmq"
+            }
+          ],
+          "name": "პაშტეტი",
+          "slug": "menucategory-216",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "63e4c03be215058d0cb74d0b",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/616f01cf9b23921bda3d8e03/b0a13db8-f20e-11ec-b4b8-ea8d87e6be4a_qimia.jpeg",
+          "blurhash": "jjSKLJpS;;KXtCtTGXC9LdGGl4ll"
+        }
+      ],
+      "name": " ქიმია ",
+      "slug": "menucategory-6",
+      "subcategories": [
+        {
+          "id": "63e4c03ce215058d0cb74f5f",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/969c3aa8-15ad-11ee-b405-96edb4638eca_8001480021891.jpg",
+              "blurhash": "j3;vPYKG;;KYPdCqh3pCTuGGcOpB"
+            }
+          ],
+          "name": "სარეცხი საშუალება",
+          "slug": "menucategory-73",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb74f94",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/81de5eb0-15ae-11ee-ab81-1ac396be96c5_8697713821378.jpg",
+              "blurhash": "j9ZLDXGG;:uGTcpCd4KGOXpDhlKG"
+            }
+          ],
+          "name": "სხვა საწმენდი საშუალებები",
+          "slug": "menucategory-74",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb74fa6",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/39b5772a-15ab-11ee-ab99-92d501aa147b_5413149798946.jpg",
+              "blurhash": "j3;fPXKX;;llPdtTh4GFTKpCcyKX"
+            }
+          ],
+          "name": "ჭურჭლის სარეცხი საშუალება",
+          "slug": "menucategory-75",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb74fb1",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/5f84c144-15ac-11ee-bf89-1a9edcec4ae1_6971135070067.jpg",
+              "blurhash": "jmWKfzpB;;KXGGtSqpCqXKBTcyqp"
+            }
+          ],
+          "name": "სხვა ქიმიური საშუალებები",
+          "slug": "menucategory-76",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "6447e00ec86396c45e75d298",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/a185740e-15ab-11ee-86b8-12fa86eb8128_5010182990247.jpg",
+              "blurhash": "j5;vHWGGX;GXJltTvcGGPtCpgPtT"
+            }
+          ],
+          "name": "აეროზოლი",
+          "slug": "menucategory-217",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "6447e01ae39bf5cde1c32d01",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/46a02f04-15ae-11ee-b7be-9e3b906969be_8690673023165.jpg",
+              "blurhash": "j6:vDWCq;;KXKXCppBtTXKCp8ypD"
+            }
+          ],
+          "name": "აბაზანის და ტუალეტის საწმენდი საშუალება",
+          "slug": "menucategory-218",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "63e4c03be215058d0cb74d0c",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/616f01cf9b23921bda3d8e03/b84fd024-f20e-11ec-93e3-22bcf024d41c_personaluri_movlis_sa_sualeba.jpeg",
+          "blurhash": "jiWd;uuH;;KAhGGFOCpFKYGBlklI"
+        }
+      ],
+      "name": " პერსონალური მოვლა ",
+      "slug": "menucategory-5",
+      "subcategories": [
+        {
+          "id": "63e4c03ce215058d0cb74fba",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/a5eef9fc-15ab-11ee-bba3-d28156daeeb6_5011321931688.jpg",
+              "blurhash": "j6:fzUhs;;T3KWCmpEpG;;OQ4hdd"
+            }
+          ],
+          "name": "პირის ღრუს მოვლა",
+          "slug": "menucategory-78",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb74fcf",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/b6b3dd16-15b0-11ee-b18d-1ac396be96c5_8801038566610.jpg",
+              "blurhash": "jaZfvTKG;;mqKWGplmpSXttVcPGD"
+            }
+          ],
+          "name": "საპარსი საშუალება",
+          "slug": "menucategory-79",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb74feb",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/819cee26-6032-11ed-9c97-e6daa77b3f9c_4015400107835.jpeg",
+              "blurhash": "jhXfbOqn;;KGOYu7hlC9KXBTllqq"
+            }
+          ],
+          "name": "საფენი",
+          "slug": "menucategory-80",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb74ff9",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/f197a3a8-15ac-11ee-b69a-f2d5a88f6347_8680097971128.jpg",
+              "blurhash": "jcZffNll;;PcTcGGd4llLtpDl4GG"
+            }
+          ],
+          "name": "ბავშვის ჰიგიენა",
+          "slug": "menucategory-81",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb75007",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/9462781c-15b0-11ee-9593-ba13e26a5c61_8714100711903.jpg",
+              "blurhash": "jaZ;HRGG;;GGGXxUBmCoTdxUd3yn"
+            }
+          ],
+          "name": "თმის მოვლის საშუალებები",
+          "slug": "menucategory-82",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb7503e",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/438e7492-15ae-11ee-8d99-1a7848672861_8690637945571.jpg",
+              "blurhash": "joUe3xCp;;GGGGCppTtTKXy8lly8"
+            }
+          ],
+          "name": "ანტიპერსპირანტი",
+          "slug": "menucategory-83",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb7504f",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/88ba45a2-15ac-11ee-9970-0ee3dd254a45_8001841196107.jpg",
+              "blurhash": "j9ZvrUKX;;llOXCpllpCXKtC8yGG"
+            }
+          ],
+          "name": "საპონი",
+          "slug": "menucategory-84",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb75082",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/84083350-6032-11ed-8968-9a4e89ccb5bd_4005900515124.jpeg",
+              "blurhash": "joVKrCtT;;GGGHtTpCCpKWCopCy9"
+            }
+          ],
+          "name": "შხაპის გელი",
+          "slug": "menucategory-85",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb75089",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/46a22f34-15ae-11ee-8167-96edb4638eca_8690758011018.jpg",
+              "blurhash": "j9:vrRPb;;cQOQpmhsLbLdpCl3GG"
+            }
+          ],
+          "name": "სხვა პერსონალური მოვლის საშუალებები",
+          "slug": "menucategory-86",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb750b1",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/729c688e-15ae-11ee-bd99-9e3b906969be_8697420532529.jpg",
+              "blurhash": "jaZfvUtC;;KXmXGpJlpCNGCpiCpC"
+            }
+          ],
+          "name": "ქაღალდი",
+          "slug": "menucategory-89",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb750a9",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/9d463fe2-6032-11ed-9b5e-2aa3abaf3d83_4260363470001.jpeg",
+              "blurhash": "jaZ;nRGG;;FCKXC8pCup;;BT8huG"
+            }
+          ],
+          "name": "პრეზერვატივი",
+          "slug": "menucategory-87",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "63e4c03be215058d0cb74d1a",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/616f01cf9b23921bda3d8e03/eb08364a-f20f-11ec-9a38-a24928813723_nonfood.jpeg",
+          "blurhash": "jdWevGKF;;mqKWy7pCCqPtqph4JC"
+        }
+      ],
+      "name": "საყოფაცხოვრებო ნივთები",
+      "slug": "menucategory-28",
+      "subcategories": [
+        {
+          "id": "63e4c03ce215058d0cb757eb",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/73ae09b0-15ab-11ee-85af-f2d5a88f6347_4869002027554.jpg",
+              "blurhash": "j7Z;zVpT;;KXKYtTllCoXKGG8ypC"
+            }
+          ],
+          "name": "სხვა საყოფაცხოვრებო პროდუქცია",
+          "slug": "menucategory-191",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "6447e0778421531a007ecc16",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/94534362-6032-11ed-8657-b248b147485c_1061.jpeg",
+              "blurhash": "j4:LHWKX;;CppCtTCpGGCptTtTCp"
+            }
+          ],
+          "name": "ერთჯერადი ჭურჭელი",
+          "slug": "menucategory-220",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "6447e0778421531a007ecc17",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/87709dbe-15ab-11ee-8225-e6183015e202_4902580150327.jpg",
+              "blurhash": "jhWKvCl4;;PcOWGGlmlCX;GX8yll"
+            }
+          ],
+          "name": "ბატარეა, ასანთი, წებო და სხვა",
+          "slug": "menucategory-221",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "6447e0778421531a007ecc19",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/62c812bf3713269e5fa0b319/ff264dd0-15ac-11ee-b59f-de846884941d_6901275601497.jpg",
+              "blurhash": "j1;vTZPc;;h4KXPcGGcP;;ll4hPc"
+            }
+          ],
+          "name": "ნახშირი, წალამი და სხვა",
+          "slug": "menucategory-223",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "63e4c03be215058d0cb74d1b",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/616f01cf9b23921bda3d8e03/e42fb628-f20e-11ec-ad3a-d2565f889a72_cxovelta_kveba.jpeg",
+          "blurhash": "jiW:rwpl;;LcKGGpqppTTtCHcPtl"
+        }
+      ],
+      "name": " ცხოველთა კვება ",
+      "slug": "menucategory-13",
+      "subcategories": [
+        {
+          "id": "63e4c03ce215058d0cb75843",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/cc0fbbd4-6035-11ed-a1cf-f2a8fd1194da_7613036590198.jpeg",
+              "blurhash": "jo:f3xGGT;lBBHBVCBqDFItCqkGH"
+            }
+          ],
+          "name": "ძაღლის კვება",
+          "slug": "menucategory-193",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "63e4c03ce215058d0cb7584f",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6192418f6dc66dabf08f8a23/cd781980-6035-11ed-b731-f2a8fd1194da_7613034969750.jpeg",
+              "blurhash": "jwYKnlGGX;pmPatThmGFGHtTpBCF"
+            }
+          ],
+          "name": "კატის კვება",
+          "slug": "menucategory-194",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    }
+  ],
+  "items": [],
+  "options": [],
+  "variant_groups": []
+}

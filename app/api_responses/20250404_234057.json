@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "641b7b7e6d77518b3d4f8dff",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/635e776f417c3fe0fc2a5dd5/6fe4661e-2567-11ee-8b57-da01922900cc_19600ae8_126a_11ed_8cc6_1275ce98eed3_image_49.jpeg",
+        "blurhash": "j6:vvSl4;;Lch3llLcKX;;KX8hBC"
+      }
+    ],
+    "name": "Przyprawy",
+    "slug": "przyprawy-138"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

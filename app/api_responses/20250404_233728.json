@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "66473da2cd4f791715fd5cad",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f84c93a471b04e60b3204a/7853a50a-2271-11ef-bb77-3ee9cad15be1_____________i.jpg",
+        "blurhash": "j6Y;bOXsXdh4XKcPh4Tt;;cQhlLb"
+      }
+    ],
+    "name": "დეოდორანტები",
+    "slug": "menucategory-26"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

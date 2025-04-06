@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "64c7eb6c53a134166fe54059",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ed0d41a4264d32a22f538ec/1f48cacc-305e-11ee-9244-f2171f1eb662__________.jpg",
+        "blurhash": "jnTZXtTcXKd4GXCGpCpC;;hlcOKX"
+      }
+    ],
+    "name": "სასაჩუქრე ნაკრები",
+    "slug": "menucategory-816"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

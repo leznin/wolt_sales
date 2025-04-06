@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "6788e426401cfb1aa0bc5995",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/9735db10-e552-11ef-9943-8a1b5bf486d1___________.jpg",
+        "blurhash": "j9KVdSPs;:8Q;JKWdlh5h4llh4GW"
+      }
+    ],
+    "name": "თმის მოვლა",
+    "slug": "menucategory-177"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

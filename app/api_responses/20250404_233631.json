@@ -1,0 +1,758 @@
+{
+  "category": {
+    "id": "64098df5ad394d4eed8ac1af",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1a3cc1ea11b605f917fb/491851b6-033b-11ed-b86b-2aff7dbcc00b_96445.jpeg",
+        "blurhash": "jaYf3Mh3;;XKKXGFllpm;;KX8yh4"
+      }
+    ],
+    "name": "ტექნიკა თავის მოვლისთვის",
+    "slug": "menucategory-37"
+  },
+  "categories": [
+    {
+      "id": "64098df5ad394d4eed8ac1af",
+      "item_ids": [
+        "66684bb883a8299e123f30b5",
+        "66684bb883a8299e123f3350",
+        "66684bb883a8299e123f3355",
+        "66684bb883a8299e123f333d",
+        "66684bb883a8299e123f3374",
+        "66684bb883a8299e123f3349",
+        "66684bb883a8299e123f3359",
+        "66684bb883a8299e123f34fe",
+        "66684bb883a8299e123f3e4e",
+        "66684bb883a8299e123f3e51",
+        "66684bb883a8299e123f3e3b"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "66684bb883a8299e123f30b5",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "21f16cc881277a3e68241bf3f43fc263",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ed0d41a4264d32a22f538ec/9c2d6a12-27ec-11ef-a774-763a350cf4da_133494.jpg",
+          "blurhash": "jnUtDrKG;;lSlCllGGKXX;qGcPFm"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Philips- თმის ფენი სერია 5000 2100W 6 სიჩქარით BHD500/00_133494",
+      "options": [],
+      "original_price": null,
+      "price": 21899,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "66684bb883a8299e123f3350",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "dd8f8b0ad7ef5e1a17db2ba6c74648a8",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ed0d41a4264d32a22f538ec/698d1ed8-27ea-11ef-ad85-82389e965d6e_128346.jpg",
+          "blurhash": "jfX;3RpF;;KWTtpFgPKDTtGDcQpF"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "დორკო მამაკაცის საპარსი ერთჯერადი 4პირიანი ალოე ვერა_128346",
+      "options": [],
+      "original_price": null,
+      "price": 1705,
+      "purchasable_balance": 8,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "66684bb883a8299e123f3355",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "996b3b63b9ecc995a5dee7ac60e04118",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ed0d41a4264d32a22f538ec/67095b04-27ea-11ef-a063-16767d13b066_128345.jpg",
+          "blurhash": "jfYvnLGW;;FlPtq7gQGpXttD8PCW"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "დორკო მამაკაცის საპარსი ერთჯერადი 6 პირიანი ალოე ვერა_128345",
+      "options": [],
+      "original_price": null,
+      "price": 1834,
+      "purchasable_balance": 6,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "66684bb883a8299e123f333d",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "cea0bc2f1fec332be7776cf21c74bd7e",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ed0d41a4264d32a22f538ec/047fd1a6-27eb-11ef-9315-b67340249a49_129880.jpg",
+          "blurhash": "jkX;rECD;LBGKTtTlqGGGXtWplCm"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "დორკო ქალის ერთჯერადი საპარსი დანადგარი 6 პირიანი 3+1 ალოეს ექსტრაკტი_129880",
+      "options": [],
+      "original_price": null,
+      "price": 1834,
+      "purchasable_balance": 8,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "66684bb883a8299e123f3374",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "08258af3f242018f5e58246e36578e7a",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ed0d41a4264d32a22f538ec/674101bc-27ea-11ef-91c6-9aadb7e12a7c_128344.jpg",
+          "blurhash": "j5;fDWtS;;KYLctTplCGX;GGchpl"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "დორკო ქალის საპარსი ერთჯერადი 4 პირიანი ალოე ვერა_128344",
+      "options": [],
+      "original_price": null,
+      "price": 1705,
+      "purchasable_balance": 6,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "66684bb883a8299e123f3349",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "930222304973a84bc295b58df472f053",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ed0d41a4264d32a22f538ec/a2330db8-27ec-11ef-bf77-5e2806a88980_133522.jpg",
+          "blurhash": "jjVuvAKX;;hkXKGHcPlBXKpCcPKH"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "დორკო-სათად.პირი 6 პ კაცი_133522",
+      "options": [],
+      "original_price": null,
+      "price": 2999,
+      "purchasable_balance": 4,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "66684bb883a8299e123f3359",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "1204e5b92cf794e7565a45e9d44a8d61",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ed0d41a4264d32a22f538ec/a2335002-27ec-11ef-99e9-763a350cf4da_133521.jpg",
+          "blurhash": "jbZf3OOX;;d4VBpleXKXTKlCgPOX"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "დორკო-სათად.პირი 6 პ ქალი_133521",
+      "options": [],
+      "original_price": null,
+      "price": 2375,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "66684bb883a8299e123f34fe",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "bd99e1d7524f9378a307d2f727a0af20",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ed0d41a4264d32a22f538ec/6da22480-27ec-11ef-8dbc-9af534525899_132372.jpg",
+          "blurhash": "j4;vLYKXX;p5h4GGPcpCKGCplDxS"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ვილკინსონი-ერთჯერადი ქალის N1 7604_132372",
+      "options": [],
+      "original_price": null,
+      "price": 650,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "66684bb883a8299e123f3e4e",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "2a0cbbee0950f1668617b696a7edb8b5",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ed0d41a4264d32a22f538ec/aacd1242-27ed-11ef-a36a-667988484906_135909.jpg",
+          "blurhash": "jcYf3Md4;;XKcPCpTcpCXKOX8ycP"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ჯილეტი- სათადარიგო პირი Mach3 #2_135909",
+      "options": [],
+      "original_price": null,
+      "price": 2840,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "66684bb883a8299e123f3e51",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "bcc415c4b8ae9b9a6085a563843e8428",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ed0d41a4264d32a22f538ec/aae7aeb8-27ed-11ef-a5d3-5a8cff950119_135908.jpg",
+          "blurhash": "jbYv7Nll;;PcPctTllGG;;KX4hll"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ჯილეტი- სათადარიგო პირი Mach3 #4_135908",
+      "options": [],
+      "original_price": null,
+      "price": 4259,
+      "purchasable_balance": 5,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "66684bb883a8299e123f3e3b",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "9e4f020c0fb2ee2a169b38554a7b792d",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": {
+        "disable_text": "Sold out",
+        "disable_reason": null
+      },
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ed0d41a4264d32a22f538ec/7d76ddac-27eb-11ef-8820-36125e165fa0_130585.jpg",
+          "blurhash": "jmV:rDqG;;JSOXqphlFSPcuphlFS"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ჯილეტი საპარსი ერთჯერადი 3 პირ. #6_130585",
+      "options": [],
+      "original_price": null,
+      "price": 2469,
+      "purchasable_balance": 0,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    }
+  ],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

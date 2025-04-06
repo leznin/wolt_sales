@@ -1,0 +1,3329 @@
+{
+  "category": {
+    "id": "6707a09b3e6b3c348cc6bf47",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f683456c6324f97d317ccc/6aba5bee-86eb-11ef-934b-ee3be7e4dfbb_________________.jpg",
+        "blurhash": "jdYejxXtX;hqLuDcKDFBX;d4l3JB"
+      }
+    ],
+    "name": "გრიპი და გაციება",
+    "slug": "menucategory-246"
+  },
+  "categories": [
+    {
+      "id": "6707a09b3e6b3c348cc6bf47",
+      "item_ids": [
+        "668534a520bc875c2f516a7e",
+        "664b48fe5be795c92446a0ed",
+        "664b48fe5be795c92446a0ae",
+        "664b48fe5be795c92446a0c5",
+        "664b48fe5be795c92446a0bf",
+        "664b48fe5be795c92446a0df",
+        "664b48fe5be795c92446a0f1",
+        "664b48fe5be795c92446a14c",
+        "6492d820888cb009dc6027a5",
+        "668534a520bc875c2f516bb3",
+        "6492d820888cb009dc602734",
+        "6555ed77d36374395d8df608",
+        "668534a520bc875c2f516bc9",
+        "668534a520bc875c2f516bc5",
+        "6492d820888cb009dc602727",
+        "664b48fe5be795c92446a182",
+        "664b48fe5be795c92446a1d0",
+        "664b48fe5be795c92446a1e4",
+        "664b48fe5be795c92446b4db",
+        "6492d820888cb009dc6027ca",
+        "6450fb54f6265f7f249f8b7b",
+        "6450fb54f6265f7f249f8b84",
+        "6450fb54f6265f7f249f8b28",
+        "6492d820888cb009dc6027b5",
+        "6450fb54f6265f7f249f8b7f",
+        "6450fb54f6265f7f249f903c",
+        "6450fb54f6265f7f249f8aa2",
+        "6450fb54f6265f7f249f9091",
+        "6450fb54f6265f7f249f905b",
+        "6492d820888cb009dc6027bf",
+        "6492d820888cb009dc602766",
+        "6492d820888cb009dc602788",
+        "6555ed77d36374395d8df6ac",
+        "6450fb54f6265f7f249f8b5a",
+        "6492d820888cb009dc6027cf",
+        "6450fb54f6265f7f249f9003",
+        "6492d820888cb009dc6027d7",
+        "6450fb54f6265f7f249f87c8",
+        "6450fb54f6265f7f249f8b14",
+        "6450fb54f6265f7f249f8ffe",
+        "6555ed77d36374395d8df6c2",
+        "64cb9d0cbee0120bbea30671",
+        "6450fb54f6265f7f249f906f",
+        "6492d820888cb009dc6027d0",
+        "6555ed77d36374395d8df618",
+        "6450fb54f6265f7f249f9565",
+        "6492d820888cb009dc602739",
+        "6492d820888cb009dc602791",
+        "6450fb54f6265f7f249f87fc",
+        "6450fb54f6265f7f249f9419"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "668534a520bc875c2f516a7e",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "ea03f46c126f1aa8f0392f44f16647ee",
+      "description": "ჩვენება: გამოიყენება თავის ტკივილის, შაკიკის, კბილის ტკივილის, წელის ტკივილის, კუნთების ტკივილის, მტკივნეული მენსტრუაციისა და ყელის ტკივილის დროს.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f683456c6324f97d317ccc/4a89e95c-3934-11ef-b71b-826e4911225f_79975_128.jpg",
+          "blurhash": "jbYvfTcP;;;:cQllTsPcXKPc8zcP"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Panadol - პანადოლი 12 ტაბლეტი",
+      "options": [],
+      "original_price": null,
+      "price": 420,
+      "purchasable_balance": 10,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "664b48fe5be795c92446a0ed",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "7f6823db8bfa6b698500b407f1dcf7c4",
+      "description": "გამოიყენება ცხვირის ლორწოვანი გარსის შეშუპების დროს 2-დან 12-წლამდე ასაკის ბავშვებისთვის.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/1b572b64-16ba-11ef-861a-0a76895f7a5f_56542_2561.jpg",
+          "blurhash": "j4:;HXKX;;lCTtpCcPKXPctTh4Gp"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Xylomarin - ქსილომარინი 0.5% 10მლ სპრეი",
+      "options": [],
+      "original_price": null,
+      "price": 1044,
+      "purchasable_balance": 22,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "664b48fe5be795c92446a0ae",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "1fdd878174349f294c8d89e44125a432",
+      "description": "ჩვენება:მწვავე რესპირატორული დაავადებები რინიტის (სურდოს) ნიშნებით, მწვავე ალერგიული რინიტი, პოლინოზი, სინუსიტი.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/f4d903fe-16af-11ef-b677-b62ae650c114_85681_2257.jpg",
+          "blurhash": "j2;vTZGX;;KXXtCncPpVTtCpcPtT"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Snup - სნუპი სპრეი 45მკგ/დოზა 15მლ",
+      "options": [],
+      "original_price": null,
+      "price": 944,
+      "purchasable_balance": 27,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "664b48fe5be795c92446a0c5",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "0a75a3d0f5cbc67aa9b2023e6f8ae772",
+      "description": "ჩვენება: მწვავე რესპირატორული დაავადება რინიტის (სურდოს) მოვლენებით, მწვავე ალერგიული რინიტი, პოლინოზი, სინუსიტი, შუა ოტიტი (ყელ-ცხვირის ლორწოვანას შეშუპების შესამცირებლად), ავადმყოფის მომზადება დიაგნოსტიკული მანიპულაციებისათვის ცხვირის გზებში",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/cdc25364-16ba-11ef-b63a-2ae801dabfe9_8872_2857.jpg",
+          "blurhash": "j9ZLvVGG;;pEllGFLbpCXtpTcPGF"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Otrivin - ოტრივინი 0.1% 10მლ ცხვირის აეროზოლი",
+      "options": [],
+      "original_price": null,
+      "price": 1335,
+      "purchasable_balance": 15,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "664b48fe5be795c92446a0bf",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "de23c14ed0024e00033fec6c99dc7e67",
+      "description": "ჩვენება: სხვადასხვა წარმოშობის რინიტი, ცხვირის ღრუს დანამატი წიაღების ანთებისას დაგროვილი სეკრეტის გამოყოფის გასაადვილებლად, დამხმარე თერაპიის სახით შუა ყურის ოტიტის დროს (ცხვირ-ხახის ლორწოვანი გარსის შეშუპების შესამცირებლად)",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/7ea19190-16b6-11ef-82df-5e28b6afdfef_52658_2857.jpg",
+          "blurhash": "j9ZLvUGG;;pEl9GFLapCXtpT8PGG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Otrivin - ოტრივინი მენთოლის და ევკალიპტის სპრეი 0.1% 10მლ",
+      "options": [],
+      "original_price": null,
+      "price": 1470,
+      "purchasable_balance": 11,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "664b48fe5be795c92446a0df",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "617c056a1d39a72da5a2a7ffd0a02f16",
+      "description": "ჩვენება: მწვავე რესპირატორული დაავადებები რინიტის (სურდოს) სიმპტომებით, ალერგიული რინიტი, პოლინოზი, სინუსიტი, შუა ყურის ანთება (ცხვირ-ხახის ლორწოვანი გარსის შეშუპების შესამცირებლად),პაციენტის მომზადება ცხვირზე დიაგნოსტიკური პროცედურების ჩასატარებლად",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/d2702cb2-16ae-11ef-a4b8-6e52843109eb_8871_2857.jpg",
+          "blurhash": "jdYLbQpC;;KXlHCpKCpCXJCp8QpC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Otrivin - ოტრივინი 0.05% 10მლ ცხვირის წვეთები",
+      "options": [],
+      "original_price": null,
+      "price": 1268,
+      "purchasable_balance": 12,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "664b48fe5be795c92446a0f1",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "5e5a0727c23b2d7baa97b085b9d64636",
+      "description": "გამოიყენება ცხვირით გაძნელებული სუნთქვა გაციების, გრიპის, მწვავე რესპირატორული ვირუსული ინფექციის, ალერგიული რინიტისა და სინუსიტების დროს.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/15e71e6e-16b0-11ef-8335-5af0c444daaf_3376_1309.jpg",
+          "blurhash": "jeX;fTln;;TbTslCh4KXTsGFcQln"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ნაზოლი სპრეი 30მლ. 0.5მგ/მლ.",
+      "options": [],
+      "original_price": null,
+      "price": 2124,
+      "purchasable_balance": 4,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "664b48fe5be795c92446a14c",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "e54c28d034428742361700f377f7ff96",
+      "description": "ჩვენება:მწვავე ალერგიული რინიტი, პოლინოზი,სინუსიტი, ევსტაქიიტი, შუა ოტიტი",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/e984ae46-16b3-11ef-bd5d-c6c5fb4743c0_82585_2257.jpg",
+          "blurhash": "j2;vTZKG;;GXTJuGcPBCTtupcPFS"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Snup - სნუპი სპრეი 90მკგ/დოზა 15მლ",
+      "options": [],
+      "original_price": null,
+      "price": 815,
+      "purchasable_balance": 47,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6492d820888cb009dc6027a5",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "c7258525d056916f47584c311dbe046e",
+      "description": "ჩვენება: ცხვირის ლორწოვანი გარსის შეშუპება, ქსილომეტაზოლინის ჰიდროქლორიდის ცხვირის სპრეი 1 მგ/მლ ნაჩვენებია მოზრდილებში და ბავშვებში 12 წლის ასაკიდან",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/314c26ba-16ae-11ef-a167-2ecaa921d1f5_56541_2561.jpg",
+          "blurhash": "j6:fDWKG;;pDTspCh4KXTtCpcPtS"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Xylomarin - ქსილომარინი 0.1% 10მლ სპრეი",
+      "options": [],
+      "original_price": null,
+      "price": 1122,
+      "purchasable_balance": 34,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "668534a520bc875c2f516bb3",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "dfa4a2e5d1e9ad7edb11d2c545955814",
+      "description": "გრიპისა და გაციების ძირითადი სიმპტომების კუპირება: მომატებული ტემპერატურა, თავის ტკივილი, კანკალი, კუნთებისა და სახსრების ტკივილი, ცხვირის შეგუბება, ყელის ტკივილი (გაციების ჩაი)",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f683456c6324f97d317ccc/943749fc-3932-11ef-99a8-aecef1799e97_2580_201.jpg",
+          "blurhash": "jcY;jOPc;;cPFSGHqGllXKll8yPc"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Coldrex hotrem - კოლდრექსი ჰოტრემი ლიმონით 10 პაკეტი",
+      "options": [],
+      "original_price": null,
+      "price": 2397,
+      "purchasable_balance": 11,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6492d820888cb009dc602734",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "628a77b44635022917e0819c6de377c5",
+      "description": "ჩვენება: მწვავე რესპირატორული ინფექციების, გაციების სიმპტომური მკურნალობა, ალერგიული რინიტი, რინოფარინგიტი (გაციების ჩაი)",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/da7f8ea8-16ad-11ef-9080-76d4b4d87408_9749_8.jpg",
+          "blurhash": "jgX:TRlq;;P6hmGCOWlHTJGDcPlq"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Fervex -ფერვექსი შაქრით ჟოლო 8 პაკეტი",
+      "options": [],
+      "original_price": null,
+      "price": 1769,
+      "purchasable_balance": 4,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6555ed77d36374395d8df608",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "b1708c6dc35b1cfcc949dfa373b7dce7",
+      "description": "ჩვენება:გრიპით და გაციებით გამოწვეულ თავის ტკივილს, კუნთების და სახსრების ტკივილს,ცემინების მაგვარ სიმპტომებს.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/8bcddd5c-16ab-11ef-bbf7-72942653f927_86680_638.jpg",
+          "blurhash": "jfW:TLFB;;GYGXGGpCpC;;qH4hFB"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Theraflu - ტერაფლუ ფორტე 20 ტაბლეტი",
+      "options": [],
+      "original_price": null,
+      "price": 670,
+      "purchasable_balance": 62,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "668534a520bc875c2f516bc9",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "53dd54e2392283056965616f3ceaa57b",
+      "description": "გრიპისა და გაციების ძირითადი სიმპტომების კუპირება: მომატებული ტემპერატურა, თავის ტკივილი, კანკალი, კუნთებისა და სახსრების ტკივილი, ცხვირის შეგუბება, ყელის ტკივილი (გაციების ჩაი)",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f683456c6324f97d317ccc/b31b4350-3932-11ef-81c5-562d70b58244_6907_201.jpg",
+          "blurhash": "jgXK;IPc;;h3llCqKXtSXLll8yPc"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Coldrex - ქოლდრექსი თაფლით და ლიმონით 10 პაკეტი",
+      "options": [],
+      "original_price": null,
+      "price": 2408,
+      "purchasable_balance": 7,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "668534a520bc875c2f516bc5",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "9e89f24a44afb042e3615488a3164386",
+      "description": "ჩვენება:გრიპის, ციებ-ცხელების, კანკალისა და სიცხით მიმდინარე გაციების სიმპტომების შესამსუბუქებლად (გაციების ჩაი)",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f683456c6324f97d317ccc/7f999836-3934-11ef-a62c-c2da97d4da0a_82671_625.jpg",
+          "blurhash": "jlX:HwP5;;cYOSpGhqKBXLlqcyP6"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "TaiCold - ტაიქოლდიმაქსი ლიმონი 12 პაკეტი",
+      "options": [],
+      "original_price": null,
+      "price": 2767,
+      "purchasable_balance": 39,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6492d820888cb009dc602727",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "4fd3dee4e28aaa94c51382c2bd5a9afd",
+      "description": "ჩვენება: მწვავე რესპირატორული ინფექციების, გაციების სიმპტომური მკურნალობა, ალერგიული რინიტი, რინოფარინგიტი",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/9117d556-16b5-11ef-b042-7e9267f59215_1842_8.jpg",
+          "blurhash": "jfYuLIll;;PctGplGFKXX;GGcypm"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Fervex - ფერვექსი შაქრით 8 საშეტი",
+      "options": [],
+      "original_price": null,
+      "price": 1272,
+      "purchasable_balance": 4,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "664b48fe5be795c92446a182",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "97a2db40a0d0d086cc4100646d66c266",
+      "description": "ჩვენება: ზედა სასუნთქი გზების და ბრონქოპულმონალური ტრაქტის მწვავე, ქვემწვავე, მორეციდივე ან ქრონიკული ინფექციები.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/7b1a68b8-16b5-11ef-ba3a-e2ce7a4bf86c_32014_469.jpg",
+          "blurhash": "j5:LHWh4;;TtpDpCKWKW;;Pc4icP"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Ismigen - ისმიჟენი 30 ტაბლეტი",
+      "options": [],
+      "original_price": null,
+      "price": 10962,
+      "purchasable_balance": 10,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "664b48fe5be795c92446a1d0",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "a7703c3c9a021987a48e56476965564a",
+      "description": "ჩვენება: ხველის აღმოფხვრა ოპერაციამდე და პოსტოპერაციულ პერიოდში ქირურგიული ჩარევებისა და ბრონქოსკოპიის შემდეგ, ყივანახველა.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/f58d24ba-16b4-11ef-9dbf-5296f471903b_4279_2857.jpg",
+          "blurhash": "je:;7LCXT;F4l4BTLcqGHtBCoPqX"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Sinecod - სინეკოდი სიროფი 200მლ",
+      "options": [],
+      "original_price": null,
+      "price": 1994,
+      "purchasable_balance": 6,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "664b48fe5be795c92446a1e4",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "64482cbd178e1622c305195cf75f326a",
+      "description": "ჩვენება:მწვავე და ქრონიკული რესპირატორული დაავადებების დროს წებოვან სეკრეტთან და ბრონქოსპაზმთან ასოცირებული პროდუქტიული და არაპროდუქტიული ხველის სამკურნალოდ, შემდეგი შემთხვევებისას.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/7d18f7ac-16af-11ef-a8e7-8eacdb06b780_84777_3351.jpg",
+          "blurhash": "j7ZvrRBD;;KXOXGGlCpl;;uF4hFC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Farcosolvin - ფარკოსოლვინი 24 კაფსულა",
+      "options": [],
+      "original_price": null,
+      "price": 1374,
+      "purchasable_balance": 3,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "664b48fe5be795c92446b4db",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "5ca8a716d1139227fc23dd04125e0628",
+      "description": "ჩვენებები: სიცხე; ვაქცინაციის შემდგომი პერიოდი; სხვადასხვა წარმოშობის თავის ტკივილი; კბილის ტკივილი; გადახურებები დღის და ღამის განმავლობაში;მწერის ნაკბენი;",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ed0d41a4264d32a22f538ec/7a8b144a-1694-11ef-85d4-92001396e27e_82219_3267.jpg",
+          "blurhash": "jbY;fQGE;;pXh4CpPctSPcpWh4Gm"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Ice Cooling - აის ქულინგი პლასტირი 5 ცალი",
+      "options": [],
+      "original_price": null,
+      "price": 1345,
+      "purchasable_balance": 4,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6492d820888cb009dc6027ca",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "237516fba962becbed28b2a5dd25e28f",
+      "description": "ჩვენება: თავის ტკივილი, შაკიკი, კბილის ტკივილი, ნევრალგია",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/22f6084e-16b6-11ef-8a28-ea7c6840f1ca_47558_469.jpg",
+          "blurhash": "jkYeLyKRXLlcKYpCpBGX;;lrcyKR"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Perufen - პერუფენი 400.0მგ N20 კაფსულა",
+      "options": [],
+      "original_price": null,
+      "price": 1318,
+      "purchasable_balance": 4,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6450fb54f6265f7f249f8b7b",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "3a6165581a96584f5b211919aed0cb04",
+      "description": "კომბინირებული ანტიმიკრობული პრეპარატია ადგილობრივი გამოყენებისათვის ხახის და ყელისთვის გააჩნია ანტისეპტიკური მოქმედება აქტიურია გრამდადებითი და გრამუარყოფითი მიკროორგანიზმების მიმართ",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f683456c6324f97d317ccc/83215000-f02e-11ef-8297-de2668d901f9_6230_1019.jpg",
+          "blurhash": "j6:LzTBC;;KXGGxTCGCp;;GG8hpl"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Strepsils - სტრეპსილსი+ვიტამინი C 24 საწუწნი ტაბლეტი",
+      "options": [],
+      "original_price": null,
+      "price": 1054,
+      "purchasable_balance": 8,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6450fb54f6265f7f249f8b84",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "3fd36b02cf481b8163d6e38e5d94a364",
+      "description": "გამოიყენება პირისა და ყელის ღრუს ინფექციურ-ანთებითი დაავადებების მკურნალობის დროს.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f683456c6324f97d317ccc/d343da4c-87d0-11ef-b30e-ae3f09949275_6229_1019.jpg",
+          "blurhash": "jdZ;bKllX;PcndCGJjtmXLKFcyln"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Strepsils - სტრეპსილსი ლიმონით და თაფლით 24 საწუწნი ტაბლეტი",
+      "options": [],
+      "original_price": null,
+      "price": 1015,
+      "purchasable_balance": 7,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6450fb54f6265f7f249f8b28",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "7eb72162cd424992d0794eb3b4bd9060",
+      "description": "წარმოადგენს ანთების საწინააღმდეგო არასტეროიდულ პრეპარატს გააჩნია ადგილობრივი ტკივილგამაყუჩებელი მოქმედება",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/675e5614-16aa-11ef-b254-7eb2e4beb170_3090_387.jpg",
+          "blurhash": "j9ZLDRGr;;qBBGpCGGKXXuGp8OpC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "TANTUM VERDE - ტანტუმ ვერდე აეროზოლი 30მლ",
+      "options": [],
+      "original_price": null,
+      "price": 1695,
+      "purchasable_balance": 11,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6492d820888cb009dc6027b5",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "710fc7123e2f8b180fa430b9a6466ed1",
+      "description": "გამოიყენება ყელის ძლიერი ტკივილის სიმპტომური მკურნალობისას ინფექციურ-ანთებითი დაავადებების დროს.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/62e69d30-16aa-11ef-b27e-4a6456cc4ffb_57604_1019.jpg",
+          "blurhash": "j7ZvrVln;;PbPbGGhmlm;;KV4ihm"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "STREPSILS - სტრეპსილსი ექსპრესი საწუწნი ტაბლეტები 24 ცალი",
+      "options": [],
+      "original_price": null,
+      "price": 1680,
+      "purchasable_balance": 3,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6450fb54f6265f7f249f8b7f",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "04578c724b3392501876afdf787cf0c5",
+      "description": "მიღების ჩვენება: პირის ღრუს და ცხვირხახის ინფექციები: გინგივიტი, სტომატიტი, ტონზილიტი, ანგინა, ფარინგიტი ტონზილექტომიის და კბილის ამოღების შემდგომი გართულებების პროფილაქტიკა",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/136a858a-16b1-11ef-a2e0-4ab5ad93f548_32949_181.jpg",
+          "blurhash": "jeXK;NOUXKlHPcpWlmGC;;lq8zKB"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Faringosept - ფარინგოსეპტი 10 საწუწნი ტაბლეტი",
+      "options": [],
+      "original_price": null,
+      "price": 576,
+      "purchasable_balance": 7,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6450fb54f6265f7f249f903c",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "4caa5de68768a2b36116bcabbb3c8eb2",
+      "description": "ჩვენება: გაციებისა და ზედა სასუნთქი გზების ინფექციურ-ანთებითი დაავადებების (მწვავე რესპირატორულ-ვირუსული ინფექცია, გრიპი, მწვავე რინიტი, ჰაიმორიტი, ტონზილიტი, ფარინგიტი) სიმპტომური მკურნალობა",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/144a517c-16b3-11ef-ac5f-061c8152d3a6_6864_871.jpg",
+          "blurhash": "jcX:;UKR;:hclmGDKWpF;:lr4jKQ"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Ephact Flu - ეფექტი ფლუ 10 კაფსულა",
+      "options": [],
+      "original_price": null,
+      "price": 1100,
+      "purchasable_balance": 8,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6450fb54f6265f7f249f8aa2",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "b8042e43a4abf4756d807d82b50a03ed",
+      "description": "მიღების ჩვენება: პირის ღრუს და ცხვირხახის ინფექციები: გინგივიტი, სტომატიტი, ტონზილიტი, ანგინა, ფარინგიტი ტონზილექტომიის და კბილის ამოღების შემდგომი გართულებების პროფილაქტიკა",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/b1aca966-16b7-11ef-8a23-1ed37c430d94_6635_181.jpg",
+          "blurhash": "j9:LvQlGX;ORLauqlntBX;Km8xlX"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Faringosept - ფარინგოსეპტი ლიმნით 20 საწუწნი ტაბლეტი",
+      "options": [],
+      "original_price": null,
+      "price": 825,
+      "purchasable_balance": 5,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6450fb54f6265f7f249f9091",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "aa5ce128c713a7bb17a8d3aec24ffd9b",
+      "description": "ჩვენება: თავის ტკივილი, კბილის ტკივილი, ტკივილები მენსტრუაციის დროს, ყელის ტკივილი ინფექციების დროს, სახსრების და კუნთების ტკივილი. სხეულის მომატებული ტემპერატურა ინფექციურ-ანთებითი დაავადებების დროს.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/b9ef0150-16ad-11ef-a6a4-2aef281c0b8f_3579_22.jpg",
+          "blurhash": "j6Z;zUlC;;TcXsKGd4hl;;KG4hhl"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Aspirin C - ასპირინი C 10 შუშხუნა ტაბლეტი",
+      "options": [],
+      "original_price": null,
+      "price": 1314,
+      "purchasable_balance": 8,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6450fb54f6265f7f249f905b",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "e6a2353d851f1e3ee305c2dd452a20b8",
+      "description": "ჩვენება:მწვავე რესპირატორული დაავადებების და გრიპის სიმპტომური მკურნალობა,თავის ტკივილი, ყელის ტკივილი, კუნთ-სახსროვანი ტკივილი, ცხვირის გაჭედვა, რინორეა.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/992a6d60-16b2-11ef-b916-26218f2e09a8_9656_1308.jpg",
+          "blurhash": "jiWuTNKX;;h48zpCTtKXXspD8QKV"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Antiflu - ანტიფლუ 12 ტაბლეტი",
+      "options": [],
+      "original_price": null,
+      "price": 1573,
+      "purchasable_balance": 4,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6492d820888cb009dc6027bf",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "a3a5520c76722707c6cf31d6e3e498e8",
+      "description": "გამოიყენება გაციებასთან და გრიპთან დაკავშირებული სიმპტომების შესამსუბუქებლად (გაციების ჩაი)",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/7130ff48-16aa-11ef-a2f3-7aa65db0bf6d_29635_625.jpg",
+          "blurhash": "jhWezIhI;;SOKYKBpAhI;:KB8zhI"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Tylolfen hot - ტაილოლფენ ჰოთი 12 პაკეტი",
+      "options": [],
+      "original_price": null,
+      "price": 2140,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6492d820888cb009dc602766",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "4e11267f7d95931fae1d7f50ac553334",
+      "description": "გამოიყენება პირის ღრუს, ხახის, ხორხის ინფექციურ - ანთებითი დაავადებების დროს",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/6dcbaad2-16b0-11ef-a28a-4a6456cc4ffb_30799_776.jpg",
+          "blurhash": "jaY;nTh5;;XtPbpChlKX;KKX8yh5"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Hexaspray - ჰექსასპრეი 2.5% 30გ სპრეი",
+      "options": [],
+      "original_price": null,
+      "price": 1516,
+      "purchasable_balance": 3,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6492d820888cb009dc602788",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "20606dfcdc453cee84063c01337ef722",
+      "description": "ჩვენებები: გამოიყენება ცხვირიდან გამონადენის, ცემინების, თავის ტკივილი კუნთების ტკივილი, ციების, რინიტის, გრიპტან ასოცირებული თვალებიდან ცრემლდენის, ქავილის და ზოგადი გაციების დროს.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/2e23ff92-16b5-11ef-9143-26d10c76dbfb_80632_798.jpg",
+          "blurhash": "jdXL3WpE;ZKWGGGFuplD;ZGp4jpD"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "A Ferin Forte - ა ფერინ ფორტე 30 ტაბლეტი",
+      "options": [],
+      "original_price": null,
+      "price": 769,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6555ed77d36374395d8df6ac",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "46565cbff25dfcf65e20005d09536423",
+      "description": "ჩვენება:მსუბუქი ან საშუალო სიმძიმის ტკივილის მოსახსნელად.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/c7e52648-16aa-11ef-ac82-0269577c2c1e_83983_2844.jpg",
+          "blurhash": "j4:;LWqq;;OXGWtTCqCq;;KF4hhm"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Ibuprofen - იბუპროფენი 400მგ 30 ტაბლეტი",
+      "options": [],
+      "original_price": null,
+      "price": 665,
+      "purchasable_balance": 5,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6450fb54f6265f7f249f8b5a",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "18104e6d497fd03cd3834d22e964adb7",
+      "description": "ჩვენება: ყელის ტკივილის სიმპტომური მკურნალობა ინფექციურ-ანთებითი დაავადებების დროს",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/3071c608-16b0-11ef-a97a-76d4b4d87408_48156_1019.jpg",
+          "blurhash": "jbZ;7NtCX;KXDtGHEPplX;tCcyCW"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Strepsils - სტრეპსილსი საბავშვო უშაქრო მარწყვი 16 ტაბლეტი",
+      "options": [],
+      "original_price": null,
+      "price": 1041,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6492d820888cb009dc6027cf",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "17b39e363099a2ceb05acccfc807770a",
+      "description": "მცენარეული გრანულები წარმოადგენენ კარგად შერჩეული მცენარეების ოპტიმალურ დაბალანსებულ შემადგენლობას ტკივილგამაყუჩებელი, სიცხის დამწევი, ამოსახველებელი და შეგუბების საწინააღმდეგო მოქმედებით (გაციების ჩაი)",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/68c32066-16b9-11ef-88e3-ae6cd66e2da6_31912_1148.jpg",
+          "blurhash": "jgZLjElEXLKWFppVqVGCTLKFcNlD"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Insty - ინსტი ბალახეული ჩაი საბავშვო 5 პაკეტი",
+      "options": [],
+      "original_price": null,
+      "price": 656,
+      "purchasable_balance": 12,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6450fb54f6265f7f249f9003",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "75d951522695d3f73333e7502fab66ec",
+      "description": "ბუნებრივი კომპონენტებისგან დამზადებული გაციების და გრიპის საწინააღმდეგო ბალზამი, გააჩნია ბრონქოლიზური მოქმედება, სიცხის დამწევი და ტკივილგამაყუჩებელი მოქმედება, აძლიერებს იმუნიტეტს, დამატებითი ენერგიის წყაროა",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/6b85d49c-16aa-11ef-b47b-6a7164091e6e_42310_1922.jpg",
+          "blurhash": "jdYf3MlC;;OXPcpCh4KXXKFS8yqG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "GripoStop - გრიპოსტოპი სიროფი 100მლ",
+      "options": [],
+      "original_price": null,
+      "price": 2485,
+      "purchasable_balance": 5,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6492d820888cb009dc6027d7",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "1427f193294b2698d7624a2dd48d2996",
+      "description": "გამოიყენება ცხვირის ლორწოვან გარსზე დასატანად, მისი ეფექტური სანაციისა და გამონადენისგან გათავისუფლების მიზნით.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/2f6237c4-16b6-11ef-b772-5abb1aa18a24_67469_482.jpg",
+          "blurhash": "j8Z;vWCG;;KGTruph5BSTtCpcPpD"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Aqua maris - აქვა მარის ბეიბი ინტენსიური სანაცია150მლ",
+      "options": [],
+      "original_price": null,
+      "price": 2822,
+      "purchasable_balance": 4,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6450fb54f6265f7f249f87c8",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "e264c3e92d96799371c72f0309a2d72f",
+      "description": "გამოიყენება როგორც ამოსახველებელი საშუალება სველი ხველების დროს",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/319b0432-16b9-11ef-a672-e2ce7a4bf86c_43816_37.jpg",
+          "blurhash": "jjV:HCll;;TcTdtEd3CDXKKG8ylB"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Herbion ivy surup - ჰერბიონი სუროს სიროფი-უშაქრო150მლ",
+      "options": [],
+      "original_price": null,
+      "price": 1730,
+      "purchasable_balance": 6,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6450fb54f6265f7f249f8b14",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "d17f80de130075a8fe859d1aaa66e7b4",
+      "description": "პირის ღრუს სპრეი, ხსნარი არის ანთების საწინააღმდეგო, ტკივილგამაყუჩებელი და ანტისეპტიკური პრეპარატი ადგილობრივი გამოყენებისთვის",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/ba76ec62-16b9-11ef-9134-ae6cd66e2da6_50631_37.jpg",
+          "blurhash": "j9ZLzVGG;;CGlDCpKWpCXsBUcQup"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Septolete - სეპტოლეტე ექსტრა სპრეი 30მლ",
+      "options": [],
+      "original_price": null,
+      "price": 2324,
+      "purchasable_balance": 3,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6450fb54f6265f7f249f8ffe",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "daf276eaf3b9795325d18cad01bc44f4",
+      "description": "ჩვენება: ზედა სასუნთქი გზების მწვავე რესპირატორული დაავადებების სიმპტომების (ჰიპერთერმია, თავის, სახსრების და კუნთების ტკივილი, ცხვირის გაჭედილობა, სურდო, ცრემლდენა) და გრიპის სამკურნალოდ. (გაციების ჩაი)",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/321ae58c-16ad-11ef-aadf-7aa65db0bf6d_9655_1308.jpg",
+          "blurhash": "jbYLvVh5;:Xtd6hlPaTcTcKWd4dl"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Antiflu - ანტიფლუ ლიმონით 5 პაკეტი",
+      "options": [],
+      "original_price": null,
+      "price": 1836,
+      "purchasable_balance": 9,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6555ed77d36374395d8df6c2",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "ea000fe154f481634c476496cecfbd65",
+      "description": "ჩვენებები:ყელის გაღიზიანება, ხველა, გრიპი, ცხვირის შეგუბება, ცხელება, გაციება, თავისა და ფიზიკური ტკივილები (გაციების ჩაი)",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/cada7bf8-16b1-11ef-96bd-b21c5d79bc2d_43849_1148.jpg",
+          "blurhash": "jbY;jKd4;;XJXLKWcOh6;LPc8ycP"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Linkus orvi - ლინკასი ორვი ლიმონი 5 პაკეტი",
+      "options": [],
+      "original_price": null,
+      "price": 696,
+      "purchasable_balance": 9,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "64cb9d0cbee0120bbea30671",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "67985fb740d4dd9bd6a2f573a070eacf",
+      "description": "ჩვენება: გაციების და გრიპის სხვადასხვა გამოვლინების,მომატებული ტემპერატურისას, მსუბუქად ან ზომიერად გამოხატული ტკივილის სინდრომისას. (გაციების ჩაი)",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/c639e40c-16b7-11ef-8fcd-e20cce40eb98_50677_432.jpg",
+          "blurhash": "j9Z;7Qh4;;TukWqGL6JBX;KY8yh3"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Flucold - ფლუქოლდი ლიმნით 5 პაკეტი",
+      "options": [],
+      "original_price": null,
+      "price": 580,
+      "purchasable_balance": 4,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6450fb54f6265f7f249f906f",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "5e81690ad0ecd80aa2e5116ce5da6cf1",
+      "description": "შუშხუნა გრანულების ერთდოზიანი პაკეტი გამოიყენება გაციების, სურდოს, გრიპის და სხვა მდგომარეობების სიმპტომური მკურნალობისათვის (გაციების ჩაი)",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/f187f6b2-16b7-11ef-b7c8-c62659062b84_7176_929.jpg",
+          "blurhash": "jbZvbQGX;;l4NSGXiHl5X:ll8yPc"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Grip hot - გრიპ ჰოთი 12 პაკეტი",
+      "options": [],
+      "original_price": null,
+      "price": 2186,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6492d820888cb009dc6027d0",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "2302b6295ae76dd64e51ef2a26bdda31",
+      "description": "ჩვენება:დაზიანებული და გაღიზიანებული ყელის ლორწოვანი გარსი",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/2e3fbbca-16b9-11ef-8c0b-7e9267f59215_59351_2666.jpg",
+          "blurhash": "j6:vDUpB;;PcPdpCh4KWXKGG8yll"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Icelander - აისლენდერი სპრეი 20მლ",
+      "options": [],
+      "original_price": null,
+      "price": 2809,
+      "purchasable_balance": 4,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6555ed77d36374395d8df618",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "ddddc8a45ad0b1f2cf791cdc36b607bc",
+      "description": "ჩვენება: მწვავე რესპირატორული დაავადების და გაციების სიმპტომების მოსახსნელი საშუალება (გაციების ჩაი)",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/90c3c73c-16b4-11ef-a6cc-021afe604edf_68729_1119.jpg",
+          "blurhash": "jeZu;LBV;;GGKXupplBTTKCFcytC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ოქროს ვარსკვლავი 10 პაკეტი ჟოლოს გემოთი",
+      "options": [],
+      "original_price": null,
+      "price": 1367,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6450fb54f6265f7f249f9565",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "be3854acd33f6fb33a4f906b62e1ae18",
+      "description": "სხვადასხვა წარმოშობის სუსტი ან საშუალო ინტენსივობის ტკივილის სინდრომი მოზრდილებში (თავის ტკივილი, კბილის ტკივილი, შაკიკი, ნევრალგია, გულმკერდის ფესვის სინდრომი, კუნთების და სახსრების ტკივილი, ტკივილი მენსტრუაციის დროს)",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/d9c63438-16af-11ef-b872-4a6456cc4ffb_7680_8.jpg",
+          "blurhash": "j8Y;rRqW;;NqFqpDqTGW;;Fp4xmS"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Upsarin Upsa - უფსარინ უფსა 500მგ შუშხუნა 16 ტაბლეტი",
+      "options": [],
+      "original_price": null,
+      "price": 1180,
+      "purchasable_balance": 3,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6492d820888cb009dc602739",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "3ef70387f189ce5b2202affe3fa7153c",
+      "description": "ჩვენება:ფარინგიტი, მწვავე და ქრონიკული ტონზილიტი, ლარინგიტი, სტომატიტი, გინგივიტი, პაროდონტიტი.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/905fe206-16ac-11ef-959c-4249d396db0c_79061_67.jpg",
+          "blurhash": "jfX;7UGG;:lCOXGWlml5XsGF8QlC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Aqualor Throat - აქვალორი ყელის ალოე და გვირილა 150მლ",
+      "options": [],
+      "original_price": null,
+      "price": 3055,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6492d820888cb009dc602791",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "8507ea66a87b8d6988dba17fb6ae7683",
+      "description": "ჩვენება: მწვავე რესპირატორული დაავადების (მრდ) და “გაციების” სიმპტომების მოსახსნელი საშუალება (გაციების ჩაი)",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/77487ca2-16ba-11ef-b5e9-3aa8c06e4ba3_71093_1119.jpg",
+          "blurhash": "jgY;rJll;;PdKYpBllKYPdKHh3lk"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ოქროს ვარსკვლავი ლიმონი 10 პაკეტი",
+      "options": [],
+      "original_price": null,
+      "price": 1367,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6450fb54f6265f7f249f87fc",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "14a8d8834e556952922d9980539c5887",
+      "description": "ბრონქომაქსი­ს შემადგენელი თითოეული მცენარე გამოირჩევა ხველის საწინააღმდეგო მოქმედებით ბრონქომაქსი­ით მკურნალობის ფონზე სწრაფად მცირდება ხველის სიხშირე და ინტენსივობა, მცირდება ნახველის სიბლანტე და ადვილდება ამოხველება",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/5fd87da0-16b6-11ef-a3ae-e2b25addd283_40609_1782.jpg",
+          "blurhash": "jcZvvOGF;;CGlstSKQGHTeCoh2tD"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ბრონქომაქსი სიროფი 100მლ",
+      "options": [],
+      "original_price": null,
+      "price": 2446,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6450fb54f6265f7f249f9419",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "06fe5ddacacf29b4b93f2b0e7666eb21",
+      "description": "გამოიყენება მტკივნეული და შეწითლებული ყელის, ჩახლეჩილი ხმის ან მისი სრულად დაკარგვის შემთხვევაში",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450ef7a7df98256c8ae3a79/377f6762-16af-11ef-8b13-52911409af52_59352_2666.jpg",
+          "blurhash": "j6:fvTpC;;KXPcGml4mr;;GX4hpl"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Ice Lander - აისლენდერი 16 პასტილა",
+      "options": [],
+      "original_price": null,
+      "price": 2658,
+      "purchasable_balance": 4,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    }
+  ],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": "eyJsYXN0X251bSI6NTksInBhZ2UiOjJ9",
+    "page": 1
+  }
+}

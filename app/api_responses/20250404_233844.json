@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "63aab08d42645922f4bd8c25",
+    "description": "სხვადასხვა მცენარეული ექსტრაქტები ზოგადი ჯანმრთელობისთვის და ასევე ტესტოსტერონის გამომუშავბის სტიმულირებისთვის.",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/3328943c-e8ac-11ec-a9d0-eaeba1eae1f6_5940000741.jpeg",
+        "blurhash": "jiXuPIGG;;qpOXtTllGGTtCpgPtC"
+      }
+    ],
+    "name": "ბუსტერებ/ექსტრაქტები",
+    "slug": "menucategory-8"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

@@ -1,0 +1,139 @@
+{% extends "admin/base.html" %}
+
+{% block title %}Панель управления{% endblock %}
+{% block page_title %}Панель управления{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h5>Последнее обновление магазинов</h5>
+                </div>
+                <div class="card-body">
+                    <p class="display-4">{{ last_store_update }}</p>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h5>Следующее обновление магазинов</h5>
+                </div>
+                <div class="card-body">
+                    <p class="display-4">{{ next_store_update }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Рост новых пользователей</h5>
+                </div>
+                <div class="card-body" style="position: relative; height: 60vh;">
+                    <canvas id="userGrowthChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const ctx = document.getElementById('userGrowthChart').getContext('2d');
+    
+    const weeklyData = JSON.parse('{{ weekly_data | safe }}');
+    const monthlyData = JSON.parse('{{ monthly_data | safe }}');
+
+    // Форматирование даты
+    const formatDate = (dateStr) => {
+        const date = new Date(dateStr);
+        return date.toLocaleDateString('ru-RU', {
+            day: '2-digit',
+            month: '2-digit',
+            year: 'numeric'
+        });
+    };
+
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: weeklyData.labels.map(formatDate),
+            datasets: [
+                {
+                    label: 'Новые пользователи за неделю',
+                    data: weeklyData.data,
+                    backgroundColor: 'rgba(54, 162, 235, 0.7)',
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    borderWidth: 1,
+                    barThickness: 30
+                },
+                {
+                    label: 'Новые пользователи за месяц',
+                    data: monthlyData.data,
+                    backgroundColor: 'rgba(255, 99, 132, 0.7)',
+                    borderColor: 'rgba(255, 99, 132, 1)',
+                    borderWidth: 1,
+                    barThickness: 30
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    position: 'top',
+                    labels: {
+                        font: {
+                            size: 14
+                        }
+                    }
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function(context) {
+                            return `${context.dataset.label}: ${context.parsed.y} чел.`;
+                        }
+                    }
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    title: {
+                        display: true,
+                        text: 'Количество пользователей',
+                        font: {
+                            size: 16
+                        }
+                    },
+                    ticks: {
+                        stepSize: 1,
+                        callback: function(value) {
+                            return value + ' чел.';
+                        }
+                    }
+                },
+                x: {
+                    title: {
+                        display: true,
+                        text: 'Дата',
+                        font: {
+                            size: 16
+                        }
+                    },
+                    ticks: {
+                        maxRotation: 45,
+                        minRotation: 45
+                    }
+                }
+            }
+        }
+    });
+});
+</script>
+{% endblock %}

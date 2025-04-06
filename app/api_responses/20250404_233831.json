@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "64c38efe273084b97cddfb35",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ed0d41a4264d32a22f538ec/5e9c82ae-305e-11ee-83bd-4234905aab98__________.jpg",
+        "blurhash": "jhVKzFhrTuPcKHlllmGG;;OSgPh4"
+      }
+    ],
+    "name": "პირის ღრუს ჰიგიენა",
+    "slug": "menucategory-706"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

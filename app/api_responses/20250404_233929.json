@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "64d3605a704bdec806428ccd",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5fe45acac6ebdb049e7dec65/53791daa-472f-11ee-a4c6-0a4c066949c3__________.png",
+        "blurhash": "jdZKTFORTKh5Ttlll4KXX;hqgPLb"
+      }
+    ],
+    "name": "მზის ხაზი",
+    "slug": "menucategory-839"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

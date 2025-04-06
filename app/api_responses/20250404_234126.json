@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "2684656b5e4a1e8107aa3eaa",
+    "description": "",
+    "images": [
+      {
+        "url": "https://imageproxy.wolt.com/assets/66a0e3a652c7f147a916d50d",
+        "blurhash": "ja:frRCp;;GHh5u8PcC9mHtTJBCp"
+      }
+    ],
+    "name": "Produkty sypkie",
+    "slug": "produkty-sypkie-30"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

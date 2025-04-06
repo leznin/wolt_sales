@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Предпросмотр рекламы</title>
+    <link rel="stylesheet" href="{{ url_for('admin.static', filename='css/stylesADS.css') }}">
+    <link rel="stylesheet" href="{{ url_for('admin.static', filename='css/styleasAdPreview.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Предпросмотр рекламы</h1>
+        
+        {% if ad %}
+        <div class="ad-details">
+            <h2>{{ ad.title }}</h2>
+            <p>{{ ad.description }}</p>
+            <p><strong>Время показа:</strong> {{ ad.display_time }} сек.</p>
+            <p><strong>Время до кнопки пропуска:</strong> {{ ad.skip_after }} сек.</p>
+            <p><strong>URL перенаправления:</strong> {{ ad.redirect_url }}</p>
+        </div>
+        {% else %}
+        <p>Реклама не найдена.</p>
+        {% endif %}
+        
+        <button id="show-ad" class="show-ad-button">Показать рекламу</button>
+    </div>
+    
+    {% if ad %}
+    <div id="ad-preloader" class="ad-preloader" style="display: none;"
+         data-display-time="{{ ad.display_time }}"
+         data-skip-after="{{ ad.skip_after }}"
+         data-ad-id="{{ ad.id }}"
+         data-redirect-url="{{ ad.redirect_url }}">
+        <div class="ad-video-container">
+            <video id="ad-video" class="ad-video" src="{{ ad.video_url }}" muted></video>
+            <div id="ad-timer" class="ad-timer">{{ ad.display_time }}</div>
+            <button id="ad-skip" class="ad-skip-button">Пропустить</button>
+        </div>
+        <div class="ad-info">
+            <div class="ad-title">{{ ad.title }}</div>
+            <div class="ad-description">{{ ad.description }}</div>
+        </div>
+    </div>
+    {% endif %}
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const adPreloader = document.getElementById('ad-preloader');
+            const adVideo = document.getElementById('ad-video');
+            const adTimer = document.getElementById('ad-timer');
+            const skipButton = document.getElementById('ad-skip');
+            const showAdButton = document.getElementById('show-ad');
+            
+            if (adPreloader) {
+                // Получаем данные из HTML-атрибутов
+                var adData = {
+                    displayTime: parseInt(adPreloader.getAttribute('data-display-time')),
+                    skipAfter: parseInt(adPreloader.getAttribute('data-skip-after')),
+                    id: parseInt(adPreloader.getAttribute('data-ad-id')),
+                    redirectUrl: adPreloader.getAttribute('data-redirect-url')
+                };
+                
+                // Переменная для текущего времени
+                let timeLeft = adData.displayTime;
+                
+                // Переменная для интервала обратного отсчета
+                let countdownInterval;
+                
+                // Функция обратного отсчета
+                function countdown() {
+                    timeLeft--;
+                    adTimer.textContent = timeLeft;
+                    
+                    // Показываем кнопку пропуска после указанного времени
+                    if (timeLeft <= (adData.displayTime - adData.skipAfter) && adData.skipAfter > 0) {
+                        skipButton.style.display = 'block';
+                    }
+                    
+                    // Закрываем рекламу по истечении времени
+                    if (timeLeft <= 0) {
+                        clearInterval(countdownInterval);
+                        closeAd();
+                        
+                        // Отправляем запрос на сервер для учета просмотра
+                        fetch('/adminqsc/api/ad/view/' + adData.id, {
+                            method: 'POST'
+                        });
+                    }
+                }
+                
+                // Функция закрытия рекламы
+                function closeAd() {
+                    adPreloader.style.display = 'none';
+                    if (adVideo) {
+                        adVideo.pause();
+                    }
+                }
+                
+                // Обработчик клика по видео для перехода по ссылке
+                if (adVideo) {
+                    adVideo.addEventListener('click', function() {
+                        if (adData.redirectUrl) {
+                            window.open(adData.redirectUrl, '_blank');
+                            
+                            // Отправляем запрос на сервер для учета клика
+                            fetch('/adminqsc/api/ad/click/' + adData.id, {
+                                method: 'POST'
+                            });
+                        }
+                    });
+                }
+                
+                // Обработчик кнопки пропуска
+                if (skipButton) {
+                    skipButton.addEventListener('click', function() {
+                        clearInterval(countdownInterval);
+                        closeAd();
+                        
+                        // Отправляем запрос на сервер для учета просмотра
+                        fetch('/adminqsc/api/ad/view/' + adData.id, {
+                            method: 'POST'
+                        });
+                    });
+                }
+                
+                // Обработчик кнопки показа рекламы
+                if (showAdButton) {
+                    showAdButton.addEventListener('click', function() {
+                        adPreloader.style.display = 'flex';
+                        if (adVideo) {
+                            adVideo.currentTime = 0;
+                            adVideo.play();
+                            timeLeft = adData.displayTime;
+                            adTimer.textContent = timeLeft;
+                            skipButton.style.display = 'none';
+                            
+                            // Запускаем обратный отсчет
+                            countdownInterval = setInterval(countdown, 1000);
+                        }
+                    });
+                }
+            }
+        });
+    </script>
+</body>
+</html>

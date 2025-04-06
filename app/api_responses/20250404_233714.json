@@ -1,0 +1,2009 @@
+{
+  "category": {
+    "id": "67ee45762419f60b6718d833",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/5528e5b2-1065-11f0-8ac1-ea18f25de45d_1600x900.png",
+        "blurhash": "j3kQpaps00P4;eKH9jlk00KQ;;hs"
+      }
+    ],
+    "name": "Offer - 30%",
+    "slug": "offer-30-210"
+  },
+  "categories": [
+    {
+      "id": "67ee45762419f60b6718d833",
+      "item_ids": [
+        "67ee54056d29fbfefca2de54",
+        "67ee54056d29fbfefca2de5f",
+        "67ee54056d29fbfefca2de64",
+        "67ee54056d29fbfefca2de67",
+        "67ee54056d29fbfefca2de68",
+        "67ee54056d29fbfefca2de69",
+        "67ee54056d29fbfefca2de6e",
+        "67ee54056d29fbfefca2de6f",
+        "67ee54056d29fbfefca2de71",
+        "67ee54056d29fbfefca2de73",
+        "67ee54056d29fbfefca2de74",
+        "67ee54056d29fbfefca2de75",
+        "67ee54056d29fbfefca2de76",
+        "67ee54056d29fbfefca2de77",
+        "67ee54056d29fbfefca2de79",
+        "67ee54056d29fbfefca2de8a",
+        "67ee54056d29fbfefca2de92",
+        "67ee54056d29fbfefca2de94",
+        "67ee54056d29fbfefca2de96",
+        "67ee54056d29fbfefca2de97",
+        "67ee54056d29fbfefca2de9a",
+        "67ee54056d29fbfefca2de9b",
+        "67ee54056d29fbfefca2dea0",
+        "67ee54056d29fbfefca2dea1",
+        "67ee54056d29fbfefca2dea2",
+        "67ee54056d29fbfefca2dea3",
+        "67ee54056d29fbfefca2dea4",
+        "67ee54056d29fbfefca2deb1",
+        "67ee54056d29fbfefca2deb4",
+        "67ee54056d29fbfefca2deb5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "67ee54056d29fbfefca2de54",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "a859e0214764caa83e7877ce6ddde02a",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/1c48869e-d3f2-11ef-949a-765b8edbb6cc_35caab1c77.jpg",
+          "blurhash": "jbYL7MGG;;pDLctTllCpTttTcPGG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "EVELINE-ეველაინი ბალზამი 2427 ORGANIC GOLD თმის მშრალი/დაზიანებული 500მლ",
+      "options": [],
+      "original_price": 2480,
+      "price": 1860,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ee54056d29fbfefca2de5f",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "523b0c949cfc71599bf70e457fa73297",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/c9ef86f8-d3f2-11ef-a37e-420940fded86_c1881adec9.jpg",
+          "blurhash": "j9ZffPtC;;KYKXpCpCKXTtuGcPBB"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "EVELINE-ეველაინი კონსილერ-კორექტორი 0662 თხევადი 04",
+      "options": [],
+      "original_price": 2250,
+      "price": 1688,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ee54056d29fbfefca2de64",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "b6657d67ba4c18d16e6a26de31879d79",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/11d8919a-d3f2-11ef-b820-4aad35bef3ab_18e34669f0.jpg",
+          "blurhash": "j6Z;vSGG;;GGKXCppltTPcu9h4Cn"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "EVELINE 02 კრემი თვალის 41975 გარშემო ექსკლუზიური",
+      "options": [],
+      "original_price": 2150,
+      "price": 1613,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ee54056d29fbfefca2de67",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "4b601710832feaed95597f0bfd256b54",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/e12f5c8a-d3f2-11ef-a772-ca0d9ef7959b_d86347c841.jpg",
+          "blurhash": "j8WejBiWXKTt;;PcpSh4;;OHh4h4"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "EVELINE 02 კრემი სახის 2296 გამაახალგაზრდავებელი ლიფტინგის ეფექტით ეფექტით ყველა ტიპის კანის 50მლ",
+      "options": [],
+      "original_price": 1930,
+      "price": 1448,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ee54056d29fbfefca2de68",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "4efa481f99d5447444da2e7cda5c36cf",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/4a9233e2-d3f2-11ef-9abc-eabb7ebac73a_558d817595.jpg",
+          "blurhash": "j4;vHXKXX;pCLbtTplCpTKtTcyGG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "EVELINE 02 კრემი სახის 8109 BEAUTY&GLOW გლუვი ეფექტით 75მლ",
+      "options": [],
+      "original_price": 1850,
+      "price": 1388,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ee54056d29fbfefca2de69",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "3367c70087c4b3151b4dfc81d25b8e10",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/cdaa58be-d3f1-11ef-9f16-927fd4e760dd_0f5229377f.jpg",
+          "blurhash": "j9:LzRKXX;h4PtpTgPGGKGpClCGX"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "EVELINE 02 ლოსიონი 4385 სხეულის დამატენიანებელი მშრალი კანის 500მლ",
+      "options": [],
+      "original_price": 2970,
+      "price": 2228,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ee54056d29fbfefca2de6e",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "de6e7e15ee2c414ae2682df8792f9d37",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/ed34dc62-d3f2-11ef-b519-7a11b00d056e_def58de9f4.jpg",
+          "blurhash": "j7ZLnRGG;;CGGXtTFCCpPttTgPCp"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "EVELINE 03 კრემი ტონალური 1867 ბაზა თხევადი 015",
+      "options": [],
+      "original_price": 3950,
+      "price": 2963,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ee54056d29fbfefca2de6f",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "e682bc903d1d26dbd2ffc2d14c5de5a8",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/ed9dd146-d3f1-11ef-b887-be36eb2d111f_6a2bff8982.jpg",
+          "blurhash": "jaYLbOGG;;Cph4ypPctTTttTcPCp"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "EVELINE 03 კრემი ტონალური 3790 3/1 ნატურალური 30მლ",
+      "options": [],
+      "original_price": 1980,
+      "price": 1485,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ee54056d29fbfefca2de71",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "dab4593a38dfac59ac65e783b0c81f1e",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/ed4a132a-d3f2-11ef-871f-521f2d73ce44_e1f7133f51.jpg",
+          "blurhash": "j9:LDQGFX;uqKXtTpCGGTLtVcxCm"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "EVELINE 03 პუდრა 0684 მატირების ეფექტით ტრანსპარენტული 6გრ",
+      "options": [],
+      "original_price": 2950,
+      "price": 2213,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ee54056d29fbfefca2de73",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "b061eb2e4934a1531fae7ed04ae50844",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/701a13b4-d3f2-11ef-a073-ee71e5b9ffb8_8988f73194.jpg",
+          "blurhash": "j7ZLnRGG;;CGGXtTBCCpPttTgPCp"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "EVELINE 03 ტონალური ბაზა 7251 თხევადი 020",
+      "options": [],
+      "original_price": 3950,
+      "price": 2963,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ee54056d29fbfefca2de74",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "eceba8d476722a56b55fffeb9ba8286f",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/882addc6-d3f2-11ef-bcd2-96154b3ef8d5_26812327aa.jpg",
+          "blurhash": "j7ZLnRGG;;CGGXtTBCCpPttTgPCp"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "EVELINE 03 ტონალური ბაზა 7268 თხევადი 030",
+      "options": [],
+      "original_price": 3950,
+      "price": 2963,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ee54056d29fbfefca2de75",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "e63bd3654fc067132298850df240f617",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/f13abbb6-d3f1-11ef-8f10-b6ddd493a4bb_6e9a44b963.jpg",
+          "blurhash": "j5:;HWKX;;llOSCplHtTTKpCcyKG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "EVELINE 03 ტონალური ფუძე 7774 დამატენიანებელი N02 LIGHT VANILLA 30მლ",
+      "options": [],
+      "original_price": 2350,
+      "price": 1763,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ee54056d29fbfefca2de76",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "0fb590b482129a758c7dbc3153e74383",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/dd5aaf0c-d3f1-11ef-956d-a67c1c4e5799_3d0dc9dd7c.jpg",
+          "blurhash": "j2;vTZKX;;GGKXu8KGCpTutTcOCp"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "EVELINE 04 თვალის ლაინერი 7547 ულტრამდგრადი",
+      "options": [],
+      "original_price": 2100,
+      "price": 1575,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ee54056d29fbfefca2de77",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "a68e6f5103211852a443b66af59d24f2",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/1f6a1356-d3f2-11ef-ac9d-5ab85fcd3013_37f6fd93c2.jpg",
+          "blurhash": "j3:;LXKX;;CpTttTcPGGTttTcPCp"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "EVELINE 04 თვალის ლაინერი 7966 LIQUID PREC მყარი 2000 4მლ",
+      "options": [],
+      "original_price": 1750,
+      "price": 1313,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ee54056d29fbfefca2de79",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "303f0d71bfe98bed47066a3c861aeb5a",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/b9b97e1a-d3f2-11ef-ad52-e6d897bb7747_bf1766aa72.jpg",
+          "blurhash": "j7:fvRFS;;GYLcC6pkuaKYCqpktC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "EVELINE 04 კორექტორი 9188 2/1ში -04 ართ პროფესიონალ MAKE-UP 7მლ",
+      "options": [],
+      "original_price": 1885,
+      "price": 1414,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ee54056d29fbfefca2de8a",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "48637dfe32060b57d07353c3ffdc82c8",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/4ebd6e8c-d3f2-11ef-86f9-ca0d9ef7959b_654c06fb9c.jpg",
+          "blurhash": "j6:vLWGG;;pCPctTllGG;utT4OGG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "EVELINE 06 მიცელარული წყალი 4165 დამამშვიდებელი ალოე ვერა 3X1 500მლ",
+      "options": [],
+      "original_price": 2250,
+      "price": 1688,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ee54056d29fbfefca2de92",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "4d591caa70590944b20fc4e9ab380b6a",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/f7e1ccac-d3f1-11ef-80ed-e6d897bb7747_7dc10c4f42.jpg",
+          "blurhash": "jdXL7NOX;;llFWKWuCll;;ll4hKX"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "EVELINE 07 კრემი დეპილაციის 1556 ულტრაჩქარი ალოე ვერ/აატამი 3წთ.100მლ",
+      "options": [],
+      "original_price": 1430,
+      "price": 1073,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ee54056d29fbfefca2de94",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "04f536c9567d2a6d31788e6a3eaacf51",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/701b927a-d3f2-11ef-a966-b68aeaad1d85_9618af6fed.jpg",
+          "blurhash": "jkWKDJKG;;lliHqFJRJCSWGHhmpl"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "EVELINE 07 კრემი დეპილაციის 6302 Q10+R 9/1-ში 125მლ",
+      "options": [],
+      "original_price": 1430,
+      "price": 1073,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ee54056d29fbfefca2de96",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "46805d730083414f64270f0768067458",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/c30cf63c-d3f1-11ef-a8f9-725b9ff8faaf__38u15n7la.jpg",
+          "blurhash": "jfZu;MKX;;l4NIpSmBGqlkGGKYpl"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "EVELINE 07 კრემი დეპილაციის 6958 BIO DEPIL ულტრანაზი მგრძნობიარე კანის 9/1-ში 125მლ",
+      "options": [],
+      "original_price": 1480,
+      "price": 1110,
+      "purchasable_balance": 3,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ee54056d29fbfefca2de97",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "f6ea059f9ba09fb17999b96a9040e2fe",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/9480a5ba-d3fc-11ef-85b0-eeef4b849143__3c30qb7km.jpg",
+          "blurhash": "jbZ;DOGG;LtCKVtTpFCqXLtD8NCG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "EVELINE 07 კრემი ტანის 8105 EXTRA SOFT BIO ზეთისხლი ინტენსიური აღდგენა 200მლ",
+      "options": [],
+      "original_price": 1885,
+      "price": 1414,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ee54056d29fbfefca2de9a",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "7c029f141f67bb5e9f2083966b355ce6",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/b44db02c-d3f2-11ef-8428-6eb5e55d664c_bc4762050e.jpg",
+          "blurhash": "j5ZLrTKX;;llPbtTllCpTtpCcPGX"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "EVELINE 07 რძე ბალზამი 0812 დამატ 5 მცენარეული ექსტრაქტით 350მლ",
+      "options": [],
+      "original_price": 2750,
+      "price": 2063,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ee54056d29fbfefca2de9b",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "d4267d4a004217ed6af49aba0855124a",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/d5e080a2-d3f2-11ef-bdd9-aedcb1491dd4_cc67122583.jpg",
+          "blurhash": "j7:vvVGG;;pBcQxUTtCpTJtTczGG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "EVELINE 07 შრატი 16034 კონცენტრატი ღამის ანტიცელულიტური",
+      "options": [],
+      "original_price": 2850,
+      "price": 2138,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ee54056d29fbfefca2dea0",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "00e234e2ea78e9fdfd66fe3e43cb7606",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/70211bd2-d3f2-11ef-82d5-ea5bc9419fe3_9032da49a1.jpg",
+          "blurhash": "j6Z;rSBT;;KXKXtCplGGLcCGl4pC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "EVELINE 08 ფანქარი ტუჩის 9764 ROSE MAX INTENSE COLOUR 24",
+      "options": [],
+      "original_price": 750,
+      "price": 563,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ee54056d29fbfefca2dea1",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "24651b3ea1b6d807697203706f406fcc",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/d6d422da-d3f1-11ef-9e8f-927fd4e760dd_2bf2e2a9e5.jpg",
+          "blurhash": "j6:vDWKG;;lCPcCnl5tVXKpT8yGF"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "EVELINE 09 ბალზამი 4601 MEN EXTREM გაპარსვის შემდგომ Q10 5/1 sensitive 200მლ",
+      "options": [],
+      "original_price": 1750,
+      "price": 1313,
+      "purchasable_balance": 3,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ee54056d29fbfefca2dea2",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "c77ca5aaea7d9b5225d3d6682b4a1b7b",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/e10d7da4-d3f2-11ef-9fe6-6aa9a1b64c94_d18134b741.jpg",
+          "blurhash": "j7:fvUGG;;pVcPxTTtCqTtupcPFS"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "EVELINE 09 ბალზამი 4618 MEN EXTREM გაპარსვის შემდგომ Q10 5/1 active 200მლ",
+      "options": [],
+      "original_price": 1750,
+      "price": 1313,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ee54056d29fbfefca2dea3",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "34deeb3a558fbb355f1578142cf89c7c",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/3b52f038-d3f2-11ef-b926-36a763fa8d28_206cbea213.jpg",
+          "blurhash": "j6:vDWKG;;lCPcCnl4u9XKpT8yGF"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "EVELINE 09 გელი 4236 MEN EXTREM გაპარსვის შემდგომ Q10+რ 5/1 sensitive 200მლ",
+      "options": [],
+      "original_price": 1750,
+      "price": 1313,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ee54056d29fbfefca2dea4",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "50838cca10379c636d49e0bf4556824b",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/4ebd86ba-d3f2-11ef-bd46-96154b3ef8d5_668d8ad0ed.jpg",
+          "blurhash": "j7Z;vUGG;;pVcPxTTtCqTtqpcPFS"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "EVELINE 09 გელი 4243 MEN EXTREM გაპარსვის შემდგომ Q10+ რ 5/1 active 200მლ",
+      "options": [],
+      "original_price": 1750,
+      "price": 1313,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ee54056d29fbfefca2deb1",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "5d1f503c6c417d63072289d234ecebb1",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/de032888-def2-11ef-98e6-2aec643c24f4_6355665192.jpg",
+          "blurhash": "jCIHaOCp;;CpGFC8pDtUCpy8tTy8"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "EVELINE-ეველაინი თვალის გელისებრი ფანქარი 7897 VARIETE GEL EYE LINER 03-BLUE BLACK",
+      "options": [],
+      "original_price": 1850,
+      "price": 1388,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ee54056d29fbfefca2deb4",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "9fdf3d4e62776c0ca6e017cb21933307",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/e16c7ee8-d3fd-11ef-a768-4aa94223321c_696e87390d.jpg",
+          "blurhash": "jcZe;NPc;;cPKVpClnKWX;l5cyPs"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "CLEANIC კლინიკი ყურის ჩხირი 8918 SILK №200 ოთხკუთხედი",
+      "options": [],
+      "original_price": null,
+      "price": 750,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ee54056d29fbfefca2deb5",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "40818ebb99c7a9555698d16b5ea574e5",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/dba101fa-d3fd-11ef-86a3-fac50af68e5d_596dfecf1f.jpg",
+          "blurhash": "jaZvjOPc;;cPKXlClmKXX;l48yPt"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "CLEANIC კლინიკი ყურის ჩხირი 9991 Spa BAMBOO N200 მრგვალი",
+      "options": [],
+      "original_price": null,
+      "price": 750,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    }
+  ],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

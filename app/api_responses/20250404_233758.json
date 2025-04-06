@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "64181d22d58e760eefc6ae5e",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63f8c0723ebc4edae021c951/30173b18-3e90-11ef-8f25-625f46273963________________.jpg",
+        "blurhash": "j9Stbf4iX;;:;;l4gPLd;;Pccyh4"
+      }
+    ],
+    "name": "სპარის წარმოება",
+    "slug": "menucategory-1"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

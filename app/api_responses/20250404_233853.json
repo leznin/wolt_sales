@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "64c38d6e99ad503bb6541d45",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ed0d41a4264d32a22f538ec/5240466c-305e-11ee-a183-4234905aab98______________.jpg",
+        "blurhash": "jdWKHId4;KKXmXKXOXBD;;TbcPlm"
+      }
+    ],
+    "name": "ქალის ჰიგიენა და მოვლა",
+    "slug": "menucategory-703"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

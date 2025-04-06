@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "641b7b7e6d77518b3d4f8b94",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/635e776f417c3fe0fc2a5dd5/d7a50984-2567-11ee-a37c-8eb2eef85bd6_44eef3e0_126a_11ed_ad42_46240a8ca65c_image_62.jpeg",
+        "blurhash": "jbYf3QqH;;F3CXllFCLbTJCmcQuH"
+      }
+    ],
+    "name": "Produkty wege",
+    "slug": "produkty-wege-108"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

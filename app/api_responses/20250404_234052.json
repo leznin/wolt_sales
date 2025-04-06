@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "641b7b7e6d77518b3d4f8fa2",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/635e776f417c3fe0fc2a5dd5/4a04a03a-2567-11ee-a81f-6668d8298dff_5678be16_126a_11ed_a333_4ae54186849d_image_2_2__1_.jpeg",
+        "blurhash": "jaZLfPPt;;cycyPcTtcyXLpC8yGX"
+      }
+    ],
+    "name": "Lody",
+    "slug": "lody-164"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

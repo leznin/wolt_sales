@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Logo Generator</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f5f5f5;
+    }
+    canvas {
+      border: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="logoCanvas" width="192" height="192"></canvas>
+  <script>
+    const canvas = document.getElementById('logoCanvas');
+    const ctx = canvas.getContext('2d');
+    
+    // Background
+    ctx.fillStyle = '#0066FF';
+    ctx.fillRect(0, 0, 192, 192);
+    
+    // Text
+    ctx.fillStyle = 'white';
+    ctx.font = 'bold 70px Arial';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillText('W', 96, 96);
+    
+    // Download link
+    const link = document.createElement('a');
+    link.download = 'logo192.png';
+    link.href = canvas.toDataURL('image/png');
+    link.click();
+  </script>
+</body>
+</html>

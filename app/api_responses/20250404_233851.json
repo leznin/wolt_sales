@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "641cb2a1f0d32c2475c6a826",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ed0d41a4264d32a22f538ec/1610f85e-305d-11ee-879c-96996c89a827____________.jpg",
+        "blurhash": "jcW:PI8xPdPtPch5h4KW;;TKl4gP"
+      }
+    ],
+    "name": "სახის მოვლა",
+    "slug": "menucategory-93"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

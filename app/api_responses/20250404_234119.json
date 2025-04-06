@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "641b7b7e6d77518b3d4f93c7",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/635e776f417c3fe0fc2a5dd5/1b067e2e-2568-11ee-a364-eea8e63529ab_a02fe5ac_126a_11ed_9f23_c2f7052f8392_image_1_2.jpeg",
+        "blurhash": "j8ZLrUGG;;tpTtKXh3h4TslmcQPb"
+      }
+    ],
+    "name": "Dla zwierząt ",
+    "slug": "dla-zwierzat-192"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

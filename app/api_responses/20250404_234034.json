@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "158c5fcea64265eb47c0e263",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/615ebe855f6076390d98e788/7d516674-1269-11ed-8e0f-7616c30ed977_image_64.jpeg",
+        "blurhash": "jeYvbIKX;;hllDlDKXKW;;ll8xKX"
+      }
+    ],
+    "name": "Owoce i warzywa",
+    "slug": "owoce-i-warzywa-7"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

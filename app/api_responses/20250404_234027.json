@@ -1,0 +1,1759 @@
+{
+  "category": {
+    "id": "651bc9b99f902697aecd830a",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e4d146e8f9f0f80c06ecef4/adfedc58-61c2-11ee-aa2a-d296731c6cff_______19__1000_x_600_px_.png",
+        "blurhash": "j5X;fQTu;;8x;KFkllqZ;;cP8yTt"
+      }
+    ],
+    "name": "COVID",
+    "slug": "covid-1042"
+  },
+  "categories": [
+    {
+      "id": "651bc9b99f902697aecd830a",
+      "item_ids": [
+        "652cffc8a7c1097dba60d5ab",
+        "652cffc8a7c1097dba60d5a6",
+        "652cffc8a7c1097dba60d5b5",
+        "652cffc8a7c1097dba60d597",
+        "652cffc8a7c1097dba60d599",
+        "652cffc8a7c1097dba60d590",
+        "652cffc8a7c1097dba60d591",
+        "652cffc8a7c1097dba60d592",
+        "652cffc8a7c1097dba60d593",
+        "652cffc8a7c1097dba60d5b9",
+        "652cffc8a7c1097dba60d5be",
+        "652cffc8a7c1097dba60d5c0",
+        "652cffc8a7c1097dba60d5c8",
+        "652cffc8a7c1097dba60d5c1",
+        "652cffc8a7c1097dba60d5c3",
+        "652cffc8a7c1097dba60d5c9",
+        "652cffc8a7c1097dba60d5c4",
+        "652cffc8a7c1097dba60d5ce",
+        "652cffc8a7c1097dba60d5a5",
+        "652cffc8a7c1097dba60d5a3",
+        "652cffc8a7c1097dba60d5a1",
+        "652cffc8a7c1097dba60d5a2",
+        "652cffc8a7c1097dba60d59b",
+        "652cffc8a7c1097dba60d59f",
+        "652cffc8a7c1097dba60d59e",
+        "652cffc8a7c1097dba60d5a0"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "652cffc8a7c1097dba60d5ab",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "581896cbe1294e35046df89a2caf98ab",
+      "description": "Face mask  baby #1",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6089433327b25551f4a5dd55/9fd17d74-a709-11ef-ab53-f65369894a40_29821.jpg",
+          "blurhash": "j6ZvnTh4;;TtPcGGllpC;;Pb4ih4"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ნიღაბი /პირბადე/ სამედიცინო საბავშვო /იმპ/ #1",
+      "options": [],
+      "original_price": null,
+      "price": 25,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "652cffc8a7c1097dba60d5a6",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "eab2acfcab922f498ef6334da5797994",
+      "description": "Antibacterial, disinfectant solution \"Zoma Ultra\" spray 600 ml #1 1307",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6089433327b25551f4a5dd55/d927193e-a719-11ef-a2ed-767f552d56b4_54988.jpg",
+          "blurhash": "j4:LLXKG;;qqTtCqcQpCTtCqcPpC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ანტიბაქტერიული, სადეზინფექციო ხსნარი \"ზომა ულტრა\" სპრეი 600მლ 1307/2151 #1",
+      "options": [],
+      "original_price": null,
+      "price": 1490,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "652cffc8a7c1097dba60d5b5",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "14a1350b290dbdc242c1170f79637049",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6089433327b25551f4a5dd55/2c4fc06c-a66f-11ef-bf44-1ea0df58ef68_13463.jpg",
+          "blurhash": "j4:LHVh3;;PuPblltDOY;;Lc8xl3"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ტესტი სწრაფი ანტიგენის Onesite Covid-19 Ag Self Test /ინდ. შეფუთვა/ #1",
+      "options": [],
+      "original_price": null,
+      "price": 2090,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "652cffc8a7c1097dba60d597",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "57ffa726cf526bd5dc3eb417293021f7",
+      "description": "Desderman pure gel 100.0",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6089433327b25551f4a5dd55/1f71973c-a708-11ef-8d46-2a4bb58642f8_27243.jpg",
+          "blurhash": "j6:vLXlB;;TcOXCplBtT;KKX4yh4"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "დესდერმანი გელი 100მლ ფლაკონი #1",
+      "options": [],
+      "original_price": null,
+      "price": 1395,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "652cffc8a7c1097dba60d599",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "a251681418fb5d60752bcf48f8d891be",
+      "description": "Desaderman for external use 100ml #1",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6089433327b25551f4a5dd55/c1216ec4-a70b-11ef-8eab-2e02c880f13e_33585.jpg",
+          "blurhash": "jaZfLXpV;KKWXcGp94pCXcGp94pC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "დესდერმანი ხსნარი გარეგანი 100მლ #1",
+      "options": [],
+      "original_price": null,
+      "price": 1395,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "652cffc8a7c1097dba60d590",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "21a8af21d5d6d555a999ba192d9b6d45",
+      "description": "Headscarf selpac classic",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": {
+        "disable_text": "Sold out",
+        "disable_reason": null
+      },
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6089433327b25551f4a5dd55/550faf6c-a66a-11ef-badb-ee4afaa322f8_7779.jpg",
+          "blurhash": "jbZfnUll;;Tsl4tCLcGGXJKW8zh5"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ცხვირსახოცი სელპაკი კლასიკური 1367/1338/1336 #1",
+      "options": [],
+      "original_price": null,
+      "price": 50,
+      "purchasable_balance": 0,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [
+        {
+          "id": "popular",
+          "label": "Popular",
+          "decoration": "star",
+          "color": "primary",
+          "style": {
+            "background_color": "#009de0",
+            "text_color": "#ffffff"
+          }
+        }
+      ],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "652cffc8a7c1097dba60d591",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "39f195a86d67521ea5f3f85ffa69eb93",
+      "description": "SELPAK - Napkins sensitive #1 1320/1327",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6089433327b25551f4a5dd55/050bbee4-a664-11ef-9a98-d27c6c454e93_4449.jpg",
+          "blurhash": "jiX:LPpD;;KWdmtTSWGFTbGod5pV"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ცხვირსახოცი სელპაკი მგრძნობიარე 1320/1327 #1",
+      "options": [],
+      "original_price": null,
+      "price": 60,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "652cffc8a7c1097dba60d592",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "4d8462e10d70d92f1d1cb47d5fcb10ee",
+      "description": "SELPAK - Napkins Menthol #1",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6089433327b25551f4a5dd55/3eae9d9c-a664-11ef-9354-66630147473d_4771.jpg",
+          "blurhash": "jlWePNpC;;KXFkCoyYtTPcu9h4Cn"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ცხვირსახოცი სელპაკი მენთოლით 1345/1343 #1",
+      "options": [],
+      "original_price": null,
+      "price": 60,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "652cffc8a7c1097dba60d593",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "0dba3984f733c01851b200db81637799",
+      "description": "Headscarf 1369/3872/8693/1350/1352",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6089433327b25551f4a5dd55/ba04cbbc-a671-11ef-ba8c-2692acde2dcc_16569.jpg",
+          "blurhash": "jaZ;nVll;;Tsd5pCTcKWXJGG8zll"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ცხვირსახოცი სელპაკი სურნელოვანი 3872/8693/1350/1352 #1",
+      "options": [],
+      "original_price": null,
+      "price": 60,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "652cffc8a7c1097dba60d5b9",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "08829a9e43f49e63166c1f1cd57b3d13",
+      "description": "Thermometer electric Eco temp basic 04877 #1",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6089433327b25551f4a5dd55/77676708-a674-11ef-a9e0-ea0701229991_19778.jpg",
+          "blurhash": "jaXKXL8y;;;;llGHpBpBPdllh4Pc"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ომრონი- თერმომეტრი ელექტრო Eco temp basic 04877/3572 #1",
+      "options": [],
+      "original_price": null,
+      "price": 2000,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "652cffc8a7c1097dba60d5be",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "4b7787c6589533073de7766beb0770eb",
+      "description": "Thermometer  electric with  a dreck head   Flex temp smart 04914 #1",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6089433327b25551f4a5dd55/7a1b4df2-a674-11ef-9c40-867be6dc4fa9_19779.jpg",
+          "blurhash": "jhXuTKll;;PcKXGFpBpCGXCppltC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ომრონი- თერმომეტრი ელექტრო დრეკ თავით Flex temp smart 04914/3602 #1",
+      "options": [],
+      "original_price": null,
+      "price": 3000,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "652cffc8a7c1097dba60d5c0",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "9bbf0228ad57eb744abbd387a142a495",
+      "description": "Thermometer mercury /chin/ #1",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6089433327b25551f4a5dd55/9ad6e910-a661-11ef-a72e-2e987792547f_1371.jpg",
+          "blurhash": "j4:vDVKX;;llpCTtKX4hTttT8yCp"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "თერმომეტრი ვერცხლისწყლის /ჩინ/ #1",
+      "options": [],
+      "original_price": null,
+      "price": 485,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "652cffc8a7c1097dba60d5c8",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "d1a3a4caf1c15dc3ff0066b512fe7642",
+      "description": "Thermometer without mercury classic EVOLU 0125/0132 #1",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6089433327b25551f4a5dd55/d0959d9a-a70f-11ef-80a4-8eab1ed96d33_39854.jpg",
+          "blurhash": "jaYfbNd4;;XtmGhll4TcLcllplTc"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "თერმომეტრი ვერცხლისწყლის გარეშე, კლასიკი EVOLU 0125/0132 #1",
+      "options": [],
+      "original_price": null,
+      "price": 1990,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "652cffc8a7c1097dba60d5c1",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "ce9a10ac4f0c9df0dabaf8b49ed0ecc7",
+      "description": "Rossmax-Rigid Tip Thermometer TG100 0093",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6089433327b25551f4a5dd55/2189d516-a66d-11ef-a509-aa91bd5f919c_11085.jpg",
+          "blurhash": "j0;LX:h4;;;;;;Tt8y4hXKGG4yll"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "როსმაქსი - თერმომეტრი ელექტრო rossmax TG100 0093 #1",
+      "options": [],
+      "original_price": null,
+      "price": 1800,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "652cffc8a7c1097dba60d5c3",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "8646b4d24d87219e1c41e7b986e9b966",
+      "description": "Rossmax-Flexible Tip Thermometer TG380 0231",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6089433327b25551f4a5dd55/c02a2ae4-a709-11ef-b978-061c4a714227_30076.jpg",
+          "blurhash": "j2:;LXTt;;8yPcTtll8y;;cP4h;K"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "როსმაქსი - თერმომეტრი ელექტრო rossmax მოზრდილის დრეკ თავით TG380 0231 #1",
+      "options": [],
+      "original_price": null,
+      "price": 2700,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "652cffc8a7c1097dba60d5c9",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "f31d42d554a09ecd66639e55fc0082da",
+      "description": "Room thermometer#1",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6089433327b25551f4a5dd55/a626d33c-a663-11ef-bf54-5210c086668d_3989.jpg",
+          "blurhash": "j8ZLvUCp;;KXG5y8GHBUTsCpd4tC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "თერმომეტრი ოთახის #1",
+      "options": [],
+      "original_price": null,
+      "price": 245,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "652cffc8a7c1097dba60d5c4",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "13a6425eb4b6cf4053ceff5471863eb1",
+      "description": "Thermometer electric DT-501 #1",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6089433327b25551f4a5dd55/81f3f4a2-a674-11ef-8826-56f2c33c0346_19820.jpg",
+          "blurhash": "j1;vTZTt;;8yPcCptTtT;;cP4hXK"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ეი ენდ დი - თერმომეტრი ელექტრო DT-501 0016 #1",
+      "options": [],
+      "original_price": null,
+      "price": 1630,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "652cffc8a7c1097dba60d5ce",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "ec34bf51cb0dbbd7eaef31a669a6be9f",
+      "description": "Rossmax-Non-contact Thermometer HA500 0666",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6089433327b25551f4a5dd55/4a67c18e-a666-11ef-b503-f2cfd33f9593_7315.jpg",
+          "blurhash": "j4:;PYKX;;h5lBllOYPcTdpDd4GW"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "როსმაქსი - თერმომეტრი ელექტრო rossmax უკონტაქტო შუბლის HA500 0666 #1",
+      "options": [],
+      "original_price": null,
+      "price": 13000,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "652cffc8a7c1097dba60d5a5",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "b394eebc6e5042b29ff70283faa72c2b",
+      "description": "SEPTONA antibacterial wet wipes 75% ALCOHOL #15 0012",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6089433327b25551f4a5dd55/0285a7dc-a70b-11ef-a974-8eab1ed96d33_32121.jpg",
+          "blurhash": "jb:vjQGGX;pDHcupt4BTPctUh4Gn"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "სეპტონა - სვ. ხელსახოცი ანტიბაქტერიული 75% სპირტი 0012/1302/0043/1194 #15",
+      "options": [],
+      "original_price": null,
+      "price": 445,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "652cffc8a7c1097dba60d5a3",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "21ab943e2386115a924bdd17ddeae248",
+      "description": "SEPTONA REFRESHING WET WIPES ORINGE BLOSSOM in a green laminated bag #15 1210-2225",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6089433327b25551f4a5dd55/99ed741e-a671-11ef-bf18-1227e403b6a6_16456.jpg",
+          "blurhash": "jd:fbLqXX;JlhImqF3KmF4mGhHJC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "სეპტონა - სვ. ხელსახოცი ანტიბაქტერიული ფორთოხლის ექსტრ 1210-2225/1243/4527 #15",
+      "options": [],
+      "original_price": null,
+      "price": 295,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "652cffc8a7c1097dba60d5a1",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "f4bb0c3826fe6dd4b02150c5c44efc7f",
+      "description": "SEPTONA Antibacterial Wipes LEMON #15",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6089433327b25551f4a5dd55/1f5ad55a-a709-11ef-acb4-66b9aef2e7f9_29031.jpg",
+          "blurhash": "j6;vLVGGX;GHqItVKACnTuypcOxC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "სეპტონა - სვ. ხელსახოცი ანტიბაქტერიული ლიმონი ექსტრ 0013 #15",
+      "options": [],
+      "original_price": null,
+      "price": 295,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "652cffc8a7c1097dba60d5a2",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "68c30f26245d0fc0b17eabd8f46a1600",
+      "description": "SEPTONA REFRESHING WET WIPES GREEN APPLE in a green laminated bag #15  1200-2004",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6089433327b25551f4a5dd55/98d78a92-a671-11ef-9ef1-be8fadd46a2c_16454.jpg",
+          "blurhash": "jiWL3HGG;;CoOItTikCphACpObpT"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "სეპტონა - სვ. ხელსახოცი ანტიბაქტერიული მწვანე ვაშლის ექსტრ 1200-2004/1242/4503 #15",
+      "options": [],
+      "original_price": null,
+      "price": 295,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "652cffc8a7c1097dba60d59b",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "05cb627df0109a949fb08b6ef0079969",
+      "description": "MILD ANTISEPTIC SPRAY GEL 80ml 70% ETHANOL",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6089433327b25551f4a5dd55/6a6228fe-a70f-11ef-984b-f25fcf1dc707_39285.jpg",
+          "blurhash": "j7:fnSGG;;GGPcypl4xTPcC8h4tT"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "სეპტონა - ანტიბაქტერიული ხელის ხსნარი ალოე სპრეი 70% 80მლ 0073 #1",
+      "options": [],
+      "original_price": null,
+      "price": 690,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "652cffc8a7c1097dba60d59f",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "a5183590a6c90847e2bc8106c559b14b",
+      "description": "SEPTONA Antibacterial Wipes LEMON with lid #60",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6089433327b25551f4a5dd55/29030cd8-a666-11ef-a9f0-124d7e44afd1_7161.jpg",
+          "blurhash": "jf:;nGuqTLGmKYBTpluqTLGngOqq"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "სეპტონა - სვ. ხელსახოცი ანტიბაქტერიული ლიმონი ექსტრ თავსახურით 0016 #60",
+      "options": [],
+      "original_price": null,
+      "price": 595,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "652cffc8a7c1097dba60d59e",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "1ebe82bb147b8dfd14833c8e2c32844a",
+      "description": "SEPTONA antibacterial wet wipes 75% ALCOHOL #60 0029",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6089433327b25551f4a5dd55/9eb8f00e-a671-11ef-a1c4-f2ec97536fb9_16467.jpg",
+          "blurhash": "jfZeLHGnX;pWKXtVplCnX;tW8hGC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "სეპტონა - სვ. ხელსახოცი ანტიბაქტერიული 75% სპირტი 0029/0050 #60",
+      "options": [],
+      "original_price": null,
+      "price": 1045,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "652cffc8a7c1097dba60d5a0",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "1ca7581f8884c4d8fa730da330959ae0",
+      "description": "SEPTONA ANTIBACTERIAL REFRESHING WET WIPES GREEN APPLE in a blue laminated bag #60 1202-2777",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6089433327b25551f4a5dd55/98d72ef8-a671-11ef-996b-ee328d764bc1_16457.jpg",
+          "blurhash": "jdXLfIpS;LGHh4CpOXpS;;Gq8ypS"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "სეპტონა - სვ. ხელსახოცი ანტიბაქტერიული მწვანე ვაშლის ექსტრ 1202/2777/2162/2778 #60",
+      "options": [],
+      "original_price": null,
+      "price": 595,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    }
+  ],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

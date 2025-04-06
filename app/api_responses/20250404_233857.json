@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "6425470c070bb3c6445c3f88",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60ab4285dbd114f0b9139395/75f0a54e-555a-11ef-a730-667cac460ab5__________.jpg",
+        "blurhash": "j6LIT7rdf;IPfLJ4J3jt8QplXbOX"
+      }
+    ],
+    "name": "მზა კვება, ტორტი",
+    "slug": "menucategory-66"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

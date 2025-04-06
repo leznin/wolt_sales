@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "641b7b7e6d77518b3d4f8fa1",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/635e776f417c3fe0fc2a5dd5/e84c41b2-2567-11ee-91e6-2a988c0aae1c_4e8d847a_126a_11ed_9c18_46240a8ca65c_image_25.jpeg",
+        "blurhash": "je:vfJpkX;LdLcqFplJDTLuHcOFl"
+      }
+    ],
+    "name": "Produkty mrożone",
+    "slug": "produkty-mrozone-163"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

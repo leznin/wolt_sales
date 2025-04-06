@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "669a59a0d55609cf116729e0",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e8ee1f815913e994e258021/33aafec6-4f2b-11ef-973f-a20240777ef2_01.jpg",
+        "blurhash": "jjVevyKX;;h4LbGXpml4TtGGh4Gn"
+      }
+    ],
+    "name": "ნაყინი",
+    "slug": "menucategory-185"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

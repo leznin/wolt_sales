@@ -1,0 +1,51 @@
+{% extends "admin/base.html" %}
+
+{% block title %}Панель управления{% endblock %}
+
+{% block page_title %}Панель управления{% endblock %}
+
+{% block content %}
+<div class="dashboard-container">
+    <div class="dashboard-welcome">
+        <h2>Добро пожаловать в панель администратора</h2>
+        <p>Эта панель управления используется для управления системой и аккаунтами Telegram.</p>
+    </div>
+    
+    <div class="dashboard-cards">
+        <div class="card">
+            <div class="card-icon">
+                <span class="material-symbols-rounded">person</span>
+            </div>
+            <div class="card-content">
+                <h3>Аккаунты Telegram</h3>
+                <p>Управление аккаунтами Telegram, хранящимися в директории accounts.</p>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-icon">
+                <span class="material-symbols-rounded">settings</span>
+            </div>
+            <div class="card-content">
+                <h3>Настройки</h3>
+                <p>Управление настройками системы и конфигурацией.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="dashboard-info">
+        <div class="info-box">
+            <h3>Информация о системе</h3>
+            <p>Это пустая админ-панель, созданная для управления системой. В дальнейшем здесь будут размещены дополнительные функции и компоненты.</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        console.log('Dashboard loaded');
+    });
+</script>
+{% endblock %}

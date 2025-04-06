@@ -1,0 +1,4469 @@
+{
+  "city": "nur-sultan",
+  "created": {
+    "$date": 1743795385029
+  },
+  "expires_in_seconds": 900,
+  "name": "search",
+  "page_title": "Search results",
+  "search_bar_enabled": true,
+  "search_id": "dab3e0c7-3370-4994-8a5d-11f7bc0e99df",
+  "search_results_layout": "SPLIT_VIEW",
+  "search_state": "CpwJCghjYXRlZ29yeRIYNjIxOGQ5OTVmMjkwZjIwYjQzZGRlNjkxEhg2MDk0ZmRhZjNmODk1NzljYmMzYmUwNTkSGDYzODc2ZTAyZjJhYjQ0NzQxOTRjZGE4NBIYNjAxZDFhZjBlMTFkMzlkNDczMDQ0ZWUwEhg1ZjZiMjlmMGEwY2ZhZTliMmM4MzFkNzkSGDViZmQ0MzA2MjJjODIwMDAwYjMxMTFjMxIYNTcxMDkzNTBmODJmNDUxYzU0ODQ5MDVkEhg2MDc4MzkyNTM1ODZlNDAyMTMxNDhjZTISGDYwOTRmYTJmYjhjMWY1OTYwNzYxM2Q5YRIYNjBkMWUzY2U3MjhhN2ZkOGQ1ZjM4Y2ExEhg1ZjZiMjllNDBmZWYxM2NjOWQyYjE1NDYSGDYwNTA5MmUzOTliNWZiOThmM2EyNTgzMBIYNWJmZDQyZjJmY2U0NWYwMDBhYzVlZjAwEhg2MDk0ZmE2MjhmNWQ5NGIwYTc2MTM4ZjMSGDU3ZTk2NTUzNjc3NGViNzkxZjZmMDllMBIYNjBkMWUzZTg2ODk3ZTNiZGE3MzE4ZjNkEhg1YmZkNDJlNmRiZDkzZDAwMDkyMDJiNTQSGDVlN2M2ZTA5NGEwNmIyOWEyM2E2YzdhORIYNWU3ZGFkNGE5MTFhOThiNDRiZTFjMTRjEhg1ZTdkYWNiMDkxMWE5OGI0NGJkZjE4NzMSGDViZmQ0MzEzY2Q2YWQ1MDAwYWJlZDRjMhIYNjA3ODM5MWNkOTIyNjhkOTI5ZDdlMjg0Ehg2MDc4MzkxMmE1OGZiMGViMGUzMWM2ZjESGDVkMGM4ZDczMzBkZDIxZTA0ZWM0ODlmZhIYNWJmZDQyZDUwMzA0NDgwMDBhNWM2MzczEhg1ZmM3OGMyMWJhZjUyZTBlZjYyZDA1NDASGDYwNzgzOTAyYzE4Zjc5OWZhN2VlYTk0YRIYNjE4ZTIzN2VjYWI3YzljZWUxYWRiNWIwEhg2MGU1YTg2MGNkYWI4ZGMyMGI1MTU3MzcSGDVkYTZiZWI5MzUxN2FiMzJkNDgyYTFlNRIYNWUxODJkMDNhOGZiNTMwODBjYzQ4Yzk5Ehg2MjYwMGM0ODliZDNjZTRjMjJhOWM0ZjUSGDYwOTRmOWMwNGVjYjU0MjUyZGQ0ZDBmYRIYNjNiNmNmNGUwYzg5NTZkMWIzODRkNGUxEhg2MGQxZTNhOGNlZTcwZWZkNTEzMDNjZDASGDU3MGY5YTIxMTZmZjI5MTAwYjQ3MTQ5OBIYNjA5NGZkN2JiNjhhZGMzMTQ3MTI3MGFjEhg1NzBmOTY3NzMxYjk0YzBiYmRmYTQyZjkSGDVmZGI2ZGJjYjU5NjA4ZjcyYzhiN2E4NhIYNjJlY2RlYzU4NmEzZTJmM2Y0M2JmNmIxEhg2MjAzY2ZlZjNlYTBiOWJhZGE2ZGNhMDESGDYwOGE2YTViNjMwYzEzNGVhN2M1NzNjMhIYNWU3ZGFjZjY5MTFhOThiNDRiZTA1NGQ1Ehg1YzM4ODhlYTQ4ZjZkNTAwMGE4Y2JlZmESGDYzYWRiMmNlMWIwMTZlNmU1YWZhMzc1NApACgxwcm9kdWN0X2xpbmUSCHBoYXJtYWN5EgpwZXRfc3VwcGx5Egdncm9jZXJ5EhFoZWFsdGhfYW5kX2JlYXV0eQobCgxpc193b2x0X3BsdXMSBUZhbHNlEgRUcnVl",
+  "sections": [
+    {
+      "content_id": "",
+      "hide_delivery_info": false,
+      "items": [
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6:vHQKXXLllTulmGrKWXvGGd2lB",
+            "url": "https://imageproxy.wolt.com/assets/674ee600633e0d4bb37c63e1"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65b40b288b439490452ef6bc",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j3Sdblb;00IhWRchbLc0cy5rAygy"
+          },
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Europharma №273 Barayev",
+          "track_id": "venue-europharma-273-barayeva",
+          "venue": {
+            "address": "Бараева 21",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": true,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 45,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "40-50"
+            },
+            "estimate_range": "40-50",
+            "favourite": false,
+            "franchise": "",
+            "id": "65b40b288b439490452ef6bc",
+            "location": [
+              71.43704292,
+              51.15882861
+            ],
+            "name": "Europharma №273 Barayev",
+            "online": true,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.4,
+              "volume": 0
+            },
+            "short_description": "Taking care of the most priceless - health 💊",
+            "show_wolt_plus": false,
+            "slug": "europharma-273-barayeva",
+            "tags": [
+              "pharmacy",
+              "Health",
+              "kids"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4:LTYHcXcOmKXGppCpT;LFk94mH",
+            "url": "https://imageproxy.wolt.com/assets/67335f165d1bf94a0f060bf4"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "670e3b9c5d246e00730a5da6",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4:LTYHcXcOmKXGppCpT;LFk94mH"
+          },
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Sadykhan Tarkhan",
+          "track_id": "venue-sadykhan-tarkhan",
+          "venue": {
+            "address": "Тархана 17",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": true,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 55,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "50-60"
+            },
+            "estimate_range": "50-60",
+            "favourite": false,
+            "franchise": "",
+            "id": "670e3b9c5d246e00730a5da6",
+            "location": [
+              71.4572727,
+              51.15896548
+            ],
+            "name": "Sadykhan Tarkhan",
+            "online": true,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.0,
+              "volume": 0
+            },
+            "short_description": "A large selection of medicinal and hygienic products is available to everyone. 💊",
+            "show_wolt_plus": false,
+            "slug": "sadykhan-tarkhan",
+            "tags": [
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "jfvbTkplMONl3LKqjdiXQOiYmHJB",
+            "url": "https://imageproxy.wolt.com/assets/67bdbf1dde901620334af224"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "6630e3574000d62b5c615515",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "jeAbr5J3UON47LR3OVHc6ujteYhk"
+          },
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Wolt Market Right Bank",
+          "track_id": "venue-wolt-market-right-bank",
+          "venue": {
+            "address": "This is a virtual venue",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": true,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 40,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "35-45"
+            },
+            "estimate_range": "35-45",
+            "favourite": false,
+            "franchise": "",
+            "id": "6630e3574000d62b5c615515",
+            "location": [
+              71.43784949,
+              51.17105639
+            ],
+            "name": "Wolt Market Right Bank",
+            "online": true,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.4,
+              "volume": 0
+            },
+            "short_description": "💥 From essentials to weekly shopping. Fast, simple and practical grocery delivery at any time! Explore ever-expanding selection and amazing offers in our new market! 💙",
+            "show_wolt_plus": false,
+            "slug": "wolt-market-right-bank",
+            "tags": [
+              "fruit",
+              "groceries",
+              "grocery"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6:vHQKXXLllTulmGrKWXvGGd2lB",
+            "url": "https://imageproxy.wolt.com/assets/674ee6059e772119688b94f9"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "6528fbe92fd3e6f88ff3bc7d",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j3Sdblb;00IhWRchbLc0cy5rAygy"
+          },
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Europharma №190 Saraishyk",
+          "track_id": "venue-europharma-190-saraishyk",
+          "venue": {
+            "address": "ул.Сарайшык 5(ВП-18)",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": true,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 55,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "50-60"
+            },
+            "estimate_range": "50-60",
+            "favourite": false,
+            "franchise": "",
+            "id": "6528fbe92fd3e6f88ff3bc7d",
+            "location": [
+              71.42260903,
+              51.1359621
+            ],
+            "name": "Europharma №190 Saraishyk",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.2,
+              "volume": 0
+            },
+            "short_description": "According to the Law of the Republic of Kazakhstan \"On Consumer Rights Protection\", Article 30, medicines and medical devices are not subject to return/exchange.",
+            "show_wolt_plus": false,
+            "slug": "europharma-190-saraishyk",
+            "tags": [
+              "Health",
+              "kids",
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6:vHQKXXLllTulmGrKWXvGGd2lB",
+            "url": "https://imageproxy.wolt.com/assets/674ee5ffa4ddbc0e1be40b77"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "60925d3dfa6128daaf9ea071",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j3Sdblb;00IhWRchbLc0cy5rAygy"
+          },
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Europharma №90 Vostok",
+          "track_id": "venue-europharma-90-vostok",
+          "venue": {
+            "address": "ул. Бауыржан Момышулы, 16 Ж/К \"Восток\", аптека №90",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": true,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 50,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "45-55"
+            },
+            "estimate_range": "45-55",
+            "favourite": false,
+            "franchise": "",
+            "id": "60925d3dfa6128daaf9ea071",
+            "location": [
+              71.48417233,
+              51.14131196
+            ],
+            "name": "Europharma №90 Vostok",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.4,
+              "volume": 0
+            },
+            "short_description": "Taking care of the most priceless - health 💊",
+            "show_wolt_plus": false,
+            "slug": "europharma-90-vostok",
+            "tags": [
+              "Health",
+              "kids",
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6:vHQKXXLllTulmGrKWXvGGd2lB",
+            "url": "https://imageproxy.wolt.com/assets/674ee5ff633e0d4bb37c63ce"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "609258b6cc4516dfb193b6a2",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j3Sdblb;00IhWRchbLc0cy5rAygy"
+          },
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Europharma №55 Kunayev",
+          "track_id": "venue-europharm-kunayev-55",
+          "venue": {
+            "address": "Конаев 14/2",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": true,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 50,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "45-55"
+            },
+            "estimate_range": "45-55",
+            "favourite": false,
+            "franchise": "",
+            "id": "609258b6cc4516dfb193b6a2",
+            "location": [
+              71.43746014,
+              51.12908106
+            ],
+            "name": "Europharma №55 Kunayev",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "Taking care of the most priceless - health 💊",
+            "show_wolt_plus": false,
+            "slug": "europharm-kunayev-55",
+            "tags": [
+              "Health",
+              "kids",
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4:LTYHcXcOmKXGppCpT;LFk94mH",
+            "url": "https://imageproxy.wolt.com/assets/67335f165d1bf94a0f060bf2"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "670e3b14a620d7abb5f5c75f",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4:LTYHcXcOmKXGppCpT;LFk94mH"
+          },
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Sadykhan Anet Baba",
+          "track_id": "venue-sadykhan-anet-baba",
+          "venue": {
+            "address": "Анет Баба 2, н.п 7",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": true,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 60,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "55-65"
+            },
+            "estimate_range": "55-65",
+            "favourite": false,
+            "franchise": "",
+            "id": "670e3b14a620d7abb5f5c75f",
+            "location": [
+              71.383512,
+              51.1315498
+            ],
+            "name": "Sadykhan Anet Baba",
+            "online": true,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.4,
+              "volume": 0
+            },
+            "short_description": "A large selection of medicinal and hygienic products is available to everyone. 💊",
+            "show_wolt_plus": false,
+            "slug": "sadykhan-anet-baba",
+            "tags": [
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4:LTYHcXcOmKXGppCpT;LFk94mH",
+            "url": "https://imageproxy.wolt.com/assets/67335f16827209684f08f6e1"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "670e3e5b2176ac0098721e3f",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4:LTYHcXcOmKXGppCpT;LFk94mH"
+          },
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Sadykhan Momyshuly Astana",
+          "track_id": "venue-sadykhan-momyshuly-astana",
+          "venue": {
+            "address": "проспект Бауыржан Момышулы, 10/2",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": true,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "60-70"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "670e3e5b2176ac0098721e3f",
+            "location": [
+              71.47717284,
+              51.13880082
+            ],
+            "name": "Sadykhan Momyshuly Astana",
+            "online": true,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.2,
+              "volume": 0
+            },
+            "short_description": "A large selection of medicinal and hygienic products is available to everyone. 💊",
+            "show_wolt_plus": false,
+            "slug": "sadykhan-momyshuly-astana",
+            "tags": [
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6:vHQKXXLllTulmGrKWXvGGd2lB",
+            "url": "https://imageproxy.wolt.com/assets/674ee600633e0d4bb37c63db"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65ba007b2b8e79d9d0885e9e",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j3Sdblb;00IhWRchbLc0cy5rAygy"
+          },
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Europharma №276 Ryskulbekov",
+          "track_id": "venue-europharma-276-ryskulbekova",
+          "venue": {
+            "address": "ул. Рыскулбекова д.16/3",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": true,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 55,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "50-60"
+            },
+            "estimate_range": "50-60",
+            "favourite": false,
+            "franchise": "",
+            "id": "65ba007b2b8e79d9d0885e9e",
+            "location": [
+              71.50528847,
+              51.15819095
+            ],
+            "name": "Europharma №276 Ryskulbekov",
+            "online": true,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.2,
+              "volume": 0
+            },
+            "short_description": "Taking care of the most priceless - health 💊",
+            "show_wolt_plus": false,
+            "slug": "europharma-276-ryskulbekova",
+            "tags": [
+              "pharmacy",
+              "Health",
+              "kids"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4UI784hhmkO;:cz9sf5PKXKXKdc",
+            "url": "https://imageproxy.wolt.com/assets/673208775c02197d8ff6527b"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "643fd3bd3e01b010a13f9b85",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j7VXP5h4;uTdTKOVkPdl;KGI94GQ"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "ST Plus Pharm",
+          "track_id": "venue-st-plus-pharm",
+          "venue": {
+            "address": "ул Жамбыла 8",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 40,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "35-45",
+            "favourite": false,
+            "franchise": "",
+            "id": "643fd3bd3e01b010a13f9b85",
+            "location": [
+              71.39495209,
+              51.17025375
+            ],
+            "name": "ST Plus Pharm",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.4,
+              "volume": 0
+            },
+            "short_description": "Medications with home delivery 💊",
+            "show_wolt_plus": false,
+            "slug": "st-plus-pharm",
+            "tags": [
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j9:fjQGG;;KXqXu8JlC7T;CpcytT",
+            "url": "https://imageproxy.wolt.com/assets/67335ef0f45db57ef600d937"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66f4622ddd9e9ee0b2f23ca2",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "jeXury8OPuF4l3pBCFpl;;OYl3vc"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Fenix 27",
+          "track_id": "venue-fenix-27",
+          "venue": {
+            "address": "Бейбитшилик 27",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 35,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "30-40",
+            "favourite": false,
+            "franchise": "",
+            "id": "66f4622ddd9e9ee0b2f23ca2",
+            "location": [
+              71.41900142,
+              51.17334728
+            ],
+            "name": "Fenix 27",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 10.0,
+              "volume": 0
+            },
+            "short_description": "We take care of the most valuable!",
+            "show_wolt_plus": false,
+            "slug": "fenix-27",
+            "tags": [
+              "Health",
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j9:fjQGG;;GGmXy8Jly8T;CpcytT",
+            "url": "https://imageproxy.wolt.com/assets/67335eefb248216911b3594b"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66f460a61833403f1a4f7198",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "jeXKry8yPusPh3pBCFpm;;OYl4vc"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Fenix 19/1",
+          "track_id": "venue-fenix-191",
+          "venue": {
+            "address": "ул. Дукенулы 19/1",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 35,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "30-40",
+            "favourite": false,
+            "franchise": "",
+            "id": "66f460a61833403f1a4f7198",
+            "location": [
+              71.4250818,
+              51.1798253
+            ],
+            "name": "Fenix 19/1",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "short_description": "We take care of the most valuable!",
+            "show_wolt_plus": false,
+            "slug": "fenix-191",
+            "tags": [
+              "Health",
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j9:fjQGG;;GGmXy8Jly8T;CpcytT",
+            "url": "https://imageproxy.wolt.com/assets/67335ef0b248216911b3594f"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66f46178468061a20dcb060f",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "jeXKry8yPusPh3pBCFpm;;OYl4vc"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Fenix 30",
+          "track_id": "venue-fenix-30",
+          "venue": {
+            "address": "ул. Кенесары 30",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 40,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "35-45",
+            "favourite": false,
+            "franchise": "",
+            "id": "66f46178468061a20dcb060f",
+            "location": [
+              71.4204276,
+              51.16433909
+            ],
+            "name": "Fenix 30",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 9.0,
+              "volume": 0
+            },
+            "short_description": "We take care of the most valuable!",
+            "show_wolt_plus": false,
+            "slug": "fenix-30",
+            "tags": [
+              "Health",
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j9:fjQGG;;GGmXy8Jly8T;CpcytT",
+            "url": "https://imageproxy.wolt.com/assets/67335ef0b248216911b35951"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66f461e32b80d65e79cf256e",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "jeXKry8yPusPh3pBCFpm;;OYl4vc"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Fenix 48",
+          "track_id": "venue-fenix-48",
+          "venue": {
+            "address": "Бейбитшилик 48",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 30,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "25-35",
+            "favourite": false,
+            "franchise": "",
+            "id": "66f461e32b80d65e79cf256e",
+            "location": [
+              71.41729849,
+              51.18297439
+            ],
+            "name": "Fenix 48",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "We take care of the most valuable!",
+            "show_wolt_plus": false,
+            "slug": "fenix-48",
+            "tags": [
+              "Health",
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j9:fjQGG;;GGmXy8Jly8T;CpcytT",
+            "url": "https://imageproxy.wolt.com/assets/67335eefb248216911b3594c"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66f460f92915f83f1f77e882",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "jeXKry8yPusPh3pBCFpm;;OYl4vc"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Fenix 79",
+          "track_id": "venue-fenix-79",
+          "venue": {
+            "address": "Бейбитшилик 79",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 25,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "20-30",
+            "favourite": false,
+            "franchise": "",
+            "id": "66f460f92915f83f1f77e882",
+            "location": [
+              71.4151614,
+              51.1877022
+            ],
+            "name": "Fenix 79",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "short_description": "We take care of the most valuable!",
+            "show_wolt_plus": false,
+            "slug": "fenix-79",
+            "tags": [
+              "Health",
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j9:fjQGG;;GGmXy8Jly8T;CpcytT",
+            "url": "https://imageproxy.wolt.com/assets/67335eefb248216911b35948"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66f45fffd8a3a94c24b5562e",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "jeXKry8yPusPh3pBCFpm;;OYl4vc"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Fenix 20",
+          "track_id": "venue-fenix-20",
+          "venue": {
+            "address": "ул. Дукенулы 20",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 30,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "25-35",
+            "favourite": false,
+            "franchise": "",
+            "id": "66f45fffd8a3a94c24b5562e",
+            "location": [
+              71.4276435,
+              51.1796037
+            ],
+            "name": "Fenix 20",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "short_description": "We take care of the most valuable!",
+            "show_wolt_plus": false,
+            "slug": "fenix-20",
+            "tags": [
+              "Health",
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j9:fjQGG;;GGmXy8JlC8T;CpcytT",
+            "url": "https://imageproxy.wolt.com/assets/6732087936f1e239ba1e5a33"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "62e26e5512eb5b1b8833eefa",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "jeXKry8yPusPh3pBCFpm;;OYl4vc"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Fenix A5",
+          "track_id": "venue-fenix-a5",
+          "venue": {
+            "address": "пр. Республики, д.5",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 50,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "45-55",
+            "favourite": false,
+            "franchise": "",
+            "id": "62e26e5512eb5b1b8833eefa",
+            "location": [
+              71.4287045,
+              51.1590733
+            ],
+            "name": "Fenix A5",
+            "online": false,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "We take care of the most valuable!",
+            "show_wolt_plus": false,
+            "slug": "fenix-a5",
+            "tags": [
+              "Health",
+              "pharmacy",
+              "kids"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j9:fjQGG;;GGmXy8JlC8T;CpcytT",
+            "url": "https://imageproxy.wolt.com/assets/67320877308c8149ae82e4b5"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "62e26f0c68cc542d105c9725",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "jeXKry8yPusPh3pBCFpm;;OYl4vc"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Fenix K5",
+          "track_id": "venue-fenix-k5",
+          "venue": {
+            "address": "Коргальджинское шоссе, д. 5, НП-7",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 45,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "40-50",
+            "favourite": false,
+            "franchise": "",
+            "id": "62e26f0c68cc542d105c9725",
+            "location": [
+              71.40457411,
+              51.1456292
+            ],
+            "name": "Fenix K5",
+            "online": false,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.8,
+              "volume": 0
+            },
+            "short_description": "We take care of the most valuable!",
+            "show_wolt_plus": false,
+            "slug": "fenix-k5",
+            "tags": [
+              "pharmacy",
+              "Health"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j9:fjQGG;;GGmXy8Jly8T;CpcytT",
+            "url": "https://imageproxy.wolt.com/assets/67335df6f45db57ef600d01a"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "6670390ef9ddc082c33c40f9",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "jeXKry8yPusPh3pBCFpm;;OYl4vc"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Fenix 28",
+          "track_id": "venue-fenix-28",
+          "venue": {
+            "address": "пр. Абая 28",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 40,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "35-45",
+            "favourite": false,
+            "franchise": "",
+            "id": "6670390ef9ddc082c33c40f9",
+            "location": [
+              71.42801191,
+              51.16832787
+            ],
+            "name": "Fenix 28",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.4,
+              "volume": 0
+            },
+            "short_description": "We take care of the most valuable!",
+            "show_wolt_plus": false,
+            "slug": "fenix-28",
+            "tags": [
+              "Health",
+              "pharmacy",
+              "kids"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4:vDRffX;QMXKKBh4hr;;OT8OdI",
+            "url": "https://imageproxy.wolt.com/assets/67335f27f45db57ef600db09"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "671738fb06a9e1edabfc1978",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4VKvz0i4xTc;;;:rbiSj4cBIyXL"
+          },
+          "overlay": "Temporarily offline",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "PHARM A+",
+          "track_id": "venue-pharm-a",
+          "venue": {
+            "address": "Толе би 50, нп12",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 60,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "55-65"
+            },
+            "estimate_range": "55-65",
+            "favourite": false,
+            "franchise": "",
+            "id": "671738fb06a9e1edabfc1978",
+            "location": [
+              71.39785618,
+              51.13291605
+            ],
+            "name": "PHARM A+",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.0,
+              "volume": 0
+            },
+            "short_description": "Caring for the best!",
+            "show_wolt_plus": false,
+            "slug": "pharm-a",
+            "tags": [
+              "pharmacy",
+              "Health"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j9:fjQGG;;GGmXy8Jly8T;CpcytT",
+            "url": "https://imageproxy.wolt.com/assets/67335ef0f45db57ef600d938"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66f462bc59959c6a60327572",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "jeXKry8yPusPh3pBCFpm;;OYl4vc"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Fenix 31",
+          "track_id": "venue-fenix-kuishidina-31",
+          "venue": {
+            "address": "Куйши Дина 31",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 55,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "50-60",
+            "favourite": false,
+            "franchise": "",
+            "id": "66f462bc59959c6a60327572",
+            "location": [
+              71.48531787,
+              51.15196335
+            ],
+            "name": "Fenix 31",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "We take care of the most valuable!",
+            "show_wolt_plus": false,
+            "slug": "fenix-kuishidina-31",
+            "tags": [
+              "Health",
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4NIn0:XLZI:X;XL5xVBjjXLazTv",
+            "url": "https://imageproxy.wolt.com/assets/67320830308c8149ae82e16b"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "643e21f4a7b3dcfcca7ff563",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j8KbGX41;KXd;;Nb8hMQARgPOZSQ"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "NEOPHARM",
+          "track_id": "venue-neopharm",
+          "venue": {
+            "address": "Бейбитшилик 35",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 30,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "25-35",
+            "favourite": false,
+            "franchise": "",
+            "id": "643e21f4a7b3dcfcca7ff563",
+            "location": [
+              71.41806064,
+              51.17592746
+            ],
+            "name": "NEOPHARM",
+            "online": false,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.2,
+              "volume": 0
+            },
+            "short_description": "Medications with home delivery 💊",
+            "show_wolt_plus": false,
+            "slug": "neopharm",
+            "tags": [
+              "pharmacy",
+              "Health",
+              "kids"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j9:fjQGG;;GGmXy8Jly8T;CpcytT",
+            "url": "https://imageproxy.wolt.com/assets/673208785c02197d8ff65296"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65b9dfb400a1cb8f8fae8574",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "jeXKry8yPusPh3pBCFpm;;OYl4vc"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Fenix R4",
+          "track_id": "venue-fenix-r4",
+          "venue": {
+            "address": "проспект Республики 4",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 45,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "40-50",
+            "favourite": false,
+            "franchise": "",
+            "id": "65b9dfb400a1cb8f8fae8574",
+            "location": [
+              71.42977198,
+              51.15795128
+            ],
+            "name": "Fenix R4",
+            "online": false,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.8,
+              "volume": 0
+            },
+            "short_description": "We take care of the most valuable!",
+            "show_wolt_plus": false,
+            "slug": "fenix-r4",
+            "tags": [
+              "Health",
+              "pharmacy",
+              "kids"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j9:fjQGG;;GGmXy8Jly8T;CpcytT",
+            "url": "https://imageproxy.wolt.com/assets/6735bf47644b107941dc7485"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66703dfc38cf7e7e29ead181",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "jeXKry8yPusPh3pBCFpm;;OYl4vc"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Fenix 6",
+          "track_id": "venue-fenix-31",
+          "venue": {
+            "address": "ул. Абылайхана 10",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 55,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "50-60",
+            "favourite": false,
+            "franchise": "",
+            "id": "66703dfc38cf7e7e29ead181",
+            "location": [
+              71.4738741,
+              51.15846611
+            ],
+            "name": "Fenix 6",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.8,
+              "volume": 0
+            },
+            "short_description": "We take care of the most valuable!",
+            "show_wolt_plus": false,
+            "slug": "fenix-31",
+            "tags": [
+              "Health",
+              "pharmacy",
+              "kids"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6IGCe;:7e8ze:9djtcOhkl2kPqH",
+            "url": "https://imageproxy.wolt.com/assets/674ee2ee9e772119688b94bb"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "637f485a716f5e8f0d8fb0aa",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j6IGCe;:7e8ze:9djtcOhkl2kPqH"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Petlife",
+          "track_id": "venue-petlife-kabanbay-batyr",
+          "venue": {
+            "address": "ул. Бейбитшилик 29",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 35,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "30-40",
+            "favourite": false,
+            "franchise": "",
+            "id": "637f485a716f5e8f0d8fb0aa",
+            "location": [
+              71.41867292,
+              51.17398636
+            ],
+            "name": "Petlife",
+            "online": false,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "Pet shop PETLIFE - cat food and dog food 🐾",
+            "show_wolt_plus": false,
+            "slug": "petlife-kabanbay-batyr",
+            "tags": [
+              "pet supply",
+              "pet food",
+              "catfood"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5Pe3z;3jLrIDvJ2XJORU0R38znr",
+            "url": "https://imageproxy.wolt.com/assets/6788bdbe362be7192070c0da"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "6130b35b6432d71b92992f6c",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j5Pe7z;3jLrILvJ2XJORU0R38znr"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "galmart Keruencity",
+          "track_id": "venue-galmart-keruencity",
+          "venue": {
+            "address": "Коргалжын 1",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 75,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "70-80",
+            "favourite": false,
+            "franchise": "",
+            "id": "6130b35b6432d71b92992f6c",
+            "location": [
+              71.41389623,
+              51.14540957
+            ],
+            "name": "galmart Keruencity",
+            "online": false,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 9.0,
+              "volume": 0
+            },
+            "short_description": "All the best for you!",
+            "show_wolt_plus": false,
+            "slug": "galmart-keruencity",
+            "tags": [
+              "groceries",
+              "grocery",
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5Pe7z;3jLnHvuJ2XJORU0R38znr",
+            "url": "https://imageproxy.wolt.com/assets/674ee510a4ddbc0e1be40b4f"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "6130b26678256748442c2f69",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j5Pe7z;3jLnHvuJ2XJORU0R38znr"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "galmart Keruen",
+          "track_id": "venue-galmart-keruen",
+          "venue": {
+            "address": "Достык 9",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 85,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "80-90",
+            "favourite": false,
+            "franchise": "",
+            "id": "6130b26678256748442c2f69",
+            "location": [
+              71.42526921,
+              51.1276948
+            ],
+            "name": "galmart Keruen",
+            "online": false,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.6,
+              "volume": 0
+            },
+            "short_description": "All the best for you!",
+            "show_wolt_plus": false,
+            "slug": "galmart-keruen",
+            "tags": [
+              "groceries",
+              "grocery",
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j2eSeETAlblbpHKSGSCn0fcYP5L5",
+            "url": "https://imageproxy.wolt.com/assets/6735bf62644b107941dc7824"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66a0fb7913a2dddfd0db5a8d",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j2eSeETAhbhbpHKSGCCn0fcYP5P5"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Zoo Oceanica",
+          "track_id": "venue-zoo-oceanica",
+          "venue": {
+            "address": "Сыганак 32",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 60,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "55-65",
+            "favourite": false,
+            "franchise": "",
+            "id": "66a0fb7913a2dddfd0db5a8d",
+            "location": [
+              71.39467828,
+              51.12761722
+            ],
+            "name": "Zoo Oceanica",
+            "online": false,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "Cat and dog food 🐾",
+            "show_wolt_plus": false,
+            "slug": "zoo-oceanica",
+            "tags": [
+              "dogfood",
+              "pet food",
+              "pet supply"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5SITagN0NUY;;czRlhjLLAZRs8z",
+            "url": "https://imageproxy.wolt.com/assets/674ee343a4ddbc0e1be40b34"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "6499ed508b5f4d6d0fee807d",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j8VJTt;;cgXLOYl3gRT5fuTt8PSQ"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Czar Zverey",
+          "track_id": "venue-czar-zverey",
+          "venue": {
+            "address": "ул. Янушкевича 1/2, ВП 5",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 60,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "55-65",
+            "favourite": false,
+            "franchise": "",
+            "id": "6499ed508b5f4d6d0fee807d",
+            "location": [
+              71.45948853,
+              51.15954218
+            ],
+            "name": "Czar Zverey",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.8,
+              "volume": 0
+            },
+            "short_description": "Pet shop \"King of the Beasts\" 👑🦁",
+            "show_wolt_plus": false,
+            "slug": "czar-zverey",
+            "tags": [
+              "pet supply",
+              "pet food"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "jfvrTkplMONl3LKqjdiXQOiYmHJB",
+            "url": "https://imageproxy.wolt.com/assets/67bdbf18de901620334af223"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65a90619b4913d19a01a66b1",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "jeAbr5J3UON47LR3OVHc6ujteYhk"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Wolt Market Left Bank",
+          "track_id": "venue-wolt-market-left-bank",
+          "venue": {
+            "address": "This is a virtual venue",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 70,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "65-75"
+            },
+            "estimate_range": "65-75",
+            "favourite": false,
+            "franchise": "",
+            "id": "65a90619b4913d19a01a66b1",
+            "location": [
+              71.43578008,
+              51.09873236
+            ],
+            "name": "Wolt Market Left Bank",
+            "online": true,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.4,
+              "volume": 0
+            },
+            "short_description": "💥 From essentials to weekly shopping. Fast, simple and practical grocery delivery at any time! Explore ever-expanding selection and amazing offers in our new market! 💙",
+            "show_wolt_plus": false,
+            "slug": "wolt-market-left-bank",
+            "tags": [
+              "fruit",
+              "groceries",
+              "grocery"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6Z;HUKX;;llTdpChkKH;LpB8yKX",
+            "url": "https://imageproxy.wolt.com/assets/674ee650633e0d4bb37c63f8"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "63f591777e7b2db259ded637",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j6Z;HUKX;;llTdpChkKH;LpB8yKX"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Tumar Pharmacy Mangilik El 38",
+          "track_id": "venue-tumar-pharmacy-mangilik-el-38",
+          "venue": {
+            "address": "пр. Мангилик Ел 38, ВП-25",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "60-70"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "63f591777e7b2db259ded637",
+            "location": [
+              71.4314035,
+              51.1048302
+            ],
+            "name": "Tumar Pharmacy Mangilik El 38",
+            "online": false,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.4,
+              "volume": 0
+            },
+            "short_description": "Territory of quality medicines 💊",
+            "show_wolt_plus": false,
+            "slug": "tumar-pharmacy-mangilik-el-38",
+            "tags": [
+              "pharmacy",
+              "Health"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5Pe3z;3jLrIHvJ2XJORU0R38znr",
+            "url": "https://imageproxy.wolt.com/assets/6788bdff69a104765785c5da"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "6130b401a437893165992f83",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j5Pe7z;3jLrILvJ2XJORU0R34znr"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "galmart Mega Silk Way",
+          "track_id": "venue-galmart-mega-silk-way",
+          "venue": {
+            "address": "Kabanbay batyr 62",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 75,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "70-80"
+            },
+            "estimate_range": "70-80",
+            "favourite": false,
+            "franchise": "",
+            "id": "6130b401a437893165992f83",
+            "location": [
+              71.40788559,
+              51.08913851
+            ],
+            "name": "galmart Mega Silk Way",
+            "online": false,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.8,
+              "volume": 0
+            },
+            "short_description": "All the best for you!",
+            "show_wolt_plus": false,
+            "slug": "galmart-mega-silk-way",
+            "tags": [
+              "groceries",
+              "grocery",
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6Ve3wfLWBMyd6qYFkLc;;VPdlLK",
+            "url": "https://imageproxy.wolt.com/assets/67335eeb40111921ceedc860"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66f3cdce090113128c511f62",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "jfNdDBZ3IOMy;:eYda9aJVGXHbqY"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Pharmacy Altyn Shar",
+          "track_id": "venue-pharmacy-altyn-shar",
+          "venue": {
+            "address": "пр.Туран 55/3",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "66f3cdce090113128c511f62",
+            "location": [
+              71.39898837,
+              51.11754844
+            ],
+            "name": "Pharmacy Altyn Shar",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "Pharmacy Altyn Shar🫶🏼",
+            "show_wolt_plus": false,
+            "slug": "pharmacy-altyn-shar",
+            "tags": [
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6Z;HUKX;;llTdpChkKH;LpB8yKX",
+            "url": "https://imageproxy.wolt.com/assets/674ee64c633e0d4bb37c63f5"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "63f590e5c3acee4a59018600",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j6Z;HUKX;;llTdpChkKH;LpB8yKX"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Tumar Pharmacy Mangilik El 27",
+          "track_id": "venue-tumar-pharmacy-mangilik-el-27",
+          "venue": {
+            "address": "пр. Мангилик Ел 27, ВП-2",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "63f590e5c3acee4a59018600",
+            "location": [
+              71.43109092,
+              51.1095481
+            ],
+            "name": "Tumar Pharmacy Mangilik El 27",
+            "online": false,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "Territory of quality medicines 💊",
+            "show_wolt_plus": false,
+            "slug": "tumar-pharmacy-mangilik-el-27",
+            "tags": [
+              "pharmacy",
+              "Health"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j9McqKjHaOT;;uNcRlNA;IXbddhd",
+            "url": "https://imageproxy.wolt.com/assets/6735bf63644b107941dc7838"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66a20dfa37c2379ff3a6178e",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j8NbGCvv;Q;AXuH5gPiIXjh54KmY"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Best Pharm",
+          "track_id": "venue-best-pharm",
+          "venue": {
+            "address": "ул. Сыганак 54, НП 31",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 55,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "50-60",
+            "favourite": false,
+            "franchise": "",
+            "id": "66a20dfa37c2379ff3a6178e",
+            "location": [
+              71.42155849,
+              51.12313619
+            ],
+            "name": "Best Pharm",
+            "online": false,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.4,
+              "volume": 0
+            },
+            "short_description": "City pharmacy 💊",
+            "show_wolt_plus": false,
+            "slug": "best-pharm",
+            "tags": [
+              "pharmacy",
+              "Health"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5nFuqCG00CqCptTupGG00tT;;Cp",
+            "url": "https://imageproxy.wolt.com/assets/67335f0540111921ceedc94a"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66ffe8851d9a3358dc6cd891",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j5nFuqCG00CqCptTupGG00tT;;Cp"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "MEDSTANDARD",
+          "track_id": "venue-medstandard",
+          "venue": {
+            "address": "улица Әлихан Бөкейхан, дом 29, н.п. 18",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 60,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "55-65",
+            "favourite": false,
+            "franchise": "",
+            "id": "66ffe8851d9a3358dc6cd891",
+            "location": [
+              71.42744473,
+              51.08301124
+            ],
+            "name": "MEDSTANDARD",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.2,
+              "volume": 0
+            },
+            "short_description": "🔰Pharmacy MEDSTANDARD",
+            "show_wolt_plus": false,
+            "slug": "medstandard",
+            "tags": [
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j3IcbcjJ8y;;Fk8Ajs;RT44zdOf5",
+            "url": "https://imageproxy.wolt.com/assets/67335db053f626068f55dead"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "663e2fe9dd264691b533e7f6",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j8HX;e4i;;;BTcgB8zOXPtRkcyiK"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Satpharm",
+          "track_id": "venue-satpharm",
+          "venue": {
+            "address": "ул.Алматы 5, \"Satpharm\"",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 60,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "55-65",
+            "favourite": false,
+            "franchise": "",
+            "id": "663e2fe9dd264691b533e7f6",
+            "location": [
+              71.41800087,
+              51.11794121
+            ],
+            "name": "Satpharm",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.2,
+              "volume": 0
+            },
+            "short_description": "Pharmacy 🚑 Medicines",
+            "show_wolt_plus": false,
+            "slug": "satpharm",
+            "tags": [
+              "Health",
+              "pharmacy",
+              "kids"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6:vHQKXXLllTulmGrKWXvGGd2lB",
+            "url": "https://imageproxy.wolt.com/assets/674ee5fea4ddbc0e1be40b67"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "64892e87c85ac8832aa091c2",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j3Sdblb;00IhWRchbLc0cy5rAygy"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Europharma №277 Kenesary",
+          "track_id": "venue-europharma-277",
+          "venue": {
+            "address": "​Кенесары, 47",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 40,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "35-45",
+            "favourite": false,
+            "franchise": "",
+            "id": "64892e87c85ac8832aa091c2",
+            "location": [
+              71.43040647,
+              51.16618558
+            ],
+            "name": "Europharma №277 Kenesary",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.2,
+              "volume": 0
+            },
+            "short_description": "Taking care of the most priceless - health 💊",
+            "show_wolt_plus": false,
+            "slug": "europharma-277",
+            "tags": [
+              "Health",
+              "kids",
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6:vHQKXXLllTulmGrKWXvGGd2lB",
+            "url": "https://imageproxy.wolt.com/assets/674ee6009e772119688b94eb"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65b9d832b352dbe00049e68e",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j3Sdblb;00IhWRchbLc0cy5rAygy"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Europharma № 54 Bolashak",
+          "track_id": "venue-europharma-54-bolashak",
+          "venue": {
+            "address": "пр. Сарыарка, 3 Вп-1 Ж/К \"Болашак\"",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 45,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "40-50",
+            "favourite": false,
+            "franchise": "",
+            "id": "65b9d832b352dbe00049e68e",
+            "location": [
+              71.40916344,
+              51.16034187
+            ],
+            "name": "Europharma № 54 Bolashak",
+            "online": false,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.8,
+              "volume": 0
+            },
+            "short_description": "Taking care of the most priceless - health 💊",
+            "show_wolt_plus": false,
+            "slug": "europharma-54-bolashak",
+            "tags": [
+              "Health",
+              "kids",
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6:vHQKXXLllTulmGrKWXvGGd2lB",
+            "url": "https://imageproxy.wolt.com/assets/674ee5fda4ddbc0e1be40b5e"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66aa2696a92bd175a7e53a53",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j3Sdblb;00IhWRchbLc0cy5rAygy"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Europharma №314 Samal",
+          "track_id": "venue-europharma-314-samal",
+          "venue": {
+            "address": "Самал, 11",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 45,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "40-50",
+            "favourite": false,
+            "franchise": "",
+            "id": "66aa2696a92bd175a7e53a53",
+            "location": [
+              71.42972964,
+              51.15354515
+            ],
+            "name": "Europharma №314 Samal",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.8,
+              "volume": 0
+            },
+            "short_description": "Taking care of the most priceless - health 💊",
+            "show_wolt_plus": false,
+            "slug": "europharma-314-samal",
+            "tags": [
+              "pharmacy",
+              "Health",
+              "kids"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6:vHQKXXLllTulmGrKWXvGGd2lB",
+            "url": "https://imageproxy.wolt.com/assets/674ee600633e0d4bb37c63da"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "647ed7f8db10b097c6fd17ca",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j3Sdblb;00IhWRchbLc0cy5rAygy"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Europharma №278 Imanbayev",
+          "track_id": "venue-europharma-278-imanbayeva",
+          "venue": {
+            "address": "ул. Иманбаева, 8 ВП, 1A",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 50,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "45-55",
+            "favourite": false,
+            "franchise": "",
+            "id": "647ed7f8db10b097c6fd17ca",
+            "location": [
+              71.43563515,
+              51.16246233
+            ],
+            "name": "Europharma №278 Imanbayev",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.4,
+              "volume": 0
+            },
+            "short_description": "Taking care of the most priceless - health 💊",
+            "show_wolt_plus": false,
+            "slug": "europharma-278-imanbayeva",
+            "tags": [
+              "Health",
+              "kids",
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6:vHQKXXLllTulmGrKWXvGGd2lB",
+            "url": "https://imageproxy.wolt.com/assets/674ee5ffa4ddbc0e1be40b76"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65b9d932e83fb82c9847fccf",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j3Sdblb;00IhWRchbLc0cy5rAygy"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Europharma №16 Tauelsizdik",
+          "track_id": "venue-europharma-16-tauelsizdik",
+          "venue": {
+            "address": "проспект Тауелсиздик 21/4",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 60,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "55-65",
+            "favourite": false,
+            "franchise": "",
+            "id": "65b9d932e83fb82c9847fccf",
+            "location": [
+              71.45812968,
+              51.14485277
+            ],
+            "name": "Europharma №16 Tauelsizdik",
+            "online": false,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.2,
+              "volume": 0
+            },
+            "short_description": "Taking care of the most priceless - health 💊",
+            "show_wolt_plus": false,
+            "slug": "europharma-16-tauelsizdik",
+            "tags": [
+              "Health",
+              "pharmacy",
+              "kids"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6:vHQKXXLllTulmGrKWXvGGd2lB",
+            "url": "https://imageproxy.wolt.com/assets/674ee600633e0d4bb37c63e3"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65b40ba66f72adf59c9bcd83",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j3Sdblb;00IhWRchbLc0cy5rAygy"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Europharma №47 Kainar",
+          "track_id": "venue-europharma-47-kainar",
+          "venue": {
+            "address": "Иманова 50",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 50,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "45-55",
+            "favourite": false,
+            "franchise": "",
+            "id": "65b40ba66f72adf59c9bcd83",
+            "location": [
+              71.4592229,
+              51.1601029
+            ],
+            "name": "Europharma №47 Kainar",
+            "online": false,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.2,
+              "volume": 0
+            },
+            "short_description": "Taking care of the most priceless - health 💊",
+            "show_wolt_plus": false,
+            "slug": "europharma-47-kainar",
+            "tags": [
+              "pharmacy",
+              "Health",
+              "kids"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6:vHQKXXLllTulmGrKWXvGGd2lB",
+            "url": "https://imageproxy.wolt.com/assets/674ee5ffa4ddbc0e1be40b6f"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65b9ff7610dc2c4fc2b93dc9",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j3Sdblb;00IhWRchbLc0cy5rAygy"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Europharma №171 Aitmatov",
+          "track_id": "venue-europharma-171-aitmatova",
+          "venue": {
+            "address": "ул. Айтматова, 44",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 50,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "45-55",
+            "favourite": false,
+            "franchise": "",
+            "id": "65b9ff7610dc2c4fc2b93dc9",
+            "location": [
+              71.36998286,
+              51.1488657
+            ],
+            "name": "Europharma №171 Aitmatov",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.8,
+              "volume": 0
+            },
+            "short_description": "Taking care of the most priceless - health 💊",
+            "show_wolt_plus": false,
+            "slug": "europharma-171-aitmatova",
+            "tags": [
+              "pharmacy",
+              "Health",
+              "kids"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6:vHQKXXLllTulmGrKWXvGGd2lB",
+            "url": "https://imageproxy.wolt.com/assets/674ee5fea4ddbc0e1be40b69"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65b9fff50b0dc673c2b92c9a",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j3Sdblb;00IhWRchbLc0cy5rAygy"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Europharma № 131 BC Moskva",
+          "track_id": "venue-europharma-131-bc-moskva",
+          "venue": {
+            "address": "ул. Достык, 18 ",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 50,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "45-55",
+            "favourite": false,
+            "franchise": "",
+            "id": "65b9fff50b0dc673c2b92c9a",
+            "location": [
+              71.43467479,
+              51.12486093
+            ],
+            "name": "Europharma № 131 BC Moskva",
+            "online": false,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "Taking care of the most priceless - health 💊",
+            "show_wolt_plus": false,
+            "slug": "europharma-131-bc-moskva",
+            "tags": [
+              "pharmacy",
+              "Health",
+              "kids"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6:vHQKXXLllTulmGrKWXvGGd2lB",
+            "url": "https://imageproxy.wolt.com/assets/674ee607633e0d4bb37c63f3"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "6528e37e2885b530ee6b8ebe",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j3Sdblb;00IhWRchbLc0cy5rAygy"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Europharma №193 Satpayev",
+          "track_id": "venue-europharma-193-satpayev",
+          "venue": {
+            "address": "ул.Сатпаева 23/1 (ВП-3)",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 45,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "40-50",
+            "favourite": false,
+            "franchise": "",
+            "id": "6528e37e2885b530ee6b8ebe",
+            "location": [
+              71.47446599,
+              51.14242542
+            ],
+            "name": "Europharma №193 Satpayev",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.2,
+              "volume": 0
+            },
+            "short_description": "Taking care of the most priceless - health 💊",
+            "show_wolt_plus": false,
+            "slug": "europharma-193-satpayev",
+            "tags": [
+              "Health",
+              "kids",
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6:vHQKXXLllTulmGrKWXvGGd2lB",
+            "url": "https://imageproxy.wolt.com/assets/674ee600633e0d4bb37c63df"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65b40c262785eb96869f9ac3",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j3Sdblb;00IhWRchbLc0cy5rAygy"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Europharma №87 Turan",
+          "track_id": "venue-europharma-87-turan",
+          "venue": {
+            "address": "Туран 55д",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 60,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "55-65",
+            "favourite": false,
+            "franchise": "",
+            "id": "65b40c262785eb96869f9ac3",
+            "location": [
+              71.3971987,
+              51.114662
+            ],
+            "name": "Europharma №87 Turan",
+            "online": false,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.4,
+              "volume": 0
+            },
+            "short_description": "Taking care of the most priceless - health 💊",
+            "show_wolt_plus": false,
+            "slug": "europharma-87-turan",
+            "tags": [
+              "pharmacy",
+              "Health",
+              "kids"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6:vHQKXXLllTulmGrKWXvGGd2lB",
+            "url": "https://imageproxy.wolt.com/assets/674ee5fe633e0d4bb37c63bf"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65b9d732ee1fcda5c388b87c",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j3Sdblb;00IhWRchbLc0cy5rAygy"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Europharma №219 Mangilik El",
+          "track_id": "venue-europharma-219-mangilik-el",
+          "venue": {
+            "address": "ул. Мангилик Ел 35, НП 11",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 70,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "65-75",
+            "favourite": false,
+            "franchise": "",
+            "id": "65b9d732ee1fcda5c388b87c",
+            "location": [
+              71.42946377,
+              51.10526278
+            ],
+            "name": "Europharma №219 Mangilik El",
+            "online": false,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "Taking care of the most priceless - health 💊",
+            "show_wolt_plus": false,
+            "slug": "europharma-219-mangilik-el",
+            "tags": [
+              "pharmacy",
+              "Health",
+              "kids"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6:vHQKXXLllTulmGrKWXvGGd2lB",
+            "url": "https://imageproxy.wolt.com/assets/674ee5ffa4ddbc0e1be40b71"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "6092614fd290f4717a9715bd",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j3Sdblb;00IhWRchbLc0cy5rAygy"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Europharma №56 Highvill",
+          "track_id": "venue-europharma-56-highvill",
+          "venue": {
+            "address": "ул.Байтурсынова,3 Ж/К \"Хай вил\", аптека №56",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 55,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "50-60",
+            "favourite": false,
+            "franchise": "",
+            "id": "6092614fd290f4717a9715bd",
+            "location": [
+              71.46002142,
+              51.12740045
+            ],
+            "name": "Europharma №56 Highvill",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.4,
+              "volume": 0
+            },
+            "short_description": "Taking care of the most priceless - health 💊",
+            "show_wolt_plus": false,
+            "slug": "europharma-56-highvill",
+            "tags": [
+              "Health",
+              "kids",
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "jbYffLll;;PcTtpSlBKXd3KGOYll",
+            "url": "https://imageproxy.wolt.com/assets/67d2ce68ef1a1021b9594b77"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "6656ca4a46566ab2945d2f24",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "jbYfjLll;;PcTdpSlBKXd3KGOYll"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "A-pharma Astana",
+          "track_id": "venue-a-pharma-astana",
+          "venue": {
+            "address": "ул Ш.Калдаякова 23/2",
+            "badges": [
+              {
+                "text": "New",
+                "variant": "primary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 60,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "55-65",
+            "favourite": false,
+            "franchise": "",
+            "id": "6656ca4a46566ab2945d2f24",
+            "location": [
+              71.48823867,
+              51.11441551
+            ],
+            "name": "A-pharma Astana",
+            "online": false,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "short_description": "We inspire you to be healthy! 🍃",
+            "show_wolt_plus": false,
+            "slug": "a-pharma-astana",
+            "tags": [
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6:vHQKXXLllTulmGrKWXvGGd2lB",
+            "url": "https://imageproxy.wolt.com/assets/674ee5fea4ddbc0e1be40b63"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "671a44ee1609013611ea485d",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j3Sdblb;00IhWRchbLc0cy5rAygy"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Europharma №283 Kosshy",
+          "track_id": "venue-europharma-283-kosshy",
+          "venue": {
+            "address": "ул. Толе Би строение 2А",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 75,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "70-80",
+            "favourite": false,
+            "franchise": "",
+            "id": "671a44ee1609013611ea485d",
+            "location": [
+              71.35978205,
+              50.98644775
+            ],
+            "name": "Europharma №283 Kosshy",
+            "online": false,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 9.0,
+              "volume": 0
+            },
+            "short_description": "Taking care of the most priceless - health 💊",
+            "show_wolt_plus": false,
+            "slug": "europharma-283-kosshy",
+            "tags": [
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j8PJntV1d4oP;KdrXsd5;;9IpSPc",
+            "url": "https://imageproxy.wolt.com/assets/6732085755bbaf14ece8085c"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "60fe36b0ac670a3ecb1afd66",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j9RJzw;;4iXJiI;;Fk8P4PFHSBHd"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "MegaVision Nur-Sultan",
+          "track_id": "venue-megavision",
+          "venue": {
+            "address": "Улица Бухар жырау, 31",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "60fe36b0ac670a3ecb1afd66",
+            "location": [
+              71.44367189,
+              51.09805561
+            ],
+            "name": "MegaVision Nur-Sultan",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.4,
+              "volume": 0
+            },
+            "short_description": "Lenses, optics, drops 👁",
+            "show_wolt_plus": false,
+            "slug": "megavision",
+            "tags": [
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j9PryrXJ;L;aLKgOMPPdZscR9PTr",
+            "url": "https://imageproxy.wolt.com/assets/674ee5bfa4ddbc0e1be40b55"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "636232e9d96cb060ad7090b9",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "jcGHOacNYe4hXr8HP5jrEzmIP7Td"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "SUN MART",
+          "track_id": "venue-mangilik-market",
+          "venue": {
+            "address": "ул. Жошы Хан, 23",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "636232e9d96cb060ad7090b9",
+            "location": [
+              71.43885621,
+              51.10542205
+            ],
+            "name": "SUN MART",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.6,
+              "volume": 0
+            },
+            "short_description": "Everything for your life!",
+            "show_wolt_plus": false,
+            "slug": "mangilik-market",
+            "tags": [
+              "groceries",
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5Pe3y;3nLnHHvJ2XJORU0R38znr",
+            "url": "https://imageproxy.wolt.com/assets/6788be1a362be7192070c0e1"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "61386df39f679ce3ec1f122b",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j5Pe3z;3nLnILvJ2XJORU0R34znr"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "galmart Abu Dhabi Plaza",
+          "track_id": "venue-galmart-abu-dhabi-plaza",
+          "venue": {
+            "address": "Syganak 60/5",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 70,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "65-75",
+            "favourite": false,
+            "franchise": "",
+            "id": "61386df39f679ce3ec1f122b",
+            "location": [
+              71.42674234,
+              51.12162712
+            ],
+            "name": "galmart Abu Dhabi Plaza",
+            "online": false,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.8,
+              "volume": 0
+            },
+            "short_description": "All the best for you!",
+            "show_wolt_plus": false,
+            "slug": "galmart-abu-dhabi-plaza",
+            "tags": [
+              "groceries",
+              "grocery",
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j3JquR0jj400XBgZ;JdjTd9I;;;;",
+            "url": "https://imageproxy.wolt.com/assets/677a9ca492cac97081f94894"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "676bb14308fee150b7916e0e",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j5Lr74;JMOXK4O8z;;cR8z8i;ZIQ"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Tolstyy Kot",
+          "track_id": "venue-tolstyy-kot",
+          "venue": {
+            "address": "ул. Туркестан 34б",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "676bb14308fee150b7916e0e",
+            "location": [
+              71.42034247,
+              51.09425602
+            ],
+            "name": "Tolstyy Kot",
+            "online": false,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.2,
+              "volume": 0
+            },
+            "short_description": "Everything for your beloved pets",
+            "show_wolt_plus": false,
+            "slug": "tolstyy-kot",
+            "tags": [
+              "pet food",
+              "pet supply"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6:vHQKXXLllTulmGrKWXvGGd2lB",
+            "url": "https://imageproxy.wolt.com/assets/674ee6069e772119688b9504"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "64805ea0e53138f142efd26f",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j3Sdblb;00IhWRchbLc0cy5rAygy"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Europharma №95 Mangilik El",
+          "track_id": "venue-europharma-95-mangilik-el",
+          "venue": {
+            "address": "пр. Мангилик ел, 53",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 60,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "55-65"
+            },
+            "estimate_range": "55-65",
+            "favourite": false,
+            "franchise": "",
+            "id": "64805ea0e53138f142efd26f",
+            "location": [
+              71.42549316,
+              51.09380051
+            ],
+            "name": "Europharma №95 Mangilik El",
+            "online": true,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "Taking care of the most priceless - health 💊",
+            "show_wolt_plus": false,
+            "slug": "europharma-95-mangilik-el",
+            "tags": [
+              "pharmacy",
+              "Health"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6:vHQKXXLllTulmGrKWXvGGd2lB",
+            "url": "https://imageproxy.wolt.com/assets/674ee5ff9e772119688b94e2"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65b40a78e75db35e93e0fdb0",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j3Sdblb;00IhWRchbLc0cy5rAygy"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Europharma №17 Mangilik El",
+          "track_id": "venue-europharma-17-mangilik-el",
+          "venue": {
+            "address": "Мангилик ел 19",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 60,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "55-65"
+            },
+            "estimate_range": "55-65",
+            "favourite": false,
+            "franchise": "",
+            "id": "65b40a78e75db35e93e0fdb0",
+            "location": [
+              71.43270433,
+              51.11516893
+            ],
+            "name": "Europharma №17 Mangilik El",
+            "online": true,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.4,
+              "volume": 0
+            },
+            "short_description": "Taking care of the most priceless - health 💊",
+            "show_wolt_plus": false,
+            "slug": "europharma-17-mangilik-el",
+            "tags": [
+              "pharmacy",
+              "Health",
+              "kids"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6:vHQKXXLllTulmGrKWXvGGd2lB",
+            "url": "https://imageproxy.wolt.com/assets/674ee5faa4ddbc0e1be40b5c"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "6092600e41a4fe3deb93c7bf",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j3Sdblb;00IhWRchbLc0cy5rAygy"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Europharma №220 Uly Dala",
+          "track_id": "venue-europharma-220-uly-dala",
+          "venue": {
+            "address": "ул. Улы Дала 6/1. НП-16",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 60,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "55-65"
+            },
+            "estimate_range": "55-65",
+            "favourite": false,
+            "franchise": "",
+            "id": "6092600e41a4fe3deb93c7bf",
+            "location": [
+              71.41037616,
+              51.09685802
+            ],
+            "name": "Europharma №220 Uly Dala",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.2,
+              "volume": 0
+            },
+            "short_description": "Taking care of the most priceless - health 💊",
+            "show_wolt_plus": false,
+            "slug": "europharma-220-uly-dala",
+            "tags": [
+              "kids",
+              "pharmacy",
+              "Health"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6:vHQKXXLllTulmGrKWXvGGd2lB",
+            "url": "https://imageproxy.wolt.com/assets/674ee5ffa4ddbc0e1be40b6e"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "6617d1c152be6fe083a17eb7",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j3Sdblb;00IhWRchbLc0cy5rAygy"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Europharma №312 Kerey-Zhanibek khandar",
+          "track_id": "venue-europharma-312-kerey-zhanibek-khandar",
+          "venue": {
+            "address": "Керей-Жанибек хандар 12",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 55,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "50-60"
+            },
+            "estimate_range": "50-60",
+            "favourite": false,
+            "franchise": "",
+            "id": "6617d1c152be6fe083a17eb7",
+            "location": [
+              71.41678415,
+              51.11467413
+            ],
+            "name": "Europharma №312 Kerey-Zhanibek khandar",
+            "online": true,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "Taking care of the most priceless - health 💊",
+            "show_wolt_plus": false,
+            "slug": "europharma-312-kerey-zhanibek-khandar",
+            "tags": [
+              "pharmacy",
+              "Health",
+              "kids"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4:LTYHcXcOmKXGppCpT;LFk94mH",
+            "url": "https://imageproxy.wolt.com/assets/67335f165d1bf94a0f060bfd"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "670e3c60acc8713a71f3a2b5",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4:LTYHcXcOmKXGppCpT;LFk94mH"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Sadykhan Baitursynov",
+          "track_id": "venue-sadykhan-baitursynov",
+          "venue": {
+            "address": "ул.Байтурсынова, 51",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "60-70"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "670e3c60acc8713a71f3a2b5",
+            "location": [
+              71.52218553,
+              51.11673202
+            ],
+            "name": "Sadykhan Baitursynov",
+            "online": true,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.4,
+              "volume": 0
+            },
+            "short_description": "A large selection of medicinal and hygienic products is available to everyone. 💊",
+            "show_wolt_plus": false,
+            "slug": "sadykhan-baitursynov",
+            "tags": [
+              "pharmacy"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6:vHQKXXLllTulmGrKWXvGGd2lB",
+            "url": "https://imageproxy.wolt.com/assets/674ee600633e0d4bb37c63e0"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65b9d9b10c3a911d2e69a918",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j3Sdblb;00IhWRchbLc0cy5rAygy"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Europharma №275 Sauran",
+          "track_id": "venue-europharma-275-sauran",
+          "venue": {
+            "address": "ул. Сауран, 3/1",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 50,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "45-55"
+            },
+            "estimate_range": "45-55",
+            "favourite": false,
+            "franchise": "",
+            "id": "65b9d9b10c3a911d2e69a918",
+            "location": [
+              71.42091486,
+              51.1217846
+            ],
+            "name": "Europharma №275 Sauran",
+            "online": true,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.4,
+              "volume": 0
+            },
+            "short_description": "Taking care of the most priceless - health 💊",
+            "show_wolt_plus": false,
+            "slug": "europharma-275-sauran",
+            "tags": [
+              "pharmacy",
+              "Health",
+              "kids"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j8NIv9;;d5Tc;JXmhnXJXtFlcQdb",
+            "url": "https://imageproxy.wolt.com/assets/674ee63c633e0d4bb37c63f4"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "63e360582daa77b2aac3d03b",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j5Jri:cR;:F3Xq4YP;;Z00dbkQXK"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "FARMACIA",
+          "track_id": "venue-farmacia",
+          "venue": {
+            "address": "пр. Кабанбай батыра 49А н.п13",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "KAZ",
+            "currency": "KZT",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "60-70"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "63e360582daa77b2aac3d03b",
+            "location": [
+              71.40547737,
+              51.10088725
+            ],
+            "name": "FARMACIA",
+            "online": true,
+            "price_range": 0,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.4,
+              "volume": 0
+            },
+            "short_description": "Take care of your health 🍀",
+            "show_wolt_plus": false,
+            "slug": "farmacia",
+            "tags": [
+              "pharmacy",
+              "Health"
+            ],
+            "venue_preview_items": []
+          }
+        }
+      ],
+      "name": "venues",
+      "template": "search-result-list",
+      "title": "Restaurants and stores"
+    }
+  ],
+  "show_large_title": false,
+  "show_map": false,
+  "sorting_and_filtering_v2": {
+    "sections": [
+      {
+        "role": "filtering",
+        "slug": "product_line",
+        "type": "single_select",
+        "values": [
+          {
+            "selected": true,
+            "slug": "all",
+            "title": "All results"
+          },
+          {
+            "selected": false,
+            "slug": "grocery",
+            "title": "Grocery"
+          },
+          {
+            "selected": false,
+            "slug": "pharmacy",
+            "title": "Pharmacy"
+          },
+          {
+            "selected": false,
+            "slug": "pet_supply",
+            "title": "Pet supply"
+          },
+          {
+            "selected": false,
+            "slug": "health_and_beauty",
+            "title": "Health & beauty"
+          }
+        ]
+      },
+      {
+        "role": "sorting",
+        "slug": "sort_by",
+        "title": "Sort by",
+        "type": "single_select",
+        "values": [
+          {
+            "selected": true,
+            "slug": "recommended",
+            "title": "Recommended"
+          },
+          {
+            "selected": false,
+            "slug": "distance",
+            "title": "Distance"
+          },
+          {
+            "selected": false,
+            "slug": "rating",
+            "title": "Rating"
+          },
+          {
+            "selected": false,
+            "slug": "delivery_fee",
+            "title": "Delivery price"
+          },
+          {
+            "selected": false,
+            "slug": "delivery_estimate",
+            "title": "Delivery time"
+          }
+        ]
+      },
+      {
+        "role": "filtering",
+        "slug": "delivers_now",
+        "type": "toggle",
+        "values": [
+          {
+            "selected": false,
+            "slug": "delivers_now_toggle",
+            "title": "Delivers to you now"
+          }
+        ]
+      }
+    ]
+  },
+  "track_id": "discovery:search:split-view"
+}

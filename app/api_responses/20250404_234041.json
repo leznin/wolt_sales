@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "678a38bbc599d03432ddc8d7",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/66163ec012947f34912c6962/83579610-d431-11ef-8f16-36b7d768ae78_gatta_rajstopy_estella_15den_bez_2_ps3efg.jpg",
+        "blurhash": "UXSFz~aK_MtSMyjYx[a~R%ays;oes;ayR%of"
+      }
+    ],
+    "name": "Moda",
+    "slug": "moda-568"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

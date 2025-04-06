@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "6502d3a45bb9f84fa2a5cdf6",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5faa55d4f0e44faad51211cc/55b59724-555d-11ee-aea9-9a20dc8e82ff_chemia_do_domu.jpg",
+        "blurhash": "jdOd;CLr;;kRhmPcl5d5TdXsKR8A"
+      }
+    ],
+    "name": "Chemia do domu",
+    "slug": "chemia-do-domu-37"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

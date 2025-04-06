@@ -1,0 +1,648 @@
+{
+  "assortment_id": "64cba7b0b91d3c8a4a7cc9a5",
+  "loading_strategy": "partial",
+  "primary_language": "ka",
+  "selected_language": "ka",
+  "available_languages": [
+    {
+      "autotranslated": true,
+      "language": "de",
+      "name": "German"
+    },
+    {
+      "autotranslated": true,
+      "language": "en",
+      "name": "English"
+    },
+    {
+      "autotranslated": true,
+      "language": "fr",
+      "name": "French"
+    },
+    {
+      "autotranslated": false,
+      "language": "ka",
+      "name": "Georgian"
+    },
+    {
+      "autotranslated": true,
+      "language": "ru",
+      "name": "Russian"
+    }
+  ],
+  "compliance_info": {
+    "badges": [],
+    "disclaimers": null,
+    "how_search_works": null,
+    "lowest_price_calculation_interval_in_days": 30,
+    "should_display_original_price_for_unit_price": false,
+    "should_display_price_by_subtracting_deposit": false
+  },
+  "categories": [
+    {
+      "id": "6756bbd132d1a19d7c9850e6",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1aca368998b48fc0b505/c3b8f4ae-bc6e-11ef-9ff1-e28f54ff12d4_4_3.jpg",
+          "blurhash": "jdlpX7T:KXLtFGFVKWKWjdrcH9pA"
+        }
+      ],
+      "name": "Free Delivery",
+      "slug": "free-delivery-84",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "6759410bdc780f61ea4f1ec8",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1aca368998b48fc0b505/f7783692-bc6e-11ef-84a9-e28f54ff12d4_2.jpg",
+          "blurhash": "j7:IyaTOQMDqvdJkCBFBQgjujeFS"
+        }
+      ],
+      "name": "Offer 2+1",
+      "slug": "offer-21-85",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "6759410bdc780f61ea4f1ec9",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1aca368998b48fc0b505/23379f02-bc6f-11ef-898f-ee82b177777d_1.jpg",
+          "blurhash": "j5E7m;4MZY1e:N;2KY9d0v6;9Hlj"
+        }
+      ],
+      "name": "Festal - 25%",
+      "slug": "festal-25-86",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "6759410bdc780f61ea4f1eca",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1aca368998b48fc0b505/4555a980-bc6f-11ef-8e63-cac03a7add06_3.jpg",
+          "blurhash": "jjuae;ULOXkXKSKSKWGCcQlrGHKW"
+        }
+      ],
+      "name": "Enterogermina Promo",
+      "slug": "enterogermina-promo-87",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8aa6ff",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1aca368998b48fc0b505/78b33aa4-745c-11eb-907c-8e2ff4acf19c_get_image.jpeg",
+          "blurhash": "j6:LDVtT;;KXcPtTTtGGPcGGh4pC"
+        }
+      ],
+      "name": "კანის მოვლა",
+      "slug": "menucategory-2",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8aaa7f",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1a3cc1ea11b605f917fb/70bdae50-3fd6-11ed-89bf-96f1f248323d_89174.jpeg",
+          "blurhash": "j6:fDUuG;;KXTcBTh4qp;;Gp4hlC"
+        }
+      ],
+      "name": "ბავშვი სხვადასხვა",
+      "slug": "menucategory-44",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8aabe9",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1aca368998b48fc0b505/986aeca8-71db-11eb-8f08-522ae3193200_get_image__1_.jpeg",
+          "blurhash": "j7;vTTGGTvGFKZCppztSKYCpplpD"
+        }
+      ],
+      "name": "ბავშვთა მოვლა",
+      "slug": "menucategory-3",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8aacd1",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1aca368998b48fc0b505/2c4b3628-71df-11eb-9775-96c4cedbe0e8_get_image__9_.jpeg",
+          "blurhash": "juUZHkKX;;llTrGGh6pmqWpCFmKW"
+        }
+      ],
+      "name": "ბავშვის საფენი",
+      "slug": "menucategory-4",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8aaced",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1aca368998b48fc0b505/2cf37dda-748f-11eb-8688-062334e861a6_get_image__15_.jpeg",
+          "blurhash": "j5:;LWGp;;KXTcGGh4pCndCGJ3pB"
+        }
+      ],
+      "name": "თმის მოვლა",
+      "slug": "menucategory-5",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8aae41",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1aca368998b48fc0b505/b205db7a-749f-11eb-8d79-bec1b2b8af27_get_image__90_.jpeg",
+          "blurhash": "j6:fDVKX;;h4lmGGKXpCTspCd4GG"
+        }
+      ],
+      "name": "დეოდორანტი/ანტიპერსპერანტი",
+      "slug": "menucategory-6",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8aae76",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1aca368998b48fc0b505/efa3e904-71ca-11eb-9344-064c692429a3_get_image.jpeg",
+          "blurhash": "jqTtTtpT;;GGPcGGh4pCXtGGcPll"
+        }
+      ],
+      "name": "კოსმეტიკა",
+      "slug": "menucategory-7",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8ab0aa",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1aca368998b48fc0b505/0df5d1e8-7472-11eb-91f0-ce58db613f09_get_image___2021_02_21t222429.038.jpeg",
+          "blurhash": "j7:;zUGG;;GGTaCpdqtTPcCph4tS"
+        }
+      ],
+      "name": "MALIBU ",
+      "slug": "malibu-38",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8ab0d2",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1aca368998b48fc0b505/3f7b39b8-71ef-11eb-b021-06faa7ab9cea_get_image__88_.jpeg",
+          "blurhash": "jbZvfRh4;;TsqXupFCFS;;Pc8icQ"
+        }
+      ],
+      "name": "პირის ღრუს მოვლა",
+      "slug": "menucategory-8",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8ab119",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1aca368998b48fc0b505/c7371886-71ea-11eb-ab38-eafb5611e313_get_image__40_.jpeg",
+          "blurhash": "jjYeHFGG;;pCirCpNRpCrcCpJktT"
+        }
+      ],
+      "name": "საპონი/ შხაპის გელი",
+      "slug": "menucategory-9",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8ab165",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1aca368998b48fc0b505/eca3e676-7cbc-11eb-baf6-62001e1c1a59_get_image__1___1_.jpeg",
+          "blurhash": "jwPsD9GG;;CqGXBTpCuqPctTh4GG"
+        }
+      ],
+      "name": "სილამაზე/აქსესუარები",
+      "slug": "menucategory-10",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8ab38e",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1aca368998b48fc0b505/631b7d76-72d8-11eb-b630-32e8e34928cf_get_image__27_.jpeg",
+          "blurhash": "jgUuDWha;YT5lrGpGBlpTrKWhmlm"
+        }
+      ],
+      "name": "ქალის ჰიგიენა",
+      "slug": "menucategory-11",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8ab3b7",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1aca368998b48fc0b505/afea56b2-72d9-11eb-8c54-b68b1af9db89_get_image__34_.jpeg",
+          "blurhash": "jhUujyFR;;qIhcpBORKYTtGXh4lk"
+        }
+      ],
+      "name": "ბავშვთა კვება",
+      "slug": "menucategory-12",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8ab44f",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1aca368998b48fc0b505/00f9f4f8-72db-11eb-a9ec-f2cc7141d3ea_get_image__35_.jpeg",
+          "blurhash": "jfX;7RKX;;h4TspCd4KGOXpChlKG"
+        }
+      ],
+      "name": "პრეზერვატივი",
+      "slug": "menucategory-13",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8ab484",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1a3cc1ea11b605f917fb/837d22ba-3f0d-11ed-816e-ba315ec5ea31_9856.jpeg",
+          "blurhash": "jkVebBqG;;JSKXKXlmll;;BC4iqG"
+        }
+      ],
+      "name": "ალერგია/ასთმა",
+      "slug": "menucategory-14",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8ab4c4",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1a3cc1ea11b605f917fb/333715b4-3f25-11ed-97d4-8a1b38dec2c8_81573.jpeg",
+          "blurhash": "jlXtXwl4;;PcLcGGp4plX;GXcypl"
+        }
+      ],
+      "name": "ვიტამინები/ საკვები დანამატები",
+      "slug": "menucategory-15",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8ab5ba",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1a3cc1ea11b605f917fb/fbfe01e8-3f24-11ed-a9ca-665e04db4ce4_58723.jpeg",
+          "blurhash": "jiXuPKGW;;lnKWpEpnKDPdtDh4GG"
+        }
+      ],
+      "name": "თვალი ",
+      "slug": "menucategory-16",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8ab609",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1aca368998b48fc0b505/37c6c98c-73af-11eb-ba18-7e2dd7aa34ba_get_image__28_.jpeg",
+          "blurhash": "jfY;7Luq;;KCp4CGHcpBtkGGCYpB"
+        }
+      ],
+      "name": "კუჭ-ნაწლავი",
+      "slug": "--17",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8ab718",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1a3cc1ea11b605f917fb/b8c7a284-3f25-11ed-98e3-8a1b38dec2c8_17916.jpeg",
+          "blurhash": "j9Yu;KT5;;dsh5GFKXxVX;lXcPFB"
+        }
+      ],
+      "name": "გულ-სისხლძარღვთა ",
+      "slug": "--18",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8ab956",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1a3cc1ea11b605f917fb/a82e6052-3f25-11ed-89a3-7aea7e8a489d_24213.jpeg",
+          "blurhash": "j9:vbOoPX;L;PbBTllpSX;Htchoy"
+        }
+      ],
+      "name": "დამამშვიდებელი/ საძილე",
+      "slug": "menucategory-19",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8aba91",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1a3cc1ea11b605f917fb/7adf6a10-3f25-11ed-9c1b-665e04db4ce4_6179.jpeg",
+          "blurhash": "j4:;HWlG;;TbKXFSGnqG;;KW8xd5"
+        }
+      ],
+      "name": "დიაბეტი",
+      "slug": "menucategory-20",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8abac8",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1aca368998b48fc0b505/50b70394-753f-11eb-b09d-026e3a372358_get_image__11_.jpeg",
+          "blurhash": "jsYuzuGXX;lkGGtCpCCGqItSFBCG"
+        }
+      ],
+      "name": "ერექცია",
+      "slug": "menucategory-21",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8abadc",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1a3cc1ea11b605f917fb/ea51cc14-3f32-11ed-8135-26fad85db622_3011.jpeg",
+          "blurhash": "jiU:fAll;;PclnKXGGh5;;KX4hll"
+        }
+      ],
+      "name": "ტკივილი/სიცხე/ანთება",
+      "slug": "menucategory-22",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8abbce",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1a3cc1ea11b605f917fb/820ac824-3f21-11ed-ad33-aa4d08cf72f0_3689.jpeg",
+          "blurhash": "j6:vDUcQXLXtKWGGCpll;;Tc8y8Q"
+        }
+      ],
+      "name": "მალამოები/ხსნარები",
+      "slug": "menucategory-23",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8abcbf",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1aca368998b48fc0b505/bad2d452-755c-11eb-b4fb-06dab16c57a5_get_image__23_.jpeg",
+          "blurhash": "j7:LzTKX;;lkFGtTGVCqOWtVhmGn"
+        }
+      ],
+      "name": "სამედიცინო მასალები",
+      "slug": "menucategory-24",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8abd8c",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1a3cc1ea11b605f917fb/49ae897a-3f0d-11ed-8d21-32eb52bc1029_192.jpeg",
+          "blurhash": "jcY;3Llm;;PcPsGHl4pl;;GG8xll"
+        }
+      ],
+      "name": "გინეკოლოგია",
+      "slug": "menucategory-25",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8abdec",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1a3cc1ea11b605f917fb/904d06c2-3f0d-11ed-8a1f-06b3d90f8143_12079.jpeg",
+          "blurhash": "jfXeHCKX;;mqKXtWpCGmXKpCcPGq"
+        }
+      ],
+      "name": "ანტიბიოტიკი/ანიმიკრობული",
+      "slug": "menucategory-26",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8abf05",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1aca368998b48fc0b505/8c89efc0-75db-11eb-ac6f-c2588ff04f66_get_image__15_.jpeg",
+          "blurhash": "jnVujDll;;Pcd4tBTbGXOlGDhXpD"
+        }
+      ],
+      "name": "გრიპი/გაციება",
+      "slug": "menucategory-27",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8ac01d",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1a3cc1ea11b605f917fb/fd2ceabc-3f32-11ed-85e2-525709fffb04_13465.jpeg",
+          "blurhash": "jgXuTRtW;;KFqrtTGCCpKXtTllCp"
+        }
+      ],
+      "name": "ხველა",
+      "slug": "menucategory-28",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8ac079",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1a3cc1ea11b605f917fb/85384374-3f34-11ed-8d58-4e79fdecfe8d_32495.jpeg",
+          "blurhash": "j7YLfQ8z;;;:Psh5h4Tc;;Xt8y4z"
+        }
+      ],
+      "name": "ჰერპესი",
+      "slug": "menucategory-29",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8ac07f",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1a3cc1ea11b605f917fb/eec4988e-3f24-11ed-80da-de786cdd4636_43025.jpeg",
+          "blurhash": "jeYK;PGr;;uRBspCH5KXh4CDPcpq"
+        }
+      ],
+      "name": "იმუნიტეტი",
+      "slug": "menucategory-30",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8ac088",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1a3cc1ea11b605f917fb/af2f97ee-3f21-11ed-8b46-ba2f242a1907_12812.jpeg",
+          "blurhash": "j8Zf3KcQ;;TtpWGXKGll;;Pbcyh4"
+        }
+      ],
+      "name": "ნივთიერებათა ცვლა",
+      "slug": "menucategory-31",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8ac0ef",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1a3cc1ea11b605f917fb/fc6b75ca-3f29-11ed-9584-8ef4013e64c5_81277.jpeg",
+          "blurhash": "jeY;7Ipk;;KZTspBcQCHXLGHcyCl"
+        }
+      ],
+      "name": "საშარდე სისტემა",
+      "slug": "menucategory-32",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8ac120",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1a3cc1ea11b605f917fb/83c21a52-3f29-11ed-861e-b62b3c2b5a60_12054.jpeg",
+          "blurhash": "j8ZffPd5;;XtXsJAd5iYXKKFcPhm"
+        }
+      ],
+      "name": "სხვადასხვა მედიკამენტი",
+      "slug": "menucategory-33",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8ac187",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1a3cc1ea11b605f917fb/6e0e1d90-6748-11ed-835a-d66a36954a85_97691.jpeg",
+          "blurhash": "jkWKTQpT;:KWJCC9qHtTTsCocQpV"
+        }
+      ],
+      "name": "მამაკაცის ჰიგიენა",
+      "slug": "menucategory-34",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "64098df5ad394d4eed8ac1af",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1a3cc1ea11b605f917fb/491851b6-033b-11ed-b86b-2aff7dbcc00b_96445.jpeg",
+          "blurhash": "jaYf3Mh3;;XKKXGFllpm;;KX8yh4"
+        }
+      ],
+      "name": "ტექნიკა თავის მოვლისთვის",
+      "slug": "menucategory-37",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "666835b6de8522265ccfccdc",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ed0d41a4264d32a22f538ec/441c3abe-27e8-11ef-b9ce-52573fba9b4d_45960.jpg",
+          "blurhash": "j3;fLXGG;;KXNlGGncpCXKGG8ypC"
+        }
+      ],
+      "name": "სხვადასხვა მოვლა",
+      "slug": "menucategory-49",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "6668385e169ffe9b401aacdc",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ed0d41a4264d32a22f538ec/26259482-27e9-11ef-aea1-5e8385d88617_91256.jpg",
+          "blurhash": "j3;fLXGG;;KXNlGGncpCXKGG8ypC"
+        }
+      ],
+      "name": "სამედიცინო ტექნიკა",
+      "slug": "menucategory-51",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "6746f89b2a88f519001cb9a0",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1a3cc1ea11b605f917fb/21102b1c-fa69-11ef-9450-0a14d710d142_142702.jpg",
+          "blurhash": "j2;fPYKX;;llPcpChlGGXKpC8OKX"
+        }
+      ],
+      "name": "ცხოველთა მოვლა",
+      "slug": "menucategory-83",
+      "subcategories": [],
+      "item_ids": []
+    }
+  ],
+  "items": [],
+  "options": [],
+  "variant_groups": []
+}

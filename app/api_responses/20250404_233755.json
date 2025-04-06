@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "66473d407b7bcfe55230d1ac",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f84c93a471b04e60b3204a/3361f26e-2314-11ef-a097-763af97b966f___________.jpg",
+        "blurhash": "jaV:vFLe;;gOdchrKQP5;;h48yPd"
+      }
+    ],
+    "name": "პარაზიტებისგან დაცვა",
+    "slug": "menucategory-16"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

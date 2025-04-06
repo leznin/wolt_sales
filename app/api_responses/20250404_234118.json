@@ -1,0 +1,3174 @@
+{
+  "category": {
+    "id": "633a8ad983f3c85c27c2c3c9",
+    "description": "",
+    "images": [
+      {
+        "url": "https://imageproxy.wolt.com/assets/667941651ddf225f482b7d95",
+        "blurhash": "jqWZ;mFT;;qGGRuotHBDTKupgPBD"
+      }
+    ],
+    "name": "Sosy, produkty w słoiku",
+    "slug": "sosy-produkty-w-soiku-72"
+  },
+  "categories": [
+    {
+      "id": "633a8ad983f3c85c27c2c3c9",
+      "item_ids": [
+        "633d4b17223bb7e480bf7da4",
+        "633d4b17223bb7e480bf7d85",
+        "633d4b17223bb7e480bf7d8f",
+        "633d4b17223bb7e480bf7da5",
+        "633d4b17223bb7e480bf7d79",
+        "633d4b17223bb7e480bf7d86",
+        "633d4b17223bb7e480bf7d17",
+        "633d4b17223bb7e480bf7d4c",
+        "633d4b17223bb7e480bf7d1e",
+        "633d4b17223bb7e480bf7d1d",
+        "633d4b17223bb7e480bf7d99",
+        "633d4b17223bb7e480bf7d27",
+        "633d4b17223bb7e480bf7d9a",
+        "633d4b17223bb7e480bf7d9c",
+        "633d4b17223bb7e480bf7d28",
+        "633d4b17223bb7e480bf7d41",
+        "633d4b17223bb7e480bf7da6",
+        "633d4b17223bb7e480bf7d57",
+        "633d4b17223bb7e480bf7d32",
+        "633d4b17223bb7e480bf7d29",
+        "633d4b17223bb7e480bf7d7a",
+        "633d4b17223bb7e480bf7d7b",
+        "633d4b17223bb7e480bf7d58",
+        "633d4b17223bb7e480bf7d59",
+        "633d4b17223bb7e480bf7d2a",
+        "633d4b17223bb7e480bf7d33",
+        "633d4b17223bb7e480bf7d9d",
+        "633d4b17223bb7e480bf7d4d",
+        "633d4b17223bb7e480bf7d88",
+        "633d4b17223bb7e480bf7d5a",
+        "633d4b17223bb7e480bf7d73",
+        "633d4b17223bb7e480bf7d60",
+        "633d4b17223bb7e480bf7d92",
+        "633d4b17223bb7e480bf7d93",
+        "633d4b17223bb7e480bf7d54",
+        "633d4b17223bb7e480bf7d44",
+        "633d4b17223bb7e480bf7d7d",
+        "633d4b17223bb7e480bf7d4f",
+        "633d4b17223bb7e480bf7d34",
+        "633d4b17223bb7e480bf7d74",
+        "633d4b17223bb7e480bf7d95",
+        "633d4b17223bb7e480bf7d5b",
+        "633d4b17223bb7e480bf7d89",
+        "633d4b17223bb7e480bf7d7e",
+        "633d4b17223bb7e480bf7d35",
+        "633d4b17223bb7e480bf7d36",
+        "633d4b17223bb7e480bf7d8a"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "633d4b17223bb7e480bf7da4",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "5412514930141",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "3cbc1008df1b7441500a3360ca4f0d82",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": true,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/667941651ddf225f482b7d95",
+          "blurhash": "jqWZ;mFT;;qGGRuotHBDTKupgPBD"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Acapulco Sos salsa dip meksykański Bio 260 g",
+      "options": [],
+      "original_price": null,
+      "price": 1599,
+      "purchasable_balance": 14,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": "260 g",
+      "unit_price": {
+        "base": 1,
+        "original_price": null,
+        "price": 6150,
+        "unit": "kilogram"
+      },
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d85",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "8009004850217",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "e4ddbbdb2af3b26f98b77d11ddd1fe33",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/667949c49593fd336634efc0",
+          "blurhash": "jtWd;sCq;;tTqGtTJSCpCXC7Blup"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Pesto alce nero czerwone z suszonych pomidorów 130 g",
+      "options": [],
+      "original_price": null,
+      "price": 1999,
+      "purchasable_balance": 6,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d8f",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "8009004850200",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "6546e30b04643ca5abde5259b388df35",
+      "description": "Ekologiczny sos bazyliowy Pesto Genovese. Pesto jest tradycyjnym włoskim dodatkiem do makaronu. Należy je jedynie dodać do gorącego makaronu (najlepiej semolinowego), tworząc w ten sposób kompletny włoski posiłek.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e00466ee2bb095374f",
+          "blurhash": "jtU:btCp;;yppWtTGCCpKYypllBT"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Alce Nero Pesto Genovese [sos bazyliowy] BIO 130 g",
+      "options": [],
+      "original_price": null,
+      "price": 2399,
+      "purchasable_balance": 8,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7da5",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "8009004850224",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "ab01ac49a837cefd4421a41ddb2dedcb",
+      "description": "Pesto z cukinii jest bardzo delikatnym i lekkim dodatkiem do różnych dań i przystawek. Jest tradycyjnym włoskim sosem dlatego  najlepiej komponuje się z makaronem. Równie dobrze jednak nadaje się do tapas lub kanapek. To także świetny dip do nachosów i dodatek do wszelkich sałatek.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e008dfbf3143806bab",
+          "blurhash": "jhZLjJCqX;GCtGtTGCCpPdCnh3tW"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Alce Nero Pesto z cukini BIO 130 g",
+      "options": [],
+      "original_price": null,
+      "price": 1699,
+      "purchasable_balance": 8,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d79",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "8009004850231",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "58912d0d58bcfcbb3ecdfccdde272d80",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e008dfbf3143806bad",
+          "blurhash": "jhXuPIpC;;KXlmCpKWtTKWCppmpC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Alce Nero Pesto z karczocha BIO 130 g",
+      "options": [],
+      "original_price": null,
+      "price": 2399,
+      "purchasable_balance": 3,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d86",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "8009004810815",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "3e48bdb081e68c5e4314a88d1a2c713a",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/667949c482f2c87030b8da81",
+          "blurhash": "jpYurzGGX;xSpWu7KCBVmrtTKCCp"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Alce nero Sos bio pomidorowy arrabiata 350 g",
+      "options": [],
+      "original_price": null,
+      "price": 2299,
+      "purchasable_balance": 12,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d17",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "8009004812895",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "69e3a4e90895f0542cf816e3d1c6ed85",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e052c7f147a916d564",
+          "blurhash": "jkYuLGup;;GGKXCplltTLcCpl4tT"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Alce Nero Sos pomidorowy passata (z pomidorów daktylowych) BIO 350 g",
+      "options": [],
+      "original_price": null,
+      "price": 1699,
+      "purchasable_balance": 4,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d4c",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "8009004814981",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "8b0b20683921fcac474d0d79704343ea",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e008dfbf3143806bac",
+          "blurhash": "jkZu;GKGX;lnKXtTplGpGYtVpkGm"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Alce Nero Sos pomidorowy passata (z pomidorów żółtych) BIO 350 g",
+      "options": [],
+      "original_price": null,
+      "price": 1699,
+      "purchasable_balance": 7,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d1e",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "8009004810822",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "58800f61ed05092177b3355d26f311fe",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e18e8a4b571cdae2e5",
+          "blurhash": "jd:fbNtT;;KXhlunPbBVLcGGl4pm"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Alce Nero Sos pomidorowy verdure BIO 350 g",
+      "options": [],
+      "original_price": null,
+      "price": 2339,
+      "purchasable_balance": 9,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d1d",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "8009004810693",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "2a40649085fd6f12c6a08628cfea3b99",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e10466ee2bb0953752",
+          "blurhash": "jbZ;jQpT;;KXl5u7LcGpPtGGgPpC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Alce Nero Sos pomidorowy z bazylią [polpa] BIO 500 g",
+      "options": [],
+      "original_price": null,
+      "price": 1899,
+      "purchasable_balance": 12,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d99",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "8718976015257",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "a04b172b892d40d2451340cb92dfa306",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e152c7f147a916d567",
+          "blurhash": "jxPY6WGF;;pDd5pCOXGGrdpUKBGp"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Amaizin Sos salsa pikantny BIO 260 g",
+      "options": [],
+      "original_price": null,
+      "price": 1699,
+      "purchasable_balance": 5,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d27",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "4018462157206",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "b3d8f8e1bd8076ed02a337f5d7c3f62d",
+      "description": "Ketchup bezglutenowy. Przed użyciem wstrząsnąć.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e18e8a4b571cdae2e6",
+          "blurhash": "j8:LzTCp;;KXPdCph4tCPtCpgPtT"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Byodo Ketchup pomidorowy pikantny bezglutenowy BIO 500 ml",
+      "options": [],
+      "original_price": null,
+      "price": 3399,
+      "purchasable_balance": 7,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d9a",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "4018462157008",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "873ba5485173f463ccf4d0176c41996c",
+      "description": "Ketchup bezglutenowy. Przed użyciem wstrząsnąć.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e152c7f147a916d566",
+          "blurhash": "j8:LzTGG;;GGPttTh4CGPtBTgPup"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Byodo Ketchup pomidorowy, bezglutenowy BIO 500 ml",
+      "options": [],
+      "original_price": null,
+      "price": 2999,
+      "purchasable_balance": 8,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d9c",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "5021554984894",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "0ef10fd6508b49129be21093de1acb7c",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e20466ee2bb0953757",
+          "blurhash": "j8Z;vUGG;;GXKmypuHBTKXypllxT"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Clearspring Sos sojowy shoyu BIO 150 ml",
+      "options": [],
+      "original_price": null,
+      "price": 2099,
+      "purchasable_balance": 6,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d28",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "5021554984931",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "674535504eef75e6b6b4dd74b31c352c",
+      "description": "Tradycyjnie wytwarzany japoński sos SOJOWY bez pszenicy i GLUTENU. Podwójna moc, dojrzewający w drewnie cedrowym.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e252c7f147a916d56b",
+          "blurhash": "j7:fzUGG;;KXpCy9KXCnPcCph4tS"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Clearspring Sos sojowy tamari mansan BIO 150 ml",
+      "options": [],
+      "original_price": null,
+      "price": 2999,
+      "purchasable_balance": 3,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d41",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "5021554002321",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "087864a6793fe31a9ea0d7d3b3fd52e1",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e28e8a4b571cdae2e8",
+          "blurhash": "j7Z;vUGG;;GGKXtTlmCpPctTh4Cp"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Clearspring Sos sojowy tamari single BIO 150 ml",
+      "options": [],
+      "original_price": null,
+      "price": 2199,
+      "purchasable_balance": 3,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7da6",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "5908249979130",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "a5aac38da896953b6c1b3d66300900fd",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e352c7f147a916d56d",
+          "blurhash": "jiX:TICG;;FDpCtTGGCGlltCKXCG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Ekowital Ketchup bez dodatku cukru BIO 470 g",
+      "options": [],
+      "original_price": null,
+      "price": 1349,
+      "purchasable_balance": 13,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d57",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "5908249971059",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "94151a136e3a263bdbd02cfa1fc8ed3c",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": true,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/6679413c65e31436d80a97d8",
+          "blurhash": "jbZLjPGG;;FCTtBTgPuGPcuph4BT"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "EkoWital Ekologiczny ketchup pomidorowy 500 g",
+      "options": [],
+      "original_price": null,
+      "price": 1199,
+      "purchasable_balance": 5,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": "500 g",
+      "unit_price": {
+        "base": 1,
+        "original_price": null,
+        "price": 2398,
+        "unit": "kilogram"
+      },
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d32",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "5908249971004",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "35ccf9b6a13c69cf0a64504cae6698c7",
+      "description": "Produkt idealnie nadający się do zup, sosów. Stworzony z ekologicznego ekstraktu z pomidorów. Koncentrat pomidorowy to produkt otrzymany ze świeżych (lub mrożonych) dojrzałych, czerwonych pomidorów poddanych procesowi przetarcia i zagęszczania do określonej zawartości ekstraktu, utrwalony fizycznie lub chemicznie” Produkcja koncentratu polega na uzyskaniu przecieru, a następnie jego odwodnieniu do żądanego stężenia suchej masy; stosuje się 3-10 krotne zagęszczenie. Jest produktem nietrwałym i wymaga utrwalenia (najczęściej termicznego). Po rozlaniu do opakowań i hermetycznym zamknięciu koncentrat pomidorowy poddaje się pasteryzacji (w temp. ok. 100 st. C, 25-50 minut) lub sterylizacji (powyżej 100 st. C). Straty Wit.C w czasie produkcji koncentratu pomidorowego wynoszą ok.50%; karotenoidów ok. 70%, a witamin z grupy B 40-70%. Okres przechowywania koncentratu pomidorowego w temperaturze 0-18 st. C, wynosi nie mniej niż 12 miesięcy (opakowania szklane) i 9 miesięcy (opakowania metalowe). Pulpy i przeciery są półproduktami przeznaczonymi do dalszego przerobu na koncentraty.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e38e8a4b571cdae2e9",
+          "blurhash": "j7:vzUGG;;BWlCtTKXCpX;tT8hGG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Ekowital Koncentrat pomidorowy BIO 200 g",
+      "options": [],
+      "original_price": null,
+      "price": 1249,
+      "purchasable_balance": 16,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d29",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "5908249971066",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "6ac578d7c51dc1e462f3d5ee953b1fa3",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/667949c42f2a0839d4ca4c32",
+          "blurhash": "j4:LHWCF;;KYTtCph4pSXKGq8ypC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Ekowital Majonez bio b/g 400 g",
+      "options": [],
+      "original_price": null,
+      "price": 1399,
+      "purchasable_balance": 10,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d7a",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "5908249975927",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "c3050a3031793e7b55d8beca1de760e8",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e30466ee2bb0953759",
+          "blurhash": "jmW:rCpC;;KXhlpCOXGGcPpCTtGG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Ekowital Pesto z pomidorów suszonych na słońcu BIO 140 g",
+      "options": [],
+      "original_price": null,
+      "price": 1699,
+      "purchasable_balance": 5,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d7b",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "5908249972896",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "321325b4da250d2740b5e7dfc558c20e",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/667949c4467c3d6a774cabbf",
+          "blurhash": "j9:LrSGG;;GGKqCpqFtTTtCpcPtC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Eureko Pasta bio pomidorowa 680 g",
+      "options": [],
+      "original_price": null,
+      "price": 849,
+      "purchasable_balance": 4,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d58",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "8007290574404",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "fad69cd5f5eb6ac55f601a2d4f30f9cb",
+      "description": "Passata pomidorowa Granoro produkowana jest wyłącznie z pomidorów pochodzących z rejonu Puglia. Bardzo gęsta i wydajna, bez dodatku cukru oraz przypraw, może stanowić bazę pomidorowych sosów doprawionych według własnego uznania ifantazji.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e352c7f147a916d56e",
+          "blurhash": "jcZ;jPKG;;llKXtTpBGGPctTh4GG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Granoro Passata pomidorowa BIO 700 g",
+      "options": [],
+      "original_price": null,
+      "price": 1469,
+      "purchasable_balance": 4,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d59",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "8018759001836",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "7bf88b75f9de309ebc1134e1980f2d0d",
+      "description": "Pesto pomidorowe smakuje wyśmienicie nie tylko z makaronem, ale także na chlebie tostowym, jako dodatek do zup warzywnych i risotto, ziemniaków, gotowanych mięs, sałatek lub  jako dip do surowych warzyw.\nPesto rosso – kremowe pesto pomidorowe z aromatycznymi suszonymi pomidorami, orzeszkami piniowymi i dodatkiem oliwy z oliwek.\nIdealne do makaronów, chleba tostowanego, zup warzywnych, risotta lub jako dip do swieżych warzyw oraz sosów sałatkowych.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e48e8a4b571cdae2ea",
+          "blurhash": "jlXuLDGG;;lllFxTKGCquHpCFCGG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "La Selva Pesto pomidorowe rosso BIO 130 g",
+      "options": [],
+      "original_price": null,
+      "price": 1999,
+      "purchasable_balance": 11,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d2a",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "8018759000372",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "1fa83646b0b73a3058f8c3374bef2e62",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e40466ee2bb095375d",
+          "blurhash": "jnWuHCCG;;BTlXCpKCtSl6tTKWCp"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "La Selva Pesto toscano BIO 180 g",
+      "options": [],
+      "original_price": null,
+      "price": 3499,
+      "purchasable_balance": 8,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d33",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "8018759000143",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "7c5b1106c0c002632a7843b17059c8fe",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e452c7f147a916d570",
+          "blurhash": "jkXePFCp;;GGh5CpPbtTPdy8h3Cp"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "La Selva Pesto vegan BIO 180 g",
+      "options": [],
+      "original_price": null,
+      "price": 3699,
+      "purchasable_balance": 5,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d9d",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "8053323641285",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "5698753fb7f0c977d2ebd9108d3f583a",
+      "description": "Pesto bazyliowe z ręcznie zbieranych liści bazylii, która ma doskonałe warunki w gorącym klimacie regionu Maremma we włoskiej Toskanii. Idealne do dań z makaronem, zup i jako składnik past do pieczywa.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e48e8a4b571cdae2eb",
+          "blurhash": "jqWKHwCq;;GnhqCpOStTh5CoPbpT"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "La Selva Pesto verde z bazylii BIO 130 g",
+      "options": [],
+      "original_price": null,
+      "price": 1999,
+      "purchasable_balance": 9,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d4d",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "8018759001881",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "42d619d89cd6626c04766e895898d631",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/667949c510e2ab46f35f6715",
+          "blurhash": "jpVKnyGG;;lBllpSKXGGd4tTPcGG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "La selva Pesto bio rucola 130 g",
+      "options": [],
+      "original_price": null,
+      "price": 1999,
+      "purchasable_balance": 9,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d88",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "8053323641247",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "8ed68e227e9a40599ba45e5e0d9b027f",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e452c7f147a916d571",
+          "blurhash": "jgZf3LtT;;KXGGtCCDGGKXu8llCp"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "La Selva Polpa pomiodorowa BIO 425 g",
+      "options": [],
+      "original_price": null,
+      "price": 1579,
+      "purchasable_balance": 7,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d5a",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "8053323640769",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "933320d52255a52a942bf7a5874e29d6",
+      "description": "Doskonały sos do makaronów i ryżu* ORYGINALNY PRODUKT TOSKAŃSKI Ekologiczny sos z zagęszczonych pomidorów. Wyśmienicie smakuje z włoskim, ekologicznym makaronem Alce Nero. Stanowi również doskonałą bazę dla innych sosów, np. z dodatkiem warzyw (bakłażan, cukinia, papryka) i aromatycznych, świeżych ziół (bazylia, rozmaryn i tymianek).\n\nDojrzewające w słońcu pomidory z własnego gospodarstwa w Toskanii są świeżo przetwarzane. Gleby zawierające składniki mineralne i przyjazny klimat przyczyniają się do ich intensywnej uprawy.\n\nPomidory LaSelva zawierają niewielką ilość wody i charakteryzują się naturalną słodyczą.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e40466ee2bb095375e",
+          "blurhash": "jmX:DCGX;;llOYpCllGHh4pCPbGX"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "La Selva Sos pomidorowy z bazylią BIO 340 g",
+      "options": [],
+      "original_price": null,
+      "price": 1639,
+      "purchasable_balance": 4,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d73",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "8053323640745",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "61628a1cd5a24588d9ba6c150e3ebc25",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e452c7f147a916d572",
+          "blurhash": "jlX:HDGH;;plGXtSFCCGcPpCTtGX"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "La Selva Sos pomidorowy z warzywami BIO 340 g",
+      "options": [],
+      "original_price": null,
+      "price": 1599,
+      "purchasable_balance": 8,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d60",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "5411788046244",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "194ba7cb18034bae1c5c57dbe51ec961",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e552c7f147a916d573",
+          "blurhash": "jaZLnQll;;TtPcGplkpCTtGGcPll"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Lima Sos sojowy Shoyu mild mniej soli BIO 250 ml",
+      "options": [],
+      "original_price": null,
+      "price": 3499,
+      "purchasable_balance": 3,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d92",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "5411788044431",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "a7c7b0528cc1ea9bbe311cd7352e4466",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e652c7f147a916d575",
+          "blurhash": "j5:LHWKX;;pBKHxTuGypX;tC8xGG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Lima Sos sojowy Tamari 25% mniej soli BIO 500 ml",
+      "options": [],
+      "original_price": null,
+      "price": 5999,
+      "purchasable_balance": 5,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d93",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "8012462003040",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "0ebe10d3594f6e0c9724d2573735095f",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": true,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/667941b58cf5dc22349d32f6",
+          "blurhash": "jeY;3MGp;;CGyXtTFmCqLtuqkQBC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Manfuso Pomidory bez skórki Bio 400 g",
+      "options": [],
+      "original_price": null,
+      "price": 779,
+      "purchasable_balance": 49,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": "240 g",
+      "unit_price": {
+        "base": 1,
+        "original_price": null,
+        "price": 3246,
+        "unit": "kilogram"
+      },
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d54",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "8012462988903",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "f66ad54921ee2747625cd58cd1525908",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": true,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/667941575bc89c3fb6beee25",
+          "blurhash": "jeZv3LBC;;GXmWtCJDGHntuGIPFC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Manfuso Pomidory w kawałkach Bio 400 g",
+      "options": [],
+      "original_price": null,
+      "price": 779,
+      "purchasable_balance": 41,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": "240 g",
+      "unit_price": {
+        "base": 1,
+        "original_price": null,
+        "price": 3246,
+        "unit": "kilogram"
+      },
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d44",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "5907814662064",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "8048dd5193e848c4580bbc585d65882e",
+      "description": "Ekologiczny wysokiej jakości, gęsty przecier pomidorowy z soczystych włoskich pomidorów dojrzewających w ciepłym klimacie. Idealnie pasuje do makaronów, jako baza dla innych sosów z dodatkiem warzyw (bakłażan, cukinia, papryka) i aromatycznych, świeżych ziół (bazylia, rozmaryn i tymianek).\n\n    180g pomidorów na 100g produktu\n    Produkt pasteryzowany",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e50466ee2bb095375f",
+          "blurhash": "jaZLnRll;;TcOYCpllpDTtGGcPlm"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Every Day Przecier pomidorowy passata bio 680 g",
+      "options": [],
+      "original_price": null,
+      "price": 849,
+      "purchasable_balance": 84,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d7d",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "5900672305173",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "861c92981dc1eacfa27bf825620c5ab1",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": true,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/67d93af3bb5ef96d585622f2",
+          "blurhash": "jrVKjpCH;;FBh4BSPcuqh4BCKYqG"
+        },
+        {
+          "url": "https://imageproxy.wolt.com/assets/67d93af5bb5ef96d585622f7",
+          "blurhash": "jqV:ruCG;;FBcQBTPcuGCYBSFBuG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Primavika Bio musztarda łagodna 170 g",
+      "options": [],
+      "original_price": null,
+      "price": 1099,
+      "purchasable_balance": 51,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": "170 g",
+      "unit_price": {
+        "base": 1,
+        "original_price": null,
+        "price": 6465,
+        "unit": "kilogram"
+      },
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d4f",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "5901044019193",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "e59b9fd29bcf882a7a4be26b20333140",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": true,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66766f8a1b708918eb6e829d",
+          "blurhash": "jhY:;JGq;;uFTtungPFVPcBTh4up"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Firma Roleski Bio ekologiczny ketchup łagodny oryginalny 340 g",
+      "options": [],
+      "original_price": null,
+      "price": 1269,
+      "purchasable_balance": 7,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": "340 g",
+      "unit_price": {
+        "base": 1,
+        "original_price": null,
+        "price": 3732,
+        "unit": "kilogram"
+      },
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d34",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "5901044019155",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "92fd5712ec10bac896ccd03fd31e1e6e",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": true,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/6676a3e6d8b6b903a56019db",
+          "blurhash": "jnYKXCtT;;GWlmCpKWtTBGCoumtF"
+        },
+        {
+          "url": "https://imageproxy.wolt.com/assets/6676a3e7d8b6b903a56019dc",
+          "blurhash": "jmYK;DBV;;GGhmCpOWtDuYCpBktT"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Firma Roleski Bio Musztarda sarepska  210 g",
+      "options": [],
+      "original_price": null,
+      "price": 869,
+      "purchasable_balance": 5,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": "210 g",
+      "unit_price": {
+        "base": 1,
+        "original_price": null,
+        "price": 4138,
+        "unit": "kilogram"
+      },
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d74",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "5901273004038",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "a9bf6c1e6dc81fc69348f5c43863fc78",
+      "description": "Tardycyjny naturalny chrzan tarty.\nChrzan tarty, czyli coś idealnego dla osób, które chcą nadać sosom lub sałatkom bardziej wyrazistego smaku.\nPrzygotowany bez użycia konserwantów, sztucznych barwników oraz zagęszczaczy chrzan znajduje zastosowanie nie tylko w świątecznych daniach, ale także jako dodatek do potraw jadanych na co dzień.\nChrzan tarty Vitapol wyróżnia się domową recepturą oraz niską kalorycznością - w 100 g produktu jest jedynie około 100 kcal.\nZe względu na prosty skład produkt ma ostrzejszy smak i jest bardziej aromatyczny niż inne tego typu przetwory.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e508dfbf3143806bb4",
+          "blurhash": "joWunAGG;;lmqGCqGnpCPcpTh4GG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Vitapol Chrzan tarty 160 g",
+      "options": [],
+      "original_price": null,
+      "price": 1299,
+      "purchasable_balance": 107,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d95",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "4003247705505",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "bc48cb0472fe225e047e3df5e1e67ad2",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e68e8a4b571cdae2ee",
+          "blurhash": "jjXuLBTs;;8zLepmB3LbPcpCh4KG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Vitaquell Majonez bez jaj BIO 250 ml",
+      "options": [],
+      "original_price": null,
+      "price": 1899,
+      "purchasable_balance": 9,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d5b",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "8712423016811",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "c27af3f604b0d8e7969c22d082d23f40",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e608dfbf3143806bb6",
+          "blurhash": "jqV:fwGD;;lGLcupllBTPtpVh3GD"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Yakso Sos chili Sambal Oelek BIO 100 g",
+      "options": [],
+      "original_price": null,
+      "price": 1399,
+      "purchasable_balance": 4,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d89",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "4019736006169",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "2af5f76ede2168892f17c02784c5df0d",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e70466ee2bb0953763",
+          "blurhash": "jfZvbMtT;;KXKYCppltTGXCppltT"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Zwergenwiese Ketchup pomidorowy dla dzieci b/c BIO 500 ml",
+      "options": [],
+      "original_price": null,
+      "price": 2299,
+      "purchasable_balance": 8,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d7e",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "4019736000402",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "4840dd5e425f16509679413226fa4094",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/667949c43cbd30437db45536",
+          "blurhash": "joW:nyKW;;llGXtTtmCppWpCGFGG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Bio planet Koncentrat pomidorowy 22% 130 g",
+      "options": [],
+      "original_price": null,
+      "price": 1049,
+      "purchasable_balance": 17,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d35",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "4019736000754",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "6f86e32f493b0391248cd7c4abe14473",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e652c7f147a916d577",
+          "blurhash": "jqWKbspC;;KGGXtTtmGFPtCph4pT"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Zwergenwiese Koncentrat pomidorowy 22% BIO 200 g",
+      "options": [],
+      "original_price": null,
+      "price": 1439,
+      "purchasable_balance": 8,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d36",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "4019736006466",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "e7fba3930b6555771316213daefa6958",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e60466ee2bb0953762",
+          "blurhash": "jlYu;DGG;;pCpCtTGGCpKYtVlACn"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Zwergenwiese Musztarda z całymi ziarnami BIO 160 ml",
+      "options": [],
+      "original_price": null,
+      "price": 1469,
+      "purchasable_balance": 3,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "633d4b17223bb7e480bf7d8a",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "4019736003748",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "3a75723368a0a5a20842485f6301f107",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": true,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3e68e8a4b571cdae2ef",
+          "blurhash": "jnYuDCtB;;GYGXupBmBDpWtTGCGG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Zwergenwiese Sos pomidorowy dla dzieci BIO 350 g",
+      "options": [],
+      "original_price": null,
+      "price": 1899,
+      "purchasable_balance": 22,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    }
+  ],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

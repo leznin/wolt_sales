@@ -1,0 +1,96 @@
+{% extends "admin/base.html" %}
+
+{% block title %}Вход{% endblock %}
+
+{% block page_title %}{% endblock %}
+
+{% block content %}
+<div class="login-container">
+    <div class="login-card">
+        <div class="login-header">
+            <span class="material-symbols-rounded logo-icon">admin_panel_settings</span>
+            <h1>Администратор</h1>
+            <p>Введите учетные данные для доступа к панели управления</p>
+        </div>
+        
+        {% if error %}
+        <div class="alert alert-error">
+            {{ error }}
+        </div>
+        {% endif %}
+        
+        <form method="POST" action="{{ url_for('admin.login') }}" class="login-form">
+            <div class="form-group">
+                <label for="username">
+                    <span class="material-symbols-rounded">person</span>
+                    Имя пользователя
+                </label>
+                <input type="text" id="username" name="username" required autofocus>
+            </div>
+            
+            <div class="form-group">
+                <label for="password">
+                    <span class="material-symbols-rounded">lock</span>
+                    Пароль
+                </label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            
+            <button type="submit" class="login-button">
+                <span class="material-symbols-rounded">login</span>
+                Войти
+            </button>
+        </form>
+        
+        <div class="login-footer">
+            <div class="theme-toggle-container">
+                <span class="material-symbols-rounded">light_mode</span>
+                <label class="theme-toggle">
+                    <input type="checkbox" id="theme-toggle" {% if theme == 'dark' %}checked{% endif %}>
+                    <span class="slider round"></span>
+                </label>
+                <span class="material-symbols-rounded">dark_mode</span>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const themeToggle = document.getElementById('theme-toggle');
+        const htmlElement = document.documentElement;
+        
+        // Установка начальной темы
+        htmlElement.setAttribute('data-theme', '{{ theme }}');
+        
+        // Функция переключения темы
+        function toggleTheme() {
+            const currentTheme = htmlElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            
+            htmlElement.setAttribute('data-theme', newTheme);
+            document.body.className = `theme-${newTheme}`;
+            
+            // Сохранение темы через API
+            fetch('{{ url_for("admin.toggle_theme") }}', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ current_theme: currentTheme }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Сохраняем тему в cookie для неавторизованных пользователей
+                document.cookie = `admin_theme=${data.theme}; path=/; max-age=${60*60*24*365}`;
+            })
+            .catch(error => console.error('Ошибка при сохранении темы:', error));
+        }
+        
+        // Обработчик события переключения
+        themeToggle.addEventListener('change', toggleTheme);
+    });
+</script>
+{% endblock %}

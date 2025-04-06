@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "641b7b7e6d77518b3d4f9114",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/635e776f417c3fe0fc2a5dd5/09a0e85e-2568-11ee-9979-8efc4f4ffc65_78e8b028_126a_11ed_a1e5_e6f56e510c0f_image_24.jpeg",
+        "blurhash": "jaZfzTOY;;d3OYpChkKHTclBd4KI"
+      }
+    ],
+    "name": "Napoje bezalkoholowe",
+    "slug": "napoje-bezalkoholowe-173"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

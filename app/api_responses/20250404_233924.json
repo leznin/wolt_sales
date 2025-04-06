@@ -1,0 +1,1383 @@
+{
+  "assortment_id": "637780bab49dfcbee29b0a42",
+  "loading_strategy": "partial",
+  "primary_language": "ka",
+  "selected_language": "ka",
+  "available_languages": [
+    {
+      "autotranslated": true,
+      "language": "de",
+      "name": "German"
+    },
+    {
+      "autotranslated": true,
+      "language": "en",
+      "name": "English"
+    },
+    {
+      "autotranslated": true,
+      "language": "fr",
+      "name": "French"
+    },
+    {
+      "autotranslated": false,
+      "language": "ka",
+      "name": "Georgian"
+    },
+    {
+      "autotranslated": true,
+      "language": "ru",
+      "name": "Russian"
+    }
+  ],
+  "compliance_info": {
+    "badges": [],
+    "disclaimers": null,
+    "how_search_works": null,
+    "lowest_price_calculation_interval_in_days": 30,
+    "should_display_original_price_for_unit_price": false,
+    "should_display_price_by_subtracting_deposit": false
+  },
+  "categories": [
+    {
+      "id": "3e689baed3eb171508ed87a8",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/1cd771b2-7a28-11ee-adec-06558a0f6a93_photo_output__2_.jpeg",
+          "blurhash": "jaZu;Jh3X;TdGDl4tCPdT;GqcyqC"
+        }
+      ],
+      "name": "Makeup",
+      "slug": "makeup-1",
+      "subcategories": [
+        {
+          "id": "4a9de51cc1afd7162133b3ff",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/daead45e-8042-11ed-83de-be18d0d26d8f_8059385000725.jpeg",
+              "blurhash": "jcZL3OKW;;lmXKpTcyGGTKpCcyGG"
+            }
+          ],
+          "name": "Blush",
+          "slug": "blush-2",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "7ce9a48c5716a5fe790ddea5",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/d19c5850-8cf4-11ed-bf51-ca6e5fa43dcc_381.jpeg",
+              "blurhash": "jmXZTqpCX;KXh4uGPcBCXKGGcPpD"
+            }
+          ],
+          "name": "Blush Palette",
+          "slug": "blush-palette-3",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "ded37023288f9c54a9c5d289",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/d9b6d3f8-8042-11ed-97ba-06c2bcd50f57_8025272989121.jpeg",
+              "blurhash": "jaZfjRKX;;l4XKpC8yKXXKpC8zKX"
+            }
+          ],
+          "name": "Bronzer",
+          "slug": "bronzer-4",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "cda61fb8e81fda4db9a7f29b",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/32c561fe-8042-11ed-8981-32eff6e7b695_27131392330.jpeg",
+              "blurhash": "j4;fLWKX;;GGLcC8lltTX;tT8xGG"
+            }
+          ],
+          "name": "Foundation",
+          "slug": "foundation-6",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "375f7ae06e47b6a345d6ddfd",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/9c17f626-8042-11ed-a948-86111b58cada_3605532637990.jpeg",
+              "blurhash": "j5:LDVGG;;KnTcGGh4llXKGG8ylm"
+            }
+          ],
+          "name": "Lipstick",
+          "slug": "lipstick-7",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "e85d65705052346ac0b57659",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/86ea8d40-8042-11ed-a1e6-b2a4e8d0cf68_885190100514.jpeg",
+              "blurhash": "j3;fPXGW;;JIqRllJIPdGSpBpqKY"
+            }
+          ],
+          "name": "Lip Gloss",
+          "slug": "lip-gloss-8",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "410ca1e6cd3a8e275ea66c36",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/6b81f678-924a-11ed-aace-2630d76b4959_img_3471.jpeg",
+              "blurhash": "jb:fnPLc;;kPHcpBBkGXPctCh4CX"
+            }
+          ],
+          "name": "Concealer/Corrector",
+          "slug": "concealercorrector-9",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "e87e922bcaff2e2673019787",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/b99e5ef6-8042-11ed-9b0b-e249acf3bd9c_5060552950487.jpeg",
+              "blurhash": "jdZu;KLc;;l4J3unrcGGPtpll4KX"
+            }
+          ],
+          "name": "Highlighter",
+          "slug": "highlighter-10",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "4e95e2bafa717942782c5753",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/59a1ca10-8042-11ed-b62d-9afd8b78da19_736150164292.jpeg",
+              "blurhash": "jjWujxd4;;XtKXGGypGG;;OX8yd4"
+            }
+          ],
+          "name": "Setting Powder / Finishing Powder",
+          "slug": "setting-powder-finishing-powder-12",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "e84891ec13eacde9409bf52a",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/ac2337b8-8cd8-11ed-8ab9-02313d137867_213.jpeg",
+              "blurhash": "j5:fzUll;;Tth4PcPccPXKKXcPh4"
+            }
+          ],
+          "name": "Brow Gel ",
+          "slug": "brow-gel-13",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "b2fdd063bf25b5f20662a556",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/7786a3a2-8042-11ed-bee8-06c2bcd50f57_849980039934.jpeg",
+              "blurhash": "jg:eXGLcX;h4PcpCh4GXTKllcyPc"
+            }
+          ],
+          "name": "Brow Pencil",
+          "slug": "brow-pencil-14",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "4392b7c2b73014a335e6c257",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/6251220a-8042-11ed-ba19-dae8ff434dc5_800897181727.jpeg",
+              "blurhash": "jgXeHFOX;;h5KXtTpCCp;;lm4hOX"
+            }
+          ],
+          "name": "illuminator",
+          "slug": "illuminator-15",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "a377203cc61d46e638c69982",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/c52fd510-8042-11ed-838d-b2a4e8d0cf68_8025272615372.jpeg",
+              "blurhash": "jaYv7NcP;;XKPcGnllpVXKll8yPc"
+            }
+          ],
+          "name": "Lip Liner",
+          "slug": "lip-liner-16",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "d5ae6fac7c4be0ca7b5d8b96",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/4347d372-8042-11ed-8385-7ab45fb68003_614198248580.jpeg",
+              "blurhash": "jbZffOKG;;qrKXGGllllXKGX8yl4"
+            }
+          ],
+          "name": "Mascara",
+          "slug": "mascara-17",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "fa5a653a53916a57a1433347",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/6898ef8a-8042-11ed-9b15-c68b981011d9_811999027103.jpeg",
+              "blurhash": "j3:;PYKX;;qXqXGGJSllGHlCGnOX"
+            }
+          ],
+          "name": "Eye Liner ",
+          "slug": "eye-liner-18",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "3537c6f6e840bac382112914",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/45ae8674-8042-11ed-a631-e249acf3bd9c_651986410255.jpeg",
+              "blurhash": "jkSrGSTs;;d4;KmGcPJDLcqpp4FC"
+            }
+          ],
+          "name": "Eyeshadow ",
+          "slug": "eyeshadow-19",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "cd3db5b783f85e39143a8555",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/99512c40-8f93-11ed-90b3-3aeb986d34b1_5dd55b0d_8a03_4e72_9961_aec1a5bdab32.jpeg",
+              "blurhash": "jcFE:6XK;;hkJQd4GXXt;tKXd5ll"
+            }
+          ],
+          "name": "Face Palette",
+          "slug": "face-palette-20",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "2f948cab38810b7698787caf",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/f3d5079a-8f93-11ed-9415-3aeb986d34b1_85608825_ab10_451b_8875_b828c465f553.jpeg",
+              "blurhash": "jlUJDgTt;;hlTtlmh4KFXLh4h3FS"
+            }
+          ],
+          "name": "Face Contour",
+          "slug": "face-contour-21",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "d44fefc3b58d400197a99ca2",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/8210e044-8042-11ed-9d2a-06c2bcd50f57_850481008367.jpeg",
+              "blurhash": "j8ZLrRKX;;pWKXpCpCGG;;pC4hCn"
+            }
+          ],
+          "name": "Eyelashes",
+          "slug": "eyelashes-22",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "ec2f428ecc9988b7bb19826b",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/63fe8b92-8042-11ed-87b9-7a4ae9878521_800897813710.jpeg",
+              "blurhash": "j9ZvnRCp;;KXPcCph4pCTtCpcPpC"
+            }
+          ],
+          "name": "Setting Spray",
+          "slug": "setting-spray-23",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "64bdc4304b69e4c8653bf14a",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/d8c4dc4c-850b-11ed-9f0b-8eda183b985a_769915190762.jpeg",
+              "blurhash": "jcY;bOKX;;llcPtTTtGGKXpCllGX"
+            }
+          ],
+          "name": "Primer",
+          "slug": "primer-24",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "b316859913e7015559e610d1",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/86eaf726-8042-11ed-8378-eee43b5c5240_885190205530.jpeg",
+              "blurhash": "j4;fPXpC;;PcTtpCcPKHKXGGlllB"
+            }
+          ],
+          "name": "Liquid Eyeshadow",
+          "slug": "liquid-eyeshadow-25",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "3643a1020be5f03d6631baac",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/04a9dc3e-9e54-11ed-b383-fac6e4983f13_img_4118.jpeg",
+              "blurhash": "j8:vvSKX;;h4p3CGHdpCJBupmGBS"
+            }
+          ],
+          "name": "Lip Balm",
+          "slug": "lip-balm-26",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "0cd2cb9793378e7294a81e0a",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/41beba34-8042-11ed-9e4d-de93d93d0db6_607845050452.jpeg",
+              "blurhash": "jmTJTtcP;;;;KXh4plTtTtKXh4lk"
+            }
+          ],
+          "name": "Makeup Set ",
+          "slug": "makeup-set-27",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "101ccd0b6cc7b8ad7dcdd294",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/51b7c0e6-a083-11ed-811c-f62801287908____________.jpeg",
+          "blurhash": "jaYf3Lll;;Tt;;ll8yPcXKKXgPh4"
+        }
+      ],
+      "name": "Skincare",
+      "slug": "skincare-28",
+      "subcategories": [
+        {
+          "id": "d1ceb0646de36e4328b9904c",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/1e3d67d8-8f90-11ed-ad2c-d65955744342_f4d4d34a_d043_4693_ba13_5db8075a0f53.jpeg",
+              "blurhash": "jqTerBKX;;llTtGGd4pCTclChlGG"
+            }
+          ],
+          "name": "Face Oil ",
+          "slug": "face-oil-29",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "a45baa9549aa69f96ac8443e",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/3294438a-8042-11ed-9be9-7ab45fb68003_76970497256.jpeg",
+              "blurhash": "j6:;DVGX;;FCPJBDgPuGLcxTl4yp"
+            }
+          ],
+          "name": "Face Mist ",
+          "slug": "face-mist-30",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "a2212528adc1e1eb3c028595",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/03fc171a-a3a0-11ed-a311-fa8c50f3dce2_052ab0fd_1918_428d_831a_703684f262b0.jpeg",
+              "blurhash": "j4Wtnh0x;;gy;LMigPjcP;p3h4GX"
+            }
+          ],
+          "name": "Sheet Mask",
+          "slug": "sheet-mask-31",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "eeaf837c7de743721dfc81fc",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/b3bff562-8042-11ed-9e0b-cefb0ee1e04c_5056379591231.jpeg",
+              "blurhash": "j2;fPYPc;;h4;;pC8yKXGGpCtCKX"
+            }
+          ],
+          "name": "Face Mask ",
+          "slug": "face-mask-32",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "b9dbbafec6e5c8e4698011e7",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/bdcae22e-8042-11ed-bf33-7aec98c020e9_6291106034431.jpeg",
+              "blurhash": "j3;LTXGXXLKXBktULdCpPuCngOpV"
+            }
+          ],
+          "name": "Face Scrub",
+          "slug": "face-scrub-33",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "a1875de1d9c7cd9dbc3eee3f",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/4ca7aeba-8042-11ed-8d21-eee43b5c5240_717334210837.jpeg",
+              "blurhash": "j5:;HVpD;;PcOXpClDGGTtGGcPpC"
+            }
+          ],
+          "name": "Serum ",
+          "slug": "serum-34",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "ba02ab027f78617389aa296c",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/7cec3c44-8042-11ed-be34-e249acf3bd9c_850016721037.jpeg",
+              "blurhash": "j8Z;nQpC;;PcPcCpl4tSLdCGl3pC"
+            }
+          ],
+          "name": "Toner/Lotion",
+          "slug": "tonerlotion-36",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "263821b6f7a900affecadded",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/358305f0-8dca-11ed-9bfb-da8d0194c8d7_365d8e16_aa8e_4925_ade9_8391fccd81e1.jpeg",
+              "blurhash": "j6Yf3Jll;;LcTKKXp5lBTttCcPh4"
+            }
+          ],
+          "name": "Anti-Aging ",
+          "slug": "anti-aging-37",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "a9bad9aa50cdf1a3ac0cf600",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/370f6d18-8042-11ed-aa49-e249acf3bd9c_192333066263.jpeg",
+              "blurhash": "j6;vHVGXX;BBJ3uprtBCPdtTh3CG"
+            }
+          ],
+          "name": "Sunscreen",
+          "slug": "sunscreen-38",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "bf77d1e35e4007683a3ce138",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/3582feba-8042-11ed-b5e3-be18d0d26d8f_87169136467.jpeg",
+              "blurhash": "jb:vfQGXX;llp4CpLctCLctTl4CG"
+            }
+          ],
+          "name": "Moisturizer",
+          "slug": "moisturizer-39",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "413dd92aae5c8990f7008313",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/9367f332-8042-11ed-9f85-32ad7268a656_3337875597203.jpeg",
+              "blurhash": "jcZfvOtS;;KXPctTh4GqTtGGcPpB"
+            }
+          ],
+          "name": "Micellar Water",
+          "slug": "micellar-water-41",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "50dcaac8a637b5dbebbc4be0",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/b3bfbe94-8042-11ed-bafb-9a5e8b0f074d_5050013027254.jpeg",
+              "blurhash": "j2;fPXGW;;PcPdGqllpB;;Gp4hlC"
+            }
+          ],
+          "name": "Oil Cleanser",
+          "slug": "oil-cleanser-42",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "dee6b8851d192eb248e9a8bc",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/b161bca6-8042-11ed-b4da-1e3c118c3e41_4036221604181.jpeg",
+              "blurhash": "jcY;vRGG;;lClSGpKHpCtmCpyWtT"
+            }
+          ],
+          "name": "Cleanser",
+          "slug": "cleanser-43",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "0bc4489a7e69fd50544bd148",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/6151b2b2-dfe5-11ee-b74b-fe5bd9e36ebc_img_5705.png",
+              "blurhash": "j3;fPXGF;;KYllCpKYpCllCplltT"
+            }
+          ],
+          "name": "Facial Roller",
+          "slug": "facial-roller-44",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "49013f0597a2f57c968c1b1b",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/bfb07c16-8042-11ed-8b94-1ad33444629f_7350092137829.jpeg",
+              "blurhash": "jgZKLKGqX;qFLctTl4GpL:qnkyFD"
+            }
+          ],
+          "name": "Facial Tool",
+          "slug": "facial-tool-45",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "ecd90f7d3df274de5e8337d0",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/38b757c2-8dec-11ed-8fc6-b68ed866dc26_f9c0ccd2_c6eb_430a_b85e_b3b36594324e.jpeg",
+              "blurhash": "j8ZfbNhA;;SZTuKXh4h4;;KH8yhk"
+            }
+          ],
+          "name": "Gua Sha ",
+          "slug": "gua-sha-46",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "c5449946bb2260c77733bb29",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/5f8b9162-8f38-11ee-b3e6-a238140ae5c0_img_0719.png",
+              "blurhash": "j7Z;vUKX;;h4TtpCcPKXTtpCcPGG"
+            }
+          ],
+          "name": "Peeling Solution",
+          "slug": "peeling-solution-47",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "d033013d43615f4b8c5ecb22",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/12e25878-aec4-11ed-9fe9-cafcaf00b3b4_img_5985.jpeg",
+              "blurhash": "jgOYfiXK;;4iTIFWPcqlPrlmKXCC"
+            }
+          ],
+          "name": "Makeup Remover",
+          "slug": "makeup-remover-48",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "abd06a1676b4d9e180516eb0",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/4dc98ebc-8042-11ed-b351-1e3c118c3e41_717334261525.jpeg",
+              "blurhash": "jk:uTyGCT;prp4uGHcFlPtpCh3GX"
+            }
+          ],
+          "name": "Skincare Set ",
+          "slug": "skincare-set-49",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "5e4a002425ca76e0945c7251",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/63593c5c-0853-11ee-9d81-52ebab02dfc5_img_2833.jpg",
+              "blurhash": "j5:vHXll;:h4XJpT8zGGTctTd4GG"
+            }
+          ],
+          "name": "Self Tan",
+          "slug": "self-tan-50",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "e54ee142e283c581c5b2a033",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/600224e6-7a28-11ee-877b-9a452ea2e917_photo_output__5_.jpeg",
+          "blurhash": "jbX:LFd4;;WXSBLcmXl3;;TccOcP"
+        }
+      ],
+      "name": "Eyecare",
+      "slug": "eyecare-51",
+      "subcategories": [
+        {
+          "id": "82e96e167744ebafded1431c",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/df4ca2d2-9174-11ed-82a9-b68fa2ae1f78_e5149217_6cb6_4035_8f10_19fb0862a26b.jpeg",
+              "blurhash": "jcVKrCKX;;h4GGGGpCpCllCoKXu9"
+            }
+          ],
+          "name": "Eye Cream ",
+          "slug": "eye-cream-52",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "77756e99f0e291f0fd304be3",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/bc7f42fc-8042-11ed-a776-06c2bcd50f57_5060762541215.jpeg",
+              "blurhash": "j7Z;vTll;;TtKXtTpCGGXKKX8yh4"
+            }
+          ],
+          "name": "Eye Mask",
+          "slug": "eye-mask-53",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "ad0e72c07fab5ddc2f0b856f",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/f00d04c2-8e4f-11ed-ba20-eab15f95ad52_30a4dde7_74fa_4977_93b1_32f5b4bc61a1.jpeg",
+              "blurhash": "j9RdfnTb;;8PhlXKTth4X;d5XKp4"
+            }
+          ],
+          "name": "Patches",
+          "slug": "patches-54",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "215bbb83e7e2dfff8154251f",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/e6f63a04-8042-11ed-8c17-96a816c16d28_8719327297025.jpeg",
+              "blurhash": "jc:frOKW;;h6OSGnhrpGGXpDplGG"
+            }
+          ],
+          "name": "Eye Serum",
+          "slug": "eye-serum-55",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "bcbca2cb9b9ebd154db6dd8c",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/9e874dee-8042-11ed-a766-7aec98c020e9_3605975007794.jpeg",
+              "blurhash": "jfX;fTCp;;GGOXCohmtUOXtThmCq"
+            }
+          ],
+          "name": "Eye Makeup Remover",
+          "slug": "eye-makeup-remover-56",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "efcd55421e191f0face5af6f",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/e1926b46-d128-11ed-aae2-ca23a85303aa_img_7843.jpeg",
+              "blurhash": "j3VenCXK;;8y;:4hKXTt;;Pc8yXK"
+            }
+          ],
+          "name": "Lashes/Brow Care",
+          "slug": "lashesbrow-care-57",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "7136818aef0c7b7887f89cd8",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/c58e63d4-7a27-11ee-9a04-222a3e2c9742_photo_output.jpg",
+          "blurhash": "ja:f7MJ4T;ndPtlll4KXX;rccyF4"
+        }
+      ],
+      "name": "Hair ",
+      "slug": "hair-58",
+      "subcategories": [
+        {
+          "id": "e6c932c15f6c3f4e08f7a911",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/df938bae-8042-11ed-a525-1ad33444629f_8719134045819.jpeg",
+              "blurhash": "jaZvzSGG;;GGFkCpGYtTOXCphltT"
+            }
+          ],
+          "name": "Shampoo",
+          "slug": "shampoo-59",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "c0026f88817571fdc921b7d9",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/45ae8750-8042-11ed-8cae-beb991eca366_644216565399.jpeg",
+              "blurhash": "j9ZvnRCp;;KXllCpPcpCPcCph4pC"
+            }
+          ],
+          "name": "Hair Oil",
+          "slug": "hair-oil-60",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "035e7622645d16f5e36b53f5",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/de46b5be-8042-11ed-b411-dae8ff434dc5_8719134027150.jpeg",
+              "blurhash": "j2;fPYKX;;KXKXCpGGpSPcunh4BV"
+            }
+          ],
+          "name": "Conditioner",
+          "slug": "conditioner-61",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "b722b5abc77b64d6167ff232",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/63ff7a2a-8042-11ed-9e07-4245d769b9e4_810001821104.jpeg",
+              "blurhash": "j6:vDVpT;;KXPcCph4pCPsBTgQuq"
+            }
+          ],
+          "name": "Hair Masks",
+          "slug": "hair-masks-62",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "97ee99c3e5fd7f5adc5d2743",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/b1596330-8042-11ed-8942-86111b58cada_4036221604013.jpeg",
+              "blurhash": "jbZLnQGG;;pCh5tTPcGGlltTKXGG"
+            }
+          ],
+          "name": "Hair Styling",
+          "slug": "hair-styling-63",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "41edcec9e765ab1208c6d5a8",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/da7ce264-850b-11ed-8b10-2630bd4f07d8_4008496652822.jpeg",
+              "blurhash": "jjKXeLLc;;Ts8yKXLcOWXKgPtkmX"
+            }
+          ],
+          "name": "Tools",
+          "slug": "tools-64",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "f82094097825d7e394a64519",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/91c0f678-8042-11ed-9449-1ea68e577cc1_3282770208337.jpeg",
+              "blurhash": "j3;fPXpB;;PtGBtSKXGGTtGGcPll"
+            }
+          ],
+          "name": "Scalp Treatments",
+          "slug": "scalp-treatments-65",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "86a828f873efebe52c30022a",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/3495aafc-8f29-11ed-8648-4eb45bf3c491_img_3221.jpeg",
+              "blurhash": "jhXv3MKX;;h4uGCpBDC9pCtTGGCp"
+            }
+          ],
+          "name": "Thermal Protection",
+          "slug": "thermal-protection-67",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "6a6ae697d35c79286aeb6cc4",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/013202fe-8043-11ed-b1ef-e249acf3bd9c_9351134007344.jpeg",
+              "blurhash": "jb:fbNKY;;l3GYKGplhlLclCl4OX"
+            }
+          ],
+          "name": "Scalp Scrub ",
+          "slug": "scalp-scrub-68",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "90695cf26fa5035874b96120",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/01096baa-47fd-11ee-b539-3e9a34248ea5_img_6474.jpg",
+              "blurhash": "jnS:jBh4;;TtKHplllLcTslCh4KH"
+            }
+          ],
+          "name": "Hair Care set ",
+          "slug": "hair-care-set-69",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "bbe2ba6b45ad1878a35402b9",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/97339bb2-a070-11ed-970c-06957a6e0710_img_5130.jpeg",
+              "blurhash": "jeV:DxOZ;;lzh4llPcKYKXGGlmpC"
+            }
+          ],
+          "name": "Hair Perfume",
+          "slug": "hair-perfume-70",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "96f84f424c5895c311fe5059",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/05ebec16-f305-11ee-8f0d-0a0f3da8d227_img_7213.png",
+              "blurhash": "j3Z;rSGH;;GGJDtTqXGGPcCpcPpT"
+            }
+          ],
+          "name": "Hair Primer / SERUM",
+          "slug": "hair-primer-serum-71",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "a78260f951a38758c4e5eae0",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/760940e4-7a28-11ee-96bd-ee6ce351df57_photo_output__6_.jpeg",
+          "blurhash": "j5Zv7NXu;;cOTtl5hBLc;;h4cPPc"
+        }
+      ],
+      "name": "Bodycare",
+      "slug": "bodycare-73",
+      "subcategories": [
+        {
+          "id": "c35bb598ae5c37fbd60b865b",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/b180d7ee-8042-11ed-95c6-7a4ae9878521_4036221606642.jpeg",
+              "blurhash": "jkUuDCpS;;GGSWpChmGGXKtT8PGF"
+            }
+          ],
+          "name": "Body Moisturizers",
+          "slug": "body-moisturizers-74",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "6052429257c798a0efcb7a6f",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/b7f8c0dc-8042-11ed-8133-9a5e8b0f074d_5060180580315.jpeg",
+              "blurhash": "jdYv7Klm;;PaPcBSlkCqXKCmcOGH"
+            }
+          ],
+          "name": "Body Oils/Shimmer",
+          "slug": "body-oilsshimmer-75",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "d74b469f7e9aca2b1f650bfe",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/de294632-8042-11ed-8a47-1ad33444629f_8719134034622.jpeg",
+              "blurhash": "jeYv7MGG;;CppBCpGGtTPcCph4tT"
+            }
+          ],
+          "name": "Shower Gel ",
+          "slug": "shower-gel-76",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "53733213936905534a32b81c",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/689a8390-8042-11ed-8a32-fe88ab1f07b5_812343034242.jpeg",
+              "blurhash": "j6;fzWGGX;GGMRxTjsypN6CpjatT"
+            }
+          ],
+          "name": "Body Lotion",
+          "slug": "body-lotion-77",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "6f672c75334fc7cf9f6dac4f",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/df9739de-8042-11ed-93ea-beb991eca366_8719134051124.jpeg",
+              "blurhash": "jfZK;IBVX;GGPcCph5pCX;CpcxpC"
+            }
+          ],
+          "name": "Body Scrub ",
+          "slug": "body-scrub-78",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "95d8fb3a12483f14aef360c6",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/5e3db878-8e51-11ed-932c-426c26d41ffc_c7fd055e_7ed7_4d89_bc63_c25cc35d54f9.jpeg",
+              "blurhash": "jgZLfHh5X;TsmJpCJzGFFQtTpXuo"
+            }
+          ],
+          "name": "Body Serum",
+          "slug": "body-serum-79",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "582b0e475511097e2acb8041",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/f19e8c54-8042-11ed-8258-1ad33444629f_8806182587191.jpeg",
+              "blurhash": "jbXLjRKX;:hldqGFSVlCKXtTllGG"
+            }
+          ],
+          "name": "Footcare",
+          "slug": "footcare-80",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "90e9832fd4d7780767dc0b80",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/e82d3c60-8042-11ed-a2bd-7a4ae9878521_8719134133912.jpeg",
+              "blurhash": "j4:;LXGG;;GGKWCpBWtTPcCph4tT"
+            }
+          ],
+          "name": "Deodorant & Antiperspirant",
+          "slug": "deodorant-antiperspirant-81",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "aec86ba844e5eaaadf8662c1",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/b103693e-9bcd-11ed-bdcc-662871c8bae0_img_4009.jpeg",
+              "blurhash": "jCKIrell;;OXPbllpCKXKXlCpDKX"
+            }
+          ],
+          "name": "Hand Wash ",
+          "slug": "hand-wash-83",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "730faaea6fec36a895cc4d21",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/7344f5f0-9285-11ed-bbcb-061929c3b90c_img_3556.jpeg",
+              "blurhash": "jhW;7FKG;;llPcpTh3GFKXpCllKW"
+            }
+          ],
+          "name": "Hand Cream",
+          "slug": "hand-cream-84",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "9201631b11cf7916d18b1a72",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/44caa4d0-9641-11ed-adfe-3e5bdb2c91e2_img_3666.jpeg",
+              "blurhash": "jmVZTGPs;:gQh4llKYKHLcplCppB"
+            }
+          ],
+          "name": "Body Mist",
+          "slug": "body-mist-85",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "e0e7d6f874bdf9d4b81272f5",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/ed44be38-8689-11ed-8db5-4aceaf597189_373.jpeg",
+              "blurhash": "jf:v7FpCT;LcHcplFBGYTLGXcyl4"
+            }
+          ],
+          "name": "Body care set ",
+          "slug": "body-care-set-86",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "206ee1e77891598fe030914b",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/f4579270-c64b-11ed-a30b-9ecf50854168_img_7224.jpeg",
+              "blurhash": "jrZKvvGXT;llplCoGGtUl4tSHcCG"
+            }
+          ],
+          "name": "Body Sunscreen",
+          "slug": "body-sunscreen-87",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "d7d09c54487d83544ea2b675",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/aa13b5fe-0840-11ee-a40e-626df895860d_img_2768.jpg",
+              "blurhash": "jb;vnPqGP;l4J4tCndCqrcupB4Cp"
+            }
+          ],
+          "name": "Fast Tan ",
+          "slug": "fast-tan-89",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "05f2d09bfcd31f22b95e005d",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/c523ac86-8042-11ed-b638-06c2bcd50f57_8025272618465.jpeg",
+              "blurhash": "j5:LHWKX;;llh4GGTtpCXKpC8yGG"
+            }
+          ],
+          "name": "Nailcare",
+          "slug": "nailcare-90",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "3a1f361924141dd736f652e9",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/94ed084c-7a28-11ee-82f3-2a052e01b2d8_photo_output__7_.jpeg",
+          "blurhash": "jfUKfAPc;;gPXKtCh4pV;:l48yPt"
+        }
+      ],
+      "name": "Man",
+      "slug": "man-91",
+      "subcategories": [
+        {
+          "id": "122c008b6861e93a3dd354f9",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/de2b8050-8042-11ed-a5d5-862103fc959e_8719134035148.jpeg",
+              "blurhash": "jmWezECp;;Cph4tTPcCpGGtTllCp"
+            }
+          ],
+          "name": "Shaving Cream",
+          "slug": "shaving-cream-92",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "1fd52861e2e4223110a05704",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/a94e8d30-8dc8-11ed-8c2e-6aaf1079b688_95a631ab_96a3_4b95_81bd_b45911674ec1.jpeg",
+              "blurhash": "jaX:;Lh4;;TtKWh4h5Tth4llKXOX"
+            }
+          ],
+          "name": "Face Lotion",
+          "slug": "face-lotion-93",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "caae8e8c08fb26f3cea2922a",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/f42d49c6-8f5e-11ed-a982-d65955744342_img_3297.jpeg",
+              "blurhash": "jdPsr7pCT;gQ;;FDFCGX;;KXkPll"
+            }
+          ],
+          "name": "Set",
+          "slug": "set-94",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "3e02e63f5e3a013f96e59d05",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/a4f25eea-aed6-11ed-a971-d2b9a1e6a2a2_img_5998.jpeg",
+              "blurhash": "jmV:vDGG;;tTpCy8GGy8pCy8GGy8"
+            }
+          ],
+          "name": "Deodorant & Antiperspirant",
+          "slug": "deodorant-antiperspirant-95",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "ee7b3437e54474c0ccc4d35b",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/41cdf976-afa0-11ed-a18e-e23764033009_img_6036.jpeg",
+              "blurhash": "jkWuDFtT;;llKXtTllCpKXtTllCp"
+            }
+          ],
+          "name": "Body Wash ",
+          "slug": "body-wash-96",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "4fbcf3b5184038f7c4d086f8",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/32551698-7a28-11ee-9bf6-222a3e2c9742_photo_output__3_.jpeg",
+          "blurhash": "jgXKDAcPX;XJPtKXtklBXLPccOd4"
+        }
+      ],
+      "name": "Fragrance ",
+      "slug": "fragrance-99",
+      "subcategories": [
+        {
+          "id": "23e06dc9c9d9257249281acc",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/c5235f88-8042-11ed-b99b-beb991eca366_8011530820015.jpeg",
+              "blurhash": "j4:LHVh5;;XtOWlFpGKSX;KX8yh4"
+            }
+          ],
+          "name": "Perfume",
+          "slug": "perfume-100",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "55058cd895c8e3d16280047f",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/4dd91ae0-c064-11ee-9e7a-62d77f7cec5c_img_3364.png",
+              "blurhash": "jbZfbNKX;;l4hlGGOXllTKpCcOKX"
+            }
+          ],
+          "name": "Fragrance Set",
+          "slug": "fragrance-set-101",
+          "subcategories": [],
+          "item_ids": []
+        },
+        {
+          "id": "669244cea49085db35b06c6a",
+          "description": "",
+          "images": [
+            {
+              "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/23db6614-98cb-11ee-9f75-0633887060bd_img_1383.jpg",
+              "blurhash": "j2;LTZKXX;GGmXCpNSpTHcBTp4up"
+            }
+          ],
+          "name": "Miniature Perfumes",
+          "slug": "miniature-perfumes-105",
+          "subcategories": [],
+          "item_ids": []
+        }
+      ],
+      "item_ids": []
+    },
+    {
+      "id": "9fb3a58403e6dd97b75d2a87",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/f311d52a-7a27-11ee-bd5f-5ed1c552d6c2_photo_output.jpeg",
+          "blurhash": "jfX:XJGG;;C9PdtTh4Cp;;tT8xCp"
+        }
+      ],
+      "name": "Makeup Bag",
+      "slug": "makeup-bag-102",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "85a5d09ff12747adae85539f",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/4a3e0814-7a28-11ee-a5fa-8e9382a04c6e_photo_output__4_.jpeg",
+          "blurhash": "j9YLbMTtXLcQh4FSKXuG;;h4cPOX"
+        }
+      ],
+      "name": "Candle",
+      "slug": "candle-103",
+      "subcategories": [],
+      "item_ids": []
+    },
+    {
+      "id": "4fffac9a12a6e3db9219251c",
+      "description": "",
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/637780bab49dfcbee29b0a42/09cb86d0-7a28-11ee-ab20-d2cd7ebf0606_photo_output__1_.jpeg",
+          "blurhash": "jfW:DCKG;;pGlHllKWOX;;tV8ypB"
+        }
+      ],
+      "name": "Accessories / Tools / Brushes",
+      "slug": "accessories-tools-brushes-104",
+      "subcategories": [],
+      "item_ids": []
+    }
+  ],
+  "items": [],
+  "options": [],
+  "variant_groups": []
+}

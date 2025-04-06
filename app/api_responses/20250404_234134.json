@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "64b8dea62e1cd8d876b3894a",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/635e776f417c3fe0fc2a5dd5/430d2f1c-26f3-11ee-af02-4a9170b7b5cf_croissants.png",
+        "blurhash": "joZdTiLcT;BTPtlkpFyXPLGGgOll"
+      }
+    ],
+    "name": "Słodkie wypieki",
+    "slug": "sodkie-wypieki-434"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "64c2764a1cf2f79d429c2259",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5ed0d41a4264d32a22f538ec/463321fa-305e-11ee-80c9-b2e24ba7ac93__________.jpg",
+        "blurhash": "j9Ze;LPdXKJkLcCWGXpl;;l3cPqY"
+      }
+    ],
+    "name": "დეკორატიული კოსმეტიკა და სუნამოები",
+    "slug": "menucategory-691"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

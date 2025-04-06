@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "63e4c03be215058d0cb74cbb",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/616f01cf9b23921bda3d8e03/9d69f71c-f20e-11ec-a132-8a6f4c635962_gayinuli.jpeg",
+        "blurhash": "jfVuDPGG;:GGpCy8KGxTTcy7d4y9"
+      }
+    ],
+    "name": " გაყინული პროდუქცია ",
+    "slug": "menucategory-15"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

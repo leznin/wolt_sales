@@ -1,0 +1,27 @@
+    .video-preview {
+        width: 100%;
+        max-width: 400px;
+        height: 225px;
+        margin-bottom: 15px;
+        border-radius: 4px;
+        overflow: hidden;
+        background-color: #f0f0f0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #666;
+    }
+
+    .btn-secondary {
+        background-color: var(--secondary-color);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: 500;
+    }
+
+    .btn-secondary:hover {
+        background-color: var(--secondary-hover);
+    }

@@ -1,0 +1,425 @@
+{
+  "category": {
+    "id": "6756bbc994443d0f47317482",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450e6fca43938db23eddc6b/c729b7f4-bc6e-11ef-a576-263ef79bdab5_4_3.jpg",
+        "blurhash": "jdlpX7T:KXLtFGFVKWKWjdrcH9pA"
+      }
+    ],
+    "name": "Free Delivery",
+    "slug": "free-delivery-271"
+  },
+  "categories": [
+    {
+      "id": "6756bbc994443d0f47317482",
+      "item_ids": [
+        "67a095c585075171d6875ca5",
+        "67a095c585075171d6875ca6",
+        "67a095c585075171d6875ca7",
+        "67a095c585075171d6875ca9",
+        "67a095c585075171d6875cab",
+        "67a095c585075171d6875cac"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "67a095c585075171d6875ca5",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "eff21c4030e61fc6eb47c091472265e0",
+      "description": "გრიპისა და გაციების ძირითადი სიმპტომების კუპირება: მომატებული ტემპერატურა, თავის ტკივილი, კანკალი, კუნთებისა და სახსრების ტკივილი, ცხვირის შეგუბება, ყელის ტკივილი (გაციების ჩაი)",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f683456c6324f97d317ccc/943749fc-3932-11ef-99a8-aecef1799e97_2580_201.jpg",
+          "blurhash": "jcY;jOPc;;cPFSGHqGllXKll8yPc"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Coldrex hotrem - კოლდრექსი ჰოტრემი ლიმონით 10 პაკეტი",
+      "options": [],
+      "original_price": null,
+      "price": 2397,
+      "purchasable_balance": 9,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67a095c585075171d6875ca6",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "98a31b68acc2e6530ad13e32c319e673",
+      "description": "გაციებისა და სხვა ინფექციურ-ანთებითი დაავადებების სიმპტომატური მკურნალობის საშუალება (გაციების ჩაი)",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f683456c6324f97d317ccc/bd839824-3932-11ef-a20e-7603005c20f5_9011_201.jpg",
+          "blurhash": "jeZv3NKY;;h3qCGXFWl4TKpBcPKX"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Coldrex Maxigrip - კოლდრექსი მაქსიგრიპი ლიმონით 10 პაკეტი",
+      "options": [],
+      "original_price": null,
+      "price": 2646,
+      "purchasable_balance": 9,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67a095c585075171d6875ca7",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "83b5dd4f66e0a30a711b3f7d43c2ea53",
+      "description": "ჩვენება: სასუნთქი სისტემის მწვავე და ქრონიკული დაავადებები, რომელთაც თან ახლავს ნახველის გაძნელებული გამოყოფა",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f683456c6324f97d317ccc/3704139e-3934-11ef-ada1-725ea9b3d05c_78657_389.jpg",
+          "blurhash": "jaZvnUKG;;lnTsCpcQpCXJtVczGm"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Lasolvan - ლაზოლვანი მარწყვის არომატით 30მგ/5მლ 100მლ",
+      "options": [],
+      "original_price": null,
+      "price": 1984,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67a095c585075171d6875ca9",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "38055bb7f852b9f8c4a9e7290e882366",
+      "description": "ჩვენება: მწვავე და ქრონიკული ბრონქოპულმონური დაავადებების სეკრეტოლიზური თერაპიისათვის, რომელიც დაკავშირებულია ნახველის ევაკუაციის დარღვევასთან.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f683456c6324f97d317ccc/59bb9d30-3934-11ef-8f72-d218c989b3c6_80708_1652.jpg",
+          "blurhash": "jbZfnXGG;ZlGPaBTh7qqTsBTcQqq"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Lasolvan - ლაზოლვანი 30მგ. 50 ტაბლეტი",
+      "options": [],
+      "original_price": null,
+      "price": 2385,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67a095c585075171d6875cab",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "c2428611841eed08b69bcf0c63b994b3",
+      "description": "ჩვენებები:მწვავე და ქრონიკული ბრონქიტი, პნევმონია, ფილტვების ქრონიკული ობსტრუქციული დაავადება, ბრონქული ასთმა ნახველის მოცილების გაძნელებით.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f683456c6324f97d317ccc/4018bd18-3934-11ef-85fd-725ea9b3d05c_79120_1309.jpg",
+          "blurhash": "j7:fzUGG;;pTTttTcPGGTKtTcyGF"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Lasolvan - ლაზოლვანი საინჰალაციო 15მგ/2მლ 100მლ",
+      "options": [],
+      "original_price": null,
+      "price": 2100,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67a095c585075171d6875cac",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "a914346e3332c0fca4fcec2fd165178e",
+      "description": "ჩვენებები: ბრონქიტი, ბრონქიოლიტი, ბრონქული ასთმა, პნევმონია, მუკოვისციდოზი, ფილტვების ქრონიკული ობსტრუქციული დაავადება, ბრონქოექტაზიური დაავადება",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450e6fca43938db23eddc6b/136b337e-0f9c-11f0-a48f-4e84a745c1e9_77937_389.jpg",
+          "blurhash": "jbY;jTGC;;mrTsGGcQplXJuq8zFC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Lasolvan - ლაზოლვანი სიროფი 15მგ/5მლ 100მლ",
+      "options": [],
+      "original_price": null,
+      "price": 1869,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    }
+  ],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

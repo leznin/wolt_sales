@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "6414619a8a58b0a65716ebd7",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/616573c75cd3d74137d0343c/6acd0e1c-3e91-11ef-8757-dac1c8ee81b1_________.jpg",
+        "blurhash": "jfJqyvh5;;iHXKuXh5JCndKVh4KC"
+      }
+    ],
+    "name": "სურსათი",
+    "slug": "menucategory-18"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "category": {
+    "id": "6759410bdc780f61ea4f1ec9",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1aca368998b48fc0b505/23379f02-bc6f-11ef-898f-ee82b177777d_1.jpg",
+        "blurhash": "j5E7m;4MZY1e:N;2KY9d0v6;9Hlj"
+      }
+    ],
+    "name": "Festal - 25%",
+    "slug": "festal-25-86"
+  },
+  "categories": [
+    {
+      "id": "6759410bdc780f61ea4f1ec9",
+      "item_ids": [
+        "67a0bd14eae4fe7ccb64e9e7"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "67a0bd14eae4fe7ccb64e9e7",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "c6052275a4b7b930bf46514148d6be9c",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/602e1a3cc1ea11b605f917fb/6d2cefa4-3f21-11ed-9921-b62b3c2b5a60_568.jpeg",
+          "blurhash": "jg:uPEJ4T;jdJBGFqHllT;mYgxNk"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ფესტალი #10დრ_568",
+      "options": [],
+      "original_price": null,
+      "price": 272,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    }
+  ],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

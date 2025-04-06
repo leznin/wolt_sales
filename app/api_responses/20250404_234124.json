@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "641b7b7e6d77518b3d4f8e94",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/635e776f417c3fe0fc2a5dd5/6fedecd2-2573-11ee-8d53-7a675b5a9a28_shutterstock_135196895.jpg",
+        "blurhash": "joWufsGD;;pWTttScQCGTLpCgPKW"
+      }
+    ],
+    "name": "Dania błyskawiczne",
+    "slug": "dania-byskawiczne-153"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

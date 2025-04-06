@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "63e4c03be215058d0cb74d0e",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/616f01cf9b23921bda3d8e03/0f1fcc7e-f20f-11ec-af96-9a472b27c28a_xorc_produqtebi.jpeg",
+        "blurhash": "jmYdHnGGX;tTtlCpGXtTPtpCgQGG"
+      }
+    ],
+    "name": " ხორც-პროდუქტები ",
+    "slug": "--9"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

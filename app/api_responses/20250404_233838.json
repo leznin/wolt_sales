@@ -1,0 +1,227 @@
+{
+  "category": {
+    "id": "6759410ecd5452c1052f0b0f",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6089433327b25551f4a5dd55/35dff32a-bc6f-11ef-9375-d272b6af9b29_3.jpg",
+        "blurhash": "jjuae;ULOXkXKSKSKWGCcQlrGHKW"
+      }
+    ],
+    "name": "Enterogermina Promo",
+    "slug": "enterogermina-promo-1302"
+  },
+  "categories": [
+    {
+      "id": "6759410ecd5452c1052f0b0f",
+      "item_ids": [
+        "67a0c2ced4b165ba2e9e8501",
+        "67a0c2ced4b165ba2e9e8502",
+        "67a0c2ced4b165ba2e9e8503"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "67a0c2ced4b165ba2e9e8501",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "40886b1bf75dd71d7f529da213edd01b",
+      "description": "Enterogermina caps #12",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6089433327b25551f4a5dd55/29bb53ea-a66d-11ef-87cf-7282a3964481_11126.jpg",
+          "blurhash": "jbY;bLh4;;Tsh5pCOXuGXKPccPh4"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ენტეროჯერმინა კაფსულა #12",
+      "options": [],
+      "original_price": null,
+      "price": 2575,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67a0c2ced4b165ba2e9e8502",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "975a457f90ba273fbb46e00c31eec8f3",
+      "description": "Enterogermina susp 2mlr/5ml #10",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6089433327b25551f4a5dd55/bbcdd472-a665-11ef-886a-22a715402445_6612.jpg",
+          "blurhash": "j4:vHYOX;;d6PbGFlmpD;;hm0iTb"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ენტეროჯერმინა სუსპენზია ორალური 2მლრ/5მლ ფლაკონი #10",
+      "options": [],
+      "original_price": null,
+      "price": 2543,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67a0c2ced4b165ba2e9e8503",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "2f87a20e24bd96fd4cd14e05dda32038",
+      "description": "Enterogermina susp 4mlr/5ml #10",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6089433327b25551f4a5dd55/a8353b14-a708-11ef-8fe1-be3b9ebfdfdc_28458.jpg",
+          "blurhash": "j8ZLjOOB;;iYLduXlkFk;;lW8xOl"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ენტეროჯერმინა ფორტე სუსპენზია ორალური 4მლრ/5მლ ფლაკონი #10",
+      "options": [],
+      "original_price": null,
+      "price": 3912,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    }
+  ],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

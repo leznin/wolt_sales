@@ -1,0 +1,729 @@
+{% extends "admin/base.html" %}
+
+{% block title %}Панель управления{% endblock %}
+
+{% block page_title %}Панель управления{% endblock %}
+
+{% block content %}
+
+    <div class="main-content">
+        <div class="content">
+            <!-- Заголовок -->
+            <div class="dashboard-header">
+                <h2>Настройки</h2>
+                <p>Прокси, User-Agent, Задержки</p>
+            </div>
+
+            <!-- Основной контейнер -->
+            <div class="settings-grid">
+                <!-- Формы ввода -->
+                <div class="settings-form glass-card">
+                    <div class="form-section">
+                        <label for="proxyList">
+                            <span class="icon">📡</span> Прокси
+                        </label>
+                        <textarea 
+                            class="form-control" 
+                            id="proxyList" 
+                            name="proxyList" 
+                            rows="4" 
+                            placeholder="ip:port:user:pass"
+                            {% if proxies %}value="{{ proxies|join('\n') }}"{% endif %}
+                        ></textarea>
+                        <button class="btn save-proxy">Сохранить</button>
+                    </div>
+
+                    
+                    <div class="form-section">
+                        <label for="userAgentList">
+                            <span class="icon">🌐</span> User-Agent
+                        </label>
+                        <textarea 
+                            class="form-control" 
+                            id="userAgentList" 
+                            name="userAgentList" 
+                            rows="4" 
+                            placeholder="Mozilla/5.0..."
+                            {% if user_agents %}value="{{ user_agents|join('\n') }}"{% endif %}
+                        ></textarea>
+                        <button class="btn save-user-agent">Сохранить</button>
+                    </div>
+                    
+                    <div class="form-section delay-section">
+                        <div class="delay-inputs">
+                            <div class="input-group">
+                                <label for="delayTime">
+                                    <span class="icon">⏱️</span> Задержка (ч)
+                                </label>
+                                <input 
+                                    type="number" 
+                                    class="form-control" 
+                                    id="delayTime" 
+                                    name="delayTime" 
+                                    min="1" 
+                                    max="730" 
+                                    value="{{ delay if delay else '' }}"
+                                    placeholder="1-730"
+                                    required
+                                >
+                            </div>
+                            <div class="input-group">
+                                <label for="executionTime">
+                                    <span class="icon">⏰</span> Время начала 
+                                </label>
+                                <input 
+                                    type="time" 
+                                    class="form-control" 
+                                    id="executionTime" 
+                                    name="execution_time" 
+                                    value="{{ execution_time }}"
+                                    step="60"
+                                    required
+                                >
+                            </div>
+                        </div>
+                        <div class="server-time">
+                            <span class="icon">🕒</span>
+                            <span id="serverTime">00:00</span>
+                        </div>
+                        <button class="btn save-delay">Сохранить</button>
+                    </div>
+                </div>
+
+                <!-- Таблицы и инфографика -->
+                <div class="settings-tables glass-card">
+                    <div class="table-section">
+                        <h3>Прокси</h3>
+                        <div class="infographic">
+                            <div class="infographic-item">
+                                <span class="infographic-label">Активных:</span>
+                                <span id="activeProxies">0</span>
+                            </div>
+                            <div class="infographic-item">
+                                <span class="infographic-label">Всего:</span>
+                                <span id="totalProxies">0</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div id="proxyProgress" class="progress-fill"></div>
+                            </div>
+                        </div>
+                        <div class="table-wrapper">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Прокси</th>
+                                        <th>Статус</th>
+                                        <th>Дата добавления</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="proxyTable"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="proxy-controls">
+                        <button class="btn btn-secondary check-proxies">Проверить прокси</button>
+                        <button class="btn btn-secondary delete-bad-proxies">Удалить плохие прокси</button>
+                        <button class="btn btn-secondary delete-all-proxies">Удалить все прокси</button>
+                    </div>
+
+                    <!-- разделитель между прокси и User-Agent -->
+                    <hr>
+
+                    <div class="table-section">
+                        <h3>User-Agent</h3>
+                        <div class="infographic">
+                            <div class="infographic-item">
+                                <span class="infographic-label">Количество:</span>
+                                <span id="uaCount">0</span>
+                            </div>
+                        </div>
+                        <div class="table-wrapper">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>User-Agent</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="uaTable"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <button class="btn btn-secondary delete-all-user-agents">Удалить все User-Agent</button>
+
+
+                    <!-- разделитель между User-Agent и задержкой -->
+                    <hr>
+
+                    <div class="table-section">
+                        <h3>Задержка</h3>
+                        <div class="infographic">
+                            <div class="infographic-item">
+                                <span class="infographic-label">Запрет на обновление:</span>
+                                <span id="delayValue">Не установлено</span>
+                            </div>
+                            <div class="infographic-item">
+                                <span class="infographic-label">Запуск обновления:</span>
+                                <span id="executionTimeDisplay">Не установлено</span>
+                            </div>
+                            <div class="progress-circle">
+                                <svg viewBox="0 0 36 36" class="circular-chart">
+                                    <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                    <path id="delayCircle" class="circle" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="table-wrapper">
+                            <table class="table">
+                                <tbody id="delayTable"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Кнопки управления -->
+                <div class="control-buttons glass-card">
+                    <button class="btn save-all gradient-btn">Сохранить все</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- JavaScript (обновлен для времени выполнения и часов) -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        function updateTables() {
+            fetch('/adminqsc/api/proxies')
+                .then(response => {
+                    if (!response.ok) throw new Error(`Ошибка HTTP: ${response.status}`);
+                    return response.json();
+                })
+                .then(data => {
+                    const proxyTable = document.getElementById('proxyTable');
+                    proxyTable.innerHTML = data.length 
+                        ? data.map(p => {
+                            const [ip, port] = p.proxy.split(':');
+                            return `<tr><td>${ip}:${port}</td><td>${p.status === 'active' ? '<span style="color: var(--success-color);">Активен</span>' : '<span style="color: var(--error-color);">Неактивен</span>'}</td><td>${p.created_at}</td></tr>`;
+                        }).join('')
+                        : '<tr><td colspan="3" style="text-align: center;">Нет данных</td></tr>';
+    
+                    const activeCount = data.filter(p => p.status === 'active').length;
+                    const totalCount = data.length;
+                    document.getElementById('activeProxies').textContent = activeCount;
+                    document.getElementById('totalProxies').textContent = totalCount;
+                    const progress = totalCount ? (activeCount / totalCount) * 100 : 0;
+                    document.getElementById('proxyProgress').style.width = `${progress}%`;
+                })
+                .catch(error => console.error('Ошибка загрузки прокси:', error));
+    
+            fetch('/adminqsc/api/user_agents')
+                .then(response => response.json())
+                .then(data => {
+                    const uaTable = document.getElementById('uaTable');
+                    uaTable.innerHTML = data.length 
+                        ? data.map(ua => `<tr><td>${ua.user_agent}</td></tr>`).join('')
+                        : '<tr><td style="text-align: center;">Нет данных</td></tr>';
+                    document.getElementById('uaCount').textContent = data.length;
+                })
+                .catch(error => console.error('Ошибка загрузки User-Agent:', error));
+    
+                fetch('/adminqsc/api/delay')
+    .then(response => response.json())
+    .then(data => {
+        const delayTable = document.getElementById('delayTable');
+        delayTable.innerHTML = data.delay 
+            ? `<tr><td>${data.delay}</td></tr>`
+            : '<tr><td style="text-align: center;">Не установлено</td></tr>';
+
+        const delayValue = data.delay || 0;
+        document.getElementById('delayValue').textContent = delayValue || 'Не установлено';
+        const maxDelay = 730;
+        const percentage = (delayValue / maxDelay) * 100;
+        const circle = document.getElementById('delayCircle');
+        const circumference = 2 * Math.PI * 15.9155;
+        const offset = circumference - (percentage / 100) * circumference;
+        circle.style.strokeDasharray = `${circumference} ${circumference}`;
+        circle.style.strokeDashoffset = offset;
+        
+        // Исправляем отображение execution_time
+        const executionTime = data.execution_time || 'Не установлено';
+        document.getElementById('executionTimeDisplay').textContent = executionTime;
+        if (data.execution_time) {
+            document.getElementById('executionTime').value = data.execution_time;
+        } else {
+            document.getElementById('executionTime').value = ''; // Очищаем поле, если времени нет
+        }
+    })
+    .catch(error => console.error('Ошибка загрузки задержки:', error));
+        }
+    
+        function updateServerTime() {
+            fetch('/adminqsc/api/server_time')
+                .then(response => response.json())
+                .then(data => {
+                    const serverTime = new Date(data.server_time);
+                    const hours = serverTime.getHours().toString().padStart(2, '0');
+                    const minutes = serverTime.getMinutes().toString().padStart(2, '0');
+                    document.getElementById('serverTime').textContent = `${hours}:${minutes}`;
+                })
+                .catch(error => {
+                    console.error('Ошибка получения времени сервера:', error);
+                    const now = new Date();
+                    const hours = now.getHours().toString().padStart(2, '0');
+                    const minutes = now.getMinutes().toString().padStart(2, '0');
+                    document.getElementById('serverTime').textContent = `${hours}:${minutes}`;
+                });
+        }
+    
+        updateTables();
+        updateServerTime();
+        setInterval(updateServerTime, 60000);
+    
+        function sendRequest(action, data, successMsgCallback) {
+            fetch('/adminqsc/settings', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: new URLSearchParams(data)
+            })
+            .then(response => {
+                if (!response.ok) throw new Error(`HTTP ошибка: ${response.status}`);
+                return response.json();
+            })
+            .then(data => {
+                if (data.success) {
+                    // Если передан callback, используем его для сообщения, иначе берем data.message
+                    const message = typeof successMsgCallback === 'function' ? successMsgCallback(data) : (successMsgCallback || data.message || 'Успешно выполнено');
+                    window.showSuccessAlert(message);
+                    updateTables(); // Обновляем таблицы после успешного запроса
+                } else {
+                    window.showErrorAlert(data.message || 'Произошла ошибка');
+                }
+            })
+            .catch(error => {
+                window.showErrorAlert('Ошибка сети: ' + error.message);
+            });
+        }
+    
+        document.querySelector('.save-proxy')?.addEventListener('click', () => {
+            sendRequest('save_proxies', { action: 'save_proxies', proxyList: document.getElementById('proxyList').value }, 'Прокси сохранены');
+        });
+    
+        document.querySelector('.save-user-agent')?.addEventListener('click', () => {
+            sendRequest('save_user_agents', { action: 'save_user_agents', userAgentList: document.getElementById('userAgentList').value }, 'User-Agent сохранены');
+        });
+    
+        document.querySelector('.save-delay')?.addEventListener('click', () => {
+            sendRequest('save_delay', { action: 'save_delay', delayTime: document.getElementById('delayTime').value, executionTime: document.getElementById('executionTime').value }, 'Задержка и время выполнения сохранены');
+        });
+    
+        document.querySelector('.save-all')?.addEventListener('click', () => {
+            sendRequest('save_all', { 
+                action: 'save_all', 
+                proxyList: document.getElementById('proxyList').value, 
+                userAgentList: document.getElementById('userAgentList').value, 
+                delayTime: document.getElementById('delayTime').value, 
+                executionTime: document.getElementById('executionTime').value 
+            }, 'Все данные сохранены');
+        });
+    
+        document.querySelector('.check-proxies')?.addEventListener('click', () => {
+            sendRequest('check_proxies', { action: 'check_proxies' }, (data) => {
+                // Предполагаем, что сервер возвращает active_count и total_count
+                const activeCount = data.active_count || 0;
+                const totalCount = data.total_count || 0;
+                return `Прокси проверены: ${activeCount} активных из ${totalCount}`;
+            });
+        });
+    
+        document.querySelector('.delete-bad-proxies')?.addEventListener('click', () => {
+            window.showConfirm('Вы уверены, что хотите удалить все неактивные прокси?', (confirmed) => {
+                if (confirmed) {
+                    sendRequest('delete_bad_proxies', { action: 'delete_bad_proxies' }, 'Неактивные прокси удалены');
+                }
+            });
+        });
+    
+        document.querySelector('.delete-all-proxies')?.addEventListener('click', () => {
+            window.showConfirm('Вы уверены, что хотите удалить все прокси?', (confirmed) => {
+                if (confirmed) {
+                    sendRequest('delete_all_proxies', { action: 'delete_all_proxies' }, 'Все прокси удалены');
+                }
+            });
+        });
+    
+        document.querySelector('.delete-all-user-agents')?.addEventListener('click', () => {
+            window.showConfirm('Вы уверены, что хотите удалить все User-Agent?', (confirmed) => {
+                if (confirmed) {
+                    sendRequest('delete_all_user_agents', { action: 'delete_all_user_agents' }, 'Все User-Agent удалены');
+                }
+            });
+        });
+    });
+    </script>
+
+<style>
+/* Glassmorphism для карточек */
+.glass-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: var(--card-shadow);
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.glass-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Заголовок */
+.dashboard-header {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(37, 99, 235, 0.05));
+    border-radius: 12px;
+}
+
+.dashboard-header h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    background: linear-gradient(to right, var(--accent-color), var(--info-color));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.dashboard-header p {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    margin-top: 0.25rem;
+}
+
+/* Сетка */
+.settings-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+/* Формы */
+.settings-form {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.form-section label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.form-section .icon {
+    font-size: 1.2rem;
+    color: var(--accent-color);
+    transition: transform 0.2s ease;
+}
+
+.form-section:hover .icon {
+    transform: scale(1.1);
+}
+
+.form-control {
+    border: none;
+    border-radius: 8px;
+    padding: 1rem;
+    font-size: 0.9rem;
+    font-family: 'Courier New', monospace;
+    background: rgba(255, 255, 255, 0.15);
+    color: var(--text-primary);
+    backdrop-filter: blur(5px);
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
+    outline: none;
+}
+
+textarea.form-control {
+    resize: vertical;
+    min-height: 120px;
+}
+
+/* Секция задержки */
+.delay-section {
+    gap: 1rem;
+}
+
+.delay-inputs {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.input-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    min-width: 150px;
+}
+
+.server-time {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    color: var(--text-primary);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+}
+
+/* Таблицы */
+.settings-tables {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.table-section h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.75rem;
+}
+
+.table-wrapper {
+    max-height: 180px;
+    overflow-y: auto;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    color: var(--text-primary);
+}
+
+.table th {
+    background: rgba(67, 108, 205, 0.942);
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    font-weight: 600;
+    color: var(--text-secondary);
+    border-bottom: 1px solid rgba(5, 5, 5, 0.2);
+}
+
+.table td {
+    padding: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    max-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.table tr {
+    transition: background 0.2s ease;
+}
+
+.table tr:hover {
+    background: rgba(59, 130, 246, 0.1);
+}
+
+/* Инфографика */
+.infographic {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.infographic-item {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.infographic-label {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.infographic-item span:not(.infographic-label) {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.progress-bar {
+    width: 100%;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(to right, var(--success-color), var(--info-color));
+    transition: width 0.5s ease;
+}
+
+.progress-circle {
+    width: 60px;
+    height: 60px;
+}
+
+.circular-chart {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.circle-bg {
+    fill: none;
+    stroke: rgba(255, 255, 255, 0.1);
+    stroke-width: 2.8;
+}
+
+.circle {
+    fill: none;
+    stroke: var(--accent-color);
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.5s ease;
+}
+
+/* Управление прокси */
+.proxy-controls {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.proxy-controls .btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+}
+
+/* Кнопки */
+.btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.4s ease, height 0.4s ease;
+}
+
+.btn:hover::after {
+    width: 200%;
+    height: 200%;
+}
+
+.gradient-btn {
+    background: linear-gradient(135deg, var(--success-color), var(--info-color));
+    color: white;
+}
+
+.btn-secondary {
+    background: transparent;
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+
+.btn-secondary:hover {
+    background: rgba(59, 130, 246, 0.15);
+}
+
+.control-buttons {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.control-buttons .btn {
+    flex: 1;
+}
+
+/* Анимации */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.glass-card {
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Адаптивность */
+@media (max-width: 1024px) {
+    .settings-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .control-buttons {
+        flex-direction: column;
+    }
+    
+    .content {
+        padding: 1rem;
+    }
+    
+    .dashboard-header h2 {
+        font-size: 1.5rem;
+    }
+    
+    .infographic {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .proxy-controls {
+        flex-direction: column;
+    }
+    
+    .delay-inputs {
+        flex-direction: column;
+    }
+}
+</style>
+{% endblock %}

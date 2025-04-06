@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "641cb2a1f0d32c2475c6a82e",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5fe45acac6ebdb049e7dec65/fa47cb42-4732-11ee-9b95-a6460c58136c_____________________3_.png",
+        "blurhash": "j6ZfjRlr;;TsXKpBcPlm;;ll8yqr"
+      }
+    ],
+    "name": "სამედიცინო ტექნიკა",
+    "slug": "menucategory-216"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

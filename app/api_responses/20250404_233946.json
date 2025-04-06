@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "64a7d9b1c67b5d596edb7fd2",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5f6b69e77bd8fe933320edb3/86bbf830-557b-11ef-afd9-127f6d9ac2f7___________________.jpg",
+        "blurhash": "j2Iripgx0kLL0KnuNzQN4ypC;tPb"
+      }
+    ],
+    "name": "ნახევარფაბრიკატები",
+    "slug": "menucategory-214"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

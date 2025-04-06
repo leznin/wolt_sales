@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0066FF" />
+    <meta
+      name="description"
+      content="Wolt Discounts - Find the best discounts in Wolt stores"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <!-- Подключаем FingerprintJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs@3/dist/fp.min.js"></script>
+    <!-- Подключаем рекламный прелоадер -->
+    <script src="%PUBLIC_URL%/js/ad-preloader.js"></script>
+    <!-- Инициализация рекламного прелоадера -->
+    <script src="%PUBLIC_URL%/js/init-ad-preloader.js"></script>
+
+    <title>Wolt Discounts</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+  <script>
+
+    // показываем уведомления от телеграмма
+    // Telegram.WebApp.showAlert(message);
+
+
+    // Инициализация веб-приложения Telegram
+    Telegram.WebApp.ready();
+    
+    // Разворачиваем приложение на весь экран
+    Telegram.WebApp.expand();
+
+    // Отключаем вертикальные свайпы
+    window.Telegram.WebApp.disableVerticalSwipes();
+
+    // Устанавливаем цвета
+    window.Telegram.WebApp.setBackgroundColor('#121212');
+    window.Telegram.WebApp.setHeaderColor('#1E1E1E');
+
+    // Асинхронная функция для получения данных пользователя и FingerprintJS
+    async function fetchUserData() {
+      try {
+        const initData = Telegram.WebApp.initData;
+
+        if (!initData) {
+          console.error("No initData - not running in Telegram Mini App");
+          window.location.href = "https://www.google.com/";
+          return;
+        }
+
+        console.log("initData:", initData);
+
+        // Инициализация FingerprintJS и получение visitorId
+        const fp = await FingerprintJS.load();
+        const result = await fp.get();
+        const fingerprint = result.visitorId;
+        console.log("FingerprintJS Visitor ID:", fingerprint);
+
+        const response = await fetch('/webhook', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ 
+            initData: initData,
+            fingerprint: fingerprint  // Отправляем FingerprintJS
+          }),
+        });
+
+        const data = await response.json();
+
+        if (data.error) {
+          console.error("Webhook error:", data.error);
+          window.location.href = "https://www.google.com/";
+          return;
+        }
+
+        document.getElementById('userData').innerText = JSON.stringify(data, null, 2);
+
+      } catch (error) {
+        console.error('Error fetching user data:', error);
+        document.getElementById('userData').innerText = "Error fetching data.";
+        window.location.href = "https://www.google.com/";
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      fetchUserData();
+    });
+  </script>
+</html>

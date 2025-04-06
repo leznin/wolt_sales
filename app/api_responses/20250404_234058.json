@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "641b7b7e6d77518b3d4f948f",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/635e776f417c3fe0fc2a5dd5/dc003ec6-2568-11ee-95cd-f21385680928_6f1314b2_e5d3_11ec_a779_02a19c0aff27_2000004147617.jpg",
+        "blurhash": "jeY:;Gpl;;LcKGlkllPd;;pT8xCF"
+      }
+    ],
+    "name": "Bistro",
+    "slug": "bistro-198"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

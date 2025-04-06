@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "64d3693a239ec0709631b74d",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5fe45acac6ebdb049e7dec65/582c75ca-4731-11ee-ba82-a6b24a7a6ae2______________.png",
+        "blurhash": "jfXuPFNATehaPcplFBlT;;mYh3OS"
+      }
+    ],
+    "name": "ჯანსაღი კვება ",
+    "slug": "menucategory-927"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

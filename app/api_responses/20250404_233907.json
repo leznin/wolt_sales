@@ -1,0 +1,230 @@
+{
+  "category": {
+    "id": "ebff6092b6b447c0d1d9d7b1",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63ea248bb8266e2bcfa6945b/8e21ed9a-682e-11ee-ab46-72e2f0278d36_389332.jpg",
+        "blurhash": "j1;LX:KX;;KXTtCph4tTXKCp8ytT"
+      }
+    ],
+    "name": "Halloween",
+    "slug": "halloween-2"
+  },
+  "categories": [
+    {
+      "id": "ebff6092b6b447c0d1d9d7b1",
+      "item_ids": [
+        "670687b66866651d201ee2bc",
+        "670687b66866651d201ee332",
+        "670687b66866651d201ee2a8"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "670687b66866651d201ee2bc",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "9447ea3150b6323b2e9384f433302c8c",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": {
+        "disable_text": "Sold out",
+        "disable_reason": null
+      },
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63ecd729586c829d4caf6462/800601ba-8641-11ef-8c65-befdc8da730d_305539.jpg",
+          "blurhash": "j7:vzUCp;;KXqHtTKCCpX:Cp8ypC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ბოქლომი 13 x 8 x სმ Science Explorer Johntoy-305539",
+      "options": [],
+      "original_price": 1250,
+      "price": 875,
+      "purchasable_balance": 0,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "670687b66866651d201ee332",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "743d8143084a4f5a463b167cebdfbcca",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63ecd729586c829d4caf6462/c705420a-8642-11ef-9d83-366296aea52b_389705.jpg",
+          "blurhash": "jaZvjQPc;;cPKXGGllpC;;h44hTt"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "საკარნავალო აქსესუარების ნაკრები ვიკინგის ხმალი და ფარი P&#039;tit Clown-389705",
+      "options": [],
+      "original_price": 6550,
+      "price": 4585,
+      "purchasable_balance": 4,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "670687b66866651d201ee2a8",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "cb2427a71a378cdc3e1045e4a0cc4536",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/63ecd729586c829d4caf6462/41e53584-8643-11ef-a380-9a6f10b7d0cb_417364.jpg",
+          "blurhash": "jcYL7RCH;;FlGYtSBlGG;:BC4iqG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "ნიღაბი ტრანსფორმირებადი Optimus Prime/Orion Pax Transformers One Hasbro-417364",
+      "options": [],
+      "original_price": 22650,
+      "price": 15855,
+      "purchasable_balance": 1,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    }
+  ],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

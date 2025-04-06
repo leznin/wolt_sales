@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="{{ theme }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Админ-панель Telegram | {% block title %}{% endblock %}</title>
+    <!-- Inline скрипт для предотвращения мигания при смене темы -->
+    <script>
+        (function() {
+            // Получаем тему из cookie
+            function getThemeFromCookie() {
+                const cookies = document.cookie.split('; ');
+                const themeCookie = cookies.find(row => row.startsWith('admin_theme='));
+                return themeCookie ? themeCookie.split('=')[1] : 'light';
+            }
+            
+            // Устанавливаем тему до загрузки страницы
+            const theme = getThemeFromCookie();
+            document.documentElement.setAttribute('data-theme', theme);
+            document.documentElement.classList.add(`theme-${theme}`);
+        })();
+    </script>
+    <link rel="stylesheet" href="{{ url_for('admin.static', filename='css/styles.css') }}">
+    <!-- Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Дополнительные стили CSS для конкретных страниц -->
+    {% block styles %}{% endblock %}
+    {% block stylesTG %}{% endblock %}
+</head>
+<body class="theme-{{ theme }}">
+    <div class="admin-container">
+        <!-- Сайдбар (виден только если пользователь авторизован) -->
+        {% if session.get('admin_logged_in') %}
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <span class="material-symbols-rounded">admin_panel_settings</span>
+                    <h2>Admin WOLT</h2>
+                </div>
+                <button id="mobile-menu-toggle" class="mobile-menu-toggle">
+                    <span class="material-symbols-rounded">menu</span>
+                </button>
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li><a href="{{ url_for('admin.dashboard') }}" class="{% if request.endpoint == 'admin.dashboard' %}active{% endif %}">
+                        <span class="material-symbols-rounded">dashboard</span>
+                        <span>Панель управления</span>
+                    </a></li>
+                    <li><a href="{{ url_for('admin.ads') }}" class="{% if request.endpoint == 'admin.ads' %}active{% endif %}">
+                        <span class="material-symbols-rounded">dashboard</span>
+                        <span>Реклама</span>
+                    </a></li>
+                    <li><a href="{{ url_for('admin.statistic') }}" class="{% if request.endpoint == 'admin.statistic' %}active{% endif %}">
+                        <span class="material-symbols-rounded">dashboard</span>
+                        <span>Статистика</span>
+                    </a></li>
+                    <li><a href="{{ url_for('admin.telegramSendler') }}" class="{% if request.endpoint == 'admin.telegramSendler' %}active{% endif %}">
+                        <span class="material-symbols-rounded">send</span>
+                        <span>Телеграм рассылка</span>
+                    </a></li>
+                    <li><a href="{{ url_for('admin.settings') }}" class="{% if request.endpoint == 'admin.settings' %}active{% endif %}">
+                        <span class="material-symbols-rounded">settings</span>
+                        <span>Настройки</span>
+                    </a></li>
+                    <!-- Здесь будут добавлены другие пункты меню -->
+                </ul>
+            </nav>
+            <div class="sidebar-footer">
+                <div class="theme-toggle-container">
+                    <span class="material-symbols-rounded">light_mode</span>
+                    <label class="theme-toggle">
+                        <input type="checkbox" id="theme-toggle" {% if theme == 'dark' %}checked{% endif %}>
+                        <span class="slider round"></span>
+                    </label>
+                    <span class="material-symbols-rounded">dark_mode</span>
+                </div>
+                <a href="{{ url_for('admin.logout') }}" class="logout-btn">
+                    <span class="material-symbols-rounded">logout</span>
+                    <span>Выйти</span>
+                </a>
+            </div>
+        </aside>
+        {% endif %}
+
+        <!-- Основной контент -->
+        <main class="main-content">
+            <!-- Заголовок страницы -->
+            {% if session.get('admin_logged_in') %}
+            <header class="page-header">
+                <h1>{% block page_title %}{% endblock %}</h1>
+                <div class="user-info">
+                    <span class="material-symbols-rounded">account_circle</span>
+                    <span>Администратор</span>
+                </div>
+            </header>
+            {% endif %}
+
+            <!-- Контент страницы -->
+            <div class="content">
+                {% block content %}{% endblock %}
+            </div>
+        </main>
+    </div>
+    <!-- Добавляем в конец body -->
+    <div id="notification-area" class="notification-area"></div>
+
+    <script src="{{ url_for('admin.static', filename='js/main.js') }}"></script>
+    {% block scripts %}{% endblock %}
+</body>
+</html>

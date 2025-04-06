@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "6414841f17a844fccc03ceae",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/61eea99dc5888301b1adf6b4/58f8ddb2-85e0-11ed-bbc6-0a5562a8cb13____________________________.jpeg",
+        "blurhash": "j1iCtcCF00pSuny8Cpy800tT;;Cp"
+      }
+    ],
+    "name": " პოდ მოწყობილობა",
+    "slug": "menucategory-18"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

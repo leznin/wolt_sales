@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "d65f1a85a507badfd5933ade",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/66163fcf2095f22e4935ca43/b459230e-06d3-11ef-92e3-9a08972804ad_____________.jpg",
+        "blurhash": "j1ErGDh500TIjuTtIP4x3iTtYI4y"
+      }
+    ],
+    "name": "თხილის პასტა & დამატკბობელი 🥜",
+    "slug": "menucategory-87"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

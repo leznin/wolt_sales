@@ -1,0 +1,1158 @@
+{
+  "category": {
+    "id": "e0dd1b99cf977251cb54c7b4",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5faa55d4f0e44faad51211cc/923fae16-3f3b-11ed-bd8a-128afd06cdd1_5903857596137.jpeg",
+        "blurhash": "j8:;vRKXX;l4LcGGllplX;pl8gLc"
+      }
+    ],
+    "name": "Mięso, wędliny",
+    "slug": "mieso-wedliny-8"
+  },
+  "categories": [
+    {
+      "id": "e0dd1b99cf977251cb54c7b4",
+      "item_ids": [
+        "6335367e9fdc6f3b1a4a30f3",
+        "6335367e9fdc6f3b1a4a3102",
+        "6335367e9fdc6f3b1a4a3100",
+        "6335367e9fdc6f3b1a4a3103",
+        "6335367e9fdc6f3b1a4a3104",
+        "6335367e9fdc6f3b1a4a3101",
+        "6335367e9fdc6f3b1a4a30ff",
+        "6335367e9fdc6f3b1a4a310a",
+        "6335367e9fdc6f3b1a4a310b",
+        "6335367e9fdc6f3b1a4a310d",
+        "6335367e9fdc6f3b1a4a3111",
+        "6335367e9fdc6f3b1a4a3115",
+        "6335367e9fdc6f3b1a4a3116",
+        "6335367e9fdc6f3b1a4a3114",
+        "6335367e9fdc6f3b1a4a3117",
+        "6335367e9fdc6f3b1a4a311e",
+        "6335367e9fdc6f3b1a4a311d"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "6335367e9fdc6f3b1a4a30f3",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "5903857596137",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "47b57a9cfe63b6f42e3ead938aa21ddc",
+      "description": "Najwyższej jakości mięsa wieprzowe, wołowe i drobiowe, przyprawiane wyłącznie naturalnymi przyprawami oraz poddawane tradycyjnemu wędzeniu i pieczeniu.\n\nKupując produkt ekologiczny, nie kupujesz niejasnego pomysłu lub fałszywej obietnicy, kupujesz certyfikowany najwyższej jakości produkt. Wyroby Farm Roztocza są bezpieczne dla każdego konsumenta. Cechują się wysoką jakością, niepowtarzalnym smakiem i dopracowanym składem. Zdajemy sobie sprawę, że niezwykle ważną kwestią jest najwyższej jakości surowiec. Prowadzimy politykę pozyskiwania wyselekcjonowanego surowca z czystych i ekologicznych terenów.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3300466ee2bb09536cb",
+          "blurhash": "j8:;vRKXX;l4LcGGllplX;pl8gLc"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Farmy Roztocza Parówki farmerki Bio 250 g",
+      "options": [],
+      "original_price": null,
+      "price": 2099,
+      "purchasable_balance": 2,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6335367e9fdc6f3b1a4a3102",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "4015481011526",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "e7cf227eb24b167c33f1b9ccc2a74479",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3310466ee2bb09536cf",
+          "blurhash": "jkXePEll;;PcGRGGBHpCTtGGcPpl"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Organic  Market Szynkowa ekologiczna wieprzowo-cielęca 80 g",
+      "options": [],
+      "original_price": null,
+      "price": 1049,
+      "purchasable_balance": 13,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6335367e9fdc6f3b1a4a3100",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "4015481011540",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "e7d2e036da0508add9bd5ed5ebc2790c",
+      "description": "Wędzone dymem z drewna bukowego. 100g produktu wytworzono z 128g mięsa. Pakowano w atmosferze ochronnej",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3318d127c47a0c13e23",
+          "blurhash": "jpVKvytS;;GHuACoFXtTPtCph4pD"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Organic  Market Salami ekologiczne 80 g",
+      "options": [],
+      "original_price": null,
+      "price": 1399,
+      "purchasable_balance": 8,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6335367e9fdc6f3b1a4a3103",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "5907814669520",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "0f3e1c0c0f19c1f060d069ceac597370",
+      "description": "Wędzone dymem z drewna bukowego.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3318d127c47a0c13e25",
+          "blurhash": "j7:fvTGX;;tCpCpCKXGG;;pC4hGX"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Organic Market Parówki mini z cielęciną dla dzieci 120 g",
+      "options": [],
+      "original_price": null,
+      "price": 1639,
+      "purchasable_balance": 11,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6335367e9fdc6f3b1a4a3104",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "5907814660862",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "5731367c64e40169b398ab59592949ef",
+      "description": "Wędzone dymem z drewna bukowego.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3318d127c47a0c13e24",
+          "blurhash": "ja:LnOFCX;GXLcGXpll4X;upchGG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Organic Market Parówki wiedeńskie z delikatną cielęciną ekologiczne 200 g",
+      "options": [],
+      "original_price": null,
+      "price": 2199,
+      "purchasable_balance": 5,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6335367e9fdc6f3b1a4a3101",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "4015481011557",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "1edd599720886557f6bfb9e0ffd64655",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e33252c7f147a916d4e5",
+          "blurhash": "jwQJbbpC;;KXqCuqFGBCGHGppBpD"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Organic  Market Szynka gotowana ekologiczna 80 g",
+      "options": [],
+      "original_price": null,
+      "price": 1799,
+      "purchasable_balance": 6,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6335367e9fdc6f3b1a4a30ff",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "4015481011632",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "08fd69a68b79632317c39550add9c22d",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e33252c7f147a916d4e6",
+          "blurhash": "jdYf3MpC;;KXTtGGh3pCPctTh4GG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Organic  Market Kiełbaski grillowe BIO 250 g",
+      "options": [],
+      "original_price": null,
+      "price": 2489,
+      "purchasable_balance": 12,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6335367e9fdc6f3b1a4a310a",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "8020819009867",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "99bcb5d0f7051a5b2d3511425cb0559d",
+      "description": "Pancetta to rodzaj surowego, suszonego, dojrzewającego boczku. Przepis na niego pochodzi z Włoch. Pancetta dojrzewa w soli i przyprawach, a następnie jest suszona. Ponieważ pancetty się nie wędzi, ma ona bardzo delikatny smak. Pokrojona w cienkie plasterki pancetta doskonale smakuje z chlebem, focaccią lub panini. Aby podkreślić smak dania dodaje się ją do zup, delikatnych mięs lub krewetek. Stanowi też dokonały dodatek do makaronów. Spaghetti carbonara to klasyczny przykład idealnej kompozycji smakowej z udziałem pancetty.\n\n",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e33233a32425aec10239",
+          "blurhash": "jeZvjNGG;;pBOIunikBFTutTcPCa"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Primavera Boczek (Pancetta) plastry, bezglutenowy, BIO 70 g",
+      "options": [],
+      "original_price": null,
+      "price": 2499,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6335367e9fdc6f3b1a4a310b",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "8020819008112",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "60d0069c06f26fa39cd9719a43dd3c47",
+      "description": "Jedno z najpopularniejszych salami we Włoszech. Wykonane jest z chudego mięsa wieprzowego. Ma jasnoczerwony kolor i posiada strukturę drobnoziarnistą. Najbardziej niezwykłą cechą salami Milano jest to, że ma słodki i delikatny smak. Doskonałe na deskę serów i wędlin lub po prostu na kanapkę. Zmielone, łagodne, o delikatnej strukturze. Nie zawiera glutenu, środków chemicznych i konserwantów. Bez ubocznych produktów mlecznych. Umieszczone w tabeli produktów dla osób dotkniętych celiakią.\n100% mięso wieprzowe z włoskich gospodarstw hodowlanych. >> Pakowano w atmosferze ochronnej.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e33233a32425aec10238",
+          "blurhash": "jiY:;GBD;;HbJ6qmraFWTuCGgPtm"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Primavera Salami Milano plastry, bezglutenowe, BIO 70 g",
+      "options": [],
+      "original_price": null,
+      "price": 2699,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6335367e9fdc6f3b1a4a310d",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "8020819008082",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "c348d3e37f9c6dc17147fad3323f9bd9",
+      "description": "Rodzaj włoskiej, surowej, podsuszonej szynki wytwarzanej z całych udźców wieprzowych z kością, tradycyjnymi metodami. \n\nSurowa, lekko solona szynka wieprzowa, swój wyjątkowy, wyrafinowany smak zawdzięcza dojrzewaniu na powietrzu parmeńskim przez około 12 miesięcy. Cechą charakterystyczną tego produktu jest subtelny, delikatny smak określany jako „słodki”.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e33352c7f147a916d4e7",
+          "blurhash": "jjYKXGtD;;KXl5pSLbKHPtGGgPpC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Primavera Szynka parmeńska (Prosciutto Di Parma), BIO, bezglutenowa plastry 70 g",
+      "options": [],
+      "original_price": null,
+      "price": 4499,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6335367e9fdc6f3b1a4a3111",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "5906295169659",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "c83fd235d1cfc16ecda7fe8e2e6b138e",
+      "description": "Parówki cielęce - 56% cielęciny, podwędzane, parzone. Parówki idealne dla dzieci i osób preferujących delikatną dietę. Powstałe  z mięsa cielęcego i wieprzowego. Wyjątkowo delikatne, bez dodatków wypełniaczy, w 100% z mięsa i naturalnych przypraw. Parówki nie są owinięte plastikową \"skórką\", dzięki czemu są wygodne w przygotowaniu i  gotowe do spożycia.\n>> TYLKO MIĘSO, PRZYPRAWY I SÓL KAMIENNA  >> BEZ soli peklowej  >> BEZGLUTENOWE",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e33333a32425aec1023b",
+          "blurhash": "ja:vnRFT;;GXtSCpGHtCPttTgPGp"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Tradycyjne Jadło Parówki cielęce bez soli peklowej, bezglutenowe 150 g",
+      "options": [],
+      "original_price": null,
+      "price": 1969,
+      "purchasable_balance": 6,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6335367e9fdc6f3b1a4a3115",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "5902768632705",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "7f71d54c2393a14fd632409a6bdda3c8",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/667949c2a81b94465521b085",
+          "blurhash": "jvVJ;oKW;;h5hmpDOVKFmIpFJAGS"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Tradycyjne Jadło Pasztet z kaczki 80g",
+      "options": [],
+      "original_price": null,
+      "price": 1699,
+      "purchasable_balance": 6,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6335367e9fdc6f3b1a4a3116",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "5902768632477",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "56d1b51858e8d6f9c2709047cfb4d7a9",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e33352c7f147a916d4e8",
+          "blurhash": "jlWKDBuW;;FpPdFClkmGPcGHhkpB"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Tradycyjne Jadło Pasztet z królika, bezglutenowy, słoik 80 g",
+      "options": [],
+      "original_price": null,
+      "price": 1749,
+      "purchasable_balance": 5,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6335367e9fdc6f3b1a4a3114",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "5902768632712",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "d1c13d8a2eebc0abb619b5dddef20234",
+      "description": " Ten prosty i naturalniy pasztet został przygotowany z kawałków kaczki, którą wcześniej ugotowano w przyprawach z dodatkiem czerwonego wina, a następnie, wraz z otrzymanym wywarem, staranie zmielono. Pasztet przyprawiono solą kamienną i poddano pasteryzacji.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3330466ee2bb09536d3",
+          "blurhash": "jsVd;mlB;;OYLcKGplhlPupDl3KG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Tradycyjne Jadło Pasztet z kaczki na czerwonym winie, bezglutenowy 160 g",
+      "options": [],
+      "original_price": null,
+      "price": 2699,
+      "purchasable_balance": 3,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6335367e9fdc6f3b1a4a3117",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "5902768632453",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "34347592f0e4266c6f541ce6f20bcc78",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3330466ee2bb09536d4",
+          "blurhash": "jiW:HGpC;;KXllC8KXtT;;GG8ypC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Tradycyjne Jadło Wątrobianka ze świniobicia bezglutenowa 160 g",
+      "options": [],
+      "original_price": null,
+      "price": 1499,
+      "purchasable_balance": 7,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6335367e9fdc6f3b1a4a311e",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "5256e9e3703dad04b657364ca561d944",
+      "description": "Proszę napisz w komentarzu czy chcesz aby wędlina została do Ciebie wysłana w kawałku! Bez komentarza sklep wyśle wędlinę w plasterkach",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": {
+        "disable_text": "Sold out",
+        "disable_reason": null
+      },
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5faa55d4f0e44faad51211cc/435e34c0-3b3a-11ed-82df-42270a11e357_281513.jpeg",
+          "blurhash": "jbOsnePc;;PdLclkFSLcTKGXkPl4"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Wasąg Szynka z roztoczańskiej wędzarni EKO, ok. 100 g",
+      "options": [],
+      "original_price": null,
+      "price": 12990,
+      "purchasable_balance": 0,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": {
+        "grams_per_step": 100,
+        "input_type": "grams",
+        "price_per_kg": 12990
+      },
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6335367e9fdc6f3b1a4a311d",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": "5906395827886",
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "79f067f44a861fea2df179fd356e1bb4",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://imageproxy.wolt.com/assets/66a0e3348d127c47a0c13e2a",
+          "blurhash": "jcZf3Khl;;TdKYGGllll;;OX8hdk"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Wasąg Parówki z cielęciną BIO 240 g",
+      "options": [],
+      "original_price": null,
+      "price": 2499,
+      "purchasable_balance": 5,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    }
+  ],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

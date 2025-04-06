@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "66473d407b7bcfe55230d1a9",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f84c93a471b04e60b3204a/cc7f1e4e-2270-11ef-8a23-6ebeac2a5565___________________.jpg",
+        "blurhash": "jaXKPO95;;XsTstCh4uG;;OW8yd6"
+      }
+    ],
+    "name": "ბავშვის პირის ღრუს მოვლა",
+    "slug": "menucategory-13"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

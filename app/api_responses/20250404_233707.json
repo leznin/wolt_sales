@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "6706f66487ddc36674f0f750",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6706da4ba09ff97f1d9f3390/82d18854-e552-11ef-a27e-b2e4b4ed6841__________________________.png",
+        "blurhash": "jazDVU01T;RAcPh4F4cPdqTcPcmG"
+      }
+    ],
+    "name": "დერმატოლოგია & სახის მოვლა",
+    "slug": "menucategory-43"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "63a5954bde01a67e03ec5452",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5f9fd782b2999044be2bde6b/031d5246-cb31-11ee-b97b-56b599e461cf_6936735332984.jpg",
+        "blurhash": "jbZ;fOKG;;lmKXpClBGXX;pCcyKX"
+      }
+    ],
+    "name": "ჩანთები და აქსესუარები",
+    "slug": "menucategory-2"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

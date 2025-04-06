@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "64ad3193d464c8c40055ddb0",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/616573c75cd3d74137d0343c/47a3eec0-3e9a-11ef-93fb-765f1f2735fc______________________________.jpg",
+        "blurhash": "jgRdOLTd;;iSPsGXllp5rsqWkQt5"
+      }
+    ],
+    "name": "ცხოველთა კვება და აქსესუარები",
+    "slug": "menucategory-108"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

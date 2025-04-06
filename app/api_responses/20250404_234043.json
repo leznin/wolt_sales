@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "6506f63765649bade89e0a24",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5faa55d4f0e44faad51211cc/d52c378c-555e-11ee-9c1e-8a667e8296d8_zwierzaki.jpg",
+        "blurhash": "jdTZ38Le;;pALuTsllcRh5KYBkpk"
+      }
+    ],
+    "name": "Zwierzaki",
+    "slug": "zwierzaki-261"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "641b7b7e6d77518b3d4f8b2e",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/635e776f417c3fe0fc2a5dd5/f05dd6ce-256f-11ee-8812-3e281a43c416_shutterstock_1938399838.jpg",
+        "blurhash": "jbW:PCXtXLh4;;lH8yPb8PKlTblG"
+      }
+    ],
+    "name": "Produkty bio i eko",
+    "slug": "produkty-bio-i-eko-107"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

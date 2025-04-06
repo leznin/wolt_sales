@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "641b7b7e6d77518b3d4f8c94",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/635e776f417c3fe0fc2a5dd5/595f8586-2567-11ee-89ee-8efc4f4ffc65_ae731aba_6bef_11ed_98c8_ba00d7471d31_image_2.jpeg",
+        "blurhash": "jiZePBNzTKd5KBlluGKXX;mYcPPb"
+      }
+    ],
+    "name": "Suche i sypkie",
+    "slug": "suche-i-sypkie-121"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

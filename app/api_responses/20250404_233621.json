@@ -1,0 +1,5378 @@
+{
+  "city": "warsaw",
+  "created": {
+    "$date": 1743795380984
+  },
+  "expires_in_seconds": 900,
+  "how_search_works_link": {
+    "type": "icon-only",
+    "url": "https://explore.wolt.com/en/pol/how-search-works"
+  },
+  "how_search_works_url": "https://explore.wolt.com/en/pol/how-search-works",
+  "name": "search",
+  "page_title": "Search results",
+  "search_bar_enabled": true,
+  "search_id": "3716c96f-1c40-4ae0-9f21-d57c31574e24",
+  "search_results_layout": "SPLIT_VIEW",
+  "search_state": "CvwFCghjYXRlZ29yeRIYNTcwZjY0ODdmODJmNDU3NzY0OTUzNGExEhg2NGUzNDQ4MWUwYzAwNDBlMGJhMWI2OTYSGDYxYTEwMTdiNjg1ODMzMTQzMDhiMDQzNBIYNTcxMDk4ODIxNmZmMjkxNjdlMDU4ZGNmEhg2MGJmNTU5Y2MyYzQ5YzJiNjNjNzIwYzgSGDYxYmNlYmY5M2IyZGY4ZTY5OWMwYmViZhIYNWNmNTAzMmE3YmIyODlkMDFhOWVlMWQ4Ehg1OGZjZWYwZWU3MTViZDJmMTExMTFiOWESGDYwNWM5NmE2OGZiZDA2NTBhZTc3MDg2YxIYNjNhZGIyY2UxYjAxNmU2ZTVhZmEzNzU0Ehg1NzBmOTY3NzMxYjk0YzBiYmRmYTQyZjkSGDYwYWYzYmVkMWJkNTc1MDllYjEzZDE3ORIYNWNlNDJjODVmMjUxYTk2NmMxMDEyYjU0Ehg2MjU2NzY5MTQyNzY2MWNlYmJmZmNiYzcSGDVlN2RhY2Y2OTExYTk4YjQ0YmUwNTRkNRIYNTcwZmFkZjI4NDIyYjkxODQ5ZWM4YmQ0Ehg2NjMwZDMwZWMxZDY2ODNiZGYyZTI0NjQSGDU3MGY3NDcyZjgyZjQ1Nzc2NTU1ZDVhYxIYNjM4Y2FiMThlMjA4ZmFjNWVkYTNlZjhhEhg1NzBmNzUwNDMxYjk0YzZiMzMyZWYxNWESGDU3ZDFiYzlmMjU5N2JmNTI4MTcyOGNhZhIYNWJkMDQxZmM3YjVhNjQwMDBiZjdmY2RiEhg1NzBmOWEyMTE2ZmYyOTEwMGI0NzE0OTgSGDYzZDJlMGU1ZDI1Y2FmNjBmMGE5OTMwORIYNjUwYWIzMjg2NTY5MmE0MDNmNmZhODIzEhg1NzBmNmUzMWY4MmY0NTc3NjQ5NTM0YmYSGDVmYzc4YzIxYmFmNTJlMGVmNjJkMDU0MBIYNTcwZjZjMGVmODJmNDU3NzY2YzhhMzYxEhg2N2ExZTJkNTZkMDZjYzFmNTQwZDM5NTgKOAoMcHJvZHVjdF9saW5lEhNnZW5lcmFsX21lcmNoYW5kaXNlEgdncm9jZXJ5EgpyZXN0YXVyYW50ChsKDGlzX3dvbHRfcGx1cxIEVHJ1ZRIFRmFsc2U=",
+  "sections": [
+    {
+      "content_id": "",
+      "hide_delivery_info": false,
+      "items": [
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "jfBcTlmST2pl3fNmpsKXMOvbdtll",
+            "url": "https://imageproxy.wolt.com/assets/67320700ae168d77add71284"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "6402052786a4bef19212b293",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "jhAcLhmAT2pB3fJrFIKXQPqYdtll"
+          },
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Wolt Market - Ochota",
+          "track_id": "venue-wolt-market-ochota",
+          "venue": {
+            "address": "Gorlicka 10A",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": true,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 20,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "15-25"
+            },
+            "estimate_range": "15-25",
+            "favourite": false,
+            "franchise": "",
+            "id": "6402052786a4bef19212b293",
+            "location": [
+              20.97605146,
+              52.19614022
+            ],
+            "name": "Wolt Market - Ochota",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.2,
+              "volume": 0
+            },
+            "short_description": "Darmowa dostawa od 99 zł! 🚙 \nZakupy dostarczone w kilka minut pod Twoje drzwi? To właśnie Wolt Market! 🛍 Jeżeli brakuje w naszej ofercie Twojego ulubionego produktu, daj nam znać w komentarzu przy ocenieniu Twojego zamówienia! 💙",
+            "show_wolt_plus": false,
+            "slug": "wolt-market-ochota",
+            "tags": [
+              "grocery",
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5AC:c0vTd;28JXAcQlb4tgNFlrt",
+            "url": "https://imageproxy.wolt.com/assets/6732146024fb2f4b4b1e228c"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "652661f036185f34ac372f15",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j8SoN9ZyTbdrZ3fdh5OCZjd4hrHs"
+          },
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Lisek Włodarzewska",
+          "track_id": "venue-lisek-wodarzewska",
+          "venue": {
+            "address": "This is a virtual venue",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": true,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 40,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "35-45"
+            },
+            "estimate_range": "35-45",
+            "favourite": false,
+            "franchise": "",
+            "id": "652661f036185f34ac372f15",
+            "location": [
+              20.9637306,
+              52.2016637
+            ],
+            "name": "Lisek Włodarzewska",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.8,
+              "volume": 0
+            },
+            "short_description": "Daily shopping with fast home delivery!",
+            "show_wolt_plus": false,
+            "slug": "lisek-wodarzewska",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4CVeq9m;wf:bkg:PcIjXwkQ2u9s",
+            "url": "https://imageproxy.wolt.com/assets/6798f3b3a2da890ebfeb8a27"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "6627bfe3021a4b3c93ca22ea",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4CFeq9m;wf:bkg:PcIjXwkQ2Kds"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Carrefour Jerozolimskie",
+          "track_id": "venue-carrefour-jerozolimskie",
+          "venue": {
+            "address": "Jerozolimskie 148",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 80,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "75-85",
+            "favourite": false,
+            "franchise": "",
+            "id": "6627bfe3021a4b3c93ca22ea",
+            "location": [
+              20.9511544,
+              52.2129707
+            ],
+            "name": "Carrefour Jerozolimskie",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.8,
+              "volume": 0
+            },
+            "short_description": "Uwaga - ważne informacje - przed zamówieniem zapoznaj się z sekcją dodatkowych informacji wewnątrz sklepu",
+            "show_wolt_plus": false,
+            "slug": "carrefour-jerozolimskie",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j2RT1wf;3QeR0PR3PJ9c3h74PJ4O",
+            "url": "https://imageproxy.wolt.com/assets/677d1205300f0372d4bb1e19"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "626274c830b4b1c188cc2b09",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j9FUtzcy;4R95c8QX:cQXHhrKW95"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Auchan Mołdawska",
+          "track_id": "venue-auchan-modawska",
+          "venue": {
+            "address": "ul. Mołdawska 7a",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 50,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "45-55",
+            "favourite": false,
+            "franchise": "",
+            "id": "626274c830b4b1c188cc2b09",
+            "location": [
+              20.97798023,
+              52.19862876
+            ],
+            "name": "Auchan Mołdawska",
+            "online": false,
+            "price_range": 1,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.2,
+              "volume": 0
+            },
+            "short_description": "Codzienne zakupy blisko Ciebie! | Wszystkie informacje produktowe znajdziesz pod linkiem do strony w dodatkowych informacjach o sklepie.",
+            "show_wolt_plus": false,
+            "slug": "auchan-modawska",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4CVeq9m;wf:bkg:PcIjXwkQ2u9s",
+            "url": "https://imageproxy.wolt.com/assets/6798f3a872cfd659ee801165"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "6627bfe3a4e7bccb2f583349",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4CFeq9m;wf:bkg:PcIjXwkQ2Kds"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Carrefour Wołoska",
+          "track_id": "venue-carrefour-woloska",
+          "venue": {
+            "address": "Wołoska 12",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 75,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "70-80",
+            "favourite": false,
+            "franchise": "",
+            "id": "6627bfe3a4e7bccb2f583349",
+            "location": [
+              21.0036613,
+              52.1799564
+            ],
+            "name": "Carrefour Wołoska",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.4,
+              "volume": 0
+            },
+            "short_description": "Uwaga - ważne informacje - przed zamówieniem zapoznaj się z sekcją dodatkowych informacji wewnątrz sklepu",
+            "show_wolt_plus": false,
+            "slug": "carrefour-woloska",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j2RT1wf;3QeR0PR3PJ9c3h74PJ4O",
+            "url": "https://imageproxy.wolt.com/assets/677d1202300f0372d4bb1e16"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "6246a129111e3a83b51e3152",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j9FUtzcy;4R95c8QX:cQXHhrKW95"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Auchan Sokołowska",
+          "track_id": "venue-auchan-sokolowska",
+          "venue": {
+            "address": "Sokołowska 9",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 80,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "75-85",
+            "favourite": false,
+            "franchise": "",
+            "id": "6246a129111e3a83b51e3152",
+            "location": [
+              20.9595879,
+              52.2352815
+            ],
+            "name": "Auchan Sokołowska",
+            "online": false,
+            "price_range": 1,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.2,
+              "volume": 0
+            },
+            "short_description": "Codzienne zakupy blisko Ciebie! | Wszystkie informacje produktowe znajdziesz pod linkiem do strony w dodatkowych informacjach o sklepie.",
+            "show_wolt_plus": false,
+            "slug": "auchan-sokolowska",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4CVeq9m;wf:bkg:PcIjXwkQ2u9s",
+            "url": "https://imageproxy.wolt.com/assets/6798f3aaa2da890ebfeb89fe"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "6615d122077097e95aa7f94a",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4CFeq9m;wf:bkg:PcIjXwkQ2Kds"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Carrefour Złota",
+          "track_id": "venue-carrefour-zlota",
+          "venue": {
+            "address": "Złota 59",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 70,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "65-75",
+            "favourite": false,
+            "franchise": "",
+            "id": "6615d122077097e95aa7f94a",
+            "location": [
+              21.0027422,
+              52.2307544
+            ],
+            "name": "Carrefour Złota",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.4,
+              "volume": 0
+            },
+            "short_description": "Uwaga - ważne informacje - przed zamówieniem zapoznaj się z sekcją dodatkowych informacji wewnątrz sklepu",
+            "show_wolt_plus": false,
+            "slug": "carrefour-zlota",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5TVxKgyDel4UhRjPtJc;K7e2QVk",
+            "url": "https://imageproxy.wolt.com/assets/6733112f8a1a2b2e8f269f0b"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "635ff5a477a8ea6e996d1b1f",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j6Kbaw;:;;kW4xPtQz8PPtqYL5d3"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Organic Market Złote Tarasy",
+          "track_id": "venue-organic-market-zlote-tarasy",
+          "venue": {
+            "address": "ul. Złota 59",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 45,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "40-50",
+            "favourite": false,
+            "franchise": "",
+            "id": "635ff5a477a8ea6e996d1b1f",
+            "location": [
+              21.0037537,
+              52.2300626
+            ],
+            "name": "Organic Market Złote Tarasy",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.4,
+              "volume": 0
+            },
+            "short_description": "Sieć delikatesów z produktami ekologicznymi i tradycyjnymi",
+            "show_wolt_plus": false,
+            "slug": "organic-market-zlote-tarasy",
+            "tags": [
+              "deli",
+              "fruit",
+              "grocery"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4CVeq9m;wf:bkg:PcIjXwkQ2u9s",
+            "url": "https://imageproxy.wolt.com/assets/6798f3a972cfd659ee801166"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "6627c099f5d90b8c728f7cd4",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4CFeq9m;wf:bkg:PcIjXwkQ2Kds"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Carrefour Puławska 2",
+          "track_id": "venue-carrefour-pulawska-2",
+          "venue": {
+            "address": "Puławska 2",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 55,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "50-60",
+            "favourite": false,
+            "franchise": "",
+            "id": "6627c099f5d90b8c728f7cd4",
+            "location": [
+              21.01996924,
+              52.2126881
+            ],
+            "name": "Carrefour Puławska 2",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.2,
+              "volume": 0
+            },
+            "short_description": "Uwaga - ważne informacje - przed zamówieniem zapoznaj się z sekcją dodatkowych informacji wewnątrz sklepu",
+            "show_wolt_plus": false,
+            "slug": "carrefour-pulawska-2",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j2RT1wf;3QeR0PR3PJ9c3h74PJ4O",
+            "url": "https://imageproxy.wolt.com/assets/677d11fd807daf139291acb6"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65533bf93c09e2aecf32b1ff",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j9FUtzcy;4R95c8QX:cQXHhrKW95"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Auchan Okęcie",
+          "track_id": "venue-auchan-okecie",
+          "venue": {
+            "address": "Aleja Krakowska 61",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 60,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "55-65",
+            "favourite": false,
+            "franchise": "",
+            "id": "65533bf93c09e2aecf32b1ff",
+            "location": [
+              20.9372944,
+              52.1708698
+            ],
+            "name": "Auchan Okęcie",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.4,
+              "volume": 0
+            },
+            "short_description": "Codzienne zakupy blisko Ciebie! | Wszystkie informacje produktowe znajdziesz pod linkiem do strony w dodatkowych informacjach o sklepie.",
+            "show_wolt_plus": false,
+            "slug": "auchan-okecie",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j2RT1wf;3QeR0PR3PJ9c3h74PJ4O",
+            "url": "https://imageproxy.wolt.com/assets/677d11fa807daf139291acaf"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "6582dcfa3192f15dc8fb9f60",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j9FUtzcy;4R95c8QX:cQXHhrKW95"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Auchan Ursus",
+          "track_id": "venue-auchan-ursus",
+          "venue": {
+            "address": "Dzieci Warszawy 28",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 60,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "55-65",
+            "favourite": false,
+            "franchise": "",
+            "id": "6582dcfa3192f15dc8fb9f60",
+            "location": [
+              20.9087303,
+              52.1922737
+            ],
+            "name": "Auchan Ursus",
+            "online": false,
+            "price_range": 1,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 7.6,
+              "volume": 0
+            },
+            "short_description": "Codzienne zakupy blisko Ciebie! | Wszystkie informacje produktowe znajdziesz pod linkiem do strony w dodatkowych informacjach o sklepie.",
+            "show_wolt_plus": false,
+            "slug": "auchan-ursus",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4CFeq9m;wf:bkg:PcIjXwkQ2Kds",
+            "url": "https://imageproxy.wolt.com/assets/6798f3b5a2da890ebfeb8a32"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65f07700eece8732f1a0c4a9",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4CFeq9m;wf:bkg:PcIjXwkQ2Kds"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Carrefour Aleja Wilanowska",
+          "track_id": "venue-carrefour-aleja-wilanowska",
+          "venue": {
+            "address": "Aleja Wilanowska 365",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 60,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "55-65",
+            "favourite": false,
+            "franchise": "",
+            "id": "65f07700eece8732f1a0c4a9",
+            "location": [
+              21.011634,
+              52.1788102
+            ],
+            "name": "Carrefour Aleja Wilanowska",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.2,
+              "volume": 0
+            },
+            "short_description": "Uwaga - ważne informacje - przed zamówieniem zapoznaj się z sekcją dodatkowych informacji wewnątrz sklepu",
+            "show_wolt_plus": false,
+            "slug": "carrefour-aleja-wilanowska",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6M7xGY0kS8Q;KKYoORYghndcPHJ",
+            "url": "https://imageproxy.wolt.com/assets/673208142d3e61400738018a"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "6357ea9542e23b81d964562d",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j5BmFb:QXGrc0y;JhIgRL4VAl4b6"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "SPAR Blue City",
+          "track_id": "venue-spar-blue-city",
+          "venue": {
+            "address": "al. Jerozolimskie 179",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 55,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "50-60",
+            "favourite": false,
+            "franchise": "",
+            "id": "6357ea9542e23b81d964562d",
+            "location": [
+              20.9556317,
+              52.2125047
+            ],
+            "name": "SPAR Blue City",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.8,
+              "volume": 0
+            },
+            "short_description": "Sklep na Twoje codzienne zakupy.",
+            "show_wolt_plus": false,
+            "slug": "spar-blue-city",
+            "tags": [
+              "grocery",
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4CVeq9m;wf:bkg:PcIjXwkQ2u9s",
+            "url": "https://imageproxy.wolt.com/assets/6798f3a672cfd659ee801161"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65f07b3e0e2dbf993e630807",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4CFeq9m;wf:bkg:PcIjXwkQ2Kds"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Carrefour Marszałkowska",
+          "track_id": "venue-carrefour-marszalkowska",
+          "venue": {
+            "address": "Marszałkowska 104/122",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 50,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "45-55",
+            "favourite": false,
+            "franchise": "",
+            "id": "65f07b3e0e2dbf993e630807",
+            "location": [
+              21.01073809,
+              52.23230771
+            ],
+            "name": "Carrefour Marszałkowska",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.2,
+              "volume": 0
+            },
+            "short_description": "Uwaga - ważne informacje - przed zamówieniem zapoznaj się z sekcją dodatkowych informacji wewnątrz sklepu",
+            "show_wolt_plus": false,
+            "slug": "carrefour-marszalkowska",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4CVeq9m;wf:bkg:PcIjXwkQ2u9s",
+            "url": "https://imageproxy.wolt.com/assets/6798f3a5a2da890ebfeb89ec"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65f07b3e69f531e12576ae0c",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4CFeq9m;wf:bkg:PcIjXwkQ2Kds"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Carrefour Puławska 39",
+          "track_id": "venue-carrefour-pulawska",
+          "venue": {
+            "address": "Puławska 39",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 40,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "35-45",
+            "favourite": false,
+            "franchise": "",
+            "id": "65f07b3e69f531e12576ae0c",
+            "location": [
+              21.0225859,
+              52.2073789
+            ],
+            "name": "Carrefour Puławska 39",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.0,
+              "volume": 0
+            },
+            "short_description": "Uwaga - ważne informacje - przed zamówieniem zapoznaj się z sekcją dodatkowych informacji wewnątrz sklepu",
+            "show_wolt_plus": false,
+            "slug": "carrefour-pulawska",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4CFeq9m;wf:bkg:PcIjXwkQ2Kds",
+            "url": "https://imageproxy.wolt.com/assets/6798f3af69d4c47b6d1680c1"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65f0796a4959655aa8c54e6c",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4CVeq96;wf:bkg:PcIjXwkQ2Kds"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Carrefour Dolna",
+          "track_id": "venue-carrefour-dolna",
+          "venue": {
+            "address": "Dolna 43/45",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 50,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "45-55",
+            "favourite": false,
+            "franchise": "",
+            "id": "65f0796a4959655aa8c54e6c",
+            "location": [
+              21.0255774,
+              52.1996435
+            ],
+            "name": "Carrefour Dolna",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.2,
+              "volume": 0
+            },
+            "short_description": "Uwaga - ważne informacje - przed zamówieniem zapoznaj się z sekcją dodatkowych informacji wewnątrz sklepu",
+            "show_wolt_plus": false,
+            "slug": "carrefour-dolna",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4CFeq9m;wf:bkg:PcIjXwkQ2Kds",
+            "url": "https://imageproxy.wolt.com/assets/6798f3ab69d4c47b6d1680b8"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65f0796befc236a45e4d8c9a",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4CVeq96;wf:bkg:PcIjXwkQ2Kds"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Carrefour Modzelewskiego",
+          "track_id": "venue-carrefour-modzelewskiego",
+          "venue": {
+            "address": "Modzelewskiego 42/44",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 35,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "30-40",
+            "favourite": false,
+            "franchise": "",
+            "id": "65f0796befc236a45e4d8c9a",
+            "location": [
+              21.0140129,
+              52.1756131
+            ],
+            "name": "Carrefour Modzelewskiego",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.0,
+              "volume": 0
+            },
+            "short_description": "Uwaga - ważne informacje - przed zamówieniem zapoznaj się z sekcją dodatkowych informacji wewnątrz sklepu",
+            "show_wolt_plus": false,
+            "slug": "carrefour-modzelewskiego",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5TVxKgyDel4UhRjPtJc;K7e2QVk",
+            "url": "https://imageproxy.wolt.com/assets/673206ee26e644617b0630c5"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "60a4c4f27171bf7c21818af4",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j6Kbaw;:;;kW4xPtQz8PPtqYL5d3"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Organic Market - Q22",
+          "track_id": "venue-organic-farma-zdrowia-al-jana-pawa-ii",
+          "venue": {
+            "address": "Al. Jana Pawła II 22",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 40,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "35-45",
+            "favourite": false,
+            "franchise": "",
+            "id": "60a4c4f27171bf7c21818af4",
+            "location": [
+              20.9980939,
+              52.2355943
+            ],
+            "name": "Organic Market - Q22",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "Sieć delikatesów z produktami ekologicznymi i tradycyjnymi",
+            "show_wolt_plus": false,
+            "slug": "organic-farma-zdrowia-al-jana-pawa-ii",
+            "tags": [
+              "deli",
+              "fruit",
+              "grocery"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5TVxKgyDel4UhRjPtJc;K7e2QVk",
+            "url": "https://imageproxy.wolt.com/assets/6732083a3a4ce8588bd76e83"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "60d1cd521636ad0f3d26fddd",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j6Kbaw;:;;kW4xPtQz8PPtqYL5d3"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Organic Market - Mokotów",
+          "track_id": "venue-organic-farma-zdrowia-mokotow",
+          "venue": {
+            "address": "Galeria Mokotów, ul. Wołoska 12",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 35,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "30-40",
+            "favourite": false,
+            "franchise": "",
+            "id": "60d1cd521636ad0f3d26fddd",
+            "location": [
+              21.0040809,
+              52.1796889
+            ],
+            "name": "Organic Market - Mokotów",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.2,
+              "volume": 0
+            },
+            "short_description": "Sieć delikatesów z produktami ekologicznymi i tradycyjnymi",
+            "show_wolt_plus": false,
+            "slug": "organic-farma-zdrowia-mokotow",
+            "tags": [
+              "deli",
+              "fruit",
+              "grocery"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j7J9BU;ZNqjd;;8PTcTtjLczd4KG",
+            "url": "https://imageproxy.wolt.com/assets/67320760e24e8e5c114da3e9"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "6554a4ad7efdd003e5fb8977",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j7J9BU;ZNqjd;;8PTcTtjLczd4KG"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Dobrze Wiedzieć Delikatesy Okulska",
+          "track_id": "venue-dobrze-wiedzie-delikatesy",
+          "venue": {
+            "address": "Olkuska 12",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 40,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "35-45",
+            "favourite": false,
+            "franchise": "",
+            "id": "6554a4ad7efdd003e5fb8977",
+            "location": [
+              21.0215782,
+              52.1994028
+            ],
+            "name": "Dobrze Wiedzieć Delikatesy Okulska",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.8,
+              "volume": 0
+            },
+            "short_description": "Wyszukane delikatesy",
+            "show_wolt_plus": false,
+            "slug": "dobrze-wiedzie-delikatesy",
+            "tags": [
+              "deli",
+              "grocery"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j3JIaZ7g;uUfbyjlcAQIZuQ:d3nB",
+            "url": "https://imageproxy.wolt.com/assets/67331b92308c8149ae832f0c"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65cde4ec0e716f00ee8f2dc6",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j7NHuKkiZI9z8MTu53ORYyRl8xh4"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Lyca Mobile - Żelazna 74 PaczkoPunkt",
+          "track_id": "venue-lyca-mobile-paczkopunkt-elazna",
+          "venue": {
+            "address": "Żelazna 74",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 30,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "25-35",
+            "favourite": false,
+            "franchise": "",
+            "id": "65cde4ec0e716f00ee8f2dc6",
+            "location": [
+              20.988955,
+              52.237813
+            ],
+            "name": "Lyca Mobile - Żelazna 74 PaczkoPunkt",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "short_description": "Międzynarodowa karta prepaid Lyca Mobile cieszy się uznaniem ponad 15 milionów klientów na całym świecie. Co więcej, co 2 sekundy dołącza do nas kolejny użytkownik.",
+            "show_wolt_plus": false,
+            "slug": "lyca-mobile-paczkopunkt-elazna",
+            "tags": [
+              "International"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "jaMXCQgh;t54aPlCeQqXZkMP8xh4",
+            "url": "https://imageproxy.wolt.com/assets/6733116736eabf1e273a7213"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65cde4ec0e716f00ee8f2dc7",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j7NHuKkiZI9z8MTu53ORYyRl8xh4"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Lyca Mobile - Ogrodowa 13 PaczkoPunkt",
+          "track_id": "venue-lyca-mobile-paczkopunkt-ogrodowa",
+          "venue": {
+            "address": "Ogrodowa 13/29",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 30,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "25-35",
+            "favourite": false,
+            "franchise": "",
+            "id": "65cde4ec0e716f00ee8f2dc7",
+            "location": [
+              20.9894263,
+              52.2388516
+            ],
+            "name": "Lyca Mobile - Ogrodowa 13 PaczkoPunkt",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "short_description": "Międzynarodowa karta prepaid Lyca Mobile cieszy się uznaniem ponad 15 milionów klientów na całym świecie. Co więcej, co 2 sekundy dołącza do nas kolejny użytkownik.",
+            "show_wolt_plus": false,
+            "slug": "lyca-mobile-paczkopunkt-ogrodowa",
+            "tags": [
+              "International"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5TVxKgyDel4UhRjPtJc;K7e2QVk",
+            "url": "https://imageproxy.wolt.com/assets/673208e43df8a116fc657301"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "60e0cb1a630cd46c8759c2c0",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j6Kbaw;:;;kW4xPtQz8PPtqYL5d3"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Organic Market - Arkadia",
+          "track_id": "venue-organic-farma-zdrowia-arkadia",
+          "venue": {
+            "address": "Al. Jana Pawła II 82  ",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 55,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "50-60",
+            "favourite": false,
+            "franchise": "",
+            "id": "60e0cb1a630cd46c8759c2c0",
+            "location": [
+              20.9844813,
+              52.2571404
+            ],
+            "name": "Organic Market - Arkadia",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.4,
+              "volume": 0
+            },
+            "short_description": "Sieć delikatesów z produktami ekologicznymi i tradycyjnymi",
+            "show_wolt_plus": false,
+            "slug": "organic-farma-zdrowia-arkadia",
+            "tags": [
+              "deli",
+              "fruit",
+              "grocery"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5TVxKgyDel4UhRjPtJc;K7e2QVk",
+            "url": "https://imageproxy.wolt.com/assets/67331c44ed22780d46250a0e"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "60d1cb8c3bb838a850d832d8",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j6Kbaw;:;;kW4xPtQz8PPtqYL5d3"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Organic Market - Fieldorfa",
+          "track_id": "venue-organic-farma-zdrowia-sadyba",
+          "venue": {
+            "address": "ul Fieldorfa 10A",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 45,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "40-50",
+            "favourite": false,
+            "franchise": "",
+            "id": "60d1cb8c3bb838a850d832d8",
+            "location": [
+              21.092488,
+              52.2237842
+            ],
+            "name": "Organic Market - Fieldorfa",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "Sieć delikatesów z produktami ekologicznymi i tradycyjnymi",
+            "show_wolt_plus": false,
+            "slug": "organic-farma-zdrowia-sadyba",
+            "tags": [
+              "deli",
+              "fruit",
+              "grocery"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4CVeq9m;wf:bkg:PcIjXwkQ2u9s",
+            "url": "https://imageproxy.wolt.com/assets/6798f3a7a2da890ebfeb89f1"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65f07700aefc25e3f54f7dac",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4CFeq9m;wf:bkg:PcIjXwkQ2Kds"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Carrefour Ostrobramska",
+          "track_id": "venue-carrefour-ostrobramska",
+          "venue": {
+            "address": "Ostrobramska 75 c",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 75,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "70-80"
+            },
+            "estimate_range": "70-80",
+            "favourite": false,
+            "franchise": "",
+            "id": "65f07700aefc25e3f54f7dac",
+            "location": [
+              21.1061513,
+              52.2315458
+            ],
+            "name": "Carrefour Ostrobramska",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.6,
+              "volume": 0
+            },
+            "short_description": "Uwaga - ważne informacje - przed zamówieniem zapoznaj się z sekcją dodatkowych informacji wewnątrz sklepu",
+            "show_wolt_plus": false,
+            "slug": "carrefour-ostrobramska",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4CVeq9m;wf:bkg:PcIjXwkQ2u9s",
+            "url": "https://imageproxy.wolt.com/assets/6798f3a369d4c47b6d16809b"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "6798f17ad62cb146d3c1c277",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4CFeq9m;wf:bkg:PcIjXwkQ2Kds"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Carrefour Klaudyny",
+          "track_id": "venue-carrefour-klaudyny",
+          "venue": {
+            "address": "Klaudyny 26",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 60,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "55-65"
+            },
+            "estimate_range": "55-65",
+            "favourite": false,
+            "franchise": "",
+            "id": "6798f17ad62cb146d3c1c277",
+            "location": [
+              20.9720639,
+              52.2830479
+            ],
+            "name": "Carrefour Klaudyny",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.0,
+              "volume": 0
+            },
+            "short_description": "Uwaga - ważne informacje - przed zamówieniem zapoznaj się z sekcją dodatkowych informacji wewnątrz sklepu",
+            "show_wolt_plus": false,
+            "slug": "carrefour-klaudyny",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4CVeq9m;wf:bkg:PcIjXwkQ2u9s",
+            "url": "https://imageproxy.wolt.com/assets/67cf05e70f6aa346c0fc114f"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "67b658c8a58e23abe9be30fc",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4CVeq9m;wf:bkg:PcIjXwkQ2u9s"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Carrefour Światowida",
+          "track_id": "venue-carrefour-wiatowida",
+          "venue": {
+            "address": "Światowida 17",
+            "badges": [
+              {
+                "text": "New",
+                "variant": "primary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 60,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "55-65"
+            },
+            "estimate_range": "55-65",
+            "favourite": false,
+            "franchise": "",
+            "id": "67b658c8a58e23abe9be30fc",
+            "location": [
+              20.9669541,
+              52.3170408
+            ],
+            "name": "Carrefour Światowida",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "short_description": "Uwaga - ważne informacje - przed zamówieniem zapoznaj się z sekcją dodatkowych informacji wewnątrz sklepu",
+            "show_wolt_plus": false,
+            "slug": "carrefour-wiatowida",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j2RT1wf;3QeR0PR3PJ9c3h74PJ4O",
+            "url": "https://imageproxy.wolt.com/assets/677d11f8807daf139291acac"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "6643345d755f79f7891794c7",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j9FUtzcy;4R95c8QX:cQXHhrKW95"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Auchan Piaseczno",
+          "track_id": "venue-auchan-piaseczno",
+          "venue": {
+            "address": "Puławska 46",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 80,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "75-85",
+            "favourite": false,
+            "franchise": "",
+            "id": "6643345d755f79f7891794c7",
+            "location": [
+              21.0228208,
+              52.0956224
+            ],
+            "name": "Auchan Piaseczno",
+            "online": false,
+            "price_range": 1,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.4,
+              "volume": 0
+            },
+            "short_description": "Codzienne zakupy blisko Ciebie! | Wszystkie informacje produktowe znajdziesz pod linkiem do strony w dodatkowych informacjach o sklepie.",
+            "show_wolt_plus": false,
+            "slug": "auchan-piaseczno",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4CFeq9m;wf:bkg:PcIjXwkQ2Kds",
+            "url": "https://imageproxy.wolt.com/assets/6798f3b469d4c47b6d1680e3"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65f07700325ef183ea304aa4",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4CFeq9m;wf:bkg:PcIjXwkQ2Kds"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Carrefour Jana Pawła II Warszawa",
+          "track_id": "venue-carrefour-jana-pawla",
+          "venue": {
+            "address": "Jana Pawła II 82",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 70,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "65-75",
+            "favourite": false,
+            "franchise": "",
+            "id": "65f07700325ef183ea304aa4",
+            "location": [
+              20.9844813,
+              52.2571404
+            ],
+            "name": "Carrefour Jana Pawła II Warszawa",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.8,
+              "volume": 0
+            },
+            "short_description": "Uwaga - ważne informacje - przed zamówieniem zapoznaj się z sekcją dodatkowych informacji wewnątrz sklepu",
+            "show_wolt_plus": false,
+            "slug": "carrefour-jana-pawla",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j2RT1wf;3QeR0PR3PJ9c3h74PJ4O",
+            "url": "https://imageproxy.wolt.com/assets/677d11fc761fc41ba2017e47"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "63c58a9dc6d45e44c5cb1243",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j9FUtzcy;4R95c8QX:cQXHhrKW95"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Auchan Wola",
+          "track_id": "venue-auchan-wolla",
+          "venue": {
+            "address": "Górczewska 124",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 90,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "85-95",
+            "favourite": false,
+            "franchise": "",
+            "id": "63c58a9dc6d45e44c5cb1243",
+            "location": [
+              20.9310869,
+              52.2413989
+            ],
+            "name": "Auchan Wola",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.2,
+              "volume": 0
+            },
+            "short_description": "Codzienne zakupy blisko Ciebie! | Wszystkie informacje produktowe znajdziesz pod linkiem do strony w dodatkowych informacjach o sklepie.",
+            "show_wolt_plus": false,
+            "slug": "auchan-wolla",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j9FUtzcy;4R95c8QX:cQXHhrKW95",
+            "url": "https://imageproxy.wolt.com/mes-image/776b006d-e980-48ce-be84-044986d2faca/07ef95b0-b5ef-43cb-ab1c-f8556dcdaf50"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "62627478db975fd947d3d535",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j2RT1wf;3QeR0PR3PJ9c3h74PJ4O"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Auchan Pokorna",
+          "track_id": "venue-auchan-pokorna",
+          "venue": {
+            "address": "ul. Pokorna 2",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 80,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "75-85",
+            "favourite": false,
+            "franchise": "",
+            "id": "62627478db975fd947d3d535",
+            "location": [
+              20.9950343,
+              52.2547037
+            ],
+            "name": "Auchan Pokorna",
+            "online": false,
+            "price_range": 1,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.2,
+              "volume": 0
+            },
+            "short_description": "Codzienne zakupy blisko Ciebie! | Wszystkie informacje produktowe znajdziesz pod linkiem do strony w dodatkowych informacjach o sklepie.",
+            "show_wolt_plus": false,
+            "slug": "auchan-pokorna",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4CFeq9m;wf:bkg:PcIjXwkQ2Kds",
+            "url": "https://imageproxy.wolt.com/assets/6798f3b372cfd659ee80118e"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65c0b94967301b024924bfda",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4CFeq9m;wf:bkg:PcIjXwkQ2Kds"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Carrefour Targowa",
+          "track_id": "venue-carrefour-targowa",
+          "venue": {
+            "address": "Targowa 72",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 90,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "85-95",
+            "favourite": false,
+            "franchise": "",
+            "id": "65c0b94967301b024924bfda",
+            "location": [
+              21.0380578,
+              52.2551706
+            ],
+            "name": "Carrefour Targowa",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.2,
+              "volume": 0
+            },
+            "short_description": "Uwaga - ważne informacje - przed zamówieniem zapoznaj się z sekcją dodatkowych informacji wewnątrz sklepu",
+            "show_wolt_plus": false,
+            "slug": "carrefour-targowa",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j2RT1wf;3QeR0PR3PJ9c3h74PJ4O",
+            "url": "https://imageproxy.wolt.com/assets/677d1202807daf139291acbb"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "62627394b4964329ae3c1703",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j9FUtzcy;4R95c8QX:cQXHhrKW95"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Auchan Bonifacego",
+          "track_id": "venue-auchan-bonifacego",
+          "venue": {
+            "address": "ul. św. Bonifacego 70/12",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 85,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "80-90",
+            "favourite": false,
+            "franchise": "",
+            "id": "62627394b4964329ae3c1703",
+            "location": [
+              21.0555484,
+              52.1809763
+            ],
+            "name": "Auchan Bonifacego",
+            "online": false,
+            "price_range": 1,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.4,
+              "volume": 0
+            },
+            "short_description": "Codzienne zakupy blisko Ciebie! | Wszystkie informacje produktowe znajdziesz pod linkiem do strony w dodatkowych informacjach o sklepie.",
+            "show_wolt_plus": false,
+            "slug": "auchan-bonifacego",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6M7xGY0kS8Q;KKYoORYghndcPHJ",
+            "url": "https://imageproxy.wolt.com/assets/6732076439260268ebd2458e"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "5f44d9167c2654b1b7ee3f2e",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j5BmFb:QXGrc0y;JhIgRL4VAl4b6"
+          },
+          "overlay": "Closed",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "SPAR Koszyki",
+          "track_id": "venue-spar-koszyki",
+          "venue": {
+            "address": "Koszykowa 63",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 60,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "55-65",
+            "favourite": false,
+            "franchise": "",
+            "id": "5f44d9167c2654b1b7ee3f2e",
+            "location": [
+              21.0115264,
+              52.2224832
+            ],
+            "name": "SPAR Koszyki",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.8,
+              "volume": 0
+            },
+            "short_description": "Sklep na Twoje codzienne zakupy.",
+            "show_wolt_plus": false,
+            "slug": "spar-koszyki",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j2RT1wf;3QeR0PR3PJ9c3h74PJ4O",
+            "url": "https://imageproxy.wolt.com/assets/677d1225300f0372d4bb1e33"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "626275bdcbc5b142c3972239",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j9FUtzcy;4R95c8QX:cQXHhrKW95"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Auchan Meksykańska",
+          "track_id": "venue-auchan-meksykaska",
+          "venue": {
+            "address": "ul. Meksykańska 8",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "626275bdcbc5b142c3972239",
+            "location": [
+              21.0605392,
+              52.2309274
+            ],
+            "name": "Auchan Meksykańska",
+            "online": false,
+            "price_range": 1,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.2,
+              "volume": 0
+            },
+            "short_description": "Codzienne zakupy blisko Ciebie! | Wszystkie informacje produktowe znajdziesz pod linkiem do strony w dodatkowych informacjach o sklepie.",
+            "show_wolt_plus": false,
+            "slug": "auchan-meksykaska",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j2RT1wf;3QeR0PR3PJ9c3h74PJ4O",
+            "url": "https://imageproxy.wolt.com/assets/677d1201807daf139291acb8"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "626272a54fd4b0866adbb4c6",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j9FUtzcy;4R95c8QX:cQXHhrKW95"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Auchan Puławska",
+          "track_id": "venue-auchan-puawska",
+          "venue": {
+            "address": "ul. Puławska 427",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 75,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "70-80",
+            "favourite": false,
+            "franchise": "",
+            "id": "626272a54fd4b0866adbb4c6",
+            "location": [
+              21.0267277,
+              52.1409888
+            ],
+            "name": "Auchan Puławska",
+            "online": false,
+            "price_range": 1,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.6,
+              "volume": 0
+            },
+            "short_description": "Codzienne zakupy blisko Ciebie! | Wszystkie informacje produktowe znajdziesz pod linkiem do strony w dodatkowych informacjach o sklepie.",
+            "show_wolt_plus": false,
+            "slug": "auchan-puawska",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j9FUtzcy;4R95c8QX:cQXHhrKW95",
+            "url": "https://imageproxy.wolt.com/mes-image/776b006d-e980-48ce-be84-044986d2faca/07ef95b0-b5ef-43cb-ab1c-f8556dcdaf50"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "62627352e4c68fa7b19722e5",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j2RT1wf;3QeR0PR3PJ9c3h74PJ4O"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Auchan al. Rzeczypospolitej",
+          "track_id": "venue-auchan-al-rzeczypospolitej",
+          "venue": {
+            "address": "Al. Rzeczypospolitej 17",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 60,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "55-65",
+            "favourite": false,
+            "franchise": "",
+            "id": "62627352e4c68fa7b19722e5",
+            "location": [
+              21.0701709,
+              52.1623266
+            ],
+            "name": "Auchan al. Rzeczypospolitej",
+            "online": false,
+            "price_range": 1,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.6,
+              "volume": 0
+            },
+            "short_description": "Codzienne zakupy blisko Ciebie! | Wszystkie informacje produktowe znajdziesz pod linkiem do strony w dodatkowych informacjach o sklepie.",
+            "show_wolt_plus": false,
+            "slug": "auchan-al-rzeczypospolitej",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j2RT1wf;3QeR0PR3PJ9c3h74PJ4O",
+            "url": "https://imageproxy.wolt.com/assets/677d1226761fc41ba2017e71"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "633aa4a187b195cbbf847680",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j9FUtzcy;4R95c8QX:cQXHhrKW95"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Auchan Broniewskiego",
+          "track_id": "venue-auchan-broniewskiego",
+          "venue": {
+            "address": "Broniewskiego 28",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 70,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "65-75",
+            "favourite": false,
+            "franchise": "",
+            "id": "633aa4a187b195cbbf847680",
+            "location": [
+              20.9636427,
+              52.2671734
+            ],
+            "name": "Auchan Broniewskiego",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 7.8,
+              "volume": 0
+            },
+            "short_description": "Codzienne zakupy blisko Ciebie! | Wszystkie informacje produktowe znajdziesz pod linkiem do strony w dodatkowych informacjach o sklepie.",
+            "show_wolt_plus": false,
+            "slug": "auchan-broniewskiego",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4CFeq9m;wf:bkg:PcIjXwkQ2Kds",
+            "url": "https://imageproxy.wolt.com/assets/6798f3ab72cfd659ee801173"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65cdf194d7378b6cffc6ee32",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4CFeq9m;wf:bkg:PcIjXwkQ2Kds"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Carrefour Sadyba",
+          "track_id": "venue-carrefour-sadyba",
+          "venue": {
+            "address": "Powsińska 31",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 80,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "75-85",
+            "favourite": false,
+            "franchise": "",
+            "id": "65cdf194d7378b6cffc6ee32",
+            "location": [
+              21.062783,
+              52.1872536
+            ],
+            "name": "Carrefour Sadyba",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.6,
+              "volume": 0
+            },
+            "short_description": "Uwaga - ważne informacje - przed zamówieniem zapoznaj się z sekcją dodatkowych informacji wewnątrz sklepu",
+            "show_wolt_plus": false,
+            "slug": "carrefour-sadyba",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j2RT1xj;3QeR0PR3PJ9c3h6QPJ4O",
+            "url": "https://imageproxy.wolt.com/assets/677d11f8807daf139291acaa"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "6752e7f7ac30050c774300d9",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j9FUtzcy;4R95c8QX:cQXHhrKW95"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Auchan KEN",
+          "track_id": "venue-auchan-komisja-edukacji-narodowej",
+          "venue": {
+            "address": "Aleja Komisji Edukacji Narodowej 93",
+            "badges": [
+              {
+                "text": "New",
+                "variant": "primary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 55,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "50-60",
+            "favourite": false,
+            "franchise": "",
+            "id": "6752e7f7ac30050c774300d9",
+            "location": [
+              21.0335522,
+              52.1559252
+            ],
+            "name": "Auchan KEN",
+            "online": false,
+            "price_range": 1,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.6,
+              "volume": 0
+            },
+            "short_description": "Codzienne zakupy blisko Ciebie! | Wszystkie informacje produktowe znajdziesz pod linkiem do strony w dodatkowych informacjach o sklepie.",
+            "show_wolt_plus": false,
+            "slug": "auchan-komisja-edukacji-narodowej",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j2RT1wf;3QeR0PR3PJ9c3h74PJ4O",
+            "url": "https://imageproxy.wolt.com/assets/677d1203761fc41ba2017e50"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "62627526cc382efc9e812bed",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j9FUtzcy;4R95c8QX:cQXHhrKW95"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Auchan Kobielska",
+          "track_id": "venue-auchan-kobielska",
+          "venue": {
+            "address": "ul. Kobielska 23",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 70,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "65-75",
+            "favourite": false,
+            "franchise": "",
+            "id": "62627526cc382efc9e812bed",
+            "location": [
+              21.0854553,
+              52.246248
+            ],
+            "name": "Auchan Kobielska",
+            "online": false,
+            "price_range": 1,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 7.8,
+              "volume": 0
+            },
+            "short_description": "Codzienne zakupy blisko Ciebie! | Wszystkie informacje produktowe znajdziesz pod linkiem do strony w dodatkowych informacjach o sklepie.",
+            "show_wolt_plus": false,
+            "slug": "auchan-kobielska",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j9FUtzcy;4R95c8QX:cQXHdrKX95",
+            "url": "https://imageproxy.wolt.com/mes-image/776b006d-e980-48ce-be84-044986d2faca/07ef95b0-b5ef-43cb-ab1c-f8556dcdaf50"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "647859c7bc53bb70839f2536",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j9FUtzcy;4R95c8QX:cQXHhrKW95"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Auchan Modlińska",
+          "track_id": "venue-auchan-modlinska",
+          "venue": {
+            "address": "Modlińska 8",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 75,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "70-80",
+            "favourite": false,
+            "franchise": "",
+            "id": "647859c7bc53bb70839f2536",
+            "location": [
+              21.0006125,
+              52.2945533
+            ],
+            "name": "Auchan Modlińska",
+            "online": false,
+            "price_range": 1,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.4,
+              "volume": 0
+            },
+            "short_description": "Codzienne zakupy blisko Ciebie! | Wszystkie informacje produktowe znajdziesz pod linkiem do strony w dodatkowych informacjach o sklepie.",
+            "show_wolt_plus": false,
+            "slug": "auchan-modlinska",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4CVeq9m;wf:bkg:PcIjXwkQ2u9s",
+            "url": "https://imageproxy.wolt.com/assets/6798f3a4a2da890ebfeb89db"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66150a1cdfd70ceb5f8ad5c6",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4CFeq9m;wf:bkg:PcIjXwkQ2Kds"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Carrefour Powstańców Śląskich",
+          "track_id": "venue-carrefour-powstancow-slaskich",
+          "venue": {
+            "address": "Powstańców Śląskich 126",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 70,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "65-75",
+            "favourite": false,
+            "franchise": "",
+            "id": "66150a1cdfd70ceb5f8ad5c6",
+            "location": [
+              20.92936,
+              52.2635487
+            ],
+            "name": "Carrefour Powstańców Śląskich",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.6,
+              "volume": 0
+            },
+            "short_description": "Uwaga - ważne informacje - przed zamówieniem zapoznaj się z sekcją dodatkowych informacji wewnątrz sklepu",
+            "show_wolt_plus": false,
+            "slug": "carrefour-powstancow-slaskich",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j6MDlzY1AQ8P;KOXoONIcyNBd4rJ",
+            "url": "https://imageproxy.wolt.com/assets/67320815cc36c63296339175"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "608ac12608dad37faa1b1f50",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j5BmFb:QXGrc0y;JhIgRL4VAl4b6"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "SPAR Klif",
+          "track_id": "venue-spar-klif",
+          "venue": {
+            "address": "Okopowa 58/72",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 55,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "50-60",
+            "favourite": false,
+            "franchise": "",
+            "id": "608ac12608dad37faa1b1f50",
+            "location": [
+              20.9794175,
+              52.2475376
+            ],
+            "name": "SPAR Klif",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.6,
+              "volume": 0
+            },
+            "short_description": "Sklep na Twoje codzienne zakupy.",
+            "show_wolt_plus": false,
+            "slug": "spar-klif",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4CVeq9m;wf:bkg:PcIjXwkQ2u9s",
+            "url": "https://imageproxy.wolt.com/assets/6798f3a5a2da890ebfeb89ea"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65f07b3ef05dd06e903b63d1",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4CFeq9m;wf:bkg:PcIjXwkQ2Kds"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Carrefour Składkowskiego",
+          "track_id": "venue-carrefour-skladkowskiego",
+          "venue": {
+            "address": "Gen. Sławoja-Składkowskiego 4",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 75,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "70-80",
+            "favourite": false,
+            "franchise": "",
+            "id": "65f07b3ef05dd06e903b63d1",
+            "location": [
+              20.9012975,
+              52.1885897
+            ],
+            "name": "Carrefour Składkowskiego",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 9.0,
+              "volume": 0
+            },
+            "short_description": "Uwaga - ważne informacje - przed zamówieniem zapoznaj się z sekcją dodatkowych informacji wewnątrz sklepu",
+            "show_wolt_plus": false,
+            "slug": "carrefour-skladkowskiego",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j9FUtzcy;4R95c8QX:cQXHhrKW95",
+            "url": "https://imageproxy.wolt.com/mes-image/776b006d-e980-48ce-be84-044986d2faca/07ef95b0-b5ef-43cb-ab1c-f8556dcdaf50"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "643a85bc4af7a6fc02927340",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j9FUtzcy;4R95c8QX:cQXHhrKW95"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Auchan Pileckiego",
+          "track_id": "venue-auchan-pileckiego",
+          "venue": {
+            "address": "Rotmistrza Witolda Pileckiego 69",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 55,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "50-60",
+            "favourite": false,
+            "franchise": "",
+            "id": "643a85bc4af7a6fc02927340",
+            "location": [
+              21.0271236,
+              52.1504334
+            ],
+            "name": "Auchan Pileckiego",
+            "online": false,
+            "price_range": 1,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.8,
+              "volume": 0
+            },
+            "short_description": "Codzienne zakupy blisko Ciebie! | Wszystkie informacje produktowe znajdziesz pod linkiem do strony w dodatkowych informacjach o sklepie.",
+            "show_wolt_plus": false,
+            "slug": "auchan-pileckiego",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4CFeq9m;wf:bkg:PcIjXwkQ2Kds",
+            "url": "https://imageproxy.wolt.com/assets/6798f3b072cfd659ee801186"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65f07b3e3ec6e8eadeff4728",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j5QnFL3bM016;KWIgQX3Q0N4L;uI"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Carrefour Solec",
+          "track_id": "venue-carrefour-solec",
+          "venue": {
+            "address": "Solec 32/34",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 50,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "45-55",
+            "favourite": false,
+            "franchise": "",
+            "id": "65f07b3e3ec6e8eadeff4728",
+            "location": [
+              21.0335894,
+              52.2350272
+            ],
+            "name": "Carrefour Solec",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.8,
+              "volume": 0
+            },
+            "short_description": "Uwaga - ważne informacje - przed zamówieniem zapoznaj się z sekcją dodatkowych informacji wewnątrz sklepu",
+            "show_wolt_plus": false,
+            "slug": "carrefour-solec",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4CFeq9m;wf:bkg:PcIjXwkQ2Kds",
+            "url": "https://imageproxy.wolt.com/assets/6798f3b0a2da890ebfeb8a0e"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65f0796a20a8e46957c895e1",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4CFeq9m;wf:bkg:PcIjXwkQ2Kds"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Carrefour Anny German",
+          "track_id": "venue-carrefour-anny-german",
+          "venue": {
+            "address": "Anny German 20",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 55,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "50-60",
+            "favourite": false,
+            "franchise": "",
+            "id": "65f0796a20a8e46957c895e1",
+            "location": [
+              20.9717356,
+              52.2635277
+            ],
+            "name": "Carrefour Anny German",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.8,
+              "volume": 0
+            },
+            "short_description": "Uwaga - ważne informacje - przed zamówieniem zapoznaj się z sekcją dodatkowych informacji wewnątrz sklepu",
+            "show_wolt_plus": false,
+            "slug": "carrefour-anny-german",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j2RT1wj;3ReR0PR3PJ9c3h6QPJ4O",
+            "url": "https://imageproxy.wolt.com/assets/67b710b53bbee85d4dccc9fb"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "67b70ce021a45c55e642c0f5",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j9FEtzcy;4R95c8QX:cQXHhrKW95"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Auchan Umińskiego",
+          "track_id": "venue-auchan-uminskiego",
+          "venue": {
+            "address": "Umińskiego 2",
+            "badges": [
+              {
+                "text": "New",
+                "variant": "primary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 60,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "55-65",
+            "favourite": false,
+            "franchise": "",
+            "id": "67b70ce021a45c55e642c0f5",
+            "location": [
+              21.1022733,
+              52.2237027
+            ],
+            "name": "Auchan Umińskiego",
+            "online": false,
+            "price_range": 1,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.6,
+              "volume": 0
+            },
+            "short_description": "Codzienne zakupy blisko Ciebie! | Wszystkie informacje produktowe znajdziesz pod linkiem do strony w dodatkowych informacjach o sklepie.",
+            "show_wolt_plus": false,
+            "slug": "auchan-uminskiego",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j2RT1wf;3QeR0PR3PJ9c3h74PJ4O",
+            "url": "https://imageproxy.wolt.com/assets/677d11ff761fc41ba2017e4b"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "643a85bcff9c932c2e229e5f",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j9FUtzcy;4R95c8QX:cQXHhrKW95"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Auchan Andersena",
+          "track_id": "venue-auchan-andersena",
+          "venue": {
+            "address": "Hansa Christiana Andersena 4",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 75,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "70-80",
+            "favourite": false,
+            "franchise": "",
+            "id": "643a85bcff9c932c2e229e5f",
+            "location": [
+              20.93731756,
+              52.28079297
+            ],
+            "name": "Auchan Andersena",
+            "online": false,
+            "price_range": 1,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.4,
+              "volume": 0
+            },
+            "short_description": "Codzienne zakupy blisko Ciebie! | Wszystkie informacje produktowe znajdziesz pod linkiem do strony w dodatkowych informacjach o sklepie.",
+            "show_wolt_plus": false,
+            "slug": "auchan-andersena",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j2RT1wf;3QeR0PR3PJ9c3h74PJ4O",
+            "url": "https://imageproxy.wolt.com/assets/677d1200761fc41ba2017e4d"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "63c58a9dace28d5be2ccb7d2",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j9FUtzcy;4R95c8QX:cQXHhrKW95"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Auchan Jubilerska",
+          "track_id": "venue-auchan-jubilerrska",
+          "venue": {
+            "address": "Jubilerska 1/3",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 70,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "65-75",
+            "favourite": false,
+            "franchise": "",
+            "id": "63c58a9dace28d5be2ccb7d2",
+            "location": [
+              21.1193638,
+              52.2351349
+            ],
+            "name": "Auchan Jubilerska",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.4,
+              "volume": 0
+            },
+            "short_description": "Codzienne zakupy blisko Ciebie! | Wszystkie informacje produktowe znajdziesz pod linkiem do strony w dodatkowych informacjach o sklepie.",
+            "show_wolt_plus": false,
+            "slug": "auchan-jubilerrska",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4CFeq9m;wf:bkg:PcIjXwkQ2Kds",
+            "url": "https://imageproxy.wolt.com/assets/6798f3aa72cfd659ee80116b"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65f0796b4a1595e8031423b9",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j5QnFL3bM016;KWIgQX3Q0N4L;uI"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Carrefour Rembielińska",
+          "track_id": "venue-carrefour-rembielinska",
+          "venue": {
+            "address": "Rembielińska 7",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 55,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "50-60",
+            "favourite": false,
+            "franchise": "",
+            "id": "65f0796b4a1595e8031423b9",
+            "location": [
+              21.0318588,
+              52.2861394
+            ],
+            "name": "Carrefour Rembielińska",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.8,
+              "volume": 0
+            },
+            "short_description": "Uwaga - ważne informacje - przed zamówieniem zapoznaj się z sekcją dodatkowych informacji wewnątrz sklepu",
+            "show_wolt_plus": false,
+            "slug": "carrefour-rembielinska",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j2RT1wf;3QeR0PR3PJ9c3h74PJ4O",
+            "url": "https://imageproxy.wolt.com/assets/677d11fd761fc41ba2017e48"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "647859c7f534f51a8b096995",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j9FUtzcy;4R95c8QX:cQXHhrKW95"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Auchan Piłsudskiego Marki",
+          "track_id": "venue-auchan-marki",
+          "venue": {
+            "address": "M1 Marki, Piłsudskiego 1",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 70,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "65-75",
+            "favourite": false,
+            "franchise": "",
+            "id": "647859c7f534f51a8b096995",
+            "location": [
+              21.08725721,
+              52.30584349
+            ],
+            "name": "Auchan Piłsudskiego Marki",
+            "online": false,
+            "price_range": 1,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.4,
+              "volume": 0
+            },
+            "short_description": "Codzienne zakupy blisko Ciebie! | Wszystkie informacje produktowe znajdziesz pod linkiem do strony w dodatkowych informacjach o sklepie.",
+            "show_wolt_plus": false,
+            "slug": "auchan-marki",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4CVeq9m;wf:bkg:PcIjXwkQ2u9s",
+            "url": "https://imageproxy.wolt.com/assets/6798f3b5a2da890ebfeb8a2f"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65f07700aefc25e3f54f7dab",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4CFeq9m;wf:bkg:PcIjXwkQ2Kds"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Carrefour Światowida",
+          "track_id": "venue-carrefour-swiatowida",
+          "venue": {
+            "address": "Światowida 18",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 70,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "65-75",
+            "favourite": false,
+            "franchise": "",
+            "id": "65f07700aefc25e3f54f7dab",
+            "location": [
+              20.9659936,
+              52.3197639
+            ],
+            "name": "Carrefour Światowida",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.2,
+              "volume": 0
+            },
+            "short_description": "Uwaga - ważne informacje - przed zamówieniem zapoznaj się z sekcją dodatkowych informacji wewnątrz sklepu",
+            "show_wolt_plus": false,
+            "slug": "carrefour-swiatowida",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4CVeq9m;wf:bkg:PcIjXwkQ2u9s",
+            "url": "https://imageproxy.wolt.com/assets/6798f3a869d4c47b6d1680ac"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "66150f46ba87b0303db40ae0",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4CFeq9m;wf:bkg:PcIjXwkQ2Kds"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Carrefour Głębocka",
+          "track_id": "venue-carrefour-glebocka",
+          "venue": {
+            "address": "Głębocka 15",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 75,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "70-80",
+            "favourite": false,
+            "franchise": "",
+            "id": "66150f46ba87b0303db40ae0",
+            "location": [
+              21.0577247,
+              52.3051919
+            ],
+            "name": "Carrefour Głębocka",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.2,
+              "volume": 0
+            },
+            "short_description": "Uwaga - ważne informacje - przed zamówieniem zapoznaj się z sekcją dodatkowych informacji wewnątrz sklepu",
+            "show_wolt_plus": false,
+            "slug": "carrefour-glebocka",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4CVeq9m;wf:bkg:PcIjXwkQ2u9s",
+            "url": "https://imageproxy.wolt.com/assets/67cf070572b6b47c63cc3f0e"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "67b658c8b8ba2f0aae25bda3",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4CVeq9m;wf:bkg:PcIjXwkQ2u9s"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Carrefour Szpotańskiego",
+          "track_id": "venue-carrefour-szpotaskiego",
+          "venue": {
+            "address": "Szpotańskiego 4",
+            "badges": [
+              {
+                "text": "New",
+                "variant": "primary"
+              }
+            ],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 55,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "50-60",
+            "favourite": false,
+            "franchise": "",
+            "id": "67b658c8b8ba2f0aae25bda3",
+            "location": [
+              21.1685219,
+              52.205905
+            ],
+            "name": "Carrefour Szpotańskiego",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "short_description": "Uwaga - ważne informacje - przed zamówieniem zapoznaj się z sekcją dodatkowych informacji wewnątrz sklepu",
+            "show_wolt_plus": false,
+            "slug": "carrefour-szpotaskiego",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j4CVeq9m;wf:bkg:PcIjXwkQ2u9s",
+            "url": "https://imageproxy.wolt.com/assets/6798f3a8a2da890ebfeb89fa"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "65f077009963a389b469c1c7",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j4CFeq9m;wf:bkg:PcIjXwkQ2Kds"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Carrefour Białołęcka",
+          "track_id": "venue-carrefour-bialolecka",
+          "venue": {
+            "address": "Białołęcka 222",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 55,
+            "estimate_box": {
+              "subtitle": "Closed",
+              "template": "closed"
+            },
+            "estimate_range": "50-60",
+            "favourite": false,
+            "franchise": "",
+            "id": "65f077009963a389b469c1c7",
+            "location": [
+              21.0302805,
+              52.3174329
+            ],
+            "name": "Carrefour Białołęcka",
+            "online": false,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.8,
+              "volume": 0
+            },
+            "short_description": "Uwaga - ważne informacje - przed zamówieniem zapoznaj się z sekcją dodatkowych informacji wewnątrz sklepu",
+            "show_wolt_plus": false,
+            "slug": "carrefour-bialolecka",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "jfzYLlmST2pl2;NmFsKXQOvb9tll",
+            "url": "https://imageproxy.wolt.com/assets/67335e0029cd4b694e52aa03"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "667041f96f870653a2704ed4",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "jhAcLhmAT2pB3fJrFIKXQPqYdtll"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Wolt Market - Centrum",
+          "track_id": "venue-wolt-market-centrum-2",
+          "venue": {
+            "address": "This is a virtual venue",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 45,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "40-50"
+            },
+            "estimate_range": "40-50",
+            "favourite": false,
+            "franchise": "",
+            "id": "667041f96f870653a2704ed4",
+            "location": [
+              20.997625,
+              52.2494936
+            ],
+            "name": "Wolt Market - Centrum",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.0,
+              "volume": 0
+            },
+            "short_description": "Darmowa dostawa od 99 zł! 🚙\nZakupy dostarczone w kilka minut pod Twoje drzwi? To właśnie Wolt Market! 🛍\nJeżeli brakuje w naszej ofercie Twojego ulubionego produktu, daj nam znać w komentarzu przy ocenieniu Twojego zamówienia! 💙",
+            "show_wolt_plus": false,
+            "slug": "wolt-market-centrum-2",
+            "tags": [
+              "grocery",
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5AC:c0vTd;28JXAcQlb4tgNFlrt",
+            "url": "https://imageproxy.wolt.com/assets/67320901b5de01710c50ab64"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "652f8ee30a4a3850b1fa81c8",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j8SoN9ZyTbdrZ3fdh5OCZjd4hrHs"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Lisek Al. Jerozolimskie",
+          "track_id": "venue-lisek-jerozolimskie",
+          "venue": {
+            "address": "Aleje Jerozolimskie 42",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 45,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "40-50"
+            },
+            "estimate_range": "40-50",
+            "favourite": false,
+            "franchise": "",
+            "id": "652f8ee30a4a3850b1fa81c8",
+            "location": [
+              21.0134957,
+              52.2304611
+            ],
+            "name": "Lisek Al. Jerozolimskie",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 9.0,
+              "volume": 0
+            },
+            "short_description": "Daily shopping with fast home delivery!",
+            "show_wolt_plus": false,
+            "slug": "lisek-jerozolimskie",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5AC:c0vTd;28JXAcQlb4tgNFlrt",
+            "url": "https://imageproxy.wolt.com/assets/6733120216f72722aaed6d76"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "651d4d77b6cc3349cab33bcc",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j8SoN9ZyTbdrZ3fdh5OCZjd4hrHs"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Lisek Kazimierzowska",
+          "track_id": "venue-lisek-kazimierzowska",
+          "venue": {
+            "address": "This is a virtual venue",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 40,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "35-45"
+            },
+            "estimate_range": "35-45",
+            "favourite": false,
+            "franchise": "",
+            "id": "651d4d77b6cc3349cab33bcc",
+            "location": [
+              21.0129686,
+              52.2068777
+            ],
+            "name": "Lisek Kazimierzowska",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.0,
+              "volume": 0
+            },
+            "short_description": "Daily shopping with fast home delivery!",
+            "show_wolt_plus": false,
+            "slug": "lisek-kazimierzowska",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5AC:c0vTd;28JXAcQlb4tgNFlrt",
+            "url": "https://imageproxy.wolt.com/assets/673208b73df8a116fc6570c2"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "652f8ee377c05c1d390710e9",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j8SoN9ZyTbdrZ3fdh5OCZjd4hrHs"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Lisek Postępu",
+          "track_id": "venue-lisek-postepu",
+          "venue": {
+            "address": "Postępu 21A",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 50,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "45-55"
+            },
+            "estimate_range": "45-55",
+            "favourite": false,
+            "franchise": "",
+            "id": "652f8ee377c05c1d390710e9",
+            "location": [
+              20.9969436,
+              52.1828206
+            ],
+            "name": "Lisek Postępu",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.0,
+              "volume": 0
+            },
+            "short_description": "Daily shopping with fast home delivery!",
+            "show_wolt_plus": false,
+            "slug": "lisek-postepu",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5AC:c0vTd;28JXAcQlb4tgNFlrt",
+            "url": "https://imageproxy.wolt.com/assets/67331c4c363a2f0bfc9584f6"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "652f8ee3611546bc4a4ffd8e",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j8SoN9ZyTbdrZ3fdh5OCZjd4hrHs"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Lisek Leszno",
+          "track_id": "venue-lisek-leszno",
+          "venue": {
+            "address": "Leszno 34/36",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 50,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "45-55"
+            },
+            "estimate_range": "45-55",
+            "favourite": false,
+            "franchise": "",
+            "id": "652f8ee3611546bc4a4ffd8e",
+            "location": [
+              20.9728495,
+              52.2377208
+            ],
+            "name": "Lisek Leszno",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.8,
+              "volume": 0
+            },
+            "short_description": "Daily shopping with fast home delivery!",
+            "show_wolt_plus": false,
+            "slug": "lisek-leszno",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5AC:c0vTd;28JXAcQlb4tgNFlrt",
+            "url": "https://imageproxy.wolt.com/assets/673214fdcac3f21549a13214"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "652f8ee36cbb0a3a67704979",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j8SoN9ZyTbdrZ3fdh5OCZjd4hrHs"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Lisek Jana Pawła",
+          "track_id": "venue-lisek-jana-pawla",
+          "venue": {
+            "address": "Aleja Jana Pawła II 80",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 50,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "45-55"
+            },
+            "estimate_range": "45-55",
+            "favourite": false,
+            "franchise": "",
+            "id": "652f8ee36cbb0a3a67704979",
+            "location": [
+              20.9840016,
+              52.2539669
+            ],
+            "name": "Lisek Jana Pawła",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.0,
+              "volume": 0
+            },
+            "short_description": "Daily shopping with fast home delivery!",
+            "show_wolt_plus": false,
+            "slug": "lisek-jana-pawla",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5AC:c0vTd;28JXAcQlb4tgNFlrt",
+            "url": "https://imageproxy.wolt.com/assets/6732147c6da31462759196df"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "652661ec179bd91a07fec5bb",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j8SoN9ZyTbdrZ3fdh5OCZjd4hrHs"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Lisek Sobieskiego",
+          "track_id": "venue-lisek-sobieskiego",
+          "venue": {
+            "address": "This is a virtual venue",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 45,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "40-50"
+            },
+            "estimate_range": "40-50",
+            "favourite": false,
+            "franchise": "",
+            "id": "652661ec179bd91a07fec5bb",
+            "location": [
+              21.0392858,
+              52.197921
+            ],
+            "name": "Lisek Sobieskiego",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.0,
+              "volume": 0
+            },
+            "short_description": "Daily shopping with fast home delivery!",
+            "show_wolt_plus": false,
+            "slug": "lisek-sobieskiego",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5AC:c0vTd;28JXAcQlb4tgNFlrt",
+            "url": "https://imageproxy.wolt.com/assets/673208a880eb896202a8b2e9"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "652f8ee34f29b12ef5a9e0bc",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j8SoN9ZyTbdrZ3fdh5OCZjd4hrHs"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Lisek Rzeczypospolitej",
+          "track_id": "venue-lisek-rzeczypospolitej",
+          "venue": {
+            "address": "Aleja Rzeczypospolitej 24E/U1-U2",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 45,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "40-50"
+            },
+            "estimate_range": "40-50",
+            "favourite": false,
+            "franchise": "",
+            "id": "652f8ee34f29b12ef5a9e0bc",
+            "location": [
+              21.0688935,
+              52.168399
+            ],
+            "name": "Lisek Rzeczypospolitej",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.4,
+              "volume": 0
+            },
+            "short_description": "Daily shopping with fast home delivery!",
+            "show_wolt_plus": false,
+            "slug": "lisek-rzeczypospolitej",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5AC:c0vTd;28JXAcQlb4tgNFlrt",
+            "url": "https://imageproxy.wolt.com/assets/67331b80308c8149ae832df1"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "64eec8f0b7c979756697ab82",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j8SoN9ZyTbdrZ3fdh5OCZjd4hrHs"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Lisek Belgradzka",
+          "track_id": "venue-lisek-belgradzka",
+          "venue": {
+            "address": "This is a virtual venue",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 45,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "40-50"
+            },
+            "estimate_range": "40-50",
+            "favourite": false,
+            "franchise": "",
+            "id": "64eec8f0b7c979756697ab82",
+            "location": [
+              21.0589385,
+              52.141001
+            ],
+            "name": "Lisek Belgradzka",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.4,
+              "volume": 0
+            },
+            "short_description": "Daily shopping with fast home delivery!",
+            "show_wolt_plus": false,
+            "slug": "lisek-belgradzka",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5AC:c0vTd;28JXAcQlb4tgNFlrt",
+            "url": "https://imageproxy.wolt.com/assets/673208e33a4ce8588bd77417"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "652f8ee30567bd1c530b6f21",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j8SoN9ZyTbdrZ3fdh5OCZjd4hrHs"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Lisek Górczewska",
+          "track_id": "venue-lisek-gorczewska",
+          "venue": {
+            "address": "Górczewska 200B/7",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 55,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "50-60"
+            },
+            "estimate_range": "50-60",
+            "favourite": false,
+            "franchise": "",
+            "id": "652f8ee30567bd1c530b6f21",
+            "location": [
+              20.9116503,
+              52.2408925
+            ],
+            "name": "Lisek Górczewska",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.8,
+              "volume": 0
+            },
+            "short_description": "Daily shopping with fast home delivery!",
+            "show_wolt_plus": false,
+            "slug": "lisek-gorczewska",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5AC:c0vTd;28JXAcQlb4tgNFlrt",
+            "url": "https://imageproxy.wolt.com/assets/67331c83b7a62a677ce9d2db"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "652f8ee3878e399ee911fba7",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j8SoN9ZyTbdrZ3fdh5OCZjd4hrHs"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Lisek Habicha",
+          "track_id": "venue-lisek-habicha",
+          "venue": {
+            "address": "Edwarda Habicha 20",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 50,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "45-55"
+            },
+            "estimate_range": "45-55",
+            "favourite": false,
+            "franchise": "",
+            "id": "652f8ee3878e399ee911fba7",
+            "location": [
+              20.8803189,
+              52.2055235
+            ],
+            "name": "Lisek Habicha",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.8,
+              "volume": 0
+            },
+            "short_description": "Daily shopping with fast home delivery!",
+            "show_wolt_plus": false,
+            "slug": "lisek-habicha",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5AC:c0vTd;28JXAcQlb4tgNFlrt",
+            "url": "https://imageproxy.wolt.com/assets/67321502866537740ba5ffed"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "652f8ee3a732739177fca156",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j8SoN9ZyTbdrZ3fdh5OCZjd4hrHs"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Lisek Kijowska",
+          "track_id": "venue-lisek-kijowska",
+          "venue": {
+            "address": "Kijowska 11",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 55,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "50-60"
+            },
+            "estimate_range": "50-60",
+            "favourite": false,
+            "franchise": "",
+            "id": "652f8ee3a732739177fca156",
+            "location": [
+              21.0478674,
+              52.2529094
+            ],
+            "name": "Lisek Kijowska",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 7.8,
+              "volume": 0
+            },
+            "short_description": "Daily shopping with fast home delivery!",
+            "show_wolt_plus": false,
+            "slug": "lisek-kijowska",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5AC:c0vTd;28JXAcQlb4tgNFlrt",
+            "url": "https://imageproxy.wolt.com/assets/673310ae308c8149ae831796"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "652f8ee3e97d8765c2232829",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j8SoN9ZyTbdrZ3fdh5OCZjd4hrHs"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Lisek Abrahama",
+          "track_id": "venue-lisek-abrahama",
+          "venue": {
+            "address": "Abrahama 18/301",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 50,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "45-55"
+            },
+            "estimate_range": "45-55",
+            "favourite": false,
+            "franchise": "",
+            "id": "652f8ee3e97d8765c2232829",
+            "location": [
+              21.092943,
+              52.2269239
+            ],
+            "name": "Lisek Abrahama",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 9.0,
+              "volume": 0
+            },
+            "short_description": "Daily shopping with fast home delivery!",
+            "show_wolt_plus": false,
+            "slug": "lisek-abrahama",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5AC:c0vTd;28JXAcQlb4tgNFlrt",
+            "url": "https://imageproxy.wolt.com/assets/6732081ce24e8e5c114dac2b"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "652f8ee36cbb0a3a67704978",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j8SoN9ZyTbdrZ3fdh5OCZjd4hrHs"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Lisek Przy Agorze",
+          "track_id": "venue-lisek-przy-agorze",
+          "venue": {
+            "address": "Przy Agorze 17",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 55,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "50-60"
+            },
+            "estimate_range": "50-60",
+            "favourite": false,
+            "franchise": "",
+            "id": "652f8ee36cbb0a3a67704978",
+            "location": [
+              20.9379519,
+              52.2913132
+            ],
+            "name": "Lisek Przy Agorze",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.8,
+              "volume": 0
+            },
+            "short_description": "Daily shopping with fast home delivery!",
+            "show_wolt_plus": false,
+            "slug": "lisek-przy-agorze",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5AC:c0vTd;28JXAcQlb4tgNFlrt",
+            "url": "https://imageproxy.wolt.com/assets/6732076580eb896202a8a450"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "652f8ee33eae7fb99ec634f9",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j8SoN9ZyTbdrZ3fdh5OCZjd4hrHs"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Lisek Płosa",
+          "track_id": "venue-lisek-plosa",
+          "venue": {
+            "address": "Płosa 3",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 65,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "60-70"
+            },
+            "estimate_range": "60-70",
+            "favourite": false,
+            "franchise": "",
+            "id": "652f8ee33eae7fb99ec634f9",
+            "location": [
+              21.0471667,
+              52.2814953
+            ],
+            "name": "Lisek Płosa",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.4,
+              "volume": 0
+            },
+            "short_description": "Daily shopping with fast home delivery!",
+            "show_wolt_plus": false,
+            "slug": "lisek-plosa",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5AC:c0vTd;28JXAcQlb4tgNFlrt",
+            "url": "https://imageproxy.wolt.com/assets/67335e2e46fd66130c63ee50"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "669684f06b2f0c4659bc9bf7",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j8SoN9ZyTbdrZ3fdh5OCZjd4hrHs"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Lisek Błękitna",
+          "track_id": "venue-lisek-blekitna",
+          "venue": {
+            "address": "This is a virtual venue",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 50,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "45-55"
+            },
+            "estimate_range": "45-55",
+            "favourite": false,
+            "franchise": "",
+            "id": "669684f06b2f0c4659bc9bf7",
+            "location": [
+              21.1444858,
+              52.2256519
+            ],
+            "name": "Lisek Błękitna",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.2,
+              "volume": 0
+            },
+            "short_description": "Daily shopping with fast home delivery!",
+            "show_wolt_plus": false,
+            "slug": "lisek-blekitna",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5AC:c0vTd;28JXAcQlb4tgNFlrt",
+            "url": "https://imageproxy.wolt.com/assets/67333042a7cc62434f9d8f26"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "6627b8211eebb5ab29ee5683",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j8SoN9ZyTbdrZ3fdh5OCZjd4hrHs"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Lisek Piaseczno",
+          "track_id": "venue-lisek-piaseczno",
+          "venue": {
+            "address": "Karola Kniaziewicza 45",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 60,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "55-65"
+            },
+            "estimate_range": "55-65",
+            "favourite": false,
+            "franchise": "",
+            "id": "6627b8211eebb5ab29ee5683",
+            "location": [
+              21.021601,
+              52.0742487
+            ],
+            "name": "Lisek Piaseczno",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 3,
+              "score": 8.6,
+              "volume": 0
+            },
+            "short_description": "Daily shopping with fast home delivery!",
+            "show_wolt_plus": false,
+            "slug": "lisek-piaseczno",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        },
+        {
+          "filtering": {
+            "filters": []
+          },
+          "image": {
+            "blurhash": "j5AC:c0vTd;28JXAcQlb4tgNFlrt",
+            "url": "https://imageproxy.wolt.com/assets/6732634cf45db57ef6006eff"
+          },
+          "link": {
+            "selected_delivery_method": "homedelivery",
+            "target": "652f8ee34f29b12ef5a9e0bd",
+            "target_sort": "delivers-to",
+            "target_title": "",
+            "title": "",
+            "type": "venue-id",
+            "venue_mainimage_blurhash": "j8SoN9ZyTbdrZ3fdh5OCZjd4hrHs"
+          },
+          "overlay": "Not delivering to your location",
+          "sorting": {
+            "sortables": []
+          },
+          "telemetry_object_id": "",
+          "telemetry_venue_badges": [],
+          "template": "venue",
+          "title": "Lisek Antalla",
+          "track_id": "venue-lisek-antalla",
+          "venue": {
+            "address": "Antalla 5",
+            "badges": [],
+            "badges_v2": [],
+            "categories": [],
+            "city": "",
+            "country": "POL",
+            "currency": "PLN",
+            "delivers": false,
+            "delivery_highlight": false,
+            "delivery_price_highlight": false,
+            "estimate": 60,
+            "estimate_box": {
+              "subtitle": "min",
+              "template": "estimate",
+              "title": "55-65"
+            },
+            "estimate_range": "55-65",
+            "favourite": false,
+            "franchise": "",
+            "id": "652f8ee34f29b12ef5a9e0bd",
+            "location": [
+              20.9570182,
+              52.3141776
+            ],
+            "name": "Lisek Antalla",
+            "online": true,
+            "price_range": 2,
+            "product_line": "restaurant",
+            "promotions": [],
+            "rating": {
+              "rating": 4,
+              "score": 9.4,
+              "volume": 0
+            },
+            "short_description": "Daily shopping with fast home delivery!",
+            "show_wolt_plus": false,
+            "slug": "lisek-antalla",
+            "tags": [
+              "Supermarket"
+            ],
+            "venue_preview_items": []
+          }
+        }
+      ],
+      "name": "venues",
+      "template": "search-result-list",
+      "title": "Restaurants and stores"
+    }
+  ],
+  "show_large_title": false,
+  "show_map": false,
+  "sorting_and_filtering_v2": {
+    "sections": [
+      {
+        "role": "filtering",
+        "slug": "product_line",
+        "type": "single_select",
+        "values": [
+          {
+            "selected": true,
+            "slug": "all",
+            "title": "All results"
+          },
+          {
+            "selected": false,
+            "slug": "restaurant",
+            "title": "Restaurant"
+          },
+          {
+            "selected": false,
+            "slug": "grocery",
+            "title": "Grocery"
+          },
+          {
+            "selected": false,
+            "slug": "general_merchandise",
+            "title": "General merchandise"
+          }
+        ]
+      },
+      {
+        "role": "filtering",
+        "slug": "category",
+        "title": "Category",
+        "type": "multi_select",
+        "values": [
+          {
+            "selected": false,
+            "slug": "american",
+            "title": "American"
+          },
+          {
+            "selected": false,
+            "slug": "burgers",
+            "title": "Burger"
+          },
+          {
+            "selected": false,
+            "slug": "chicken",
+            "title": "Chicken"
+          },
+          {
+            "selected": false,
+            "slug": "international",
+            "title": "International"
+          },
+          {
+            "selected": false,
+            "slug": "italian",
+            "title": "Italian"
+          },
+          {
+            "selected": false,
+            "slug": "lunch",
+            "title": "Lunch"
+          },
+          {
+            "selected": false,
+            "slug": "pizza",
+            "title": "Pizza"
+          },
+          {
+            "selected": false,
+            "slug": "street_food",
+            "title": "Street Food"
+          }
+        ],
+        "visibility_rules": [
+          {
+            "section_slug": "product_line",
+            "selected": true,
+            "value_slug": "restaurant"
+          },
+          {
+            "section_slug": "product_line",
+            "selected": true,
+            "value_slug": "all"
+          }
+        ]
+      },
+      {
+        "role": "sorting",
+        "slug": "sort_by",
+        "title": "Sort by",
+        "type": "single_select",
+        "values": [
+          {
+            "selected": true,
+            "slug": "recommended",
+            "title": "Recommended"
+          },
+          {
+            "selected": false,
+            "slug": "distance",
+            "title": "Distance"
+          },
+          {
+            "selected": false,
+            "slug": "rating",
+            "title": "Rating"
+          },
+          {
+            "selected": false,
+            "slug": "delivery_fee",
+            "title": "Delivery price"
+          },
+          {
+            "selected": false,
+            "slug": "delivery_estimate",
+            "title": "Delivery time"
+          }
+        ]
+      },
+      {
+        "role": "filtering",
+        "slug": "delivers_now",
+        "type": "toggle",
+        "values": [
+          {
+            "selected": false,
+            "slug": "delivers_now_toggle",
+            "title": "Delivers to you now"
+          }
+        ]
+      }
+    ]
+  },
+  "track_id": "discovery:search:split-view"
+}

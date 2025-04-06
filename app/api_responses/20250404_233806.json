@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "6414619a8a58b0a65716ebdf",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/616573c75cd3d74137d0343c/48a801f2-3e91-11ef-a364-e2245121d082___________copy.jpg",
+        "blurhash": "jaWc2:;;T;8zXtKXd4BCd4pCBCpC"
+      }
+    ],
+    "name": "ალკოჰოლური სასმელი",
+    "slug": "menucategory-11"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

@@ -1,0 +1,450 @@
+/* Стили для страницы управления рекламой */
+
+/* Стили для карточек рекламы */
+.ad-card {
+    background-color: var(--bg-secondary);
+    border-radius: 12px;
+    box-shadow: var(--card-shadow);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.ad-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+}
+
+.ad-info {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.ad-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--text-primary);
+}
+
+.ad-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+/* Стили для переключателя активности */
+.toggle-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid var(--border-color);
+}
+
+.toggle-label {
+    font-size: 14px;
+    color: var(--text-secondary);
+}
+
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 26px;
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 26px;
+}
+
+.toggle-slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .toggle-slider {
+    background-color: var(--primary-color);
+}
+
+input:checked + .toggle-slider:before {
+    transform: translateX(26px);
+}
+
+/* Стили для формы добавления рекламы */
+.ad-form {
+    background-color: var(--bg-secondary);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: var(--card-shadow);
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+@media (max-width: 768px) {
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .action-buttons {
+        flex-wrap: wrap;
+    }
+}
+
+/* Стили для предпросмотра */
+.preview-container {
+    margin-top: 30px;
+    background-color: var(--bg-secondary);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: var(--card-shadow);
+}
+
+.preview-title {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.preview-frame {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Стили для значков статистики */
+.stats-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 13px;
+    color: var(--text-secondary);
+}
+
+.ad-duration {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin-bottom: 10px;
+}
+
+ /* Дополнительные стили для страницы рекламы */
+    .ads-container {
+        margin-top: 24px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+        gap: 24px;
+    }
+
+    .ad-video-container {
+        position: relative;
+        aspect-ratio: 16/9;
+        overflow: hidden;
+        background-color: #000;
+    }
+
+    .ad-video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .ad-priority {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        padding: 4px 8px;
+        border-radius: 20px;
+        font-size: 12px;
+        font-weight: 500;
+        backdrop-filter: blur(4px);
+    }
+
+    .ad-description {
+        font-size: 14px;
+        color: var(--text-secondary);
+        margin-bottom: 16px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+
+    .ad-stats {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 16px;
+        font-size: 14px;
+        color: var(--text-secondary);
+    }
+
+    .action-buttons {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .btn-action {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        padding: 6px 12px;
+        font-size: 13px;
+        font-weight: 500;
+        border-radius: 6px;
+        transition: all 0.2s;
+        border: none;
+        cursor: pointer;
+    }
+
+    .btn-preview {
+        background-color: var(--info-color);
+        color: white;
+    }
+
+    .btn-edit {
+        background-color: var(--warning-color);
+        color: white;
+    }
+
+    .btn-delete {
+        background-color: var(--danger-color);
+        color: white;
+    }
+
+    .btn-action:hover {
+        filter: brightness(1.1);
+        transform: translateY(-2px);
+    }
+
+    .no-ads {
+        text-align: center;
+        padding: 60px 0;
+        color: var(--text-secondary);
+        background-color: var(--bg-secondary);
+        border-radius: 12px;
+        box-shadow: var(--card-shadow);
+    }
+
+    .no-ads-icon {
+        font-size: 48px;
+        margin-bottom: 16px;
+        color: var(--text-secondary);
+        opacity: 0.5;
+    }
+
+    .filter-bar {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 16px;
+        margin-bottom: 24px;
+        padding: 16px;
+        background-color: var(--bg-secondary);
+        border-radius: 12px;
+        box-shadow: var(--card-shadow);
+    }
+
+    .filter-group {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .filter-label {
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--text-secondary);
+    }
+
+    .filter-select {
+        padding: 8px 12px;
+        border-radius: 8px;
+        border: 1px solid var(--border-color);
+        background-color: var(--bg-secondary);
+        color: var(--text-primary);
+        font-size: 14px;
+    }
+
+    .search-container {
+        flex: 1;
+        min-width: 200px;
+        position: relative;
+    }
+
+    .search-input {
+        width: 100%;
+        padding: 8px 12px 8px 40px;
+        border-radius: 8px;
+        border: 1px solid var(--border-color);
+        background-color: var(--bg-secondary);
+        color: var(--text-primary);
+        font-size: 14px;
+    }
+
+    .search-icon {
+        position: absolute;
+        left: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: var(--text-secondary);
+    }
+
+    .add-ad-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        padding: 10px 20px;
+        margin-bottom: 24px;
+        background-color: var(--primary-color);
+        color: white;
+        border-radius: 8px;
+        font-weight: 500;
+        font-size: 15px;
+        cursor: pointer;
+        transition: all 0.2s;
+        text-decoration: none;
+        border: 2px solid #fff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+    .add-ad-button:hover {
+        background-color: var(--accent-hover);
+        transform: translateY(-2px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Стили для модального окна */
+    .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+        overflow-y: auto;
+    }
+
+    .modal-content {
+        position: relative;
+        background-color: var(--bg-secondary);
+        margin: 50px auto;
+        padding: 24px;
+        width: 90%;
+        max-width: 800px;
+        border-radius: 12px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    .close-modal {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        font-size: 24px;
+        cursor: pointer;
+        color: var(--text-secondary);
+    }
+
+    .modal-header {
+        margin-bottom: 24px;
+    }
+
+    .modal-title {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .form-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        margin-bottom: 16px;
+    }
+
+    @media (max-width: 768px) {
+        .form-row {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .form-group label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: 500;
+        color: var(--text-primary);
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 10px 12px;
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+        background-color: var(--input-bg);
+        color: var(--text-primary);
+    }
+
+    .form-actions {
+        display: flex;
+        justify-content: flex-end;
+        gap: 12px;
+        margin-top: 24px;
+    }
+
+    .btn-cancel {
+        background-color: transparent;
+        border: 1px solid var(--border-color);
+        color: var(--text-secondary);
+    }
+
+    .btn-save {
+        background-color: var(--primary-color);
+    }

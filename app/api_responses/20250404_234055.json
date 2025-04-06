@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "641b7b7e6d77518b3d4f8b2d",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/635e776f417c3fe0fc2a5dd5/48581828-2564-11ee-abbd-b60b84568fdf_87267752_1269_11ed_b99a_5a2845fce41e_image_37.jpeg",
+        "blurhash": "j9:vfMOkX;dtLuGHJ3pSPLqYgPJj"
+      }
+    ],
+    "name": "Nabiał ",
+    "slug": "nabia-106"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

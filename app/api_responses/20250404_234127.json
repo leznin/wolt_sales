@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "641b7b7e6d77518b3d4f8e15",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/635e776f417c3fe0fc2a5dd5/b558b1b2-256e-11ee-8d4d-f6eb6db4e17f_shutterstock_1715558371.jpg",
+        "blurhash": "j4:fDVKY;;h4TbtTh5up;;llcPKX"
+      }
+    ],
+    "name": "Cukier, słodziki",
+    "slug": "cukier-sodziki-142"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

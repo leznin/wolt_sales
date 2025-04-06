@@ -1,0 +1,2353 @@
+{
+  "category": {
+    "id": "66a8c4b9560d45695b417fdc",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/4185baf0-1494-11ed-9537-267b399df2af_4860116330011.jpeg",
+        "blurhash": "jeYv7SKG;;lpORuqhrBCPbtVh5GC"
+      }
+    ],
+    "name": "ერთჯერადი",
+    "slug": "menucategory-71"
+  },
+  "categories": [
+    {
+      "id": "66a8c4b9560d45695b417fdc",
+      "item_ids": [
+        "62f0bb90266ecf3f052f11ae",
+        "6683dbe56e8d310ad0ef83b7",
+        "62f0bb90266ecf3f052f1137",
+        "62f0bb90266ecf3f052f116d",
+        "62f0bb90266ecf3f052f1136",
+        "62f0bb90266ecf3f052f1193",
+        "62f0bb90266ecf3f052f119d",
+        "62f0bb90266ecf3f052f118b",
+        "6707bb0f19556db5fd90ebf8",
+        "6707bb0f19556db5fd90ebfd",
+        "669674788c56938c401434be",
+        "669674788c56938c401434bf",
+        "669674788c56938c401434c0",
+        "669674788c56938c401434c1",
+        "669674788c56938c401434c2",
+        "669674788c56938c401434c3",
+        "6707bb0f19556db5fd90ebfb",
+        "6707bb0f19556db5fd90ebfa",
+        "6707bb0f19556db5fd90ebf9",
+        "62f0bb90266ecf3f052f1191",
+        "677137d367bc4cba2d7e2b3d",
+        "677137d367bc4cba2d7e2b57",
+        "677137d367bc4cba2d7e2b58",
+        "6707bb0f19556db5fd90ebf7",
+        "62ce98bf7a131cc5e2586ace",
+        "62ce98bf7a131cc5e2586acf",
+        "62ce98bf7a131cc5e2586ad0",
+        "67ebb26ef9a3c6b9e1cfa45b",
+        "67ebb284cf081d37b12f3ba1",
+        "67ebb29b65833c59d04fc6f3",
+        "67ebb2b18849125510014352",
+        "67ebbb184ecbff4c216c3e23",
+        "67ebbb33069aa77f620d3445",
+        "67ebbb4ce7b5efdd96f09cd7",
+        "67ebbce4de9a8aa011d91240"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "62f0bb90266ecf3f052f11ae",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "30502a5d7e00bfcfaab9caa6a4040c15",
+      "description": "Vitamin Zero-ს ერთი ბოთლი შეიცავს სულ რაღაც 1 კალორიას და არ შეიცავს ნახშირწყლებს, შაქარსა და ცხიმებს. იგი გამდიდრებულია ისეთი ვიტამინებით, როგორებიცაა: ვიტამინი B3 (ნიაცინი), ვიტამინი B6 და ვიტამინი C (ასკორბინის მჟავა). ეს ვიტამინები მონაწილეობენ ენერგიის მეტაბოლიზმში და უზრუნველყოფენ დაუშრეტელ ენერგიას დღის განმავლობაში.\n\nVitamin Power – Vitamin Zero-ს ძირითადი თვისებები და მახასიათებლები:\n– მატებს ენერგიას და გამძლეობას\n– აქვს სასიამოვნო გემო და არომატი\n– შეიცავს მხოლოდ 1 კალორიას ბოთლზე\n– არ შეიცავს შაქარს და ნახშირწყლებს\n– გამდიდრებულია ვიტამინებით\"",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/4185baf0-1494-11ed-9537-267b399df2af_4860116330011.jpeg",
+          "blurhash": "jeYv7SKG;;lpORuqhrBCPbtVh5GC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Vitamin Power - Vitamin Zero(500მლ)(მოცვი)",
+      "options": [],
+      "original_price": null,
+      "price": 300,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6683dbe56e8d310ad0ef83b7",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "561ff49dd0bceaaa88069ffdc33ac6b5",
+      "description": "Applied Nutrition – Abe Can არის სითხის სახით წარმოდგენილი უძლიერესი ენერგეტიკის გაზირებული ვერსია. ეძებთ უმაღლესი ხარისხის ენერგეტიკს დაბალანსებული ფორმულითა და საოცარი გემოთი? ეს პროდუქტი სწორედ ისაა, რაც თქვენ გჭირდებათ. Applied Nutrition-ის უძლიერესი ენერგეტიკი A.B.E უკვე გახდა მრავალი ადამიანის საყვარელი პრე-ვორკაუტი. მისი უახლესი, გაზირებული, გამაგრილებელი ვერსია კი თანდათან იპყრობს ადამიანების გულებს. დღეისათვის იგი არის #1 გაყიდვადი გაზირებული ენერგეტიკული სასმელი დიდ ბრიტანეთში. დაბალანსებული ფორმულა და მასში გაერთიანებული ისეთი ინგრედიენტები, როგორებიცაა: ციტრულინ მალატი, ბეტა-ალანინი, კოფეინი, ტაურინი და B ჯგუფის ვიტამინები უზრუნველყოფს თქვენს წინა სავარჯიშო ენერგიას, მოტივაციასა და განწყობას მთელი აქტივობის პერიოდში. ვარჯიშის გარდა, მისი მღება შესაძლებელია გონებრივი და ემოციური გადაღლის გასანეიტრალებლადაც. და გემო? ეს არის ის, რასაც უემოციოდ გვერდს ნამდვილად ვერ აუვლით. რამდენადაც საოცარია მისი ეფექტი, იმდენად სასიამოვნო და ჯადოსნურია მისი გემოები. პროდუქტში შემავალი ყველა ინგრედიენტი გადის მკაცრ შემოწმებას და აკრძალულ ნივთიერებებზე ტესტირებას. შემდეგ საბოლოო პროდუქციის წარმოება და შეფუთვა ხდება ISO 22000, BRC, GMP და Halal აკრედიტირებულ ლაბორატორიაში, რათა უზრუნველყონ უმაღლესი დონის სანდოობა სპორტსმენებისთვის. ეს არის პროდუქტი, რომელიც ნამდვილად უნდა დააგემოვნოთ ერთხელ მაინც ცხოვრებაში.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/6d163fa8-5bca-11ef-b7c2-76b5c09bae6c_5056555201138.jpg",
+          "blurhash": "jqRZvnGG;;tTlmGqGGpCTttTh4GG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Applied Nutrition - Abe Can(330მლ)(ენერჯი)",
+      "options": [],
+      "original_price": null,
+      "price": 800,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "62f0bb90266ecf3f052f1137",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "0eb7ad23c2eaeaf6de1b3b99d3272f24",
+      "description": "არის ფხვნილის სახით წარმოდგენილი უმაღლესი ხარისხის ენერგეტიკი. დაბალანსებული ფორმულა და მასში გაერთიანებული ისეთი ინგრედიენტები, როგორებიცაა: ციტრულინ მალატი, ბეტა-ალანინი, კოფეინი, ტაურინი და B ჯგუფის ვიტამინები, უზრუნველყოფენ თქვენს წინა სავარჯიშო ენერგიას, მოტივაციასა და განწყობას მთელი ფიზიკური აქტივობის პერიოდში. პროდუქტში შემავალი ყველა ინგრედიენტი გადის მკაცრ შემოწმებას და აკრძალულ ნივთიერებებზე ტესტირებას. საბოლოო პროდუქტი გადის შემოწმებას ISO 17025 აკრედიტირებულ ლაბორატორიაში, რათა უზრუნველყოს უმაღლესი დონის სანდოობა და უსაფრთხოება.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/677eb8fe-5bca-11ef-b08c-76b5c09bae6c_5855604333.jpg",
+          "blurhash": "jqRZvmGG;;pDlBGGGqpCTttTh4GG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Applied Nutrition - Abe Can(330მლ)(მწვანე ვაშლი)",
+      "options": [],
+      "original_price": null,
+      "price": 800,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "62f0bb90266ecf3f052f116d",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "3d6ac1ef57654af80f148a714f794225",
+      "description": "არის ფხვნილის სახით წარმოდგენილი უმაღლესი ხარისხის ენერგეტიკი. დაბალანსებული ფორმულა და მასში გაერთიანებული ისეთი ინგრედიენტები, როგორებიცაა: ციტრულინ მალატი, ბეტა-ალანინი, კოფეინი, ტაურინი და B ჯგუფის ვიტამინები, უზრუნველყოფენ თქვენს წინა სავარჯიშო ენერგიას, მოტივაციასა და განწყობას მთელი ფიზიკური აქტივობის პერიოდში. პროდუქტში შემავალი ყველა ინგრედიენტი გადის მკაცრ შემოწმებას და აკრძალულ ნივთიერებებზე ტესტირებას. საბოლოო პროდუქტი გადის შემოწმებას ISO 17025 აკრედიტირებულ ლაბორატორიაში, რათა უზრუნველყოს უმაღლესი დონის სანდოობა და უსაფრთხოება.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/69c30fde-5bca-11ef-84b5-76b5c09bae6c_5855604334.jpg",
+          "blurhash": "jqSdvmGG;;tDpBGGuqpCTttTh4GG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Applied Nutrition - Abe Can(330მლ)(ლიმონი)",
+      "options": [],
+      "original_price": null,
+      "price": 800,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "62f0bb90266ecf3f052f1136",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "860a7e922518c5903d9dcb79a294f01d",
+      "description": "Abe Can(330მლ)(ხილის კანფეტი) 3415893934 არის სითხის სახით წარმოდგენილი უძლიერესი ენერგეტიკული სასმელის გაზირებული ვერსია. დაბალანსებული ფორმულა და მასში გაერთიანებული ისეთი ინგრედიენტები, როგორებიცაა: ციტრულინ მალატი, ბეტა-ალანინი, კოფეინი, ტაურინი და B ჯგუფის ვიტამინები, უზრუნველყოფს თქვენს წინა სავარჯიშო ენერგიას, მოტივაციასა და განწყობას მთელი ფიზიკური აქტივობის პერიოდში. პროდუქტში შემავალი ყველა ინგრედიენტი გადის მკაცრ შემოწმებას და აკრძალულ ნივთიერებებზე ტესტირებას. შემდეგ, საბოლოო პროდუქციის წარმოება და შეფუთვა ხდება ISO 22000, BRC, GMP და Halal აკრედიტირებულ ლაბორატორიაში, რათა უზრუნველყონ უმაღლესი დონის სანდოობა სპორტსმენებისთვის.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/6795f096-5bca-11ef-b219-6624ec2ae2cf_3415893934.jpg",
+          "blurhash": "jpStvoGG;;tTBCGGqDpCTttTh4GG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Applied Nutrition – Abe Can (ხილის კანფეტი)",
+      "options": [],
+      "original_price": null,
+      "price": 800,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "62f0bb90266ecf3f052f1193",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "2aba619c36b2cbe31bd266e6ef8134bf",
+      "description": "Abe Can(330მლ)(ფორთოხალი) 3415893933 არის სითხის სახით წარმოდგენილი უძლიერესი ენერგეტიკული სასმელის გაზირებული ვერსია. დაბალანსებული ფორმულა და მასში გაერთიანებული ისეთი ინგრედიენტები, როგორებიცაა: ციტრულინ მალატი, ბეტა-ალანინი, კოფეინი, ტაურინი და B ჯგუფის ვიტამინები, უზრუნველყოფს თქვენს წინა სავარჯიშო ენერგიას, მოტივაციასა და განწყობას მთელი ფიზიკური აქტივობის პერიოდში. პროდუქტში შემავალი ყველა ინგრედიენტი გადის მკაცრ შემოწმებას და აკრძალულ ნივთიერებებზე ტესტირებას. შემდეგ, საბოლოო პროდუქციის წარმოება და შეფუთვა ხდება ISO 22000, BRC, GMP და Halal აკრედიტირებულ ლაბორატორიაში, რათა უზრუნველყონ უმაღლესი დონის სანდოობა სპორტსმენებისთვის.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/677ec7fe-5bca-11ef-ab60-c6c7dd3536d1_3415893933.jpg",
+          "blurhash": "jqStvnGG;;tTBlCGqGpCTttTh4GG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Applied Nutrition – Abe Can (ფორთოხალი)",
+      "options": [],
+      "original_price": null,
+      "price": 800,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "62f0bb90266ecf3f052f119d",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "6439514ad8162dc7aaa1b8215840ffc6",
+      "description": "Abe Can(330მლ)(ამერიკული ყურძნის კოქტეილი) 3415893913 არის სითხის სახით წარმოდგენილი უძლიერესი ენერგეტიკული სასმელის გაზირებული ვერსია. დაბალანსებული ფორმულა და მასში გაერთიანებული ისეთი ინგრედიენტები, როგორებიცაა: ციტრულინ მალატი, ბეტა-ალანინი, კოფეინი, ტაურინი და B ჯგუფის ვიტამინები, უზრუნველყოფს თქვენს წინა სავარჯიშო ენერგიას, მოტივაციასა და განწყობას მთელი ფიზიკური აქტივობის პერიოდში. პროდუქტში შემავალი ყველა ინგრედიენტი გადის მკაცრ შემოწმებას და აკრძალულ ნივთიერებებზე ტესტირებას. შემდეგ, საბოლოო პროდუქციის წარმოება და შეფუთვა ხდება ISO 22000, BRC, GMP და Halal აკრედიტირებულ ლაბორატორიაში, რათა უზრუნველყონ უმაღლესი დონის სანდოობა სპორტსმენებისთვის.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/677e79fc-5bca-11ef-9357-1a296b20a8fb_3415893913.jpg",
+          "blurhash": "jqRZroGG;;tTpmGGGFpCTttTh4GG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Applied Nutrition – Abe Can (ამერიკული ყურძნის კოქტეილი)",
+      "options": [],
+      "original_price": null,
+      "price": 800,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "62f0bb90266ecf3f052f118b",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "de33d3bb28bd14783f58d7acf14abadc",
+      "description": "Abe Can(330მლ)(კოქტეილი ლურჯი ლაგუნა) 3415893932  არის სითხის სახით წარმოდგენილი უძლიერესი ენერგეტიკული სასმელის გაზირებული ვერსია. დაბალანსებული ფორმულა და მასში გაერთიანებული ისეთი ინგრედიენტები, როგორებიცაა: ციტრულინ მალატი, ბეტა-ალანინი, კოფეინი, ტაურინი და B ჯგუფის ვიტამინები, უზრუნველყოფს თქვენს წინა სავარჯიშო ენერგიას, მოტივაციასა და განწყობას მთელი ფიზიკური აქტივობის პერიოდში. პროდუქტში შემავალი ყველა ინგრედიენტი გადის მკაცრ შემოწმებას და აკრძალულ ნივთიერებებზე ტესტირებას. შემდეგ, საბოლოო პროდუქციის წარმოება და შეფუთვა ხდება ISO 22000, BRC, GMP და Halal აკრედიტირებულ ლაბორატორიაში, რათა უზრუნველყონ უმაღლესი დონის სანდოობა სპორტსმენებისთვის.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/67c3abf8-5bca-11ef-b5e2-ee4ea5a09f99_3415893932.jpg",
+          "blurhash": "jqRJvoGG;;tTlDGGGDpCTttTh4GF"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Applied Nutrition – Abe Can (კოქტეილი ლურჯი ლაგუნა)",
+      "options": [],
+      "original_price": null,
+      "price": 800,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6707bb0f19556db5fd90ebf8",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "50d0775631532325eb7bc09e931e16b0",
+      "description": "FA Nutrition - Anty Skurcz shot - არის თხევადი სახით წარმოდგენილი მინერალების კომპლექსი, რომელიც შეიცავდ დიდი დოზით კალიუმსა და მაგნიუმს, ასევე ვიტამინ ბ6 და კამის თესლს. მაგნიუმისა და კალიუმის დეფიციტის ნიშნებია, კუნტების სპაზმი, დაჭიმულობა, კრუნჩხვა, გულის უკმარისობა, დაღლილობის შეგრძნება და უენერგიობა. განსაკუთრებით მნიშნელოვანია სპორტსმენებისთვის, რათა მოხდეს კუნთოვანი ქსოვილის სწრაფი აღდგენა. კალიუმი ასევე ხელს უწყობს არტერიული წნევის მოწესრიგებას. კამის თესლი გამოირჩევა ანთების საწინაათმდეგო ეფექტით, ამიტომ მისი მირება ვარჯიშის მერე აქრობს დაზიანებულ კუნთოვან ქსოვილშ მიმდინარე ანტებით პროცესებს და გვეხამრება სწრაფ აღდგენაში.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/6452f738-86fb-11ef-92f6-4642b664f1b7_5902448270081.jpg",
+          "blurhash": "j9:;zSGmX;GXPcCphltTLuupkOFS"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "FA Nutrition - Anty Skurcz shot(120მლ)(ტყის ხილი)",
+      "options": [],
+      "original_price": null,
+      "price": 400,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6707bb0f19556db5fd90ebfd",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "82c0c0f6e596da1c43605f7d2cce07db",
+      "description": "FA Nutrition - Slodkich snow - არის თხევადი სახით წარმოდგენილი მცენარეული ექსტრაქტების, მინერალებისა და ვიტამინების კომპლექსი, რომელიც ხელს უწყობს ადვილად ჩაძინებას და ძილის ხარისხის გაუმჯობესებას. ამშვიდებს და აწესრიგებს ნერვულ სისტემას. იგი შეიცავს ისეთ კომპპონენტებს, როგორიცაა, მაგნიუმი, თუთია, ვიტამინი ბ6, მელიასას ფოთლების ექსტრაქტი, გაბა და მელატონინი.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/60b67f64-86fb-11ef-80d7-c27b69c51224_5902448246253.jpg",
+          "blurhash": "j8Z;vSpC;;KXPcCpl5tTXKGp8ypC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "FA Nutrition - Slodkich snow(120მლ)(ვაშლი)",
+      "options": [],
+      "original_price": null,
+      "price": 400,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "669674788c56938c401434be",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "e0d248d03d3b616a30842352fb3b73a9",
+      "description": "Velocity-Fuel Sprint ორგანიზმს აწვდის ნახშირწყლების, 75 მგ კოფეინის, ელექტროლიტების და B-ვიტამინების კომბინაციას, რომლებიც შეფუთულია მოსახერხებელი ზომის პაკეტში ჟელეს სახით. Applied Nutrition - Sprint Endurance Gel-ს ძირითადი თვისებები და მახასიათებლები: Informed-Sport Batch ტესტირება სპორტსმენებისთვის 23 გრ ნახშირწყლები 75 მგ კოფეინი ელექტროლიტები B-ვიტამინები ნულოვანი შაქარი",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/cd70f468-4376-11ef-ad05-a226e2517baf_5855604346.jpg",
+          "blurhash": "jlUJ;wCp;;BWOGtTlDCpKCBUlWun"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Applied Nutrition - Sprint Endurance Gel(60მლ)(ხილის კოქტეილი)",
+      "options": [],
+      "original_price": null,
+      "price": 700,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "669674788c56938c401434bf",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "9314dc6a738beee0b05db34f2b8f63db",
+      "description": "Velocity-Fuel Sprint ორგანიზმს აწვდის ნახშირწყლების, 75 მგ კოფეინის, ელექტროლიტების და B-ვიტამინების კომბინაციას, რომლებიც შეფუთულია მოსახერხებელი ზომის პაკეტში ჟელეს სახით. Applied Nutrition - Sprint Endurance Gel-ს ძირითადი თვისებები და მახასიათებლები: Informed-Sport Batch ტესტირება სპორტსმენებისთვის 23 გრ ნახშირწყლები 75 მგ კოფეინი ელექტროლიტები B-ვიტამინები ნულოვანი შაქარი",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/cf5465e4-4376-11ef-a2d2-a226e2517baf_5855604347.jpg",
+          "blurhash": "jkUJ;wCp;;CpOWtThDCpKCBUlWuo"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Applied Nutrition - Sprint Endurance Gel(60მლ)(ფორთოხალი)",
+      "options": [],
+      "original_price": null,
+      "price": 700,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "669674788c56938c401434c0",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "925b616bba7c755b8d928fcd9f3ba3af",
+      "description": "Endurance Velocity-Fuel Breathe აწვდის 23 გ სწრაფად შთანთქმის ნახშირწყლებს Applied Nutrition-ის უნიკალური Breathe Easy™ ფორმულის დამატებით, რომელიც პოპულარულია მომხმარებლებში, რომლებსაც სურთ გაზარდონ ჟანგბადის მიღება ვარჯიშის დროს. Applied Nutrition - Breathe Endurance Gel-ს ძირითადი თვისებები და მახასიათებლები: Informed-Sport Batch ტესტირება სპორტსმენებისთვის 23 გრ ნახშირწყლები სუნთქვის გასაუმჯობესებელი ტექნოლოგია ნულოვანი შაქარი",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/cf543510-4376-11ef-a730-3687a74834d8_5855604349.jpg",
+          "blurhash": "jlTJ;xCp;;tWKGtTlCCpGCtVpWCn"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Applied Nutrition - Breathe Endurance Gel(60მლ)(შავი მოცხარი)",
+      "options": [],
+      "original_price": null,
+      "price": 700,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "669674788c56938c401434c1",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "6b3cea9d024a7223e2417b9917c9f0e1",
+      "description": "Endurance Velocity-Fuel Breathe აწვდის 23 გ სწრაფად შთანთქმის ნახშირწყლებს Applied Nutrition-ის უნიკალური Breathe Easy™ ფორმულის დამატებით, რომელიც პოპულარულია მომხმარებლებში, რომლებსაც სურთ გაზარდონ ჟანგბადის მიღება ვარჯიშის დროს. Applied Nutrition - Breathe Endurance Gel-ს ძირითადი თვისებები და მახასიათებლები: Informed-Sport Batch ტესტირება სპორტსმენებისთვის 23 გრ ნახშირწყლები სუნთქვის გასაუმჯობესებელი ტექნოლოგია ნულოვანი შაქარი",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/cf54b292-4376-11ef-b11c-0a21bac6cbac_5855604350.jpg",
+          "blurhash": "jkUd;wCp;;CpKWtTlDCpGmBUpWuo"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Applied Nutrition - Breathe Endurance Gel(60მლ)(კოლა)",
+      "options": [],
+      "original_price": null,
+      "price": 700,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "669674788c56938c401434c2",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "4b6e535bda4d0c39090f651049e94f49",
+      "description": "23 გრ სწრაფი ნახშირწყალი / დამატებული შაქრის გარეშე ჩვენს ორგანიზმში ენერგიის მთავარი წყარო არის ნახშირწყალი. იგი განთავსებულია კუნთებში (70%) და ღვიძლში, და ეწოდება - გლიკოგენი. ვარჯიშის დროს კუნთებში განთავსებული გლიკოგენი გარდაიქმნება გლუკოზად (შაქრად) და სისხლის მეშვეობით ნაწილდება ორგანიზმში როგორც ენერგია. ვარჯიშის დაწყებიდან დაახლოებით 40 წუთის შემდეგ, გლიკოგენის სრული მარაგი იხარჯება და ორგანიზმი რჩება ენერგიის გარეშე. სწორედ ამ დროს იჩენს თავს შემდეგი სიმპტომები: - დაღლილობა - უენერგიობა და გამოფიტულობა - კონცენტრაციის უნარის დაკარგვა - თავბრუსხვევა და პირის სიმშრალე - ზოგჯერ ხელის კანკალიც და გულისრევის შეგრძნებაც",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/cd7161d2-4376-11ef-9cdd-0a21bac6cbac_5855604342.jpg",
+          "blurhash": "jkUJ;vCp;;CpOWtThFCpKCBTlGup"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Applied Nutrition - Energy Endurance Gel(60მლ)(ფორთოხალი)",
+      "options": [],
+      "original_price": null,
+      "price": 700,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "669674788c56938c401434c3",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "af3898d289a8f8603d7824c8e240ce7b",
+      "description": "23 გრ სწრაფი ნახშირწყალი / დამატებული შაქრის გარეშე ჩვენს ორგანიზმში ენერგიის მთავარი წყარო არის ნახშირწყალი. იგი განთავსებულია კუნთებში (70%) და ღვიძლში, და ეწოდება - გლიკოგენი. ვარჯიშის დროს კუნთებში განთავსებული გლიკოგენი გარდაიქმნება გლუკოზად (შაქრად) და სისხლის მეშვეობით ნაწილდება ორგანიზმში როგორც ენერგია. ვარჯიშის დაწყებიდან დაახლოებით 40 წუთის შემდეგ, გლიკოგენის სრული მარაგი იხარჯება და ორგანიზმი რჩება ენერგიის გარეშე. სწორედ ამ დროს იჩენს თავს შემდეგი სიმპტომები: - დაღლილობა - უენერგიობა და გამოფიტულობა - კონცენტრაციის უნარის დაკარგვა - თავბრუსხვევა და პირის სიმშრალე - ზოგჯერ ხელის კანკალიც და გულისრევის შეგრძნებაც",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/cd707c36-4376-11ef-a892-162202104fa2_5855604341.jpg",
+          "blurhash": "jlUJXvCp;;BVOGtTlDCpKCBUlGup"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Applied Nutrition - Energy Endurance Gel(60მლ)(ხილის კოქტეილი)",
+      "options": [],
+      "original_price": null,
+      "price": 700,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6707bb0f19556db5fd90ebfb",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "57b909d7127b4b05485a70d0e249bd25",
+      "description": "Shaaboom Pump Juice Shot - ს შემდაგნელობაში შედის ციტრულინის მალატი, ბეტა ალანინი, L-არგინინის ალფაკეტოგლუტარატი (AAKG), ტაურინი, კოფეინი. ყველა ეს დანამატი ფოკუისირებულია რომ ვარჯიში იყოს წარმოუიდგენლად ენერგიული და შედეგის მომცემი, მიიღოთ მაქსიმალური ფამფი და გამოიყენოთ თქვენი ორგანიზმის მაქსიმუმი კუნთის მასის ზრდის მიმართულებით. Shaaboom Pump Juice Shot-ს ძირითადი თვისებები და მახასიათებლები: კოფეინი - ხელს უწყობს გამძლეობის გაზრდას შეიცავს ციტრულინს შეიცავს ბეტა-ალანინს შეიცავს L-არგინინის ალფაკეტოგლუტარატს (AAKG) შეიცავს ტაურინს კუნთის მაქსიმალური ტონუსისთვის მატებს ენერგიას",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/63e54288-86fb-11ef-a141-9ed7a6f220d1_5903719231831.jpg",
+          "blurhash": "jbZLrQCq;;KGpWC7GGtVTuCpcOpD"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Kevin Levrone - Shaaboom Pump Juice Shot(120მლ)(გრეიფუტი და ლაიმი)",
+      "options": [],
+      "original_price": null,
+      "price": 500,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6707bb0f19556db5fd90ebfa",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "d38d698e2b2d1515bd127842a7b317bd",
+      "description": "Shaaboom Pump Juice Shot - ს შემდაგნელობაში შედის ციტრულინის მალატი, ბეტა ალანინი, L-არგინინის ალფაკეტოგლუტარატი (AAKG), ტაურინი, კოფეინი. ყველა ეს დანამატი ფოკუისირებულია რომ ვარჯიში იყოს წარმოუიდგენლად ენერგიული და შედეგის მომცემი, მიიღოთ მაქსიმალური ფამფი და გამოიყენოთ თქვენი ორგანიზმის მაქსიმუმი კუნთის მასის ზრდის მიმართულებით. Shaaboom Pump Juice Shot-ს ძირითადი თვისებები და მახასიათებლები: კოფეინი - ხელს უწყობს გამძლეობის გაზრდას შეიცავს ციტრულინს შეიცავს ბეტა-ალანინს შეიცავს L-არგინინის ალფაკეტოგლუტარატს (AAKG) შეიცავს ტაურინს კუნთის მაქსიმალური ტონუსისთვის მატებს ენერგიას",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/63fda35a-86fb-11ef-b6b3-8eefec5c7ecc_5903719231855.jpg",
+          "blurhash": "jbZLnQCq;;KGuaCoGGtVTuCpcOpD"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Kevin Levrone - Shaaboom Pump Juice Shot(120მლ)(ფორთოხალი და ციტრუსი)",
+      "options": [],
+      "original_price": null,
+      "price": 500,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6707bb0f19556db5fd90ebf9",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "homedelivery",
+        "eatin",
+        "takeaway"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "7d6ebc155dfeae2ca24a70083f10e4c5",
+      "description": "Skull Crusher Shot by Skull Labs არის მრავალკომპონენტიანი ენერგეტიკი. პროდუქტის თხევადი ფორმა უზრუნველყოფს სწრაფ მოქმედებას და შესანიშნავი ალტერნატივაა მათთვის, ვინც თავს არიდებს ფხვნილს, კაფსულებს ან ტაბლეტებს. დანამატის შემადგენლობა არის პოპულარული ინგრედიენტების კარგად გააზრებული შემადგენლობა, ენერგეტიკული თვისებებით, შერჩეული ოპტიმალური პროპორციებით. პროდუქტი შემუშავებულია მათთვის, ვისაც სურს შეამციროს ფსიქოფიზიკური დაღლილობის მზარდი გრძნობა და მიაღწიოს მაქსიმალურ ეფექტს ვარჯიშის დროს. დანამატი რეკომენდირებულია მძიმე და დამღლელი ძალისა და გამძლეობის ვარჯიშის მოყვარულთათვის. რა სარგებელი მოაქვს Skull Crusher Shot-ის ინგრედიენტებს? AAKG და ციტრულინის მალატი მოქმედებს როგორც NO გამაძლიერებლები, რომლებიც გავლენას ახდენენ აზოტის ოქსიდის დონეზე, რაც ხელს უწყობს სისხლის ნაკადის გაზრდას და დაღლილობის შემცირებას. ბეტა-ალანინი - მნიშვნელოვანი კომპონენტია კარნოზინის სინთეზის პროცესში - მისი შემცველობა გავლენას ახდენოს მჟავა-ტუტოვანი ბალანსის რეგულირებაზე, აუმჯობესენს ვარჯიშთან ადაპტაციას ან ზრდის ნეირომუსკულური ეფექტურობა. კოფეინს აქვს მასტიმულირებელი მოქმედება ნერვულ სისტემაზე, ტაურინს ეხმარება ორგანიზმს გაზრდილი ფსიქოფიზიკური აქტივობის პერიოდში. Skull Labs - Skull Crusher Shot-ს ძირითადი თვისებები და მახასიათებლები: კოფეინი - ხელს უწყობს გამძლეობის გაზრდას შეიცავს ციტრულინს შეიცავს ბეტა-ალანინს შეიცავს L-არგინინის ალფაკეტოგლუტარატს (AAKG) შეიცავს ტაურინს მატებს ენერგიას",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": {
+        "disable_text": "Sold out",
+        "disable_reason": null
+      },
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/60d04a8e-86fb-11ef-ae5e-d6c405db2923_5902448245546.jpg",
+          "blurhash": "j8Z;vTCp;;KXPcCph4tTXKCp8ypC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Skull Labs - Skull Crusher Shot(120მლ)(ტყის ხილი)",
+      "options": [],
+      "original_price": null,
+      "price": 500,
+      "purchasable_balance": 0,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "62f0bb90266ecf3f052f1191",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "957456632c631462b5581da4b5027077",
+      "description": "\"პროდუქტი არ შეიცავს კალორიებს, ნახშირწყალს, შაქარსა და ცხიმს.\n\nმოქმედების ეფექტი – აძლიერებს სისხლის მიმოქცევას (ფამფი), ზრდის ფიზიკურ ძალას და ორგანიზმის ამტანობას, მატებს კონცენტრაციას.\n\nVitamin Power – Ritual-ის ძირითადი თვისებები და მახასიათებლები:\n– არის უძლიერესი ენერგეტიკი\n– მატებს ენერგიას\n– ამაღლებს გამძლეობას\n– იწვევს ძლიერ ფამფს\n– აფხიზლებს ორგანიზმს\n– აძლიერებს ფოკუსს და კონცენტრაციას\n– არ შეიცავს კალორიებს, ნახშირწყალს, შაქარსა და ცხიმს.\"",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/41845ae8-1494-11ed-8167-6ac2d532e74f_4860116330042.jpeg",
+          "blurhash": "jbZvjQGG;;yGPcuph4BTTtupcPBT"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Vitamin Power - Ritual(80მლ)(მწვანე ვაშლი)",
+      "options": [],
+      "original_price": null,
+      "price": 500,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "677137d367bc4cba2d7e2b3d",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "0d12f35b93c1ca5d6321c7aadf68cc22",
+      "description": "Vitamin Power - Ritual Stim Free - არის სტიმულანტებისგან თავისუფალი ერთ-ერთი საუკეთესო ენერგეტიკი, რომელიც უზრუნველყოფს ორგანიზმის მომზადებას მძიმე ფიზიკური ვარჯიშისთვის. მისი კლინიკური კვლევებით დადასტურებული კომპონენტები ზრდიან გამძლეობას, აუმჯობესებენ სისხლის ცირკულაციას და ქმნიან დაუვიწყარ ფამფს. ამდიდრებენ ჟანგბადით ორგანიზმს, რაც დადებითად აისახება ვარჯიშის ეფექტურობაზე. \n\nBeta Alanine  იძლევა ძალას და ენერგიას. იგი მნიშვნელოვნად ზრის ვარჯიშის ეფექტურობასა და სავარჯიშო წონების მოცულობას. ბეტა-ალანინი წარმოადგენს კარნოზინის სინთეზისთვის საჭირო მთავარ ნივთიერებას, რომლიც ანტიოქსიდანტურ თვისებებს ავლენს და მძიმე ვარჯიშის პირობებში, იცავს კუნთის უჯრედებს დაშლისგან.\n\nCitruline  არის ამინომჟავა, რომელიც ზრდის აზოტის ოქსიდის გამომუშავებას და გამოყოფას სისხლში. იგი იწვევს კუნთების „ტუმბოს ეფექტს“ (ფამფი), რომელიც განაპირობებს კუნთში უფრო დიდი რაოდენობით საკვები ნივთიერებების და ჟანგბადის შეტანას და მის ეფექტურ ზრდას. ეს ამინომჟავის ახდენს ორგანიზმიდან ტოქსიკური ამიაკის მოცილებას. \n\nL-Arginine hydrocloride ასტიმულირებს ორგანიზმში აზოტის ოქსიდის გამოყოფას, რაც ხელს უწყობს სისხლძარღვების გაფართოებას და ზრდის მათ მოქნილობას. ინტენსიური ვარჯიშის დროს, გაფართოებული სისხლძარღვებით, კუნთს მეტი სისხლი და შესაბამისად მეტი საკვები ნივთიერებები მიეწოდება.\n\nTaurine -  სასიცოცხლო ფუნქციას ასრულებს ორგანიზმში ელექტროლიტური ბალანსის შენარჩუნებაში. ასევე ბლოკავს კატაბოლურ ჰორმონებს და ხელს უშლის დაღლილობის დაწყებას. მატებს ორგანიზმს ენერგიას და სტრესისადმი მდგრადობას. \n\nVitamin Power - Ritual Stim Free გლუკურონოლაქტონი, რომელიც არის გულის მკვებავი და იცავს მას გადატვირთული მუშაობის დროს და ასევე B3 და B6 ვიტამინები ენერგიის მეტაბოლიზმის გასაუმჯობესებლად.\n\nVitamin Power - Ritual Stim Free - ს ძირითადი თვისებები და მახასიათებლები:\n\n– ასტიმულირებს აზოტის ოქსიდის გამომუშავებას\n– აძლიერებს კუნთების „ტუმბოს ეფექტს“ (ფამფი)\n– ზრდის კუნთებსა და ვენებს მოცულობაში\n– ზრდის ძალას და გამძლეობას\n– ხელს უწყობს მშრალი კუნთოვანი მასის ზრდას\n– ასუფთავებს ორგანიზმს ტოქსიკური ამიაკისგან\n– აძლიერებს ერექციას და სექსუალური დისფუნქციის პრევენციას\n– აუმჯობესებს კონცენტრაციას და ტვინის ფუნქციებს\n\nმიღების წესი და დოზირება\nმიიღეთ ნახევარი (40 მლ) ან მთლიანი შოტი (80 მლ) ვარჯიშამდე 20-30 წთ ადრე\n\nგაფრთხილება \nარ მიიღოთ ორსულობის ან ლაქტაციის პერიოდში. შეწყვიტეთ მედიკამენტის მიღება და მიმართეთ ექიმს კონსულტაციისთვის, თუ გაგიჩნდათ უჩვეულო სიმპტომები, თუ შეამჩნიეთ კანზე გამონაყარი ან მოგცათ სხვა ალერგიული რეაქცია. არ მიიღოთ 18 წლამდე ასაკის ადამიანებმა.ამ პროდუქციის მიღებამდე კონსულტაცია გაიარეთ ექიმთან თუ თქვენ მკურნალობთ ან გარკვეული დიაგნოზი გაქვთ დასმული რაიმე დაავადებაზე, ან ღებულობთ მედიკამენტურ საშუალებებს. ამ პროდუქციის არასწორი მიღება ვერ მოგცემთ შედეგებს, ამიტომ გამოიყენეთ მხოლოდ ისე, როგორც არის მითითებული. შეინახეთ გრილ და მშრალ ბავშვებისთვის ხელმიუწვდომელ ადგილას.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f581ca58c142b3b9e2716d/f923f712-d4b3-11ef-9df2-464624a39d1d_viber_image_2025_01_16_18_38_07_822_ezgif.com_resize.jpg",
+          "blurhash": "jcYLbOpC;;PcPtGGh4pCXKGG8yll"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Vitamin Power - Ritual Stim Free(80მლ)(მარწყვი)",
+      "options": [],
+      "original_price": null,
+      "price": 500,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "677137d367bc4cba2d7e2b57",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "b2ae4a57b014b14a9003c639c1e42d7b",
+      "description": "JNX SPORTS - The curse გამორჩეული ენერგეტიკია, რომელიც დიდი მოწონებით სარგებლობს მოვარჯიშეთა შორის. მიუხედავდ იმისა რომ ეს ენერგეტიკი არ გამოირჩევა კომპონენტების განსაკუთრებით მაღალი დოზირებებით, მისი ეფექტურობის საიდუმლო დაბალანსებული, სინერგიულად მოქმედი ინგრედინეტებია.\n\nპროდუქტში შეავალი 3 მნიშვნელოვანი კომპლექსი განაპირობებს მის ეფექტურობასა და სწრაფად შეგრძნებად შედეგს.\nკუნთების გამაძლიერებელი კომპლექსი გვთავაზობს ბეტა-ალანინისა და კრეატინ მონოჰიდრატის კომბინაციას. რაც გვეხმარება ვარჯიშის დროს ძალისა და კუნთის გამძლეობის მატებაში.\nფამფის გამაძლიერებელი კომპლექსი შედგება L-Citruline და L-Arginine -საგან. როგორც კვლევები აჩვენებს, ციტრულინისა და არჯინინის კომბანაცია გაცილებით ეფექტურია ვიდრე ცალკე აღებული ეს ამინომჟავები, თუნდაც გაორმაგებული დოზით. ამიტომ ეს ფორმულა, რომელიც მონაწილეობს ცილისა და კრეატინის სინთეზში, აფართოებს სისხლძარღვებს, აძლიერებს სისხლის ცირკულაციას და ზრდის მასში ჟანგბადის მიწოდებას. ვარჯიშის წინ მისი მიღება ზრდის ფამფის ეფექტს, გამძლეობას და ძალას. იდეალურია კუნთოვანი მასის მატებისთვის. \nკონცნტრაციისა და გონებრივი შესაძლებლობების ზრდას კი კოფეინისა და ზეთისხილის ფოთლის ექსტრაქტის მეცნიერულად დამუშავებული დოზირებები უზრუნველყოფენ.\n\nJNX SPORTS - The curse-ის ძირითადი თვისებები და მახასიათებლები:\n- აფხიზლებს ორგანიზმს\n- მატებს ძალას და ენერგიას\n- არის ძლიერი ენერგეტიკი\n- აუმჯობესებს გამძლეობას\n- ამაღლებს კუნთების შრომისუნარიანობას\n- აძლიერებს ფამფს\n- ამაღლებს ფოკუსსა და კონებრივ კონცენტრაციას\n- აქვს სასიამოვნო გემო და კარგი ხსნადობა\n- დამზადებულია ამერიკაში\n\nმიღების წესი და დოზირება:\nგახსენით 1 პორცია (1 პაკეტი) 200-250 მლ წყალში და მიიღეთ ვარჯიშამდე 30 წუთით ადრე. მიიღეთ ძილამდე მინიმუმ 4-5 საათით ადრე. 24 საათში არ მიიღოთ 2 პორციაზე მეტი.\n\nგაფრთხილება:\nთუ ხართ 18 წლამდე ასაკის, ორსული ან გაქვთ ლაქტაციის პერიოდი, თუ რაიმე სამედიცინო მდგომარეობის დიაგნოზი გაქვთ ან იყენებთ მედიკამენტებს, არ გამოიყენოთ ექიმთან კონსულტაციის გარეშე. არ გადააჭარბოთ რეკომენდირებულ დოზას. საკვები დანამატები უნდა იყოს ჯანსაღი და მრავალფეროვანი დიეტის ნაწილი.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f581ca58c142b3b9e2716d/c46f0bb8-c5d8-11ef-b670-8ece9a91be89_viber_image_2024_12_25_14_17_37_676_ezgif.com_webp_to_jpg_converter.jpg",
+          "blurhash": "jdWezCPbXKPclmTtllcP;;qa8yll"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "JNX SPORTS - The curse stick pack(8გრ)(ლიმონი)",
+      "options": [],
+      "original_price": null,
+      "price": 400,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "677137d367bc4cba2d7e2b58",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "1e0ace7abbcbd28ff5b95f12b5127d66",
+      "description": "JNX SPORTS - The Shadow Pre-Workout გამორჩეული ენერგეტიკია, რომელიც დიდი მოწონებით სარგებლობს მოვარჯიშეთა შორის. მიუხედავდ იმისა რომ ეს ენერგეტიკი არ გამოირჩევა კომპონენტების განსაკუთრებით მაღალი დოზირებებით, მისი ეფექტურობის საიდუმლო დაბალანსებული, სინერგიულად მოქმედი ინგრედინეტებია.\n\nპროდუქტში შეავალი 3 მნიშვნელოვანი კომპლექსი განაპირობებს მის ეფექტურობასა და სწრაფად შეგრძნებად შედეგს.\nკუნთების გამაძლიერებელი კომპლექსი გვთავაზობს ბეტა-ალანინის, ტაურინისა და ლეიცინის კომბინაციას. რაც გვეხმარება ვარჯიშის დროს ძალისა და კუნთის გამძლეობის მატებაში.\nფამფის გამაძლიერებელი კომპლექსი შედგება ამინომჟავა ციტრულინისა და ბეტაინისაგან. ეს ამინომჟავები მონაწილეობენ ცილისა და კრეატინის სინთეზში, აფართოებენ სისხლძარღვებს, აძლიერებენ სისხლის ცირკულაციას და ზრდიან მასში ჟანგბადის მიწოდებას. ვარჯიშის წინ მისი მიღება ზრდის ფამფის ეფექტს, გამძლეობას და ძალას. იდეალურია კუნთოვანი მასის მატებისთვის. \nკონცნტრაციისა და გონებრივი შესაძლებლობების ზრდას კი თიროზინის, კოფეინისა და ზეთისხილის ფოთლის ექსტრაქტის მეცნიერულად დამუშავებული დოზირებები უზრუნველყოფენ.\n\nJNX SPORTS - The Shadow Pre-Workout-ის ძირითადი თვისებები და მახასიათებლები:\n- აფხიზლებს ორგანიზმს\n- მატებს ძალას და ენერგიას\n- არის ძლიერი ენერგეტიკი\n- აუმჯობესებს გამძლეობას\n- ამაღლებს კუნთების შრომისუნარიანობას\n- აძლიერებს ფამფს\n- ამაღლებს ფოკუსსა და კონებრივ კონცენტრაციას\n- აქვს სასიამოვნო გემო და კარგი ხსნადობა\n- დამზადებულია ამერიკაში\n\nმიღების წესი და დოზირება:\nგახსენით 1 პორცია (1 პაკეტი) 200-250 მლ წყალში და მიიღეთ ვარჯიშამდე 30 წუთით ადრე. მიიღეთ ძილამდე მინიმუმ 4-5 საათით ადრე. 24 საათში არ მიიღოთ 2 პორციაზე მეტი.\n\nგაფრთხილება:\nთუ ხართ 18 წლამდე ასაკის, ორსული ან გაქვთ ლაქტაციის პერიოდი, თუ რაიმე სამედიცინო მდგომარეობის დიაგნოზი გაქვთ ან იყენებთ მედიკამენტებს, არ გამოიყენოთ ექიმთან კონსულტაციის გარეშე. არ გადააჭარბოთ რეკომენდირებულ დოზას. საკვები დანამატები უნდა იყოს ჯანსაღი და მრავალფეროვანი დიეტის ნაწილი.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f581ca58c142b3b9e2716d/06b278d4-c5d9-11ef-ace2-ce2a45d3ff2e_viber_image_2024_12_25_13_54_32_688_ezgif.com_webp_to_jpg_converter.jpg",
+          "blurhash": "j6X:XKTc;;qX;;X;8y4h;;4h8h;;"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "JNX SPORTS - The Shadow Pre-Workout(9გრ)(ლურჯი კენკრა)",
+      "options": [],
+      "original_price": null,
+      "price": 400,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "6707bb0f19556db5fd90ebf7",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "604f9717606762ffe97a4ac8c0b67b21",
+      "description": "– ასტიმულირებს აზოტის ოქსიდის გამომუშავებას – აძლიერებს კუნთების „ტუმბოს ეფექტს“ (ფამფი) – ზრდის კუნთებსა და ვენებს მოცულობაში – ზრდის ძალას და გამძლეობას – ხელს უწყობს მშრალი კუნთოვანი მასის ზრდას – ასუფთავებს ორგანიზმს ტოქსიკური ამიაკისგან – აძლიერებს ერექციას და სექსუალური დისფუნქციის პრევენციას – აუმჯობესებს კონცენტრაციას და ტვინის ფუნქციებს",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/60b70be6-86fb-11ef-988a-d6c405db2923_5902448266244.jpg",
+          "blurhash": "j6:LDVq9;;OXOHCnmDtVXJGG8zlC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "FA Nutrition - Ice Pump shot(120მლ)(ეგზოტიკური ხილი)",
+      "options": [],
+      "original_price": null,
+      "price": 500,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "62ce98bf7a131cc5e2586ace",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "143eea0d512b19c57141d5ac58e0570f",
+      "description": "Applied Nutrition – A.b.e Gel არის გელის სახით წარმოდგენილი უძიერესი ენერგეტიკი.\n\nABE Ultimate Pre-Workout Gels გთავაზობთ უნიკალურ, ყველაზე მნიშვნელოვან და გამოკვლეულ აქტიურ ინგრედიენტებს, რომლებიც ამცირებს დაღლილობას, მატებენ ენერგიასა, გამძლეობას და უზრუნველყოფენ მუდმივ ფოკუსს მთელი ვარჯიშის განმავლობაში.\n\nApplied Nutrition – A.b.e Gel-ის ძირითადი თვისებები და მახასიათებლები:\n– მატებს ენერგიას\n– მატებს ძალას და გამძლეობას\n– აძლიერებს ფოკუსს\n– ამცირებს დაღლილობას\n– ხელს უწყობს წითელი უჯრედების ნორმალურ ფუნქციონირებას\n– შექმნილია Breathe Easy™ ფორმულით და უზრუნველყოფს სასუნთქი გზების გახსნას\n– არის Halal Certified პროდუქტი\n\nმიღების წესი და დოზირება:\nმიიღეთ 1 პაკეტი ვარჯიშამდე 15-30 წუთით ადრე.\n\nგაფრთხილება:\nთუ ხართ 18 წლამდე ასაკის, ორსული ან გაქვთ ლაქტაციის პერიოდი, თუ რაიმე სამედიცინო მდგომარეობის დიაგნოზი გაქვთ ან იყენებთ მედიკამენტებს, არ გამოიყენოთ ექიმთან კონსულტაციის გარეშე. არ გადააჭარბოთ რეკომენდირებულ დოზას. საკვები დანამატები უნდა იყოს ჯანსაღი და მრავალფეროვანი დიეტის ნაწილი.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/155697ac-5bd1-11ef-8c3f-6675f827c298_3415879356.jpg",
+          "blurhash": "jkTJTuGC;;tXGGtTtTCpTtpGcPGC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Applied Nutrition - A.b.e Gel(60მლ)(ენერჯი)",
+      "options": [],
+      "original_price": null,
+      "price": 800,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "62ce98bf7a131cc5e2586acf",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "1de0e4af93e0c9e1a7b610c726962c2c",
+      "description": "Applied Nutrition – A.b.e Gel არის გელის სახით წარმოდგენილი უძიერესი ენერგეტიკი.\n\nABE Ultimate Pre-Workout Gels გთავაზობთ უნიკალურ, ყველაზე მნიშვნელოვან და გამოკვლეულ აქტიურ ინგრედიენტებს, რომლებიც ამცირებს დაღლილობას, მატებენ ენერგიასა, გამძლეობას და უზრუნველყოფენ მუდმივ ფოკუსს მთელი ვარჯიშის განმავლობაში.\n\nApplied Nutrition – A.b.e Gel-ის ძირითადი თვისებები და მახასიათებლები:\n– მატებს ენერგიას\n– მატებს ძალას და გამძლეობას\n– აძლიერებს ფოკუსს\n– ამცირებს დაღლილობას\n– ხელს უწყობს წითელი უჯრედების ნორმალურ ფუნქციონირებას\n– შექმნილია Breathe Easy™ ფორმულით და უზრუნველყოფს სასუნთქი გზების გახსნას\n– არის Halal Certified პროდუქტი\n\nმიღების წესი და დოზირება:\nმიიღეთ 1 პაკეტი ვარჯიშამდე 15-30 წუთით ადრე.\n\nგაფრთხილება:\nთუ ხართ 18 წლამდე ასაკის, ორსული ან გაქვთ ლაქტაციის პერიოდი, თუ რაიმე სამედიცინო მდგომარეობის დიაგნოზი გაქვთ ან იყენებთ მედიკამენტებს, არ გამოიყენოთ ექიმთან კონსულტაციის გარეშე. არ გადააჭარბოთ რეკომენდირებულ დოზას. საკვები დანამატები უნდა იყოს ჯანსაღი და მრავალფეროვანი დიეტის ნაწილი.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/15acd7fc-5bd1-11ef-b436-ced28dc47e1f_3415879360.jpg",
+          "blurhash": "jjTJXupC;;KXGGtTtTCpTtGGcPll"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Applied Nutrition - A.b.e Gel(60მლ)(ყინულის ფრეში)",
+      "options": [],
+      "original_price": null,
+      "price": 800,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "62ce98bf7a131cc5e2586ad0",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "bd31dde07038d1666ec73858924755df",
+      "description": "Applied Nutrition – A.b.e Gel არის გელის სახით წარმოდგენილი უძიერესი ენერგეტიკი.\n\nABE Ultimate Pre-Workout Gels გთავაზობთ უნიკალურ, ყველაზე მნიშვნელოვან და გამოკვლეულ აქტიურ ინგრედიენტებს, რომლებიც ამცირებს დაღლილობას, მატებენ ენერგიასა, გამძლეობას და უზრუნველყოფენ მუდმივ ფოკუსს მთელი ვარჯიშის განმავლობაში.\n\nApplied Nutrition – A.b.e Gel-ის ძირითადი თვისებები და მახასიათებლები:\n– მატებს ენერგიას\n– მატებს ძალას და გამძლეობას\n– აძლიერებს ფოკუსს\n– ამცირებს დაღლილობას\n– ხელს უწყობს წითელი უჯრედების ნორმალურ ფუნქციონირებას\n– შექმნილია Breathe Easy™ ფორმულით და უზრუნველყოფს სასუნთქი გზების გახსნას\n– არის Halal Certified პროდუქტი\n\nმიღების წესი და დოზირება:\nმიიღეთ 1 პაკეტი ვარჯიშამდე 15-30 წუთით ადრე.\n\nგაფრთხილება:\nთუ ხართ 18 წლამდე ასაკის, ორსული ან გაქვთ ლაქტაციის პერიოდი, თუ რაიმე სამედიცინო მდგომარეობის დიაგნოზი გაქვთ ან იყენებთ მედიკამენტებს, არ გამოიყენოთ ექიმთან კონსულტაციის გარეშე. არ გადააჭარბოთ რეკომენდირებულ დოზას. საკვები დანამატები უნდა იყოს ჯანსაღი და მრავალფეროვანი დიეტის ნაწილი.",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/133e0464-5bd1-11ef-bba7-aa20d476b1da_3415879354.jpg",
+          "blurhash": "jkUdTtlC;;OWGGu7tTCpTKKGgPhC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Applied Nutrition - A.b.e Gel(60მლ)(ხილის კოქტეილი)",
+      "options": [],
+      "original_price": null,
+      "price": 800,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [
+        {
+          "id": "popular",
+          "label": "Popular",
+          "decoration": "star",
+          "color": "primary",
+          "style": {
+            "background_color": "#009de0",
+            "text_color": "#ffffff"
+          }
+        }
+      ],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ebb26ef9a3c6b9e1cfa45b",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "17991068848a78e8ce6fe0f5c97adc33",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/15133386-0edc-11f0-8998-72fe258242da_abeultimatepre_workoutshot60ml_drumstick_ezgif.com_resize.jpg",
+          "blurhash": "jaNs6;GG;;pSXstTcQGqTuu7cOBV"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "applied Nutrition - a.b.e shots(60მლ)(DRUMSTICK)",
+      "options": [],
+      "original_price": null,
+      "price": 700,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ebb284cf081d37b12f3ba1",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "11ea3467e7d95eb646a596afca045b3a",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/2251b52c-0edc-11f0-8358-b254a70ea4be_abeultimatepre_workoutshot60ml_energyflavour_ezgif.com_resize.jpg",
+          "blurhash": "jaMb;1GG;;CpPdtTh4GGXKCpcPpD"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "applied Nutrition - a.b.e shots(60მლ)(ენერჯი)",
+      "options": [],
+      "original_price": null,
+      "price": 700,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ebb29b65833c59d04fc6f3",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "cd7511c9b0da47e44622e9af30742e75",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/2fd1a41e-0edc-11f0-9d2d-e2cb25ac6241_abeultimatepre_workoutshot60ml_bluelagoon_ezgif.com_resize.jpg",
+          "blurhash": "jaLYb4GG;;tCPttTgPGGXttTcPCp"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "applied Nutrition - a.b.e shots(60მლ)(ლურჯი კენკრა)",
+      "options": [],
+      "original_price": null,
+      "price": 700,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ebb2b18849125510014352",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "fa70c62a13ba9736c1414f190ca2bef7",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/3ccd7d8c-0edc-11f0-8325-5ae5fa481930_abeultimatepre_workoutshot60ml_fruitcandy_ezgif.com_resize.jpg",
+          "blurhash": "j8Ns73GG;;pCXutT8PGGXKtTczCG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "applied Nutrition - a.b.e shots(60მლ)(ხილი)",
+      "options": [],
+      "original_price": null,
+      "price": 700,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ebbb184ecbff4c216c3e23",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "3a8e96e930ee350e612af065696e1a9d",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/3f02abcc-0ee1-11f0-b79a-e21dc16c15b7_sparklingproteinwater330ml_appleburst_ezgif.com_resize.jpg",
+          "blurhash": "jbMIyXpS;LKXLcCpllpCOZGGhjpB"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Applied Nutrition - Sparkling Protein Water can(330მლ)(მწვანე ვაშლი)",
+      "options": [],
+      "original_price": null,
+      "price": 800,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ebbb33069aa77f620d3445",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "05ed69f886bca1557d704749b37deb69",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/4efc9862-0ee1-11f0-88c5-ba954a37515a_sparklingproteinwater330ml_orangeburst_ezgif.com_resize.jpg",
+          "blurhash": "jcQYiXFTbLCGOYyphkxTfduqR3BC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Applied Nutrition - Sparkling Protein Water can(330მლ)(ფორთოხალი)",
+      "options": [],
+      "original_price": null,
+      "price": 800,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ebbb4ce7b5efdd96f09cd7",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "87f14f1822a9e092a116550d85c84590",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/5de857da-0ee1-11f0-9cd5-423aaf6b014c_sparklingproteinwater330ml_tropicalburst_ezgif.com_resize.jpg",
+          "blurhash": "jaQc2ZFTj;uXTcuphkBCjtuGMPFC"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "Applied Nutrition - Sparkling Protein Water can(330მლ)(ტროპიკული ხილი)",
+      "options": [],
+      "original_price": null,
+      "price": 800,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    },
+    {
+      "id": "67ebbce4de9a8aa011d91240",
+      "advertising_info": null,
+      "alcohol_permille": 0,
+      "allowed_delivery_methods": [
+        "eatin",
+        "takeaway",
+        "homedelivery"
+      ],
+      "available_times": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "start_time": 0,
+          "end_time": 86400000
+        }
+      ],
+      "barcode_gtin": null,
+      "caffeine_info": null,
+      "can_be_promoted": {
+        "basket": true,
+        "venue": true,
+        "credits": true
+      },
+      "checksum": "bf2ef298ffc4ae9154ceb00ad47bbc00",
+      "description": "",
+      "deposit": null,
+      "dietary_preferences": [],
+      "disabled_info": null,
+      "fulfillment_lead_time": null,
+      "has_extra_info": false,
+      "images": [
+        {
+          "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/60f56a2d486e92a6308669d2/8b7d1108-0ee2-11f0-ae92-baa7ed6e8a6f_1732697975_11_7272_ezgif.com_resize.jpg",
+          "blurhash": "jmZKrCKGX;lCPcqpllJTGXtCtCCG"
+        }
+      ],
+      "is_cutlery": false,
+      "is_no_contact_delivery_allowed": true,
+      "is_wolt_plus_only": false,
+      "lowest_price": null,
+      "lowest_price_v2": null,
+      "max_quantity_per_purchase": null,
+      "min_quantity_per_purchase": null,
+      "name": "applied nutrition - Protein Shake(330მლ)(მარწყვი)",
+      "options": [],
+      "original_price": null,
+      "price": 900,
+      "purchasable_balance": null,
+      "restrictions": [],
+      "return_policy": null,
+      "sell_by_weight_config": null,
+      "should_display_purchasable_balance": false,
+      "tags": [],
+      "unit_info": null,
+      "unit_price": null,
+      "variant": null
+    }
+  ],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

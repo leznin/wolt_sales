@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "67d175c6bb926fb6d6765267",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/6450e6fca43938db23eddc6b/7af53ac2-ff3d-11ef-9aab-9a7a63924326_53954_1103.jpg",
+        "blurhash": "jcYLjRGq;;GGllu9KXCnTcupd4BT"
+      }
+    ],
+    "name": "საკვები პროდუქტები",
+    "slug": "menucategory-280"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}

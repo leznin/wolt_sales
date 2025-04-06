@@ -1,0 +1,22 @@
+{
+  "category": {
+    "id": "654b7aa871351934dc53a1cf",
+    "description": "",
+    "images": [
+      {
+        "url": "https://wolt-menu-images-cdn.wolt.com/menu-images/5fc89fad02776a9fd8b71d92/eea58016-640e-11ed-858b-82ec70b4428e_apx011128.jpeg",
+        "blurhash": "jeX:XJTt;;cPKXuqllGC;;h48yTt"
+      }
+    ],
+    "name": "მედიკამენტები",
+    "slug": "menucategory-111"
+  },
+  "categories": [],
+  "items": [],
+  "options": [],
+  "variant_groups": [],
+  "metadata": {
+    "next_page_token": null,
+    "page": 1
+  }
+}
