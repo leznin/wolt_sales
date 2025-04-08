@@ -37,6 +37,16 @@
                     <input type="url" id="redirect_url" name="redirect_url" class="form-control" required>
                 </div>
             </div>
+
+            <!-- выпадающий список стран с перебором страны в country.json-->
+            <div class="form-group">
+                <label for="country">Страна</label>
+                <select id="country" name="country" class="form-control">
+                    {% for country in countries %}
+                        <option value="{{ country.country }}">{{ country.country }}</option>
+                    {% endfor %}
+                </select>
+            </div>
             
             <div class="form-group">
                 <label for="description">Описание</label>

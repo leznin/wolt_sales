@@ -1197,17 +1197,17 @@ class WoltDatabase:
             self.pool.release_connection(conn)
 
     # Методы для работы с рекламными прелоадерами
-    def create_ad_preloader(self, title, description, video_url, redirect_url, display_time=5, skip_after=3, priority=50):
+    def create_ad_preloader(self, title, description, video_url, redirect_url, display_time=5, skip_after=3, priority=50, country_id=None):
         """Создает новую запись о рекламном прелоадере"""
         try:
             conn = self.pool.get_connection()
             cursor = conn.cursor()
             query = """
             INSERT INTO ad_preloaders 
-            (title, description, video_url, redirect_url, display_time, skip_after, priority, is_active) 
-            VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+            (title, description, video_url, redirect_url, display_time, skip_after, priority, is_active, country_id) 
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
             """
-            cursor.execute(query, (title, description, video_url, redirect_url, display_time, skip_after, priority, True))
+            cursor.execute(query, (title, description, video_url, redirect_url, display_time, skip_after, priority, True, country_id))
             conn.commit()
             ad_id = cursor.lastrowid
             cursor.close()
@@ -1217,6 +1217,7 @@ class WoltDatabase:
             logging.error(f"Ошибка при создании рекламного прелоадера: {str(e)}")
             raise
 
+    # Получение всех рекламных прелоадеров
     def get_all_ad_preloaders(self):
         """Возвращает список всех рекламных прелоадеров"""
         try:
@@ -1232,6 +1233,23 @@ class WoltDatabase:
             logging.error(f"Ошибка при получении списка рекламных прелоадеров: {str(e)}")
             return []
 
+    # Получение списка стран
+    def get_all_countries(self):
+        """Возвращает список всех стран"""
+        try:
+            conn = self.pool.get_connection()
+            cursor = conn.cursor(dictionary=True)
+            query = "SELECT DISTINCT country FROM stores ORDER BY country"
+            cursor.execute(query)
+            countries = cursor.fetchall()
+            cursor.close()
+            self.pool.release_connection(conn)
+            return countries
+        except Exception as e:
+            logging.error(f"Ошибка при получении списка стран: {str(e)}")
+            return []
+
+    # Получение конкретного рекламного прелоадера
     def get_ad_preloader(self, ad_id):
         """Возвращает информацию о конкретном рекламном прелоадере"""
         try:
@@ -1247,7 +1265,7 @@ class WoltDatabase:
             logging.error(f"Ошибка при получении информации о рекламном прелоадере: {str(e)}")
             return None
 
-    def update_ad_preloader(self, ad_id, title, description, video_url, redirect_url, display_time, skip_after, priority):
+    def update_ad_preloader(self, ad_id, title, description, video_url, redirect_url, display_time, skip_after, priority, country_id):
         """Обновляет информацию о рекламном прелоадере"""
         try:
             conn = self.pool.get_connection()
@@ -1255,10 +1273,10 @@ class WoltDatabase:
             query = """
             UPDATE ad_preloaders 
             SET title = %s, description = %s, video_url = %s, redirect_url = %s, 
-                display_time = %s, skip_after = %s, priority = %s
+                display_time = %s, skip_after = %s, priority = %s, country_id = %s
             WHERE id = %s
             """
-            cursor.execute(query, (title, description, video_url, redirect_url, display_time, skip_after, priority, ad_id))
+            cursor.execute(query, (title, description, video_url, redirect_url, display_time, skip_after, priority, country_id, ad_id))
             conn.commit()
             cursor.close()
             self.pool.release_connection(conn)

@@ -26,6 +26,8 @@ const resources = {
       'all': 'All',
       'supermarkets': 'Supermarkets',
       'pharmacies': 'Pharmacies',
+      'cosmetics': 'Cosmetics',
+      'pet-supplies': 'Pet Supplies',
       
       // Products
       'products': 'Products',
@@ -84,6 +86,8 @@ const resources = {
       'all': 'Все',
       'supermarkets': 'Супермаркеты',
       'pharmacies': 'Аптеки',
+      'cosmetics': 'Косметика',
+      'pet-supplies': 'Товары для животных',
       
       // Products
       'products': 'Товары',

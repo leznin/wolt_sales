@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useContext, useCallback } from 'react';
 import styled from 'styled-components';
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
 import ScrollToTopButton from '../components/ScrollToTopButton';
 
 // Components
@@ -234,22 +233,7 @@ const ProductImage = styled.img`
   }
 `;
 
-const ImagePlaceholder = styled.div`
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #aaa;
-  font-size: 0.875rem;
-  
-  @media (prefers-color-scheme: dark) {
-    color: #666;
-  }
-`;
+
 
 const DiscountTag = styled.span`
   background-color: #ff5252;
@@ -341,16 +325,6 @@ const CurrentPrice = styled.span`
   
   @media (prefers-color-scheme: dark) {
     color: #00D4FF;
-  }
-`;
-
-const OriginalPrice = styled.span`
-  font-size: 0.875rem;
-  color: #999;
-  text-decoration: line-through;
-  
-  @media (max-width: 480px) {
-    font-size: 0.8rem;
   }
 `;
 
@@ -586,7 +560,15 @@ const StoreList = () => {
               active={selectedVenueType === type} 
               onClick={() => setSelectedVenueType(type)}
             >
-              {type === 'supermarket' ? t('supermarkets') : t('pharmacies')}
+              {type === 'supermarket' 
+                ? t('supermarkets') 
+                : type === 'pharmacy' 
+                  ? t('pharmacies') 
+                  : type === 'cosmetics' 
+                    ? t('cosmetics') 
+                    : type === 'pet-supplies' 
+                      ? t('pet-supplies')
+                      : getVenueTypeTranslation(type)}
             </VenueTypeButton>
           ))}
         </VenueTypeMenu>

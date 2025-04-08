@@ -26,8 +26,8 @@ except ImportError:
 @dataclass
 class WoltConfig:
     """Конфигурация для WoltAPI"""
-    save_responses: bool = False
-    log_to_file: bool = False
+    save_responses: bool = True
+    log_to_file: bool = True
     log_level: int = logging.INFO
     log_file: str = 'wolt_parser.log'
     use_http2: bool = True
@@ -42,7 +42,7 @@ class WoltConfig:
     min_retry_delay: float = 2.0
     max_retry_delay: float = 60.0
     # Новый параметр для управления количеством запросов к одному домену
-    max_concurrent_per_domain: int = 5
+    max_concurrent_per_domain: int = 3
     # Новый параметр для управления задержкой между запросами к одному домену
     domain_delay: float = 2.0
 
@@ -331,7 +331,8 @@ class WoltAPI:
             responses_dir.mkdir(exist_ok=True)
             safe_url = url.replace("://", "_").replace("/", "_").replace("?", "_").replace("&", "_")
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            filename = f"{responses_dir}/{timestamp}.json"
+            random_number = random.randint(0, 9999)
+            filename = f"{responses_dir}/{safe_url}_{timestamp}_{random_number}.json"
             with open(filename, 'w', encoding='utf-8') as f:
                 json.dump(data, f, indent=2, ensure_ascii=False)
         except Exception as e:
@@ -340,7 +341,7 @@ class WoltAPI:
     async def search_venues(self, query: str = "supermarket") -> List[Dict]:
         """Поиск магазинов"""
         venues = []
-        venue_types = ["supermarket", "pharmacy"]
+        venue_types = ["supermarket", "pharmacy", "cosmetics", "pet-supplies"]
         
         for venue_type in venue_types:
             url = f"{self.consumer_endpoint}v1/pages/search"
@@ -403,40 +404,50 @@ class WoltAPI:
             if client is None:
                 client = await self._get_client()
 
-            if self.config.use_cache:
-                cached_data = self._get_from_cache(query_url)
-                if cached_data is not None:
-                    items = []
-                    all_items = cached_data.get("items", [])
-                    if isinstance(all_items, list) and all_items:
-                        from concurrent.futures import ThreadPoolExecutor
-                        def process_batch(batch):
-                            batch_items = []
-                            for item_data in batch:
-                                self._process_item(item_data, batch_items, venue_slug, cached_data.get("id", ""))
-                            return batch_items
-                        batch_size = self.config.batch_size
-                        batches = [all_items[i:i+batch_size] for i in range(0, len(all_items), batch_size)]
-                        with ThreadPoolExecutor(max_workers=min(8, len(batches))) as executor:
-                            batch_results = list(executor.map(process_batch, batches))
-                        for batch_result in batch_results:
-                            items.extend(batch_result)
-                        return items
+            # if self.config.use_cache:
+            #     cached_data = self._get_from_cache(query_url)
+            #     if cached_data is not None:
+            #         items = []
+            #         all_items = cached_data.get("items", [])
+            #         if isinstance(all_items, list) and all_items:
+            #             from concurrent.futures import ThreadPoolExecutor
+            #             def process_batch(batch):
+            #                 batch_items = []
+            #                 for item_data in batch:
+            #                     self._process_item(item_data, batch_items, venue_slug, cached_data.get("id", ""))
+            #                 return batch_items
+            #             batch_size = self.config.batch_size
+            #             batches = [all_items[i:i+batch_size] for i in range(0, len(all_items), batch_size)]
+            #             with ThreadPoolExecutor(max_workers=min(8, len(batches))) as executor:
+            #                 batch_results = list(executor.map(process_batch, batches))
+            #             for batch_result in batch_results:
+            #                 items.extend(batch_result)
+            #             return items
                     
-                    categories = cached_data.get("categories", [])
-                    if isinstance(categories, list):
-                        for category in categories:
-                            if not isinstance(category, dict):
-                                continue
-                            category_name = category.get("name", "")
-                            category_id = category.get("id")
-                            category_slug = category.get("slug")
-                            if not category_id:
-                                continue
-                            category_url = f"{self.consumer_endpoint}consumer-api/consumer-assortment/v1/venues/slug/{venue_slug}/assortment/categories/slug/{category_slug}"
-                            category_items = await self._fetch_category_items(category_url, category_name, venue_slug, cached_data.get("id", ""), client)
-                            items.extend(category_items)
-                    return items
+            #         categories = cached_data.get("categories", [])
+            #         if isinstance(categories, list):
+            #             for category in categories:
+            #                 if not isinstance(category, dict):
+            #                     continue
+            #                 category_name = category.get("name", "")
+            #                 category_id = category.get("id")
+            #                 for subcategory in category.get("subcategories", []):
+            #                     if not isinstance(subcategory, dict):
+            #                         continue
+                
+            #                     category_slug = subcategory.get("slug")
+            #                     if not category_slug:
+            #                         continue
+            #                     category_url = f"{self.consumer_endpoint}consumer-api/consumer-assortment/v1/venues/slug/{venue_slug}/assortment/categories/slug/{category_slug}"
+            #                     category_items = await self._fetch_category_items(category_url, category_name, venue_slug, cached_data.get("id", ""), client)
+            #                     items.extend(category_items)
+            #                 # category_slug = category.get("slug")
+            #                 # if not category_id:
+            #                 #     continue
+            #                 # category_url = f"{self.consumer_endpoint}consumer-api/consumer-assortment/v1/venues/slug/{venue_slug}/assortment/categories/slug/{category_slug}"
+            #                 # category_items = await self._fetch_category_items(category_url, category_name, venue_slug, cached_data.get("id", ""), client)
+            #                 # items.extend(category_items)
+            #         return items
             
             data = await self._make_request(query_url, client=client)
             items = []
@@ -469,7 +480,7 @@ class WoltAPI:
             
             async def fetch_with_rate_limit(category_url, category_name, venue_slug, venue_id):
                 async with semaphore:
-                    await asyncio.sleep(random.uniform(0.1, 0.5))
+                    await asyncio.sleep(random.uniform(1.2, 0.5))
                     return await self._fetch_category_items(category_url, category_name, venue_slug, venue_id, client)
             
             category_tasks = []
@@ -479,11 +490,29 @@ class WoltAPI:
                 category_name = category.get("name", "")
                 category_id = category.get("id")
                 category_slug = category.get("slug")
-                if not category_id or not category_slug:
-                    continue
-                category_url = f"{self.consumer_endpoint}consumer-api/consumer-assortment/v1/venues/slug/{venue_slug}/assortment/categories/slug/{category_slug}"
-                task = fetch_with_rate_limit(category_url, category_name, venue_slug, venue_id)
-                category_tasks.append(task)
+                
+                # Обработка подкатегорий
+                for subcategory in category.get("subcategories", []):
+                    if not isinstance(subcategory, dict):
+                        continue
+                    subcategory_slug = subcategory.get("slug")
+                    if not category_id or not subcategory_slug:
+                        continue
+                    category_url = f"{self.consumer_endpoint}consumer-api/consumer-assortment/v1/venues/slug/{venue_slug}/assortment/categories/slug/{subcategory_slug}"
+                    task = fetch_with_rate_limit(category_url, category_name, venue_slug, venue_id)
+                    category_tasks.append(task)
+                
+                # Обработка основной категории, если у нее есть slug
+                if category_id and category_slug:
+                    category_url = f"{self.consumer_endpoint}consumer-api/consumer-assortment/v1/venues/slug/{venue_slug}/assortment/categories/slug/{category_slug}"
+                    task = fetch_with_rate_limit(category_url, category_name, venue_slug, venue_id)
+                    category_tasks.append(task)
+                # category_slug = category.get("slug")
+                # if not category_id or not category_slug:
+                #     continue
+                # category_url = f"{self.consumer_endpoint}consumer-api/consumer-assortment/v1/venues/slug/{venue_slug}/assortment/categories/slug/{category_slug}"
+                # task = fetch_with_rate_limit(category_url, category_name, venue_slug, venue_id)
+                # category_tasks.append(task)
             
             if category_tasks:
                 category_results = await asyncio.gather(*category_tasks, return_exceptions=True)
@@ -499,27 +528,63 @@ class WoltAPI:
             return []
     
     async def _fetch_category_items(self, category_url: str, category_name: str, venue_slug: str, venue_id: str, client: httpx.AsyncClient = None) -> List[Dict]:
-        """Получение товаров для конкретной категории"""
+        """Получение товаров для конкретной категории с поддержкой пагинации"""
         try:
-            if self.config.use_cache:
-                cached_data = self._get_from_cache(category_url)
-                if cached_data is not None:
-                    items = []
-                    for item_data in cached_data.get("items", []):
-                        self._process_item(item_data, items, venue_slug, venue_id, category_name)
-                    return items
-            
-            category_data = await self._make_request(category_url, client=client)
-            if not category_data:
-                return []
-            
             items = []
-            if not isinstance(category_data.get("items"), list):
-                return []
-                
-            for item_data in category_data.get("items", []):
-                self._process_item(item_data, items, venue_slug, venue_id, category_name)
+            page_token = None
+            base_url = category_url  # Сохраняем исходный URL
             
+            # Продолжаем запросы, пока есть следующие страницы
+            while True:
+                # Формируем URL с токеном страницы, если он есть
+                current_url = base_url
+                if page_token:
+                    # Добавляем параметр page_token к URL
+                    separator = '&' if '?' in current_url else '?'
+                    current_url = f"{current_url}{separator}page_token={page_token}"
+                
+                # Получаем данные текущей страницы
+                if self.config.use_cache:
+                    cached_data = self._get_from_cache(current_url)
+                    if cached_data is not None:
+                        for item_data in cached_data.get("items", []):
+                            self._process_item(item_data, items, venue_slug, venue_id, category_name)
+                        
+                        # Проверяем, есть ли следующая страница
+                        metadata = cached_data.get("metadata", {})
+                        page_token = metadata.get("next_page_token")
+                        if not page_token:
+                            break
+                        continue
+                
+                # Выполняем запрос к API
+                category_data = await self._make_request(current_url, client=client)
+                if not category_data:
+                    break
+                
+                # Обрабатываем товары с текущей страницы
+                if not isinstance(category_data.get("items"), list):
+                    break
+                    
+                for item_data in category_data.get("items", []):
+                    self._process_item(item_data, items, venue_slug, venue_id, category_name)
+                
+                # Получаем токен следующей страницы
+                metadata = category_data.get("metadata", {})
+                page_token = metadata.get("next_page_token")
+                
+                # Логируем информацию о пагинации
+                current_page = metadata.get("page", 0)
+                logging.info(f"Получена страница {current_page} категории {category_name} для {venue_slug}, найдено {len(category_data.get('items', []))} товаров")
+                
+                # Если токена нет, значит это последняя страница
+                if not page_token:
+                    break
+                    
+                # Небольшая задержка между запросами страниц
+                await asyncio.sleep(random.uniform(0.5, 1.0))
+            
+            logging.info(f"Всего получено {len(items)} товаров для категории {category_name} в {venue_slug}")
             return items
         except Exception as e:
             logging.error(f"Ошибка при получении товаров категории {category_name}: {str(e)}")
@@ -540,8 +605,7 @@ class WoltAPI:
             if unit_price:
                 price = unit_price.get("price", price)
                 original_price = unit_price.get("original_price", original_price)
-                logging.debug(f"unit_price {unit_price}")
-        
+                
             # Если price отсутствует, пропускаем
             if price is None:
                 return
@@ -552,7 +616,6 @@ class WoltAPI:
             except (ValueError, TypeError):
                 return
         
-                # Если original_price отсутствует или None, считаем, что скидки нет
             has_discount = False
             discount = 0
             final_price = price

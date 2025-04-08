@@ -12,7 +12,7 @@ import math
 from typing import List, Optional
 
 
-SAVE_RESPONSE_LOG = False
+SAVE_RESPONSE_LOG = False   
 
 
 db = WoltDatabase()
