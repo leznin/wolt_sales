@@ -39,13 +39,15 @@
             </div>
 
             <!-- выпадающий список стран с перебором страны в country.json-->
+            <!-- Replace the current country dropdown with this multiple selection version -->
             <div class="form-group">
-                <label for="country">Страна</label>
-                <select id="country" name="country" class="form-control">
+                <label for="country">Страна (выберите одну или несколько)</label>
+                <select id="country" name="country[]" class="form-control" multiple>
                     {% for country in countries %}
                         <option value="{{ country.country }}">{{ country.country }}</option>
                     {% endfor %}
                 </select>
+                <small class="form-text text-muted">Удерживайте Ctrl (или Cmd на Mac) для выбора нескольких стран.</small>
             </div>
             
             <div class="form-group">

@@ -22,7 +22,7 @@
             <div class="form-group">
                 <label>Текущее видео</label>
                 <div class="video-preview">
-                    <video src="{{ url_for('static', filename=ad.video_url) }}" controls></video>
+                    <video src="{{ url_for('admin.serve_ad_video', filename=ad.video_url) }}" controls></video>
                 </div>
             </div>
             
@@ -37,6 +37,17 @@
                     <input type="url" id="redirect_url" name="redirect_url" class="form-control" value="{{ ad.redirect_url }}" required>
                 </div>
             </div>
+
+            <!-- выпадающий список стран с перебором страны в country.json-->
+            <div class="form-group">
+                <label for="country">Страна (выберите одну или несколько)</label>
+                <select id="country" name="country[]" class="form-control" multiple>
+                    {% for country in countries %}
+                        <option value="{{ country.country }}" {% if country.country in selected_countries %}selected{% endif %}>{{ country.country }}</option>
+                    {% endfor %}
+                </select>
+                <small class="form-text text-muted">Удерживайте Ctrl (или Cmd на Mac) для выбора нескольких стран.</small>
+            </div>
             
             <div class="form-group">
                 <label for="description">Описание</label>
@@ -45,16 +56,21 @@
             
             <div class="form-grid">
                 <div class="form-group">
-                    <label for="video">Новое видео (оставьте пустым, чтобы сохранить текущее)</label>
-                    <input type="file" id="video" name="video" class="form-control" accept="video/*">
-                    <small>Рекомендуемый формат: MP4, максимальный размер: 5MB</small>
+                    <label for="display_time">Время показа (сек)</label>
+                    <input type="number" id="display_time" name="display_time" class="form-control" min="1" max="30" value="{{ ad.display_time }}">
                 </div>
                 
                 <div class="form-group">
-                    <label for="priority">Приоритет показа (0-100)</label>
-                    <input type="number" id="priority" name="priority" class="form-control" min="0" max="100" value="{{ ad.priority }}">
-                    <small>Чем выше значение, тем чаще будет показываться реклама</small>
+                    <label for="skip_after">Возможность пропуска после (сек)</label>
+                    <input type="number" id="skip_after" name="skip_after" class="form-control" min="0" max="30" value="{{ ad.skip_after }}">
+                    <small>0 - если пропуск не разрешен</small>
                 </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="priority">Приоритет показа (0-100)</label>
+                <input type="number" id="priority" name="priority" class="form-control" min="0" max="100" value="{{ ad.priority }}">
+                <small>Чем выше значение, тем чаще будет показываться реклама</small>
             </div>
             
             <div class="form-grid">

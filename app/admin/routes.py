@@ -268,6 +268,16 @@ def ads():
 @login_required
 def add_ad():
     """Добавление нового рекламного прелоадера"""
+
+    if request.method == 'GET':
+        # Получаем список стран и городов из базы данных
+        db = current_app.config['DATABASE']
+        countries = db.get_all_countries()
+        cities = db.get_all_cities()
+        
+        return render_template('admin/add_ad.html', countries=countries, cities=cities)
+    
+
     if request.method == 'POST':
         title = request.form.get('title')
         description = request.form.get('description', '')
@@ -275,6 +285,7 @@ def add_ad():
         display_time = int(request.form.get('display_time', 5))
         skip_after = int(request.form.get('skip_after', 3))
         priority = int(request.form.get('priority', 50))
+        countries = request.form.getlist('country[]')
         
         # Обработка загруженного видео
         video = request.files.get('video')
@@ -300,7 +311,7 @@ def add_ad():
             # Сохраняем в базе данных
             db = current_app.config['DATABASE']
             try:
-                db.create_ad_preloader(title, description, db_video_path, redirect_url, display_time, skip_after, priority)
+                db.create_ad_preloader(title, description, db_video_path, redirect_url, display_time, skip_after, priority, countries)
                 flash('Реклама успешно добавлена', 'success')
             except Exception as e:
                 flash(f'Ошибка при добавлении рекламы: {str(e)}', 'error')
@@ -322,6 +333,14 @@ def edit_ad(ad_id):
         flash('Реклама не найдена', 'error')
         return redirect(url_for('admin.ads'))
     
+    # Получаем список стран для выпадающего списка
+    countries = db.get_all_countries()
+    
+    # Получаем текущие выбранные страны (разбиваем строку с странами на список)
+    selected_countries = []
+    if ad['country']:
+        selected_countries = ad['country'].split(',')
+    
     if request.method == 'POST':
         title = request.form.get('title')
         description = request.form.get('description', '')
@@ -329,6 +348,10 @@ def edit_ad(ad_id):
         display_time = int(request.form.get('display_time', 5))
         skip_after = int(request.form.get('skip_after', 3))
         priority = int(request.form.get('priority', 50))
+        
+        # Получаем список выбранных стран из формы
+        countries_list = request.form.getlist('country[]')
+        country_str = ','.join(countries_list) if countries_list else None
         
         # Обработка загруженного видео
         video = request.files.get('video')
@@ -362,14 +385,18 @@ def edit_ad(ad_id):
         
         # Обновляем запись в базе данных
         try:
-            db.update_ad_preloader(ad_id, title, description, video_path, redirect_url, display_time, skip_after, priority)
+            db.update_ad_preloader(ad_id, title, description, video_path, redirect_url, display_time, skip_after, priority, country_str)
             flash('Реклама успешно обновлена', 'success')
         except Exception as e:
             flash(f'Ошибка при обновлении рекламы: {str(e)}', 'error')
         
         return redirect(url_for('admin.ads'))
     
-    return render_template('admin/edit_ad.html', ad=ad)
+    # Получаем текущую тему
+    theme = request.cookies.get('admin_theme', 'light')
+    
+    # Передаем в шаблон не только объявление, но и списки стран и выбранные страны
+    return render_template('admin/edit_ad.html', ad=ad, countries=countries, selected_countries=selected_countries, theme=theme)
 
 @admin_bp.route('/api/ad/delete/<int:ad_id>', methods=['POST'])
 @login_required

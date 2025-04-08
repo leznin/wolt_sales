@@ -26,7 +26,7 @@
             {% for ad in ads %}
             <div class="ad-card" data-id="{{ ad.id }}">
                 <div class="ad-video-container">
-                    <video class="ad-video" src="{{ url_for('static', filename=ad.video_url) }}" muted></video>
+                    <video class="ad-video" src="{{ url_for('admin.serve_ad_video', filename=ad.video_url) }}" muted></video>
                     <div class="ad-priority">Приоритет: {{ ad.priority }}</div>
                 </div>
                 <div class="ad-info">
