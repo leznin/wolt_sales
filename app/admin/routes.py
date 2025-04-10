@@ -954,39 +954,51 @@ def _send_broadcast_async(broadcast_id, broadcast, recipient_filter):
         except:
             pass
 
-# Страница статистики
 @admin_bp.route('/statistic')
 @login_required
 def statistic():
-    # Получаем текущую тему из cookie
     theme = request.cookies.get('admin_theme', 'light')
     
-    # Получаем время последнего обновления магазинов
-    last_store_update = db.get_last_store_update() or "Не обновлялись"
+    # Получаем данные для статистики из БД
+    last_store_update = db.get_last_store_update() or "Нет данных"
     next_store_update = db.get_next_store_update() or "Не запланировано"
-
-    # сверяем часы и минуты и если время меньше то добавляем 1 день для вывода на странице в формате '2025-04-06 12:30'
-    if next_store_update < datetime.now().strftime('%H:%M'):
-        next_store_update = datetime.now().strftime('%Y-%m-%d') + ' ' + next_store_update
-        
     
-    # Получаем статистику по пользователям
+    # Статистика пользователей из БД
     user_stats = {
         'weekly': db.get_new_users_count(days=7),
         'monthly': db.get_new_users_count(days=30)
     }
     
-    # Получаем данные для графика (последние 12 недель)
-    weekly_data = db.get_user_growth_data(weeks=12)
-    monthly_data = db.get_user_growth_data(months=6)
+    # Получаем данные для графиков
+    try:
+        weekly_data = db.get_user_growth_data(weeks=12)
+        monthly_data = db.get_user_growth_data(months=6)
+        
+        # Преобразуем данные в JSON строки
+        weekly_data_json = json.dumps(weekly_data)
+        monthly_data_json = json.dumps(monthly_data)
+    except Exception as e:
+        print(f"Ошибка при получении данных для графиков: {e}")
+        weekly_data_json = json.dumps({"labels": [], "data": []})
+        monthly_data_json = json.dumps({"labels": [], "data": []})
     
-    return render_template('admin/statistic.html', 
+    # Геопозиции пользователей
+    try:
+        user_locations = db.get_user_locations()
+        # Преобразуем данные в JSON
+        user_locations_json = json.dumps(user_locations)
+    except Exception as e:
+        print(f"Ошибка при получении геопозиций: {e}")
+        user_locations_json = json.dumps([])
+
+    return render_template('admin/statistic.html',
                          theme=theme,
-                         next_store_update=next_store_update,
                          last_store_update=last_store_update,
+                         next_store_update=next_store_update,
                          user_stats=user_stats,
-                         weekly_data=json.dumps(weekly_data),
-                         monthly_data=json.dumps(monthly_data))
+                         weekly_data=weekly_data_json,
+                         monthly_data=monthly_data_json,
+                         user_locations=user_locations_json)
 
 # API для переключения темы
 @admin_bp.route('/toggle-theme', methods=['POST'])

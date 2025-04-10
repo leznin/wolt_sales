@@ -1784,3 +1784,29 @@ class WoltDatabase:
             if cursor:
                 cursor.close()
             self.pool.release_connection(conn)
+
+    def get_user_locations(self) -> List[Dict[str, Any]]:
+        """Получает все уникальные геопозиции пользователей"""
+        conn = self.pool.get_connection()
+        cursor = None
+        try:
+            cursor = conn.cursor(dictionary=True)
+            cursor.execute("""
+                SELECT 
+                    lat, lon, 
+                    COUNT(DISTINCT user_id) as users_count,
+                    MAX(last_update) as last_update
+                FROM telegram_users_locations 
+                GROUP BY lat, lon
+                HAVING lat IS NOT NULL AND lon IS NOT NULL
+            """)
+            locations = cursor.fetchall()
+            # Преобразуем datetime в строки
+            for loc in locations:
+                if loc['last_update']:
+                    loc['last_update'] = loc['last_update'].isoformat()
+            return locations
+        finally:
+            if cursor:
+                cursor.close()
+            self.pool.release_connection(conn)

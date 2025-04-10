@@ -32,6 +32,50 @@
     <!-- Дополнительные стили CSS для конкретных страниц -->
     {% block styles %}{% endblock %}
     {% block stylesTG %}{% endblock %}
+    <style>
+        :root {
+            --versace-gold: #b8860b;
+            --versace-dark: #1a1a1a;
+            --versace-accent: #2a2a2a;
+        }
+        
+        .text-golden {
+            color: var(--versace-gold) !important;
+        }
+        
+        .btn-outline-golden {
+            color: var(--versace-gold);
+            border-color: var(--versace-gold);
+        }
+        
+        .btn-outline-golden:hover,
+        .btn-outline-golden.active {
+            background-color: var(--versace-gold);
+            color: var(--versace-dark);
+        }
+        
+        .nav-link {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .nav-link:before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: var(--versace-gold);
+            transform: translateX(-100%);
+            transition: transform 0.3s ease;
+        }
+        
+        .nav-link:hover:before,
+        .nav-link.active:before {
+            transform: translateX(0);
+        }
+    </style>
 </head>
 <body class="theme-{{ theme }}">
     <div class="admin-container">

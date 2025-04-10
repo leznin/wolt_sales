@@ -1,139 +1,438 @@
 {% extends "admin/base.html" %}
 
-{% block title %}Панель управления{% endblock %}
-{% block page_title %}Панель управления{% endblock %}
+{% block title %}Статистика{% endblock %}
+{% block page_title %}Статистика системы{% endblock %}
 
 {% block content %}
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-6">
-            <div class="card mb-4">
-                <div class="card-header">
-                    <h5>Последнее обновление магазинов</h5>
+<div class="statistics-grid-container">
+    <!-- Верхний ряд с показателями -->
+    <div class="stats-overview-grid">
+        <div class="stat-card border-left-primary">
+            <div class="stat-card-body">
+                <div class="stat-content">
+                    <div class="stat-label text-primary">Новых за неделю</div>
+                    <div class="stat-value">{{ user_stats.weekly }}</div>
                 </div>
-                <div class="card-body">
-                    <p class="display-4">{{ last_store_update }}</p>
+                <div class="stat-icon">
+                    <i class="fas fa-users"></i>
                 </div>
             </div>
-            <div class="card mb-4">
-                <div class="card-header">
-                    <h5>Следующее обновление магазинов</h5>
+        </div>
+        
+        <div class="stat-card border-left-success">
+            <div class="stat-card-body">
+                <div class="stat-content">
+                    <div class="stat-label text-success">Новых за месяц</div>
+                    <div class="stat-value">{{ user_stats.monthly }}</div>
                 </div>
-                <div class="card-body">
-                    <p class="display-4">{{ next_store_update }}</p>
+                <div class="stat-icon">
+                    <i class="fas fa-user-plus"></i>
+                </div>
+            </div>
+        </div>
+        
+        <div class="stat-card border-left-info">
+            <div class="stat-card-body">
+                <div class="stat-content">
+                    <div class="stat-label text-info">Последнее обновление</div>
+                    <div class="stat-value small">{{ last_store_update }}</div>
+                </div>
+                <div class="stat-icon">
+                    <i class="fas fa-sync-alt"></i>
+                </div>
+            </div>
+        </div>
+        
+        <div class="stat-card border-left-warning">
+            <div class="stat-card-body">
+                <div class="stat-content">
+                    <div class="stat-label text-warning">Следующее обновление</div>
+                    <div class="stat-value small">{{ next_store_update }}</div>
+                </div>
+                <div class="stat-icon">
+                    <i class="fas fa-calendar"></i>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class="row">
-        <div class="col-md-12">
-            <div class="card">
-                <div class="card-header">
-                    <h5>Рост новых пользователей</h5>
+    
+    <!-- Нижний ряд с графиком и картой -->
+    <div class="charts-grid">
+        <div class="chart-card">
+            <div class="chart-card-header">
+                <h6 class="chart-title">Динамика роста пользователей</h6>
+                <div class="chart-actions">
+                    <button class="period-btn active" data-period="weekly">Неделя</button>
+                    <button class="period-btn" data-period="monthly">Месяц</button>
                 </div>
-                <div class="card-body" style="position: relative; height: 60vh;">
+            </div>
+            <div class="chart-card-body">
+                <div class="chart-container">
                     <canvas id="userGrowthChart"></canvas>
                 </div>
             </div>
         </div>
+        
+        <div class="chart-card">
+            <div class="chart-card-header">
+                <h6 class="chart-title">География пользователей</h6>
+            </div>
+            <div class="chart-card-body no-padding">
+                <div id="map"></div>
+            </div>
+        </div>
     </div>
 </div>
+{% endblock %}
 
+{% block styles %}
+<style>
+    /* Grid-система для страницы статистики */
+    .statistics-grid-container {
+        display: grid;
+        grid-gap: 1.5rem;
+        padding: 1.5rem;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    
+    /* Сетка для показателей, 4 карточки в ряд */
+    .stats-overview-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 1rem;
+    }
+    
+    /* Сетка для графиков и карт, 2 блока в ряд */
+    .charts-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1.5rem;
+    }
+    
+    /* Карточки со статистикой */
+    .stat-card {
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        transition: transform 0.2s;
+        overflow: hidden;
+    }
+    
+    .stat-card:hover {
+        transform: translateY(-3px);
+    }
+    
+    .stat-card-body {
+        padding: 1.25rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .stat-content {
+        flex: 1;
+    }
+    
+    .stat-label {
+        font-size: 0.7rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+    }
+    
+    .stat-value {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #5a5c69;
+    }
+    
+    .stat-value.small {
+        font-size: 1rem;
+    }
+    
+    .stat-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        color: #dddfeb;
+    }
+    
+    /* Цветные полосы для карточек */
+    .border-left-primary {
+        border-left: 4px solid #4e73df;
+    }
+    
+    .border-left-success {
+        border-left: 4px solid #1cc88a;
+    }
+    
+    .border-left-info {
+        border-left: 4px solid #36b9cc;
+    }
+    
+    .border-left-warning {
+        border-left: 4px solid #f6c23e;
+    }
+    
+    /* Карточки с графиками и картой */
+    .chart-card {
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .chart-card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.25rem;
+        background-color: #f8f9fc;
+        border-bottom: 1px solid #e3e6f0;
+    }
+    
+    .chart-title {
+        margin: 0;
+        font-weight: 700;
+        font-size: 0.9rem;
+        color: #4e73df;
+    }
+    
+    .chart-card-body {
+        padding: 1.25rem;
+        flex: 1;
+    }
+    
+    .chart-card-body.no-padding {
+        padding: 0;
+    }
+    
+    /* Кнопки переключения периода */
+    .chart-actions {
+        display: flex;
+        gap: 0.5rem;
+    }
+    
+    .period-btn {
+        background-color: transparent;
+        border: 1px solid #4e73df;
+        color: #4e73df;
+        border-radius: 4px;
+        padding: 0.25rem 0.75rem;
+        font-size: 0.75rem;
+        cursor: pointer;
+        transition: all 0.2s;
+    }
+    
+    .period-btn.active {
+        background-color: #4e73df;
+        color: white;
+    }
+    
+    .period-btn:hover:not(.active) {
+        background-color: rgba(78, 115, 223, 0.1);
+    }
+    
+    /* Контейнеры для графиков и карты */
+    .chart-container {
+        position: relative;
+        height: 20rem;
+        width: 100%;
+    }
+    
+    #map {
+        height: 22.75rem;
+        width: 100%;
+    }
+    
+    /* Цветовые классы */
+    .text-primary {
+        color: #4e73df;
+    }
+    
+    .text-success {
+        color: #1cc88a;
+    }
+    
+    .text-info {
+        color: #36b9cc;
+    }
+    
+    .text-warning {
+        color: #f6c23e;
+    }
+    
+    /* Адаптивность */
+    @media (max-width: 1200px) {
+        .stats-overview-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .charts-grid {
+            grid-template-columns: 1fr;
+        }
+        
+        .chart-container {
+            height: 15rem;
+        }
+        
+        #map {
+            height: 18rem;
+        }
+    }
+    
+    @media (max-width: 576px) {
+        .stats-overview-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+{% endblock %}
+
+{% block scripts %}
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    const ctx = document.getElementById('userGrowthChart').getContext('2d');
+    // Инициализация карты
+    const map = L.map('map').setView([55.7558, 37.6173], 2);
     
-    const weeklyData = JSON.parse('{{ weekly_data | safe }}');
-    const monthlyData = JSON.parse('{{ monthly_data | safe }}');
-
-    // Форматирование даты
-    const formatDate = (dateStr) => {
-        const date = new Date(dateStr);
-        return date.toLocaleDateString('ru-RU', {
-            day: '2-digit',
-            month: '2-digit',
-            year: 'numeric'
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+    
+    // Загружаем локации пользователей
+    let userLocations = [];
+    try {
+        userLocations = JSON.parse('{{ user_locations|safe }}');
+        console.log("Загружены локации пользователей:", userLocations);
+    } catch(e) {
+        console.error("Ошибка при загрузке локаций:", e);
+    }
+    
+    // Добавляем маркеры на карту
+    if (userLocations && userLocations.length > 0) {
+        const bounds = [];
+        
+        userLocations.forEach(location => {
+            if (location && location.lat && location.lon) {
+                const lat = parseFloat(location.lat);
+                const lon = parseFloat(location.lon);
+                
+                if (!isNaN(lat) && !isNaN(lon)) {
+                    bounds.push([lat, lon]);
+                    
+                    L.circle([lat, lon], {
+                        color: '#4e73df',
+                        fillColor: '#4e73df',
+                        fillOpacity: 0.5,
+                        radius: Math.sqrt(location.users_count || 1) * 5000
+                    }).bindPopup(`
+                        <div class="text-center">
+                            <strong>${location.users_count || 0}</strong> пользователей<br>
+                            <small>Обновлено: ${location.last_update ? new Date(location.last_update).toLocaleDateString() : 'Не указано'}</small>
+                        </div>
+                    `).addTo(map);
+                }
+            }
         });
-    };
-
-    new Chart(ctx, {
-        type: 'bar',
-        data: {
-            labels: weeklyData.labels.map(formatDate),
-            datasets: [
-                {
-                    label: 'Новые пользователи за неделю',
-                    data: weeklyData.data,
-                    backgroundColor: 'rgba(54, 162, 235, 0.7)',
-                    borderColor: 'rgba(54, 162, 235, 1)',
-                    borderWidth: 1,
-                    barThickness: 30
-                },
-                {
-                    label: 'Новые пользователи за месяц',
-                    data: monthlyData.data,
-                    backgroundColor: 'rgba(255, 99, 132, 0.7)',
-                    borderColor: 'rgba(255, 99, 132, 1)',
-                    borderWidth: 1,
-                    barThickness: 30
-                }
-            ]
-        },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: {
-                legend: {
-                    position: 'top',
-                    labels: {
-                        font: {
-                            size: 14
-                        }
-                    }
-                },
-                tooltip: {
-                    callbacks: {
-                        label: function(context) {
-                            return `${context.dataset.label}: ${context.parsed.y} чел.`;
-                        }
-                    }
-                }
+        
+        // Масштабируем карту, если есть точки
+        if (bounds.length > 0) {
+            try {
+                map.fitBounds(bounds);
+            } catch (e) {
+                console.error("Ошибка при масштабировании карты:", e);
+            }
+        }
+    }
+    
+    // Обновляем карту при полной загрузке
+    setTimeout(() => map.invalidateSize(), 100);
+    setTimeout(() => map.invalidateSize(), 500);
+    
+    // Получаем данные для графиков
+    let weeklyData = {labels: [], data: []};
+    let monthlyData = {labels: [], data: []};
+    
+    try {
+        weeklyData = JSON.parse('{{ weekly_data|safe }}');
+        monthlyData = JSON.parse('{{ monthly_data|safe }}');
+    } catch(e) {
+        console.error("Ошибка при загрузке данных графика:", e);
+    }
+    
+    // Инициализация графика
+    const ctx = document.getElementById('userGrowthChart');
+    if (ctx) {
+        const chart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: weeklyData.labels || [],
+                datasets: [{
+                    label: 'Новые пользователи',
+                    backgroundColor: 'rgba(78, 115, 223, 0.05)',
+                    borderColor: 'rgba(78, 115, 223, 1)',
+                    data: weeklyData.data || [],
+                    fill: true,
+                    tension: 0.3
+                }]
             },
-            scales: {
-                y: {
-                    beginAtZero: true,
-                    title: {
-                        display: true,
-                        text: 'Количество пользователей',
-                        font: {
-                            size: 16
-                        }
-                    },
-                    ticks: {
-                        stepSize: 1,
-                        callback: function(value) {
-                            return value + ' чел.';
-                        }
+            options: {
+                maintainAspectRatio: false,
+                responsive: true,
+                plugins: {
+                    legend: {
+                        display: false
                     }
                 },
-                x: {
-                    title: {
-                        display: true,
-                        text: 'Дата',
-                        font: {
-                            size: 16
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            maxTicksLimit: 5
                         }
                     },
-                    ticks: {
-                        maxRotation: 45,
-                        minRotation: 45
+                    x: {
+                        ticks: {
+                            maxTicksLimit: 7
+                        }
                     }
                 }
             }
-        }
-    });
+        });
+        
+        // Обработчики переключения периодов
+        document.querySelectorAll('[data-period]').forEach(button => {
+            button.addEventListener('click', function() {
+                const period = this.dataset.period;
+                const data = period === 'weekly' ? weeklyData : monthlyData;
+                
+                // Отмечаем активную кнопку
+                document.querySelectorAll('[data-period]').forEach(btn => {
+                    btn.classList.remove('active');
+                    btn.classList.remove('btn-primary');
+                    btn.classList.add('btn-outline-primary');
+                });
+                this.classList.add('active');
+                this.classList.add('btn-primary');
+                this.classList.remove('btn-outline-primary');
+                
+                // Обновляем данные графика
+                chart.data.labels = data.labels || [];
+                chart.data.datasets[0].data = data.data || [];
+                chart.update();
+            });
+        });
+    }
 });
 </script>
 {% endblock %}
