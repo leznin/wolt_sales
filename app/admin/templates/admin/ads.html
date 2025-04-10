@@ -157,6 +157,7 @@
         const cancelButton = document.getElementById('cancelDelete');
         const deleteForm = document.getElementById('deleteForm');
         
+        // Убедимся, что модальное окно открывается только при клике на кнопку "Удалить"
         deleteButtons.forEach(button => {
             button.addEventListener('click', function() {
                 const adId = this.dataset.id;
@@ -168,6 +169,35 @@
                 
                 deleteForm.action = `/adminqsc/api/ad/delete/${adId}`;
                 modal.style.display = 'block';
+            });
+        });
+
+        // Закрываем модальное окно при загрузке страницы
+        modal.style.display = 'none';
+        
+        // Добавляем обработчик отправки формы удаления
+        deleteForm.addEventListener('submit', function(event) {
+            event.preventDefault(); // Предотвращаем обычную отправку формы
+            
+            // Отправляем AJAX-запрос
+            fetch(this.action, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                }
+            })
+            .then(response => {
+                if (response.ok) {
+                    // Если удаление прошло успешно
+                    modal.style.display = 'none';
+                    window.location.reload(); // Обновляем страницу
+                } else {
+                    alert('Произошла ошибка при удалении рекламы');
+                }
+            })
+            .catch(error => {
+                console.error('Ошибка:', error);
+                alert('Произошла ошибка при удалении рекламы');
             });
         });
         
