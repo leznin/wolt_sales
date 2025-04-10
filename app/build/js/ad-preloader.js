@@ -130,29 +130,6 @@ class AdPreloader {
             display: none;
         `;
         
-        // Заголовок рекламы
-        this.title = document.createElement('div');
-        this.title.className = 'ad-title';
-        this.title.style.cssText = `
-            color: white;
-            margin-top: 15px;
-            font-size: 18px;
-            font-weight: 600;
-            text-align: center;
-        `;
-        
-        // Описание рекламы
-        this.description = document.createElement('div');
-        this.description.className = 'ad-description';
-        this.description.style.cssText = `
-            color: rgba(255, 255, 255, 0.8);
-            margin-top: 5px;
-            font-size: 14px;
-            text-align: center;
-            max-width: 600px;
-            padding: 0 20px;
-        `;
-        
         // Добавляем элементы в контейнер
         this.videoContainer.appendChild(this.videoElement);
         this.videoContainer.appendChild(this.adLabel);
@@ -160,8 +137,6 @@ class AdPreloader {
         this.videoContainer.appendChild(this.skipButton);
         
         this.container.appendChild(this.videoContainer);
-        this.container.appendChild(this.title);
-        this.container.appendChild(this.description);
         
         // Добавляем контейнер в DOM
         this.options.container.appendChild(this.container);
@@ -296,8 +271,6 @@ class AdPreloader {
         
         // Устанавливаем данные рекламы
         this.videoElement.src = this.currentAd.video_url;
-        this.title.textContent = this.currentAd.title;
-        this.description.textContent = this.currentAd.description || '';
         
         // Показываем контейнер
         this.container.style.opacity = '1';

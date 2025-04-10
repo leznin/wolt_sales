@@ -59,6 +59,7 @@
 .toggle-switch {
     position: relative;
     display: inline-block;
+    box-sizing: border-box;
     width: 52px;
     height: 26px;
 }
@@ -76,8 +77,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #f83232;
-    transition: .4s;
+    background-color: #c12222;
+    transition: 0.4s;
     border-radius: 26px;
 }
 
@@ -88,17 +89,18 @@
     width: 18px;
     left: 4px;
     bottom: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     background-color: white;
-    transition: .4s;
+    transition: 0.5s;
     border-radius: 50%;
 }
 
 input:checked + .toggle-slider {
-    background-color: var(--primary-color);
+    background-color: #4caf50;
 }
 
 input:checked + .toggle-slider:before {
-    transform: translateX(26px);
+    transform: translateX(22px);
 }
 
 /* Стили для формы добавления рекламы */
