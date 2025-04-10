@@ -30,6 +30,9 @@ class AdPreloader {
         // Флаг, показывающий запущено ли приложение в Telegram Mini App
         this.isTelegramApp = this.options.telegramApp || (window.Telegram && window.Telegram.WebApp);
         
+        // Кэш для определенной страны пользователя
+        this.userCountry = null;
+        
         console.log('AdPreloader инициализирован. Telegram Mini App:', this.isTelegramApp);
     }
     
@@ -86,7 +89,7 @@ class AdPreloader {
         // Метка "Реклама"
         this.adLabel = document.createElement('div');
         this.adLabel.className = 'ad-info';
-        this.adLabel.textContent = 'Реклама';
+        this.adLabel.textContent = 'ADS';
         this.adLabel.style.cssText = `
             position: absolute;
             top: 10px;
@@ -115,7 +118,7 @@ class AdPreloader {
         // Кнопка пропуска
         this.skipButton = document.createElement('button');
         this.skipButton.className = 'skip-button';
-        this.skipButton.textContent = 'Пропустить';
+        this.skipButton.textContent = 'Skip';
         this.skipButton.style.cssText = `
             position: absolute;
             bottom: 10px;
@@ -210,7 +213,15 @@ class AdPreloader {
      */
     async loadAd() {
         try {
-            const response = await fetch(this.options.apiUrl);
+            // Получаем страну пользователя
+            const country = await this.getUserCountry();
+            
+            // Формируем URL с параметром страны
+            const url = `${this.options.apiUrl}${country ? `?country=${encodeURIComponent(country)}` : ''}`;
+            
+            console.log(`Загрузка рекламы с параметром страны: ${country || 'не определена'}`);
+            
+            const response = await fetch(url);
             const data = await response.json();
             
             if (data.success && data.ad) {
@@ -223,6 +234,121 @@ class AdPreloader {
         } catch (error) {
             console.error('Ошибка при загрузке рекламы:', error);
             return false;
+        }
+    }
+    
+    /**
+     * Получает страну пользователя на основе последней геолокации
+     * из локального хранилища или API
+     */
+    async getUserCountry() {
+        try {
+            // Если страна уже определена, используем кэшированное значение
+            if (this.userCountry) {
+                return this.userCountry;
+            }
+            
+            // Проверяем сохраненную геопозицию в localStorage
+            const savedLocation = localStorage.getItem('userLocation');
+            
+            // Если приложение запущено в Telegram Mini App, пробуем получить страну по ID пользователя
+            if (this.isTelegramApp && window.Telegram && window.Telegram.WebApp) {
+                const userId = window.Telegram.WebApp.initDataUnsafe.user?.id;
+                
+                if (userId) {
+                    try {
+                        // Сначала пробуем получить страны, магазины которых отслеживает пользователь
+                        const countriesResponse = await fetch(`/api/user-countries/${userId}`);
+                        if (countriesResponse.ok) {
+                            const countries = await countriesResponse.json();
+                            if (countries && countries.length > 0) {
+                                // Берем первую страну из списка
+                                this.userCountry = countries[0];
+                                console.log(`Страна определена по отслеживаемым магазинам: ${this.userCountry}`);
+                                return this.userCountry;
+                            }
+                        }
+                        
+                        // Если не нашли страны по отслеживаемым магазинам, пробуем по последней локации
+                        const locationResponse = await fetch(`/api/user-last-location/${userId}`);
+                        const locationData = await locationResponse.json();
+                        
+                        if (locationData && locationData.lat && locationData.lon) {
+                            const country = await this.getCountryByCoordinates(locationData.lat, locationData.lon);
+                            if (country) {
+                                this.userCountry = country;
+                                return country;
+                            }
+                        }
+                    } catch (e) {
+                        console.warn('Ошибка при получении страны пользователя:', e);
+                    }
+                }
+            }
+            
+            // Проверяем сохраненную локацию, если не удалось определить через API
+            if (savedLocation) {
+                try {
+                    const location = JSON.parse(savedLocation);
+                    if (location && location.lat && location.lon) {
+                        return await this.getCountryByCoordinates(location.lat, location.lon);
+                    }
+                } catch (e) {
+                    console.warn('Ошибка при чтении сохраненной локации:', e);
+                }
+            }
+            
+            // Если все методы не сработали, пробуем получить через IP-геолокацию
+            try {
+                const response = await fetch('https://ipapi.co/json/');
+                const data = await response.json();
+                this.userCountry = data.country_code || null;
+                return this.userCountry;
+            } catch (e) {
+                console.warn('Ошибка при определении страны по IP:', e);
+                return null;
+            }
+        } catch (error) {
+            console.error('Ошибка при определении страны пользователя:', error);
+            return null;
+        }
+    }
+    
+    /**
+     * Получает код страны по координатам используя Reverse Geocoding API
+     */
+    async getCountryByCoordinates(lat, lon) {
+        try {
+            // Сначала пробуем получить страну из ближайшего магазина
+            try {
+                const response = await fetch(`/api/stores-by-location?lat=${lat}&lon=${lon}&radius=5`);
+                const stores = await response.json();
+                
+                // Если есть магазины рядом, берем страну из первого
+                if (stores && stores.length > 0 && stores[0].country) {
+                    this.userCountry = stores[0].country;
+                    console.log(`Страна определена по ближайшему магазину: ${this.userCountry}`);
+                    return this.userCountry;
+                }
+            } catch (e) {
+                console.warn('Ошибка при определении страны по магазинам:', e);
+            }
+            
+            // Если не удалось определить по магазинам, используем внешний API
+            const response = await fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lon}`);
+            const data = await response.json();
+            
+            if (data && data.address && data.address.country_code) {
+                this.userCountry = data.address.country_code.toUpperCase();
+                console.log(`Страна определена через Nominatim API: ${this.userCountry}`);
+                return this.userCountry;
+            }
+            
+            // Если не удалось определить страну, возвращаем null
+            return null;
+        } catch (error) {
+            console.error('Ошибка при определении страны по координатам:', error);
+            return null;
         }
     }
     

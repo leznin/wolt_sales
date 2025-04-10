@@ -91,18 +91,31 @@ def delete_ad_preloader(self, ad_id):
         print(f"Ошибка при удалении рекламного прелоадера: {str(e)}")
         raise
 
-def get_random_active_ad_preloader(self):
-    """Возвращает случайный активный рекламный прелоадер с учетом приоритета"""
+def get_random_active_ad_preloader(self, country=None):
+    """Возвращает случайный активный рекламный прелоадер с учетом приоритета и страны"""
     try:
         cursor = self.connection.cursor(dictionary=True)
-        # Используем приоритет для взвешенного выбора
+        # Базовый запрос
         query = """
         SELECT * FROM ad_preloaders 
-        WHERE is_active = TRUE 
-        ORDER BY RAND() * priority DESC 
-        LIMIT 1
+        WHERE is_active = TRUE
         """
-        cursor.execute(query)
+        params = []
+        
+        # Добавляем фильтр по стране, если она указана
+        if country:
+            query += """ 
+            AND (
+                id IN (SELECT ad_id FROM ad_countries WHERE country = %s)
+                OR id NOT IN (SELECT ad_id FROM ad_countries)
+            )
+            """
+            params.append(country)
+            
+        # Добавляем сортировку и лимит
+        query += " ORDER BY RAND() * priority DESC LIMIT 1"
+        
+        cursor.execute(query, params)
         ad = cursor.fetchone()
         cursor.close()
         return ad

@@ -581,6 +581,103 @@ def search_products():
         logger.error(f"Ошибка при поиске товаров: {e}")
         return jsonify({"error": str(e)}), 500
 
+@app.route('/api/user-countries/<user_id>', methods=['GET'])
+def get_user_countries(user_id):
+    """Get the countries of stores that a user is tracking based on their saved locations"""
+    try:
+        db = get_db()
+        if not db:
+            return jsonify({"error": "Database connection failed"}), 500
+            
+        # Получаем локации пользователя
+        conn = db.pool.get_connection()
+        cursor = None
+        try:
+            cursor = conn.cursor(dictionary=True)
+            
+            # Получаем все сохраненные локации пользователя
+            cursor.execute(
+                """
+                SELECT lat, lon
+                FROM telegram_users_locations 
+                WHERE user_id = %s 
+                ORDER BY last_update DESC
+                """, 
+                (user_id,)
+            )
+            
+            locations = cursor.fetchall()
+            
+            if not locations:
+                logger.info(f"No locations found for user {user_id}")
+                return jsonify([])
+                
+            # Получаем страны магазинов в радиусе от локаций пользователя
+            countries = set()
+            
+            # Импортируем функцию расчета расстояния
+            from math import radians, sin, cos, sqrt, atan2
+            
+            # Определяем функцию расчета расстояния локально
+            def haversine_distance(lat1, lon1, lat2, lon2):
+                # Радиус Земли в километрах
+                R = 6371.0
+                
+                # Переводим градусы в радианы
+                lat1_rad = radians(float(lat1))
+                lon1_rad = radians(float(lon1))
+                lat2_rad = radians(float(lat2))
+                lon2_rad = radians(float(lon2))
+                
+                # Разница в координатах
+                dlon = lon2_rad - lon1_rad
+                dlat = lat2_rad - lat1_rad
+                
+                # Формула Гаверсинуса
+                a = sin(dlat / 2)**2 + cos(lat1_rad) * cos(lat2_rad) * sin(dlon / 2)**2
+                c = 2 * atan2(sqrt(a), sqrt(1 - a))
+                
+                # Расстояние в километрах
+                distance = R * c
+                
+                return distance
+            
+            # Получаем все магазины
+            stores = db.get_all_stores()
+            
+            # Определяем радиус поиска (км)
+            radius = 10.0
+            
+            # Проверяем каждую локацию пользователя
+            for location in locations:
+                for store in stores:
+                    if not store.get('lat') or not store.get('lon') or not store.get('country'):
+                        continue
+                        
+                    # Вычисляем расстояние от локации до магазина
+                    distance = haversine_distance(
+                        location['lat'], location['lon'],
+                        store['lat'], store['lon']
+                    )
+                    
+                    # Если магазин находится в радиусе поиска, добавляем его страну
+                    if distance <= radius:
+                        countries.add(store['country'])
+            
+            logger.info(f"Found {len(countries)} countries for user {user_id}: {', '.join(countries)}")
+            return jsonify(list(countries))
+                
+        except Exception as e:
+            logger.error(f"Error getting countries for user {user_id}: {e}")
+            return jsonify({"error": str(e)}), 500
+        finally:
+            if cursor:
+                cursor.close()
+            db.pool.release_connection(conn)
+    except Exception as e:
+        logger.error(f"Error in get_user_countries: {e}")
+        return jsonify({"error": str(e)}), 500
+
 # Serve static files from the public directory during development
 @app.route('/favicon.ico')
 def favicon():

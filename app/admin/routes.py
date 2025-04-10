@@ -477,8 +477,11 @@ def record_ad_click(ad_id):
 @admin_bp.route('/api/ad/random')
 def get_random_ad():
     """API для получения случайной активной рекламы"""
+    country = request.args.get('country', None)
     db = current_app.config['DATABASE']
-    ad = db.get_random_active_ad_preloader()
+    
+    # Передаем параметр страны в метод get_random_active_ad_preloader
+    ad = db.get_random_active_ad_preloader(country)
     
     if not ad:
         return jsonify({'success': False, 'message': 'Нет доступных рекламных материалов'})
@@ -498,7 +501,8 @@ def get_random_ad():
             'video_url': video_url,
             'redirect_url': ad['redirect_url'],
             'display_time': ad['display_time'],
-            'skip_after': ad['skip_after']
+            'skip_after': ad['skip_after'],
+            'country': ad['country']
         }
     })
 

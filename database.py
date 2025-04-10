@@ -235,6 +235,7 @@ class WoltDatabase:
             )
             ''')
 
+            
             # Создание таблицы для proxy
             cursor.execute('''
             CREATE TABLE IF NOT EXISTS proxies (
@@ -1341,19 +1342,67 @@ class WoltDatabase:
             logging.error(f"Ошибка при удалении рекламного прелоадера: {str(e)}")
             raise
 
-    def get_random_active_ad_preloader(self):
-        """Возвращает случайный активный рекламный прелоадер с учетом приоритета"""
+    def get_random_active_ad_preloader(self, country=None):
+        """Возвращает случайный активный рекламный прелоадер с учетом приоритета и страны"""
         try:
             conn = self.pool.get_connection()
             cursor = conn.cursor(dictionary=True)
-            # Используем приоритет для взвешенного выбора
+            
+            # Базовый запрос с фильтрацией по статусу
             query = """
             SELECT * FROM ad_preloaders 
             WHERE is_active = TRUE 
-            ORDER BY RAND() * priority DESC 
-            LIMIT 1
             """
-            cursor.execute(query)
+            
+            params = []
+            
+            # Добавляем фильтрацию по стране, если страна указана
+            if country:
+                # Проверяем, есть ли реклама для указанной страны
+                query += """
+                AND (
+                    country = %s 
+                    OR country LIKE %s 
+                    OR country LIKE %s 
+                    OR country LIKE %s
+                    OR country IS NULL
+                    OR country = ''
+                )
+                """
+                # Добавляем параметры для точного совпадения и совпадений в списке
+                params.extend([
+                    country,                  # Точное совпадение
+                    f"{country},%",           # Страна в начале списка
+                    f"%,{country},%",         # Страна в середине списка
+                    f"%,{country}"            # Страна в конце списка
+                ])
+                
+                # Отдаем приоритет рекламе, специфичной для данной страны
+                query += """
+                ORDER BY 
+                    CASE 
+                        WHEN country = %s THEN 3
+                        WHEN country LIKE %s OR country LIKE %s OR country LIKE %s THEN 2
+                        ELSE 1 
+                    END DESC,
+                    RAND() * priority DESC
+                """
+                params.extend([
+                    country,
+                    f"{country},%",
+                    f"%,{country},%",
+                    f"%,{country}"
+                ])
+            else:
+                # Если страна не указана, выбираем рекламу без привязки к стране или с любой страной
+                query += """
+                ORDER BY RAND() * priority DESC
+                """
+            
+            # Ограничиваем результат одной записью
+            query += " LIMIT 1"
+            
+            cursor.execute(query, params if params else None)
             ad = cursor.fetchone()
             cursor.close()
             self.pool.release_connection(conn)
