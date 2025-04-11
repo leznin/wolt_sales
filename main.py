@@ -28,11 +28,13 @@ MAX_CONCURRENT_TASKS = len(PROXY_LIST)
 # Глобальный счетчик для отслеживания статистики
 stats = {
     "processed_stores": 0,
+    "total_stores": 0,  # Добавляем общее количество магазинов
     "processed_items": 0,
     "discounted_items": 0,
     "saved_items": 0,
     "failed_stores": 0,
     "stores_with_errors": set(),
+    "proxy_stats": {},  # Добавляем статистику прокси
     "last_update": None
 }
 
@@ -46,9 +48,12 @@ STORE_UPDATE_INTERVAL_HOURS = float(db.get_setting("execution_delay")[0])
 # Блокировка для обновления статистики
 stats_lock = threading.Lock()
 
-def update_stats(store_id=None, items_count=0, discounted_count=0, saved_count=0, failed=False):
+def update_stats(store_id=None, items_count=0, discounted_count=0, saved_count=0, failed=False, total_stores_count=None):
     """Обновляет глобальную статистику и сохраняет ее в файл"""
     with stats_lock:
+        if total_stores_count is not None:
+            stats["total_stores"] = total_stores_count
+            
         if store_id and failed:
             stats["stores_with_errors"].add(store_id)
             stats["failed_stores"] += 1
@@ -58,6 +63,8 @@ def update_stats(store_id=None, items_count=0, discounted_count=0, saved_count=0
             stats["discounted_items"] += discounted_count
             stats["saved_items"] += saved_count
         
+        # Обновляем статистику прокси
+        stats["proxy_stats"] = proxy_stats.copy()
         stats["last_update"] = datetime.now().isoformat()
         
         stats_json = stats.copy()
@@ -179,6 +186,9 @@ async def get_stores_and_items():
         
         total_stores = len(all_stores)
         print(f"Всего найдено {total_stores} уникальных магазинов, обрабатываем все:")
+        
+        # Устанавливаем общее количество магазинов для отслеживания прогресса
+        update_stats(total_stores_count=total_stores)
         
         for i, store in enumerate(all_stores[:10], 1):
             print(f"{i}. Магазин: {store['name']} (slug: {store['slug']})")

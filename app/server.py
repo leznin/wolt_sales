@@ -9,8 +9,22 @@ import threading
 import urllib
 import hmac
 import hashlib
+import subprocess
+import re
+from datetime import datetime
+import tempfile
 from dotenv import load_dotenv
 from telegram.user import webhook
+
+# Глобальная переменная для хранения последнего прогресса выполнения
+last_progress = {
+    'progress': 0,
+    'progress_text': 'Ожидание запуска...',
+    'proxy_stats': {}
+}
+
+# Временный файл для записи вывода процесса
+PROGRESS_FILE = os.path.join(tempfile.gettempdir(), 'wolt_progress.txt')
 
 # Импорт модуля интеграции админ-панели
 from app.admin_integration import integrate_admin
@@ -677,6 +691,308 @@ def get_user_countries(user_id):
     except Exception as e:
         logger.error(f"Error in get_user_countries: {e}")
         return jsonify({"error": str(e)}), 500
+
+@app.route('/api/progress', methods=['GET'])
+def get_progress():
+    """Get the current progress of the main.py script"""
+    try:
+        # Проверяем, запущен ли процесс main.py
+        process_running = False
+        try:
+            result = subprocess.run(['pgrep', '-f', 'python.*main\.py'], 
+                                   stdout=subprocess.PIPE, 
+                                   stderr=subprocess.PIPE,
+                                   text=True)
+            process_pids = result.stdout.strip().split('\n')
+            process_running = len(process_pids) > 0 and process_pids[0] != ''
+        except Exception as e:
+            logger.error(f"Ошибка при проверке статуса процесса: {e}")
+        
+        # Пытаемся прочитать файл с прогрессом
+        stats_path = os.path.join(parent_dir, "processing_stats.json")
+        
+        if os.path.exists(stats_path):
+            try:
+                with open(stats_path, "r") as f:
+                    stats = json.load(f)
+                    
+                    # Получаем основные данные статистики
+                    processed_stores = stats.get("processed_stores", 0)
+                    total_stores = stats.get("total_stores", 0)
+                    processed_items = stats.get("processed_items", 0)
+                    discounted_items = stats.get("discounted_items", 0)
+                    saved_items = stats.get("saved_items", 0)
+                    last_update = stats.get("last_update", "")
+                    
+                    # Вычисляем прогресс
+                    progress = 0
+                    if total_stores > 0:
+                        progress = min(round((processed_stores / total_stores) * 100, 1), 100)
+                    
+                    # Формируем текст прогресса
+                    if process_running:
+                        progress_text = f"Выполняется: обработано {processed_stores} из {total_stores} магазинов"
+                        if discounted_items > 0:
+                            progress_text += f", найдено {discounted_items} товаров со скидками"
+                    else:
+                        if processed_stores > 0:
+                            if processed_stores >= total_stores:
+                                progress_text = f"Процесс завершен. Обработано {processed_stores} магазинов, найдено {discounted_items} товаров со скидками"
+                            else:
+                                progress_text = f"Процесс остановлен. Обработано {processed_stores} из {total_stores} магазинов"
+                        else:
+                            progress_text = "Процесс не запущен"
+                    
+                    # Получаем статистику использования прокси
+                    proxy_stats = stats.get("proxy_stats", {})
+                    
+                    return jsonify({
+                        'progress': progress,
+                        'progress_text': progress_text,
+                        'processed_stores': processed_stores,
+                        'total_stores': total_stores,
+                        'processed_items': processed_items,
+                        'discounted_items': discounted_items,
+                        'saved_items': saved_items,
+                        'last_update': last_update,
+                        'process_running': process_running,
+                        'proxy_stats': proxy_stats
+                    }), 200
+            except json.JSONDecodeError as e:
+                logger.error(f"Ошибка при чтении файла processing_stats.json: {e}")
+        
+        # Если нет файла с прогрессом или произошла ошибка
+        return jsonify({
+            'progress': 0,
+            'progress_text': 'Выполняется запуск процесса...' if process_running else 'Процесс не запущен',
+            'processed_stores': 0,
+            'total_stores': 0,
+            'processed_items': 0,
+            'discounted_items': 0,
+            'saved_items': 0,
+            'last_update': '',
+            'process_running': process_running,
+            'proxy_stats': {}
+        }), 200
+        
+    except Exception as e:
+        logger.error(f"Ошибка при получении прогресса: {e}")
+        return jsonify({
+            'progress': 0,
+            'progress_text': f'Ошибка: {str(e)}',
+            'proxy_stats': {},
+            'process_running': False
+        }), 500
+
+@app.route('/start-main', methods=['POST'])
+def start_main():
+    try:
+        # Используем абсолютный путь к файлу main.py
+        base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+        main_path = os.path.join(base_dir, 'main.py')
+        
+        # Проверяем существование файла
+        if not os.path.exists(main_path):
+            logger.error(f"Файл main.py не найден по пути: {main_path}")
+            return jsonify({'error': f'Файл не найден: {main_path}'}), 404
+        
+        # Обновляем глобальную переменную с прогрессом
+        global last_progress
+        last_progress = {
+            'progress': 0,
+            'progress_text': 'Запуск скрипта...',
+            'proxy_stats': {}
+        }
+        
+        # Создаем файл лога, если он не существует
+        log_path = os.path.join(base_dir, 'wolt_parser.log')
+        with open(log_path, 'w') as f:
+            timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            f.write(f"[{timestamp}] Запуск скрипта main.py\n")
+        
+        # Запускаем процесс в фоновом режиме
+        try:
+            # Используем python3 для запуска скрипта
+            process = subprocess.Popen(
+                ['python3', '-u', main_path],
+                stdout=subprocess.PIPE,
+                stderr=subprocess.STDOUT,
+                universal_newlines=True,
+                bufsize=1,
+                cwd=base_dir  # Устанавливаем рабочую директорию
+            )
+            
+            # Создаем поток для записи вывода в файл и обновления прогресса
+            def log_output():
+                with open(log_path, 'a') as log_file:
+                    for line in process.stdout:
+                        try:
+                            # Записываем строку в лог
+                            log_file.write(line)
+                            log_file.flush()
+                            
+                            # Обновляем глобальную переменную с прогрессом, если строка содержит информацию о прогрессе
+                            if 'Прогресс:' in line:
+                                # Извлекаем процент выполнения
+                                progress_percentage = 0
+                                match = re.search(r'(\d+\.\d+)%', line)
+                                if match:
+                                    progress_percentage = float(match.group(1))
+                                
+                                # Извлекаем статистику прокси
+                                proxy_stats = {}
+                                proxy_match = re.search(r'Прокси: ([\d:, ]+)', line)
+                                if proxy_match:
+                                    proxy_text = proxy_match.group(1)
+                                    proxy_pairs = proxy_text.split(', ')
+                                    for pair in proxy_pairs:
+                                        if ':' in pair:
+                                            proxy_id, count = pair.split(':')
+                                            proxy_stats[proxy_id.strip()] = int(count.strip())
+                                
+                                # Обновляем глобальную переменную
+                                global last_progress
+                                last_progress = {
+                                    'progress': progress_percentage,
+                                    'progress_text': line.strip(),
+                                    'proxy_stats': proxy_stats
+                                }
+                        except Exception as e:
+                            # Логируем ошибку, но не останавливаем поток
+                            logger.error(f"Ошибка при обработке вывода скрипта: {e}")
+                            continue
+            
+            # Запускаем поток для записи вывода
+            thread = threading.Thread(target=log_output, daemon=True)
+            thread.start()
+            
+            # Записываем информацию о запуске в файл
+            timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            start_info = {
+                'last_start': timestamp,
+                'status': 'running',
+                'pid': process.pid
+            }
+            
+            # Путь к файлу с информацией о запусках
+            start_info_path = os.path.join(base_dir, 'app', 'start_info.json')
+            
+            with open(start_info_path, 'w') as f:
+                json.dump(start_info, f)
+            
+            logger.info(f"Скрипт main.py успешно запущен с PID {process.pid}")
+            return jsonify({'message': 'Скрипт main.py успешно запущен!', 'pid': process.pid}), 200
+            
+        except subprocess.SubprocessError as e:
+            logger.error(f"Ошибка при запуске подпроцесса: {e}")
+            return jsonify({'error': f'Ошибка при запуске скрипта: {str(e)}'}), 500
+            
+    except Exception as e:
+        import traceback
+        error_details = traceback.format_exc()
+        logger.error(f"Неожиданная ошибка при запуске main.py: {str(e)}\n{error_details}")
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/stop-main', methods=['POST'])
+def stop_main():
+    """API-эндпоинт для остановки выполнения процесса main.py"""
+    try:
+        import subprocess
+        import json
+        import os
+        import signal
+        from datetime import datetime
+        
+        # Проверяем, запущен ли процесс main.py
+        result = subprocess.run(['pgrep', '-f', 'python.*main\.py'], 
+                               stdout=subprocess.PIPE, 
+                               stderr=subprocess.PIPE,
+                               text=True)
+        
+        process_pids = result.stdout.strip().split('\n')
+        pid_list = [pid for pid in process_pids if pid]
+        
+        if not pid_list:
+            return jsonify({
+                'success': False, 
+                'message': 'Процесс не запущен или не может быть найден'
+            }), 404
+        
+        # Завершаем процесс
+        for pid in pid_list:
+            try:
+                # Сначала пробуем завершить процесс корректно (SIGTERM)
+                os.kill(int(pid), signal.SIGTERM)
+                logger.info(f"Отправлен сигнал SIGTERM процессу с PID {pid}")
+            except Exception as e:
+                logger.error(f"Ошибка при завершении процесса {pid}: {e}")
+                # Если не удалось завершить корректно, убиваем процесс (SIGKILL)
+                try:
+                    os.kill(int(pid), signal.SIGKILL)
+                    logger.info(f"Отправлен сигнал SIGKILL процессу с PID {pid}")
+                except Exception as kill_error:
+                    logger.error(f"Ошибка при принудительном завершении процесса {pid}: {kill_error}")
+                    return jsonify({
+                        'success': False, 
+                        'message': f'Не удалось завершить процесс: {str(kill_error)}'
+                    }), 500
+        
+        # Обновляем информацию о статусе процесса
+        base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+        stats_path = os.path.join(base_dir, "processing_stats.json")
+        
+        if os.path.exists(stats_path):
+            try:
+                with open(stats_path, "r") as f:
+                    stats = json.load(f)
+                
+                # Сохраняем данные о прокси
+                proxy_stats = stats.get("proxy_stats", {})
+                
+                # Сбрасываем все счетчики на 0
+                stats = {
+                    "processed_stores": 0,
+                    "total_stores": 0,
+                    "processed_items": 0,
+                    "discounted_items": 0,
+                    "saved_items": 0,
+                    "failed_stores": 0,
+                    "stores_with_errors": [],
+                    "proxy_stats": proxy_stats,
+                    "manually_stopped": True,
+                    "stop_time": datetime.now().isoformat(),
+                    "last_update": datetime.now().isoformat()
+                }
+                
+                with open(stats_path, "w") as f:
+                    json.dump(stats, f)
+                
+                logger.info("Счетчики статистики сброшены на 0 после остановки процесса")
+            except Exception as e:
+                logger.error(f"Ошибка при обновлении файла статистики: {e}")
+        
+        # Запись в лог-файл
+        log_path = os.path.join(base_dir, "wolt_parser.log")
+        try:
+            with open(log_path, 'a') as f:
+                timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+                f.write(f"[{timestamp}] Процесс остановлен вручную через административный интерфейс. Счетчики сброшены на 0.\n")
+        except Exception as e:
+            logger.error(f"Ошибка при записи в лог-файл: {e}")
+        
+        return jsonify({
+            'success': True, 
+            'message': f'Процесс успешно остановлен. Завершено {len(pid_list)} процессов. Счетчики сброшены на 0.'
+        })
+        
+    except Exception as e:
+        import traceback
+        error_details = traceback.format_exc()
+        logger.error(f"Неожиданная ошибка при остановке процесса: {str(e)}\n{error_details}")
+        return jsonify({
+            'success': False, 
+            'message': f'Ошибка при остановке процесса: {str(e)}'
+        }), 500
 
 # Serve static files from the public directory during development
 @app.route('/favicon.ico')

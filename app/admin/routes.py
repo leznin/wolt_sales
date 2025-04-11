@@ -1036,3 +1036,191 @@ def ensure_admin_preferences_table():
     except Exception as e:
         print(f"Ошибка при создании таблицы admin_preferences: {e}")
         return False
+
+@admin_bp.route('/api/process/status', methods=['GET'])
+@login_required
+def get_process_status():
+    """API для получения текущего статуса процесса парсинга"""
+    import subprocess, os, json
+    
+    # Директория проекта
+    parent_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    stats_path = os.path.join(parent_dir, "processing_stats.json")
+    
+    response_data = {
+        "progress": 0,
+        "status": "Готов к запуску",
+        "proxyStats": {},
+        "running": False
+    }
+    
+    try:
+        # Проверяем, запущен ли процесс main.py
+        result = subprocess.run(['pgrep', '-f', 'python.*main\.py'], 
+                                stdout=subprocess.PIPE, 
+                                stderr=subprocess.PIPE,
+                                text=True)
+        
+        # Если есть PID, значит процесс запущен
+        process_pids = result.stdout.strip().split('\n')
+        is_running = len(process_pids) > 0 and process_pids[0] != ''
+        response_data["running"] = is_running
+        
+        # Пытаемся прочитать файл с прогрессом
+        if os.path.exists(stats_path):
+            try:
+                with open(stats_path, "r") as f:
+                    stats = json.load(f)
+                    
+                    # Общий прогресс
+                    processed_stores = stats.get("processed_stores", 0)
+                    total_stores = stats.get("total_stores", 0)
+                    
+                    # Избегаем деления на ноль
+                    if total_stores > 0:
+                        progress = min(round((processed_stores / total_stores) * 100, 1), 100)
+                    else:
+                        progress = 0
+                    
+                    response_data["progress"] = progress
+                    
+                    # Статус выполнения
+                    if is_running:
+                        response_data["status"] = f"Выполняется: обработано {processed_stores} из {total_stores} магазинов"
+                    elif processed_stores > 0 and processed_stores >= total_stores and total_stores > 0:
+                        response_data["status"] = "Процесс завершен"
+                        response_data["progress"] = 100
+                    elif processed_stores > 0:
+                        response_data["status"] = f"Остановлен: обработано {processed_stores} из {total_stores} магазинов"
+                    
+                    # Статистика использования прокси
+                    response_data["proxyStats"] = stats.get("proxy_stats", {})
+            except (json.JSONDecodeError, IOError) as e:
+                # Если файл поврежден или не может быть прочитан
+                print(f"Ошибка чтения файла processing_stats.json: {str(e)}")
+    except Exception as e:
+        print(f"Ошибка при получении статуса процесса: {str(e)}")
+    
+    return jsonify(response_data)
+
+@admin_bp.route('/api/process/start', methods=['POST'])
+@login_required
+def start_process():
+    """API для запуска процесса парсинга Wolt"""
+    import subprocess, os, json, time
+    from datetime import datetime
+    
+    # Директория проекта и пути к файлам
+    parent_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    main_path = os.path.join(parent_dir, 'main.py')
+    stats_path = os.path.join(parent_dir, "processing_stats.json")
+    log_path = os.path.join(parent_dir, "wolt_parser.log")
+    
+    try:
+        # Проверяем, не запущен ли уже процесс
+        result = subprocess.run(['pgrep', '-f', 'python.*main\.py'], 
+                               stdout=subprocess.PIPE, 
+                               stderr=subprocess.PIPE,
+                               text=True)
+        
+        # Если есть PID, значит процесс уже запущен
+        process_pids = result.stdout.strip().split('\n')
+        if len(process_pids) > 0 and process_pids[0] != '':
+            return jsonify({
+                'success': False, 
+                'error': 'Процесс уже запущен'
+            }), 400
+        
+        # Проверяем существование файла main.py
+        if not os.path.exists(main_path):
+            return jsonify({
+                'success': False, 
+                'error': f'Файл main.py не найден по пути: {main_path}'
+            }), 404
+        
+        # Создаем начальный файл статистики
+        try:
+            with open(stats_path, "w") as f:
+                # Получаем общее количество магазинов из БД для правильного отображения прогресса
+                total_stores = db.get_stores_count() or 100  # Если в БД ещё нет магазинов, используем 100
+                
+                initial_stats = {
+                    "processed_stores": 0,
+                    "total_stores": total_stores,
+                    "processed_items": 0,
+                    "discounted_items": 0,
+                    "saved_items": 0,
+                    "failed_stores": 0,
+                    "stores_with_errors": [],
+                    "proxy_stats": {},
+                    "last_update": datetime.now().isoformat()
+                }
+                json.dump(initial_stats, f)
+        except Exception as e:
+            print(f"Ошибка при создании файла статистики: {e}")
+        
+        # Создаем лог-файл или очищаем существующий
+        try:
+            with open(log_path, 'w') as f:
+                timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+                f.write(f"[{timestamp}] Запуск процесса парсинга Wolt\n")
+        except Exception as e:
+            print(f"Ошибка при создании лог-файла: {e}")
+        
+        # Запускаем процесс в фоне
+        try:
+            # На Unix/Linux/Mac можно использовать nohup для запуска в фоне
+            process = subprocess.Popen(
+                ['python3', '-u', main_path],
+                stdout=subprocess.PIPE,
+                stderr=subprocess.STDOUT,
+                universal_newlines=True,
+                start_new_session=True,  # Запуск в отдельной сессии
+                cwd=parent_dir  # Рабочая директория
+            )
+            
+            # Ждем небольшое время, чтобы убедиться, что процесс запустился
+            time.sleep(1)
+            
+            # Проверяем, запустился ли процесс
+            if process.poll() is not None:
+                # Процесс завершился слишком быстро, значит была ошибка
+                return jsonify({
+                    'success': False, 
+                    'error': 'Процесс не удалось запустить или он завершился слишком быстро'
+                }), 500
+            
+            # Записываем информацию о запуске
+            start_info = {
+                'pid': process.pid,
+                'start_time': datetime.now().isoformat(),
+                'status': 'running'
+            }
+            
+            # Записываем статус запуска в БД или файл
+            with open(os.path.join(parent_dir, 'app', 'start_info.json'), 'w') as f:
+                json.dump(start_info, f)
+            
+            return jsonify({
+                'success': True, 
+                'message': 'Процесс успешно запущен', 
+                'pid': process.pid
+            })
+            
+        except Exception as e:
+            import traceback
+            error_details = traceback.format_exc()
+            return jsonify({
+                'success': False, 
+                'error': f'Ошибка при запуске процесса: {str(e)}',
+                'details': error_details
+            }), 500
+            
+    except Exception as e:
+        import traceback
+        error_details = traceback.format_exc()
+        return jsonify({
+            'success': False, 
+            'error': f'Неожиданная ошибка: {str(e)}',
+            'details': error_details
+        }), 500

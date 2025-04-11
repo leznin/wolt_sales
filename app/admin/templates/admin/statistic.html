@@ -3,6 +3,13 @@
 {% block title %}Статистика{% endblock %}
 {% block page_title %}Статистика системы{% endblock %}
 
+{% block head %}
+<!-- Добавляем новые CSS файлы -->
+<link rel="stylesheet" href="{{ url_for('admin.static', filename='css/progress-bar-fix.css') }}">
+<!-- Font Awesome для иконок -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+{% endblock %}
+
 {% block content %}
 <div class="statistics-grid-container">
     <!-- Верхний ряд с показателями -->
@@ -56,29 +63,63 @@
         </div>
     </div>
     
-    <!-- Нижний ряд с графиком и картой -->
-    <div class="charts-grid">
-        <div class="chart-card">
-            <div class="chart-card-header">
-                <h6 class="chart-title">Динамика роста пользователей</h6>
-                <div class="chart-actions">
-                    <button class="period-btn active" data-period="weekly">Неделя</button>
-                    <button class="period-btn" data-period="monthly">Месяц</button>
+    <!-- Блок с прогрессом выполнения -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+            <h6 class="m-0 font-weight-bold text-primary">Прогресс обработки магазинов</h6>
+            <div id="processControls" class="process-controls">
+                <button id="stopButton" class="btn btn-secondary mr-2" disabled>
+                    <i class="fas fa-stop mr-2"></i>Остановить
+                </button>
+                <button id="processButton" class="btn btn-primary process-button">
+                    <i class="fas fa-play mr-2"></i>Запустить
+                </button>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="progress-container">
+                <div class="progress">
+                    <div id="progressBar" class="progress-bar progress-bar-striped progress-bar-animated bg-info" 
+                         role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" 
+                         style="width: 0%;">0%</div>
+                </div>
+                <div id="statusText" class="status-text">Проверка статуса процесса...</div>
+                
+                <!-- Добавляем текстовый (ASCII) прогресс-бар для визуализации -->
+                <div id="terminalOutput" class="terminal-output mt-3 mb-3">
+                    [----------------------------------------] 0.0% (0/0)
+                </div>
+                
+                <div id="proxyList" class="proxy-list">
+                    <div class="no-data">Нет данных о прокси</div>
                 </div>
             </div>
-            <div class="chart-card-body">
+        </div>
+    </div>
+    
+    <!-- Нижний ряд с графиком и картой -->
+    <div class="charts-grid">
+        <div class="card shadow mb-4">
+            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                <h6 class="m-0 font-weight-bold text-primary">Динамика роста пользователей</h6>
+                <div class="dropdown no-arrow">
+                    <button class="btn btn-sm btn-primary active mr-2" data-period="weekly">Неделя</button>
+                    <button class="btn btn-sm btn-outline-primary" data-period="monthly">Месяц</button>
+                </div>
+            </div>
+            <div class="card-body">
                 <div class="chart-container">
                     <canvas id="userGrowthChart"></canvas>
                 </div>
             </div>
         </div>
         
-        <div class="chart-card">
-            <div class="chart-card-header">
-                <h6 class="chart-title">География пользователей</h6>
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">География пользователей</h6>
             </div>
-            <div class="chart-card-body no-padding">
-                <div id="map"></div>
+            <div class="card-body p-0">
+                <div id="map" style="height: 400px;"></div>
             </div>
         </div>
     </div>
@@ -292,13 +333,102 @@
             grid-template-columns: 1fr;
         }
     }
+    
+    /* Стили для блока прогресса */
+    .progress-container {
+        margin-bottom: 1.5rem;
+    }
+    
+    .progress-card {
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        overflow: hidden;
+    }
+    
+    .progress-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.25rem;
+        background-color: #f8f9fc;
+        border-bottom: 1px solid #e3e6f0;
+    }
+    
+    .progress-title {
+        margin: 0;
+        font-weight: 700;
+        font-size: 0.9rem;
+        color: #4e73df;
+    }
+    
+    .progress-body {
+        padding: 1.25rem;
+    }
+    
+    .progress-bar-container {
+        margin-bottom: 1rem;
+    }
+    
+    .progress-text {
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+        font-family: monospace;
+        white-space: pre-wrap;
+    }
+    
+    .proxy-stats {
+        font-size: 0.8rem;
+        color: #6c757d;
+        font-family: monospace;
+    }
+
+    /* Новые стили для кнопки и статусов */
+    #processButton {
+        min-width: 120px; /* Фиксированная ширина для избежания скачков */
+        margin-top: 10px;
+        transition: all 0.3s ease;
+    }
+
+    #processButton.btn-checking {
+        background-color: #6c757d;
+        border-color: #6c757d;
+        cursor: not-allowed;
+    }
+
+    #processButton.btn-running {
+        background-color: #28a745;
+        border-color: #28a745;
+        cursor: not-allowed;
+    }
+
+    .proxy-item {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 4px;
+    }
+
+    .proxy-label {
+        font-weight: bold;
+    }
+
+    .no-data {
+        font-style: italic;
+        color: #6c757d;
+    }
 </style>
 {% endblock %}
 
 {% block scripts %}
+<!-- Подключаем библиотеки для графиков и карты -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<!-- Подключаем класс TextProgressBar перед основным скриптом -->
+<script src="{{ url_for('admin.static', filename='js/text-progress-bar.js') }}"></script>
+<!-- Подключаем наш собственный JavaScript для отслеживания прогресса -->
+<script src="{{ url_for('admin.static', filename='js/progress.js') }}"></script>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
@@ -418,12 +548,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 // Отмечаем активную кнопку
                 document.querySelectorAll('[data-period]').forEach(btn => {
-                    btn.classList.remove('active');
-                    btn.classList.remove('btn-primary');
+                    btn.classList.remove('active', 'btn-primary');
                     btn.classList.add('btn-outline-primary');
                 });
-                this.classList.add('active');
-                this.classList.add('btn-primary');
+                this.classList.add('active', 'btn-primary');
                 this.classList.remove('btn-outline-primary');
                 
                 // Обновляем данные графика
