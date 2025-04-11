@@ -8,6 +8,8 @@
 <link rel="stylesheet" href="{{ url_for('admin.static', filename='css/progress-bar-fix.css') }}">
 <!-- Font Awesome для иконок -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<!-- Google Fonts - Inter и JetBrains Mono -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
 {% endblock %}
 
 {% block content %}
@@ -64,21 +66,21 @@
     </div>
     
     <!-- Блок с прогрессом выполнения -->
-    <div class="card shadow mb-4">
-        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-            <h6 class="m-0 font-weight-bold text-primary">Прогресс обработки магазинов</h6>
+    <div class="card shadow mb-4 progress-card-enhanced">
+        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between progress-header-enhanced">
+            <h6 class="m-0 font-weight-bold text-primary progress-title-enhanced">Прогресс обработки магазинов</h6>
             <div id="processControls" class="process-controls">
-                <button id="stopButton" class="btn btn-secondary mr-2" disabled>
+                <button id="stopButton" class="btn btn-light mr-2 control-btn" disabled>
                     <i class="fas fa-stop mr-2"></i>Остановить
                 </button>
-                <button id="processButton" class="btn btn-primary process-button">
+                <button id="processButton" class="btn btn-primary process-button control-btn">
                     <i class="fas fa-play mr-2"></i>Запустить
                 </button>
             </div>
         </div>
-        <div class="card-body">
+        <div class="card-body progress-body-enhanced">
             <div class="progress-container">
-                <div class="progress">
+                <div class="progress progress-enhanced">
                     <div id="progressBar" class="progress-bar progress-bar-striped progress-bar-animated bg-info" 
                          role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" 
                          style="width: 0%;">0%</div>
@@ -97,29 +99,20 @@
         </div>
     </div>
     
-    <!-- Нижний ряд с графиком и картой -->
+    <!-- Нижний ряд с графиком -->
     <div class="charts-grid">
-        <div class="card shadow mb-4">
-            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                <h6 class="m-0 font-weight-bold text-primary">Динамика роста пользователей</h6>
-                <div class="dropdown no-arrow">
-                    <button class="btn btn-sm btn-primary active mr-2" data-period="weekly">Неделя</button>
-                    <button class="btn btn-sm btn-outline-primary" data-period="monthly">Месяц</button>
+        <div class="card shadow mb-4 chart-card-enhanced">
+            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between chart-header-enhanced">
+                <h6 class="m-0 font-weight-bold text-primary chart-title-enhanced">Динамика роста пользователей</h6>
+                <div class="dropdown no-arrow period-switcher">
+                    <button class="btn btn-sm period-btn-enhanced active mr-2" data-period="weekly">Неделя</button>
+                    <button class="btn btn-sm period-btn-enhanced" data-period="monthly">Месяц</button>
                 </div>
             </div>
-            <div class="card-body">
-                <div class="chart-container">
+            <div class="card-body chart-body-enhanced">
+                <div class="chart-container-enhanced">
                     <canvas id="userGrowthChart"></canvas>
                 </div>
-            </div>
-        </div>
-        
-        <div class="card shadow mb-4">
-            <div class="card-header py-3">
-                <h6 class="m-0 font-weight-bold text-primary">География пользователей</h6>
-            </div>
-            <div class="card-body p-0">
-                <div id="map" style="height: 400px;"></div>
             </div>
         </div>
     </div>
@@ -144,20 +137,22 @@
         grid-gap: 1rem;
     }
     
-    /* Сетка для графиков и карт, 2 блока в ряд */
+    /* Сетка для графиков, 1 блок на всю ширину */
     .charts-grid {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         grid-gap: 1.5rem;
     }
     
     /* Карточки со статистикой */
     .stat-card {
-        background-color: white;
-        border-radius: 8px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-        transition: transform 0.2s;
+        background-color: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+        transition: all 0.3s ease;
         overflow: hidden;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
     }
     
     .stat-card:hover {
@@ -185,7 +180,8 @@
     .stat-value {
         font-size: 1.5rem;
         font-weight: 700;
-        color: #5a5c69;
+        color: #2d3748;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
     }
     
     .stat-value.small {
@@ -197,31 +193,43 @@
         align-items: center;
         justify-content: center;
         font-size: 1.5rem;
-        color: #dddfeb;
+        color: rgba(66, 99, 235, 0.7);
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+        height: 50px;
+        width: 50px;
+        border-radius: 12px;
     }
     
     /* Цветные полосы для карточек */
     .border-left-primary {
-        border-left: 4px solid #4e73df;
+        border-left: none;
+        background: linear-gradient(135deg, #ffffff, #f8faff);
+        border-top: 4px solid #4e73df;
     }
     
     .border-left-success {
-        border-left: 4px solid #1cc88a;
+        border-left: none;
+        background: linear-gradient(135deg, #ffffff, #f6fefa);
+        border-top: 4px solid #1cc88a;
     }
     
     .border-left-info {
-        border-left: 4px solid #36b9cc;
+        border-left: none;
+        background: linear-gradient(135deg, #ffffff, #f5fcfd);
+        border-top: 4px solid #36b9cc;
     }
     
     .border-left-warning {
-        border-left: 4px solid #f6c23e;
+        border-left: none;
+        background: linear-gradient(135deg, #ffffff, #fffdf5);
+        border-top: 4px solid #f6c23e;
     }
     
     /* Карточки с графиками и картой */
     .chart-card {
-        background-color: white;
+        background-color: var(--bg-secondary);
         border-radius: 8px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        box-shadow: var(--card-shadow);
         overflow: hidden;
         display: flex;
         flex-direction: column;
@@ -232,8 +240,8 @@
         justify-content: space-between;
         align-items: center;
         padding: 1rem 1.25rem;
-        background-color: #f8f9fc;
-        border-bottom: 1px solid #e3e6f0;
+        background-color: var(--bg-secondary);
+        border-bottom: 1px solid var(--border-color);
     }
     
     .chart-title {
@@ -260,8 +268,8 @@
     
     .period-btn {
         background-color: transparent;
-        border: 1px solid #4e73df;
-        color: #4e73df;
+        border: 1px solid var(--accent-color);
+        color: var(--accent-color);
         border-radius: 4px;
         padding: 0.25rem 0.75rem;
         font-size: 0.75rem;
@@ -270,7 +278,7 @@
     }
     
     .period-btn.active {
-        background-color: #4e73df;
+        background-color: var(--accent-color);
         color: white;
     }
     
@@ -285,26 +293,118 @@
         width: 100%;
     }
     
-    #map {
-        height: 22.75rem;
-        width: 100%;
+    /* Улучшенные стили для графика динамики роста пользователей */
+    .chart-card-enhanced {
+        background-color: #ffffff;
+        border-radius: 16px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        overflow: hidden;
+        transition: all 0.3s ease;
+        border: 1px solid rgba(240, 240, 250, 0.8);
+        backdrop-filter: blur(10px);
     }
+    
+    .chart-card-enhanced:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+    }
+    
+    .chart-header-enhanced {
+        background: linear-gradient(120deg, #f8faff, rgba(59, 130, 246, 0.05));
+        border-bottom: 1px solid rgba(230, 235, 245, 0.8);
+        padding: 1.2rem 1.5rem;
+    }
+    
+    .chart-title-enhanced {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: #3a4a5e;
+        position: relative;
+        padding-left: 15px;
+        letter-spacing: 0.5px;
+    }
+    
+    .chart-title-enhanced:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 18px;
+        width: 5px;
+        background: linear-gradient(to bottom, var(--accent-color), var(--info-color));
+        border-radius: 3px;
+    }
+    
+    .chart-body-enhanced {
+        padding: 1.5rem;
+        background-color: #ffffff;
+    }
+    
+    .chart-container-enhanced {
+        position: relative;
+        height: 22rem;
+        width: 100%;
+        animation: fadeIn 0.8s ease-in-out;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+    
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    
+    .period-switcher {
+        display: flex;
+        gap: 0.5rem;
+    }
+    
+    .period-btn-enhanced {
+        background: rgba(245, 247, 250, 0.8);
+        border: 1px solid rgba(78, 115, 223, 0.3);
+        color: #4263eb;
+        border-radius: 20px;
+        padding: 0.35rem 1rem;
+        font-size: 0.8rem;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+    }
+    
+    .period-btn-enhanced:hover {
+        background-color: rgba(59, 130, 246, 0.15);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+    }
+    
+    .period-btn-enhanced.active {
+        background: linear-gradient(120deg, #4263eb, #3b82f6);
+        color: white;
+        border-color: transparent;
+        box-shadow: 0 4px 10px rgba(66, 99, 235, 0.3);
+    }
+    
+
     
     /* Цветовые классы */
     .text-primary {
-        color: #4e73df;
+        color: #4263eb;
+        font-weight: 600;
     }
     
     .text-success {
-        color: #1cc88a;
+        color: #0ca678;
+        font-weight: 600;
     }
     
     .text-info {
-        color: #36b9cc;
+        color: #0c8599;
+        font-weight: 600;
     }
     
     .text-warning {
-        color: #f6c23e;
+        color: #e67700;
+        font-weight: 600;
     }
     
     /* Адаптивность */
@@ -323,8 +423,25 @@
             height: 15rem;
         }
         
-        #map {
+        .chart-container-enhanced {
             height: 18rem;
+        }
+        
+        .chart-header-enhanced {
+            padding: 1rem;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0.8rem;
+        }
+        
+        .period-switcher {
+            width: 100%;
+            justify-content: flex-start;
+        }
+        
+        .period-btn-enhanced {
+            padding: 0.3rem 0.8rem;
+            font-size: 0.75rem;
         }
     }
     
@@ -340,9 +457,9 @@
     }
     
     .progress-card {
-        background-color: white;
-        border-radius: 8px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        background-color: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
         overflow: hidden;
     }
     
@@ -351,8 +468,59 @@
         justify-content: space-between;
         align-items: center;
         padding: 1rem 1.25rem;
-        background-color: #f8f9fc;
-        border-bottom: 1px solid #e3e6f0;
+        background-color: #f8faff;
+        border-bottom: 1px solid rgba(230, 235, 245, 0.8);
+    }
+    
+    /* Улучшенные стили для карточки прогресса */
+    .progress-card-enhanced {
+        background-color: #ffffff;
+        border-radius: 16px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        overflow: hidden;
+        transition: all 0.3s ease;
+        border: 1px solid rgba(240, 240, 250, 0.8);
+        backdrop-filter: blur(10px);
+    }
+    
+    .progress-header-enhanced {
+        background: linear-gradient(120deg, #f8faff, rgba(59, 130, 246, 0.05));
+        border-bottom: 1px solid rgba(230, 235, 245, 0.8);
+        padding: 1.2rem 1.5rem;
+    }
+    
+    .progress-title-enhanced {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: #3a4a5e;
+        position: relative;
+        padding-left: 15px;
+        letter-spacing: 0.5px;
+    }
+    
+    .progress-title-enhanced:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 18px;
+        width: 5px;
+        background: linear-gradient(to bottom, #4263eb, #0c8599);
+        border-radius: 3px;
+    }
+    
+    .progress-body-enhanced {
+        padding: 1.5rem;
+        background-color: #ffffff;
+    }
+    
+    .progress-enhanced {
+        height: 12px;
+        border-radius: 6px;
+        overflow: hidden;
+        background-color: #f1f5f9;
+        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
     }
     
     .progress-title {
@@ -373,14 +541,20 @@
     .progress-text {
         font-size: 0.9rem;
         margin-bottom: 0.5rem;
-        font-family: monospace;
+        font-family: 'JetBrains Mono', monospace;
         white-space: pre-wrap;
+        color: #3a4a5e;
+        font-weight: 500;
     }
     
     .proxy-stats {
         font-size: 0.8rem;
-        color: #6c757d;
-        font-family: monospace;
+        color: #64748b;
+        font-family: 'JetBrains Mono', monospace;
+        background-color: #f8faff;
+        padding: 8px 12px;
+        border-radius: 8px;
+        border: 1px solid rgba(230, 235, 245, 0.8);
     }
 
     /* Новые стили для кнопки и статусов */
@@ -397,33 +571,83 @@
     }
 
     #processButton.btn-running {
-        background-color: #28a745;
-        border-color: #28a745;
+        background-color: #0ca678;
+        border-color: #0ca678;
         cursor: not-allowed;
+    }
+    
+    .control-btn {
+        border-radius: 10px;
+        font-weight: 600;
+        padding: 0.5rem 1rem;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        transition: all 0.3s ease;
+    }
+    
+    .control-btn:hover:not([disabled]) {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
     }
 
     .proxy-item {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 4px;
+        margin-bottom: 8px;
+        padding: 8px 12px;
+        background-color: #f8faff;
+        border-radius: 8px;
+        border: 1px solid rgba(230, 235, 245, 0.8);
+        transition: all 0.2s ease;
+    }
+    
+    .proxy-item:hover {
+        background-color: #f1f5f9;
+        transform: translateX(2px);
     }
 
     .proxy-label {
-        font-weight: bold;
+        font-weight: 600;
+        color: #3a4a5e;
     }
 
     .no-data {
         font-style: italic;
-        color: #6c757d;
+        color: #64748b;
+        padding: 12px;
+        background-color: #f8faff;
+        border-radius: 8px;
+        text-align: center;
+        border: 1px dashed rgba(230, 235, 245, 0.8);
+    }
+    
+    #terminalOutput {
+        font-size: 0.9rem;
+        color: #3a4a5e;
+        font-family: 'JetBrains Mono', monospace;
+        background-color: #f8faff;
+        padding: 12px 16px;
+        border-radius: 10px;
+        border: 1px solid rgba(230, 235, 245, 0.8);
+        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.03);
+        margin: 15px 0;
+    }
+    
+    .status-text {
+        font-size: 0.95rem;
+        margin: 12px 0;
+        color: #3a4a5e;
+        font-weight: 500;
+        padding: 8px 12px;
+        background-color: #f1f5f9;
+        border-radius: 8px;
+        display: inline-block;
     }
 </style>
 {% endblock %}
 
 {% block scripts %}
-<!-- Подключаем библиотеки для графиков и карты -->
+<!-- Подключаем библиотеки для графиков -->
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 
 <!-- Подключаем класс TextProgressBar перед основным скриптом -->
 <script src="{{ url_for('admin.static', filename='js/text-progress-bar.js') }}"></script>
@@ -432,62 +656,6 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    // Инициализация карты
-    const map = L.map('map').setView([55.7558, 37.6173], 2);
-    
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '© OpenStreetMap contributors'
-    }).addTo(map);
-    
-    // Загружаем локации пользователей
-    let userLocations = [];
-    try {
-        userLocations = JSON.parse('{{ user_locations|safe }}');
-        console.log("Загружены локации пользователей:", userLocations);
-    } catch(e) {
-        console.error("Ошибка при загрузке локаций:", e);
-    }
-    
-    // Добавляем маркеры на карту
-    if (userLocations && userLocations.length > 0) {
-        const bounds = [];
-        
-        userLocations.forEach(location => {
-            if (location && location.lat && location.lon) {
-                const lat = parseFloat(location.lat);
-                const lon = parseFloat(location.lon);
-                
-                if (!isNaN(lat) && !isNaN(lon)) {
-                    bounds.push([lat, lon]);
-                    
-                    L.circle([lat, lon], {
-                        color: '#4e73df',
-                        fillColor: '#4e73df',
-                        fillOpacity: 0.5,
-                        radius: Math.sqrt(location.users_count || 1) * 5000
-                    }).bindPopup(`
-                        <div class="text-center">
-                            <strong>${location.users_count || 0}</strong> пользователей<br>
-                            <small>Обновлено: ${location.last_update ? new Date(location.last_update).toLocaleDateString() : 'Не указано'}</small>
-                        </div>
-                    `).addTo(map);
-                }
-            }
-        });
-        
-        // Масштабируем карту, если есть точки
-        if (bounds.length > 0) {
-            try {
-                map.fitBounds(bounds);
-            } catch (e) {
-                console.error("Ошибка при масштабировании карты:", e);
-            }
-        }
-    }
-    
-    // Обновляем карту при полной загрузке
-    setTimeout(() => map.invalidateSize(), 100);
-    setTimeout(() => map.invalidateSize(), 500);
     
     // Получаем данные для графиков
     let weeklyData = {labels: [], data: []};
@@ -509,33 +677,110 @@ document.addEventListener('DOMContentLoaded', function() {
                 labels: weeklyData.labels || [],
                 datasets: [{
                     label: 'Новые пользователи',
-                    backgroundColor: 'rgba(78, 115, 223, 0.05)',
-                    borderColor: 'rgba(78, 115, 223, 1)',
+                    backgroundColor: 'rgba(66, 99, 235, 0.1)',
+                    borderColor: '#4263eb',
+                    borderWidth: 3,
+                    pointBackgroundColor: '#ffffff',
+                    pointBorderColor: '#4263eb',
+                    pointBorderWidth: 2,
+                    pointRadius: 5,
+                    pointHoverRadius: 7,
+                    pointHoverBackgroundColor: '#ffffff',
+                    pointHoverBorderColor: '#4263eb',
+                    pointHoverBorderWidth: 3,
                     data: weeklyData.data || [],
                     fill: true,
-                    tension: 0.3
+                    tension: 0.4
                 }]
             },
             options: {
                 maintainAspectRatio: false,
                 responsive: true,
+                animation: {
+                    duration: 1000,
+                    easing: 'easeOutQuart'
+                },
                 plugins: {
                     legend: {
                         display: false
+                    },
+                    tooltip: {
+                        backgroundColor: '#ffffff',
+                        titleColor: '#3a4a5e',
+                        titleFont: {
+                            size: 14,
+                            weight: 'bold',
+                            family: "'Inter', sans-serif"
+                        },
+                        bodyColor: '#4a5568',
+                        bodyFont: {
+                            size: 13,
+                            family: "'Inter', sans-serif"
+                        },
+                        padding: 14,
+                        borderColor: 'rgba(230, 235, 245, 0.8)',
+                        borderWidth: 1,
+                        displayColors: false,
+                        cornerRadius: 12,
+                        boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)',
+                        callbacks: {
+                            title: function(tooltipItems) {
+                                return tooltipItems[0].label;
+                            },
+                            label: function(context) {
+                                return 'Новых пользователей: ' + context.raw;
+                            }
+                        }
                     }
                 },
                 scales: {
                     y: {
                         beginAtZero: true,
+                        grid: {
+                            color: 'rgba(0, 0, 0, 0.05)',
+                            drawBorder: false
+                        },
+                        border: {
+                            display: false
+                        },
                         ticks: {
-                            maxTicksLimit: 5
+                            maxTicksLimit: 5,
+                            padding: 10,
+                            color: '#64748b',
+                            font: {
+                                size: 11,
+                                family: "'Inter', sans-serif",
+                                weight: 500
+                            }
                         }
                     },
                     x: {
+                        grid: {
+                            display: false,
+                            drawBorder: false
+                        },
+                        border: {
+                            display: false
+                        },
                         ticks: {
-                            maxTicksLimit: 7
+                            maxTicksLimit: 7,
+                            padding: 10,
+                            color: '#64748b',
+                            font: {
+                                size: 11,
+                                family: "'Inter', sans-serif",
+                                weight: 500
+                            }
                         }
                     }
+                },
+                interaction: {
+                    mode: 'index',
+                    intersect: false
+                },
+                hover: {
+                    mode: 'nearest',
+                    intersect: true
                 }
             }
         });
@@ -548,16 +793,32 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 // Отмечаем активную кнопку
                 document.querySelectorAll('[data-period]').forEach(btn => {
-                    btn.classList.remove('active', 'btn-primary');
-                    btn.classList.add('btn-outline-primary');
+                    btn.classList.remove('active');
                 });
-                this.classList.add('active', 'btn-primary');
-                this.classList.remove('btn-outline-primary');
+                this.classList.add('active');
                 
-                // Обновляем данные графика
-                chart.data.labels = data.labels || [];
-                chart.data.datasets[0].data = data.data || [];
-                chart.update();
+                // Добавляем анимацию при смене данных
+                const chartContainer = document.querySelector('.chart-container-enhanced');
+                if (chartContainer) {
+                    chartContainer.style.opacity = '0';
+                    chartContainer.style.transform = 'translateY(10px)';
+                    
+                    setTimeout(() => {
+                        // Обновляем данные графика
+                        chart.data.labels = data.labels || [];
+                        chart.data.datasets[0].data = data.data || [];
+                        chart.update();
+                        
+                        // Возвращаем видимость с анимацией
+                        chartContainer.style.opacity = '1';
+                        chartContainer.style.transform = 'translateY(0)';
+                    }, 300);
+                } else {
+                    // Если контейнер не найден, просто обновляем данные
+                    chart.data.labels = data.labels || [];
+                    chart.data.datasets[0].data = data.data || [];
+                    chart.update();
+                }
             });
         });
     }
