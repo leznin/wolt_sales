@@ -14,7 +14,7 @@ import re
 from datetime import datetime
 import tempfile
 from dotenv import load_dotenv
-from telegram.user import webhook
+from telegram_bot.webhook import webhook
 
 # Глобальная переменная для хранения последнего прогресса выполнения
 last_progress = {
@@ -50,7 +50,7 @@ public_folder = os.path.join(current_dir, 'public')
 
 # Динамические пути к папкам
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-PHOTOS_DIR = os.path.join(BASE_DIR, 'app', 'telegram', 'photos')
+PHOTOS_DIR = os.path.join(BASE_DIR, 'app', 'telegram_bot', 'photos')
 PUBLIC_IMAGES_DIR = os.path.join(BASE_DIR, 'app', 'public', 'images')
 
 app = Flask(__name__, static_folder=static_folder, static_url_path='/')
@@ -699,7 +699,7 @@ def get_progress():
         # Проверяем, запущен ли процесс main.py
         process_running = False
         try:
-            result = subprocess.run(['pgrep', '-f', 'python.*main\.py'], 
+            result = subprocess.run(['pgrep', '-f', r'python.*main\.py'], 
                                    stdout=subprocess.PIPE, 
                                    stderr=subprocess.PIPE,
                                    text=True)
@@ -904,7 +904,7 @@ def stop_main():
         from datetime import datetime
         
         # Проверяем, запущен ли процесс main.py
-        result = subprocess.run(['pgrep', '-f', 'python.*main\.py'], 
+        result = subprocess.run(['pgrep', '-f', r'python.*main\.py'], 
                                stdout=subprocess.PIPE, 
                                stderr=subprocess.PIPE,
                                text=True)
@@ -1027,7 +1027,7 @@ def serve(path):
 app.route('/webhook', methods=['POST'])(webhook)
 
 # Маршруты для раздачи статических файлов
-@app.route('/telegram/photos/<path:filename>')
+@app.route('/telegram_bot/photos/<path:filename>')
 def serve_user_photo(filename):
     full_path = os.path.join(PHOTOS_DIR, filename)
     logger.info(f"Serving photo: {full_path}, exists: {os.path.exists(full_path)}")

@@ -526,9 +526,10 @@ const Header = ({ avatarPath, userData }) => {
   }, [isLanguageDropdownOpen, isLocationDropdownOpen]);
 
   const hasAvatar = Boolean(avatarPath) && avatarPath !== '';
-  const logoUrl = '/images/logo.jpg'; 
+  const logoUrl = '/images/default-avatar.jpg'; 
+  // Исправляем логику формирования URL аватара
   const avatarUrl = hasAvatar 
-    ? (avatarPath.startsWith('photos/') ? `/telegram/${avatarPath}` : `/telegram/photos/${avatarPath}`)
+    ? (avatarPath.startsWith('photos/') ? `/telegram_bot/${avatarPath}` : `/telegram_bot/photos/${avatarPath}`)
     : logoUrl;
 
   const userName = userData?.first_name ? 
@@ -539,6 +540,11 @@ const Header = ({ avatarPath, userData }) => {
   useEffect(() => {
     const img = new Image();
     img.onload = () => {
+      setImageLoaded(true);
+    };
+    img.onerror = () => {
+      console.error(`Не удалось загрузить изображение аватара: ${avatarUrl}`);
+      // Если аватар не загружается, используем логотип
       setImageLoaded(true);
     };
     img.src = avatarUrl;
