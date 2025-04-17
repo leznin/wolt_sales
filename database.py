@@ -1719,6 +1719,45 @@ class WoltDatabase:
                 cursor.close()
             self.pool.release_connection(conn)
 
+    def get_user_activity_count(self, days=7) -> int:
+        """
+        Получает количество активных пользователей за указанный период (в днях)
+        
+        Args:
+            days: Количество дней для анализа активности
+            
+        Returns:
+            Количество активных пользователей
+        """
+        conn = self.pool.get_connection()
+        cursor = None
+        try:
+            cursor = conn.cursor(dictionary=True)
+            
+            # Вычисляем дату, от которой считаем активность
+            date_from = (datetime.now() - timedelta(days=days)).strftime('%Y-%m-%d %H:%M:%S')
+            
+            # Запрос на получение количества уникальных пользователей, 
+            # которые были активны в указанный период
+            query = """
+            SELECT COUNT(DISTINCT user_id) as active_count
+            FROM telegram_users
+            WHERE last_update >= %s
+            """
+            
+            cursor.execute(query, (date_from,))
+            result = cursor.fetchone()
+            
+            return result['active_count'] if result else 0
+            
+        except Exception as e:
+            logging.error(f"Error getting active users count: {e}")
+            return 0
+        finally:
+            if cursor:
+                cursor.close()
+            self.pool.release_connection(conn)
+
     def get_user_growth_data(self, weeks: int = None, months: int = None) -> dict:
         """
         Gets historical user growth data for charts

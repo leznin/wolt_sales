@@ -7,7 +7,7 @@
     --success: #4CAF50;
     --warning: #FFC107;
     --error: #F44336;
-    --border: rgba(255, 255, 255, 0.1);
+    --border: rgba(255, 255, 255, 0.471);
     --section-bg: rgba(26, 26, 46, 0.5);
 }
 
@@ -17,7 +17,7 @@
     padding: 20px;
     background: var(--bg);
     border-radius: 12px;
-    box-shadow: 0 0 20px rgba(0, 212, 255, 0.1);
+    box-shadow: 0 0 20px rgba(0, 213, 255, 0.877);
     margin: 0 auto;
 }
 

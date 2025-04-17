@@ -968,6 +968,12 @@ def statistic():
         'weekly': db.get_new_users_count(days=7),
         'monthly': db.get_new_users_count(days=30)
     }
+
+    user_activity = {
+        'day': db.get_user_activity_count(days=1),
+        'weekly': db.get_user_activity_count(days=7),
+        'monthly': db.get_user_activity_count(days=30)
+    }
     
     # Получаем данные для графиков
     try:
@@ -998,7 +1004,8 @@ def statistic():
                          user_stats=user_stats,
                          weekly_data=weekly_data_json,
                          monthly_data=monthly_data_json,
-                         user_locations=user_locations_json)
+                         user_locations=user_locations_json,
+                         user_activity=user_activity)
 
 # API для переключения темы
 @admin_bp.route('/toggle-theme', methods=['POST'])
