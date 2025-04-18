@@ -8,6 +8,7 @@ import os
 import logging
 import sys
 import threading
+import requests
 from .handlers import (
     start_command, 
     handle_request_location, 
@@ -48,11 +49,71 @@ def webhook():
     logger.info(f"Received data: {data}")
     init_data_str = data.get('initData', '')
     
-    # Получаем текст сообщения и данные callback_query
     message = data.get('message', {})
     callback_query = data.get('callback_query', {})
     command = message.get('text', '')
-    
+
+    user_id = None
+    message_saved = False  # Track if a message was saved
+
+    if message:
+        user_id = str(message.get('from', {}).get('id', ''))
+        # Save text message only if it does NOT start with "/"
+        if 'text' in message and not message['text'].startswith('/'):
+            get_db().save_user_message(user_id, 'text', message['text'])
+            message_saved = True
+        elif 'photo' in message:
+            # Download the largest photo
+            photo = message['photo'][-1] if message['photo'] else None
+            caption = message.get('caption', None)
+            if photo:
+                local_path = download_telegram_file(photo.get('file_id'))
+                get_db().save_user_message(
+                    user_id, 'photo', caption,  # Save caption as content
+                    file_id=photo.get('file_id'),
+                    file_unique_id=photo.get('file_unique_id'),
+                    file_name=local_path  # Save local file path as file_name
+                )
+                message_saved = True
+        elif 'audio' in message:
+            return jsonify({"error": "Audio messages are not supported"}), 400
+            audio = message['audio']
+            caption = message.get('caption', None)
+            local_path = download_telegram_file(audio.get('file_id'))
+            get_db().save_user_message(
+                user_id, 'audio', caption,
+                file_id=audio.get('file_id'),
+                file_unique_id=audio.get('file_unique_id'),
+                file_name=local_path
+            )
+            message_saved = True
+        elif 'video' in message:
+            video = message['video']
+            caption = message.get('caption', None)
+            local_path = download_telegram_file(video.get('file_id'))
+            get_db().save_user_message(
+                user_id, 'video', caption,
+                file_id=video.get('file_id'),
+                file_unique_id=video.get('file_unique_id'),
+                file_name=local_path
+            )
+            message_saved = True
+        elif 'document' in message:
+            doc = message['document']
+            caption = message.get('caption', None)
+            local_path = download_telegram_file(doc.get('file_id'))
+            get_db().save_user_message(
+                user_id, 'document', caption,
+                file_id=doc.get('file_id'),
+                file_unique_id=doc.get('file_unique_id'),
+                file_name=local_path
+            )
+            message_saved = True
+
+    # If any message was saved, return success
+    if message_saved:
+        return jsonify({"status": "message saved"}), 200
+
     # Обработка initData (для веб-приложений)
     if init_data_str:
         return process_init_data(data)
@@ -74,9 +135,8 @@ def webhook():
     elif command:
         if command == '/start':
             return start_command(data)
-        # Можно добавить другие команды
         else:
-            return jsonify({"error": "Unknown command"}), 400
+            return jsonify({"status": "message saved"}), 200
     
     # Обработка местоположения
     elif message.get('location'):
@@ -210,4 +270,32 @@ def get_user_avatar(user_id):
         if cursor:
             cursor.close()
         db.pool.release_connection(conn)
+
+
+
+def download_telegram_file(file_id, save_dir='user_uploads'):
+    """
+    Downloads a file from Telegram and saves it locally.
+    Returns the local file path.
+    """
+    # Ensure save_dir exists
+    os.makedirs(save_dir, exist_ok=True)
+    # Get file path from Telegram
+    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/getFile?file_id={file_id}"
+    resp = requests.get(url)
+    if resp.status_code != 200:
+        logger.error(f"Failed to get file info from Telegram: {resp.text}")
+        return None
+    file_path = resp.json()['result']['file_path']
+    # Download the file
+    file_url = f"https://api.telegram.org/file/bot{TELEGRAM_TOKEN}/{file_path}"
+    local_filename = os.path.join(save_dir, os.path.basename(file_path))
+    file_resp = requests.get(file_url)
+    if file_resp.status_code == 200:
+        with open(local_filename, 'wb') as f:
+            f.write(file_resp.content)
+        return local_filename
+    else:
+        logger.error(f"Failed to download file from Telegram: {file_resp.text}")
+        return None
 

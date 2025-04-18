@@ -113,7 +113,12 @@
                         <span class="material-symbols-rounded">settings</span>
                         <span>Настройки</span>
                     </a></li>
-                    <!-- Здесь будут добавлены другие пункты меню -->
+
+                    <li><a href="{{ url_for('admin.chat') }}" class="{% if request.endpoint == 'admin.chat' %}active{% endif %}">
+                        <span class="material-symbols-rounded">chat</span>
+                        <span>Чат</span>
+                    </a></li>
+                    
                 </ul>
             </nav>
             <div class="sidebar-footer">

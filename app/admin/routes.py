@@ -1231,3 +1231,13 @@ def start_process():
             'error': f'Неожиданная ошибка: {str(e)}',
             'details': error_details
         }), 500
+# маршрут для чата
+@admin_bp.route('/chat')
+@login_required
+def chat():
+    # Получаем текущую тему из cookie
+    theme = request.cookies.get('admin_theme', 'dark')
+    
+    return render_template('admin/chat.html', theme=theme)
+
+

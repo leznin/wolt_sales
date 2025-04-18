@@ -279,6 +279,19 @@ class WoltDatabase:
             )
             ''')
 
+            cursor.execute('''
+            CREATE TABLE IF NOT EXISTS telegram_user_messages (
+                id INT AUTO_INCREMENT PRIMARY KEY,
+                user_id VARCHAR(255) NOT NULL,
+                message_type VARCHAR(32) NOT NULL,
+                content TEXT,
+                file_id VARCHAR(255),
+                file_unique_id VARCHAR(255),
+                file_name VARCHAR(255),
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            )
+            ''')
+
             # Создание индексов
             cursor.execute("SHOW INDEX FROM discounted_items WHERE Key_name = 'idx_store_id'")
             if not cursor.fetchone():
@@ -1849,3 +1862,27 @@ class WoltDatabase:
             if cursor:
                 cursor.close()
             self.pool.release_connection(conn)
+
+
+    def save_user_message(self, user_id, message_type, content, file_id=None, file_unique_id=None, file_name=None):
+        """
+        Save a user message (text, photo, audio, video, document) to the database.
+        """
+        conn = self.pool.get_connection()
+        cursor = None
+        try:
+            cursor = conn.cursor()
+            cursor.execute("""
+                INSERT INTO telegram_user_messages 
+                (user_id, message_type, content, file_id, file_unique_id, file_name, created_at)
+                VALUES (%s, %s, %s, %s, %s, %s, NOW())
+            """, (user_id, message_type, content, file_id, file_unique_id, file_name))
+            conn.commit()
+        except Exception as e:
+            logging.error(f"Error saving user message: {e}")
+            conn.rollback()
+        finally:
+            if cursor:
+                cursor.close()
+            self.pool.release_connection(conn)
+
