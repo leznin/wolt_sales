@@ -114,3 +114,35 @@ html, body {
     flex: 1 !important;
     overflow: hidden !important;
   }
+  /* Audio message styles */
+  .audio-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: var(--input-bg) !important;
+    border-radius: 12px;
+    padding: 8px;
+    max-width: 80%;
+  }
+  .audio-container.audio-self {
+    background-color: var(--accent-color) !important;
+  }
+  .audio-container.audio-self .audio-icon,
+  .audio-container.audio-self .audio-file-name {
+    color: white !important;
+  }
+  .audio-icon {
+    font-size: 20px;
+    color: var(--accent-color) !important;
+  }
+  .audio-player {
+    flex: 1;
+    outline: none;
+  }
+  .audio-file-name {
+    font-size: 12px;
+    color: var(--text-secondary) !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
