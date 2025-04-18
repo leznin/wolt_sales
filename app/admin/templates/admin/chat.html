@@ -14,9 +14,9 @@ page_title %}{% endblock %} {% block content %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
 <link rel="stylesheet" href="{{ url_for('admin.static', filename='css/styleChat.css') }}">
 
-
-<div class="chat-container">
-  <div id="root">
+<div id="root">
+  <div class="chat-container">
+    
   </div>
 </div>
 
@@ -26,8 +26,8 @@ page_title %}{% endblock %} {% block content %}
   const { createElement: e } = React;
 
   // pagination settings
-  const USERS_PAGE_SIZE = 5;
-  const MESSAGES_PAGE_SIZE = 2000;
+  const USERS_PAGE_SIZE = 20;
+  const MESSAGES_PAGE_SIZE = 20;
 
   // Main Chat Application
   const App = () => {
@@ -292,7 +292,7 @@ page_title %}{% endblock %} {% block content %}
     const handleMessagesScroll = async () => {
       const c = messagesContainerRef.current;
       if (!c || messagesLoadingMore || !hasMoreMessages) return;
-      if (c.scrollTop === 0) {
+      if (c.scrollTop <= 20) {
         setMessagesLoadingMore(true);
         const next = messagesPage + 1;
         const older = await fetchMessages(selectedUser, next);
