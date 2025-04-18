@@ -283,11 +283,15 @@ class WoltDatabase:
             CREATE TABLE IF NOT EXISTS telegram_user_messages (
                 id INT AUTO_INCREMENT PRIMARY KEY,
                 user_id VARCHAR(255) NOT NULL,
+                chat_id VARCHAR(255), -- если нужны групповые чаты или отдельные диалоги
+                sender VARCHAR(32) NOT NULL DEFAULT 'user', -- 'user' или 'bot'
                 message_type VARCHAR(32) NOT NULL,
                 content TEXT,
                 file_id VARCHAR(255),
                 file_unique_id VARCHAR(255),
                 file_name VARCHAR(255),
+                reply_to_message_id INT, -- если поддерживаете ответы
+                status VARCHAR(32) DEFAULT 'sent', -- например, 'sent', 'delivered', 'read'
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             )
             ''')
@@ -1864,7 +1868,7 @@ class WoltDatabase:
             self.pool.release_connection(conn)
 
 
-    def save_user_message(self, user_id, message_type, content, file_id=None, file_unique_id=None, file_name=None):
+    def save_user_message(self, user_id, message_type, content, file_id=None, file_unique_id=None, file_name=None, chat_id=None, sender='user', reply_to_message_id=None, status='sent'):
         """
         Save a user message (text, photo, audio, video, document) to the database.
         """
@@ -1874,9 +1878,9 @@ class WoltDatabase:
             cursor = conn.cursor()
             cursor.execute("""
                 INSERT INTO telegram_user_messages 
-                (user_id, message_type, content, file_id, file_unique_id, file_name, created_at)
-                VALUES (%s, %s, %s, %s, %s, %s, NOW())
-            """, (user_id, message_type, content, file_id, file_unique_id, file_name))
+                (user_id, message_type, content, file_id, file_unique_id, file_name, created_at, chat_id, sender, reply_to_message_id, status)
+                VALUES (%s, %s, %s, %s, %s, %s, NOW(), %s, %s, %s, %s)
+            """, (user_id, message_type, content, file_id, file_unique_id, file_name, chat_id, sender, reply_to_message_id, status))
             conn.commit()
         except Exception as e:
             logging.error(f"Error saving user message: {e}")
@@ -1886,3 +1890,29 @@ class WoltDatabase:
                 cursor.close()
             self.pool.release_connection(conn)
 
+    def get_user_messages(self, user_id, chat_id=None, limit=100):
+        """
+        Получить последние сообщения пользователя (или чата).
+        """
+        conn = self.pool.get_connection()
+        cursor = None
+        try:
+            cursor = conn.cursor(dictionary=True)
+            if chat_id:
+                cursor.execute(
+                    "SELECT * FROM telegram_user_messages WHERE chat_id=%s ORDER BY created_at DESC LIMIT %s",
+                    (chat_id, limit)
+                )
+            else:
+                cursor.execute(
+                    "SELECT * FROM telegram_user_messages WHERE user_id=%s ORDER BY created_at DESC LIMIT %s",
+                    (user_id, limit)
+                )
+            return cursor.fetchall()
+        except Exception as e:
+            logging.error(f"Error fetching user messages: {e}")
+            return []
+        finally:
+            if cursor:
+                cursor.close()
+            self.pool.release_connection(conn)

@@ -953,6 +953,8 @@ def _send_broadcast_async(broadcast_id, broadcast, recipient_filter):
             db.update_telegram_broadcast_status(broadcast_id, 'error')
         except:
             pass
+        
+        raise
 
 @admin_bp.route('/statistic')
 @login_required
@@ -1231,13 +1233,331 @@ def start_process():
             'error': f'Неожиданная ошибка: {str(e)}',
             'details': error_details
         }), 500
+
 # маршрут для чата
 @admin_bp.route('/chat')
 @login_required
 def chat():
-    # Получаем текущую тему из cookie
-    theme = request.cookies.get('admin_theme', 'dark')
-    
-    return render_template('admin/chat.html', theme=theme)
+    """Admin chat interface"""
+    return render_template('admin/chat.html')
 
+# API endpoints for chat functionality
+@admin_bp.route('/api/chat/users', methods=['GET'])
+@login_required
+def get_chat_users():
+    # pagination params
+    page  = int(request.args.get('page', 1))
+    limit = int(request.args.get('limit', 20))
+    offset = (page - 1) * limit
+    """Get all users who have sent messages"""
+    try:
+        conn = db.pool.get_connection()
+        cursor = None
+        try:
+            cursor = conn.cursor(dictionary=True)
+            
+            # Get all users who have sent messages
+            cursor.execute("""
+            SELECT 
+                tu.user_id, 
+                tu.name, 
+                tu.last_name,
+                tu.username,
+                tu.url_photo,
+                (
+                    SELECT COUNT(*) 
+                    FROM telegram_user_messages 
+                    WHERE user_id = tu.user_id AND sender = 'user' AND status = 'sent'
+                ) as unread_count,
+                (
+                    SELECT content 
+                    FROM telegram_user_messages 
+                    WHERE user_id = tu.user_id 
+                    ORDER BY created_at DESC 
+                    LIMIT 1
+                ) as last_message,
+                (
+                    SELECT created_at 
+                    FROM telegram_user_messages 
+                    WHERE user_id = tu.user_id 
+                    ORDER BY created_at DESC 
+                    LIMIT 1
+                ) as last_message_time
+            FROM telegram_users tu
+            INNER JOIN telegram_user_messages tum ON tu.user_id = tum.user_id
+            GROUP BY tu.user_id, tu.name, tu.last_name, tu.username, tu.url_photo
+            ORDER BY last_message_time DESC
+            LIMIT %s OFFSET %s
+            """, (limit, offset))
+            
+            users = cursor.fetchall()
+            
+            # Format the last message time
+            for user in users:
+                if user['last_message_time']:
+                    # Convert to local time and format
+                    dt = user['last_message_time']
+                    now = datetime.now()
+                    
+                    if dt.date() == now.date():
+                        user['last_message_time'] = dt.strftime('%H:%M')
+                    elif (now.date() - dt.date()).days == 1:
+                        user['last_message_time'] = 'Yesterday'
+                    else:
+                        user['last_message_time'] = dt.strftime('%d %b')
+                else:
+                    user['last_message_time'] = ''
+            
+            return jsonify(users)
+        except Exception as e:
+            current_app.logger.error(f"Error getting chat users: {e}")
+            return jsonify({"error": str(e)}), 500
+        finally:
+            if cursor:
+                cursor.close()
+            db.pool.release_connection(conn)
+    except Exception as e:
+        current_app.logger.error(f"Error in get_chat_users: {e}")
+        return jsonify({"error": str(e)}), 500
 
+@admin_bp.route('/api/chat/messages/<user_id>', methods=['GET'])
+@login_required
+def get_chat_messages(user_id):
+    # pagination params
+    page  = int(request.args.get('page', 1))
+    limit = int(request.args.get('limit', 50))
+    offset = (page - 1) * limit
+    """Get all messages for a specific user"""
+    try:
+        conn = db.pool.get_connection()
+        cursor = None
+        try:
+            cursor = conn.cursor(dictionary=True)
+            
+            # Get all messages for this user
+            cursor.execute("""
+              SELECT *
+              FROM telegram_user_messages
+              WHERE user_id = %s
+              ORDER BY created_at DESC
+              LIMIT %s OFFSET %s
+            """, (user_id, limit, offset))
+            
+            messages = cursor.fetchall()
+            # ensure ascending by time
+            messages.reverse()
+            return jsonify(messages)
+        except Exception as e:
+            current_app.logger.error(f"Error getting chat messages: {e}")
+            return jsonify({"error": str(e)}), 500
+        finally:
+            if cursor:
+                cursor.close()
+            db.pool.release_connection(conn)
+    except Exception as e:
+        current_app.logger.error(f"Error in get_chat_messages: {e}")
+        return jsonify({"error": str(e)}), 500
+
+@admin_bp.route('/api/chat/read/<user_id>', methods=['POST'])
+@login_required
+def mark_messages_read(user_id):
+    """Mark all messages from a user as read"""
+    try:
+        conn = db.pool.get_connection()
+        cursor = None
+        try:
+            cursor = conn.cursor()
+            
+            # Mark all messages from this user as read
+            cursor.execute("""
+                UPDATE telegram_user_messages 
+                SET status = 'read' 
+                WHERE user_id = %s AND sender = 'user' AND status = 'sent'
+            """, (user_id,))
+            
+            conn.commit()
+            return jsonify({"success": True})
+        except Exception as e:
+            conn.rollback()
+            current_app.logger.error(f"Error marking messages as read: {e}")
+            return jsonify({"error": str(e)}), 500
+        finally:
+            if cursor:
+                cursor.close()
+            db.pool.release_connection(conn)
+    except Exception as e:
+        current_app.logger.error(f"Error in mark_messages_read: {e}")
+        return jsonify({"error": str(e)}), 500
+
+@admin_bp.route('/api/chat/send', methods=['POST'])
+@login_required
+def send_chat_message():
+    """Send a message to a user"""
+    try:
+        user_id = request.form.get('user_id')
+        content = request.form.get('content', '')
+        sender = request.form.get('sender', 'bot')
+        
+        if not user_id:
+            return jsonify({"error": "User ID is required"}), 400
+            
+        conn = db.pool.get_connection()
+        cursor = None
+        
+        try:
+            cursor = conn.cursor()
+            
+            file_id = None
+            file_unique_id = None
+            file_name = None
+            
+            # Handle file upload if present
+            if 'file' in request.files:
+                file = request.files['file']
+                if file and file.filename:
+                    # Generate a unique filename
+                    filename = secure_filename(file.filename)
+                    file_unique_id = str(uuid.uuid4())
+                    file_id = f"{file_unique_id}_{filename}"
+                    file_name = filename
+                    
+                    # Create directory if it doesn't exist
+                    upload_dir = os.path.join(parent_dir, 'app', 'uploads')
+                    if not os.path.exists(upload_dir):
+                        os.makedirs(upload_dir)
+                    
+                    # Save the file
+                    file_path = os.path.join(upload_dir, file_id)
+                    file.save(file_path)
+            
+            # Insert the message into the database
+            cursor.execute("""
+                INSERT INTO telegram_user_messages 
+                (user_id, sender, message_type, content, file_id, file_unique_id, file_name, status) 
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+            """, (
+                user_id, 
+                sender, 
+                'text' if not file_id else 'file',
+                content,
+                file_id,
+                file_unique_id,
+                file_name,
+                'sent'
+            ))
+            
+            conn.commit()
+            
+            # Send message to Telegram user if needed
+            try:
+                # Only send if it's from the bot to the user
+                if sender == 'bot' and TELEGRAM_TOKEN:
+                    # Prepare the message
+                    if content and file_id:
+                        # Send text message first
+                        requests.post(
+                            f'https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage',
+                            json={
+                                'chat_id': user_id,
+                                'text': content
+                            }
+                        )
+                        
+                        # Then send file
+                        file_path = os.path.join(parent_dir, 'app', 'uploads', file_id)
+                        if os.path.exists(file_path):
+                            # Determine file type
+                            if file_name.lower().endswith(('.png', '.jpg', '.jpeg', '.gif')):
+                                with open(file_path, 'rb') as photo:
+                                    requests.post(
+                                        f'https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendPhoto',
+                                        files={'photo': photo},
+                                        data={'chat_id': user_id}
+                                    )
+                            else:
+                                with open(file_path, 'rb') as document:
+                                    requests.post(
+                                        f'https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendDocument',
+                                        files={'document': document},
+                                        data={'chat_id': user_id}
+                                    )
+                    elif content:
+                        # Just send text
+                        requests.post(
+                            f'https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage',
+                            json={
+                                'chat_id': user_id,
+                                'text': content
+                            }
+                        )
+                    elif file_id:
+                        # Just send file
+                        file_path = os.path.join(parent_dir, 'app', 'uploads', file_id)
+                        if os.path.exists(file_path):
+                            # Determine file type
+                            if file_name.lower().endswith(('.png', '.jpg', '.jpeg', '.gif')):
+                                with open(file_path, 'rb') as photo:
+                                    requests.post(
+                                        f'https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendPhoto',
+                                        files={'photo': photo},
+                                        data={'chat_id': user_id}
+                                    )
+                            else:
+                                with open(file_path, 'rb') as document:
+                                    requests.post(
+                                        f'https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendDocument',
+                                        files={'document': document},
+                                        data={'chat_id': user_id}
+                                    )
+            except Exception as e:
+                current_app.logger.error(f"Error sending message to Telegram: {e}")
+                # We don't want to fail the API call if Telegram sending fails
+            
+            return jsonify({"success": True})
+        except Exception as e:
+            conn.rollback()
+            current_app.logger.error(f"Error sending message: {e}")
+            return jsonify({"error": str(e)}), 500
+        finally:
+            if cursor:
+                cursor.close()
+            db.pool.release_connection(conn)
+    except Exception as e:
+        current_app.logger.error(f"Error in send_chat_message: {e}")
+        return jsonify({"error": str(e)}), 500
+
+@admin_bp.route('/api/chat/file/<file_id>', methods=['GET'])
+@login_required
+def get_chat_file(file_id):
+    """Get a file that was sent in a chat"""
+    try:
+        # Ensure the file_id is secure
+        if '..' in file_id or file_id.startswith('/'):
+            return jsonify({"error": "Invalid file ID"}), 400
+            
+        # 1) Try serve files stored by send_chat_message in app/user_uploads
+        upload_dir = os.path.join(parent_dir, 'app', 'user_uploads')
+        local_path = os.path.join(upload_dir, file_id)
+        if os.path.exists(local_path):
+            filename = file_id.split('_', 1)[1] if '_' in file_id else file_id
+            return send_from_directory(upload_dir, file_id, as_attachment=False, download_name=filename)
+        
+        # 2) Fallback: look up local path in database
+        conn = db.pool.get_connection()
+        cursor = conn.cursor()
+        cursor.execute("SELECT file_name FROM telegram_user_messages WHERE file_id=%s", (file_id,))
+        row = cursor.fetchone()
+        cursor.close()
+        db.pool.release_connection(conn)
+        if row and row[0]:
+            path_in_db = row[0]  # e.g., 'user_uploads/file_25.jpg'
+            rel_dir, rel_file = os.path.split(path_in_db)
+            serve_dir = os.path.join(parent_dir, 'app', rel_dir)
+            if os.path.exists(os.path.join(serve_dir, rel_file)):
+                return send_from_directory(serve_dir, rel_file, as_attachment=False, download_name=rel_file)
+        
+        # Not found
+        return jsonify({"error": "File not found"}), 404
+    except Exception as e:
+        current_app.logger.error(f"Error getting file: {e}")
+        return jsonify({"error": str(e)}), 500

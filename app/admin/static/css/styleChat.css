@@ -1,0 +1,116 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: var(--bg-primary) !important;
+    color: var(--text-primary) !important;
+  }
+  #root {
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    /* ensure fixed container, remove auto expansion */
+    min-height: unset !important;
+    margin: 0 auto;
+    display: flex;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+    border-radius: 16px;
+    background: var(--bg-secondary);
+    position: relative;
+  }
+  .chat-main-flex {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 16px;
+    overflow: hidden;
+    background: var(--bg-secondary);
+  }
+  .chat-bubble-self {
+    background-color: var(--accent-color) !important;
+    color: white !important;
+    border-radius: 18px 18px 4px 18px;
+  }
+  .chat-bubble-other {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-primary) !important;
+    border-radius: 18px 18px 18px 4px;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .unread-badge {
+    background-color: var(--error-color) !important;
+    color: white !important;
+    border-radius: 50%;
+    min-width: 20px;
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .chat-container {
+    background-color: var(--bg-secondary) !important;
+    border-radius: 12px;
+    /* full height within content wrapper */
+    height: 100%;
+    overflow: hidden;
+  }
+  .message-input {
+    border-radius: 24px;
+    background-color: var(--input-bg) !important;
+    color: var(--text-primary) !important;
+  }
+  .file-preview {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .user-list-item:hover {
+    background-color: rgba(59, 130, 246, 0.1) !important;
+  }
+  .user-list-item.active {
+    background-color: var(--border-color) !important;
+  }
+  .bg-white {
+    background-color: var(--bg-secondary) !important;
+  }
+  .bg-blue-800,
+  .text-blue-800 {
+    background-color: var(--accent-color) !important;
+    color: white !important;
+  }
+  .bg-blue-50,
+  .text-blue-50 {
+    background-color: var(--bg-primary) !important;
+    color: var(--text-primary) !important;
+  }
+  .bg-gray-50,
+  .text-gray-50 {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-secondary) !important;
+  }
+  .border-gray-200 {
+    border-color: var(--border-color) !important;
+  }
+  .border-r {
+    border-right: 1px solid var(--border-color) !important;
+  }
+  /* Ensure chat page layout fills viewport without shifting */
+  .main-content {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100vh !important;
+    overflow: hidden !important;
+  }
+  .main-content .content {
+    flex: 1 !important;
+    overflow: hidden !important;
+  }

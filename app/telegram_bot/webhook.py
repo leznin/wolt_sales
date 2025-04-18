@@ -76,7 +76,6 @@ def webhook():
                 )
                 message_saved = True
         elif 'audio' in message:
-            return jsonify({"error": "Audio messages are not supported"}), 400
             audio = message['audio']
             caption = message.get('caption', None)
             local_path = download_telegram_file(audio.get('file_id'))
@@ -106,6 +105,39 @@ def webhook():
                 user_id, 'document', caption,
                 file_id=doc.get('file_id'),
                 file_unique_id=doc.get('file_unique_id'),
+                file_name=local_path
+            )
+            message_saved = True
+        elif 'voice' in message:
+            voice = message['voice']
+            caption = message.get('caption', None)  # Обычно у voice нет caption, но пусть будет для совместимости
+            local_path = download_telegram_file(voice.get('file_id'))
+            get_db().save_user_message(
+                user_id, 'voice', caption,
+                file_id=voice.get('file_id'),
+                file_unique_id=voice.get('file_unique_id'),
+                file_name=local_path
+            )
+            message_saved = True
+        elif 'sticker' in message:
+            sticker = message['sticker']
+            caption = message.get('caption', None)
+            local_path = download_telegram_file(sticker.get('file_id'))
+            get_db().save_user_message(
+                user_id, 'sticker', caption,
+                file_id=sticker.get('file_id'),
+                file_unique_id=sticker.get('file_unique_id'),
+                file_name=local_path
+            )
+            message_saved = True
+        elif 'video_note' in message:
+            video_note = message['video_note']
+            caption = message.get('caption', None)
+            local_path = download_telegram_file(video_note.get('file_id'))
+            get_db().save_user_message(
+                user_id, 'video_note', caption,
+                file_id=video_note.get('file_id'),
+                file_unique_id=video_note.get('file_unique_id'),
                 file_name=local_path
             )
             message_saved = True

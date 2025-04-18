@@ -1,10 +1,553 @@
-{% extends "admin/base.html" %}
+{% extends "admin/base.html" %} {% block title %}Чат{% endblock %} {% block
+page_title %}{% endblock %} {% block content %}
 
-{% block title %}Вход{% endblock %}
+<link
+  href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+  rel="stylesheet"
+/>
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+  rel="stylesheet"
+/>
+<link href="/static/css/styles.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+<link rel="stylesheet" href="{{ url_for('admin.static', filename='css/styleChat.css') }}">
 
-{% block page_title %}{% endblock %}
 
-{% block content %}
+<div class="chat-container">
+  <div id="root">
+  </div>
+</div>
 
+<script>
+  // Create elements with React.createElement instead of JSX
+  const { useState, useEffect, useRef } = React;
+  const { createElement: e } = React;
 
+  // pagination settings
+  const USERS_PAGE_SIZE = 20;
+  const MESSAGES_PAGE_SIZE = 10;
+
+  // Main Chat Application
+  const App = () => {
+    // pagination & scroll refs
+    const [usersPage, setUsersPage] = useState(1);
+    const [hasMoreUsers, setHasMoreUsers] = useState(true);
+    const [usersLoadingMore, setUsersLoadingMore] = useState(false);
+    const userListRef = useRef(null);
+    const [messagesPage, setMessagesPage] = useState(1);
+    const [hasMoreMessages, setHasMoreMessages] = useState(true);
+    const [messagesLoadingMore, setMessagesLoadingMore] = useState(false);
+    const messagesContainerRef = useRef(null);
+
+    // State variables
+    const [users, setUsers] = useState([]);
+    const [selectedUser, setSelectedUser] = useState(null);
+    const [messages, setMessages] = useState({});
+    const [newMessage, setNewMessage] = useState('');
+    const [filePreview, setFilePreview] = useState(null);
+    const messageEndRef = useRef(null);
+    const fileInputRef = useRef(null);
+    const [loading, setLoading] = useState(true);
+
+    // Fetch users from the server
+    useEffect(() => {
+      const fetchUsers = async (page = 1) => {
+        try {
+          if (page === 1) setLoading(true);
+          else setUsersLoadingMore(true);
+          const response = await fetch(`/adminqsc/api/chat/users?page=${page}&limit=${USERS_PAGE_SIZE}`);
+          if (response.ok) {
+            const data = await response.json();
+            // Transform data to match our UI structure
+            const formattedUsers = data.map(user => ({
+              id: user.user_id,
+              name: user.name || 'Unknown User',
+              avatar: user.url_photo 
+                ? `/telegram_bot/photos/${user.url_photo}` 
+                : '/public/images/default-avatar.jpg',
+              unreadCount: user.unread_count || 0,
+              lastMessage: user.last_message || 'No messages yet',
+              lastMessageTime: user.last_message_time || '',
+              isOnline: false
+            }));
+            if (page === 1) setUsers(formattedUsers);
+            else setUsers(prev => [...prev, ...formattedUsers]);
+            setHasMoreUsers(formattedUsers.length === USERS_PAGE_SIZE);
+            setUsersPage(page);
+          } else {
+            console.error('Failed to fetch users');
+          }
+        } catch (error) {
+          console.error('Error fetching users:', error);
+        } finally {
+          if (page === 1) setLoading(false);
+          else setUsersLoadingMore(false);
+        }
+      };
+
+      fetchUsers(1);
+      const interval = setInterval(() => fetchUsers(1), 30000);
+      return () => clearInterval(interval);
+    }, []);
+
+    // Sort users so that those with unread messages are at the top
+    const sortedUsers = [...users].sort((a, b) => {
+      if (a.unreadCount > 0 && b.unreadCount === 0) return -1;
+      if (a.unreadCount === 0 && b.unreadCount > 0) return 1;
+      return 0;
+    });
+
+    // Fetch messages for a specific user
+    const fetchMessages = async (userId, page = 1) => {
+      try {
+        const response = await fetch(`/adminqsc/api/chat/messages/${userId}?page=${page}&limit=${MESSAGES_PAGE_SIZE}`);
+        if (response.ok) {
+          const data = await response.json();
+          // Transform messages to match our UI structure
+          const formattedMessages = data.map(msg => ({
+            id: msg.id,
+            text: msg.content,
+            sender: msg.sender === 'user' ? userId : 'self',
+            time: new Date(msg.created_at).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+            isRead: true,
+            file: msg.file_id ? {
+            name: msg.file_name || 'File',
+            type: msg.file_name && msg.file_name.match(/\.(jpg|jpeg|png|gif)$/i) ? 'image' : 'document',
+            data: msg.file_id ? `/adminqsc/api/chat/file/${msg.file_id}` : null
+            } : null
+          }));
+          
+          return formattedMessages;
+        } else {
+          console.error('Failed to fetch messages');
+          return [];
+        }
+      } catch (error) {
+        console.error('Error fetching messages:', error);
+        return [];
+      }
+    };
+
+    // Handle selecting a user
+    const handleSelectUser = async (userId) => {
+      // reset messages pagination
+      setMessagesPage(1);
+      setHasMoreMessages(true);
+      setSelectedUser(userId);
+      // load first messages page
+      const initial = await fetchMessages(userId, 1);
+      setMessages(prev => ({ ...prev, [userId]: initial }));
+      setMessagesPage(1);
+      // scroll to bottom
+      setTimeout(() => {
+        const c = messagesContainerRef.current;
+        if (c) c.scrollTop = c.scrollHeight;
+      }, 0);
+      // Mark messages as read
+      const updatedUsers = users.map(user => {
+        if (user.id === userId) {
+          return { ...user, unreadCount: 0 };
+        }
+        return user;
+      });
+      setUsers(updatedUsers);
+
+      // Notify server that messages have been read
+      try {
+        await fetch(`/adminqsc/api/chat/read/${userId}`, {
+          method: 'POST'
+        });
+      } catch (error) {
+        console.error('Error marking messages as read:', error);
+      }
+    };
+
+    // Handle sending a new message
+    const handleSendMessage = async () => {
+      if ((!newMessage.trim() && !filePreview) || !selectedUser) return;
+
+      const now = new Date();
+      const timeString = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+
+      // Create message object for UI
+      const newMsg = {
+        id: Date.now(), // Temporary ID
+        text: newMessage,
+        sender: 'self',
+        time: timeString,
+        isRead: true,
+        file: filePreview
+      };
+
+      // Update UI immediately
+      const updatedMessages = { ...messages };
+      if (!updatedMessages[selectedUser]) {
+        updatedMessages[selectedUser] = [];
+      }
+      updatedMessages[selectedUser] = [...updatedMessages[selectedUser], newMsg];
+      setMessages(updatedMessages);
+
+      // Update the last message for the user in the sidebar
+      const updatedUsers = users.map(user => {
+        if (user.id === selectedUser) {
+          return {
+            ...user,
+            lastMessage: newMessage || 'Sent a file',
+            lastMessageTime: 'Just now'
+          };
+        }
+        return user;
+      });
+      setUsers(updatedUsers);
+
+      // Send message to server
+      try {
+        const formData = new FormData();
+        formData.append('user_id', selectedUser);
+        formData.append('content', newMessage);
+        formData.append('sender', 'bot');
+        
+        if (filePreview && filePreview.data) {
+          // Extract base64 data if it's a data URL
+          const match = filePreview.data.match(/^data:(.+);base64,(.+)$/);
+          if (match) {
+            const blob = await fetch(filePreview.data).then(r => r.blob());
+            formData.append('file', blob, filePreview.name);
+          }
+        }
+
+        const response = await fetch('/adminqsc/api/chat/send', {
+          method: 'POST',
+          body: formData
+        });
+
+        if (!response.ok) {
+          console.error('Failed to send message');
+        }
+      } catch (error) {
+        console.error('Error sending message:', error);
+      }
+
+      // Clear input and file preview
+      setNewMessage('');
+      setFilePreview(null);
+    };
+
+    // Handle file upload
+    const handleFileChange = (e) => {
+      if (e.target.files.length > 0) {
+        const file = e.target.files[0];
+        const reader = new FileReader();
+
+        reader.onload = (event) => {
+          setFilePreview({
+            name: file.name,
+            type: file.type.startsWith('image/') ? 'image' : 'document',
+            data: event.target.result
+          });
+        };
+
+        if (file.type.startsWith('image/')) {
+          reader.readAsDataURL(file);
+        } else {
+          // Just store the name for non-image files
+          setFilePreview({
+            name: file.name,
+            type: 'document',
+            data: null
+          });
+        }
+      }
+    };
+
+    // Auto scroll to the bottom when messages change
+    useEffect(() => {
+      // scroll messages container to bottom instead of window
+      const c = messagesContainerRef.current;
+      if (c) c.scrollTop = c.scrollHeight;
+    }, [messages, selectedUser]);
+
+    // infinite-scroll handlers
+    const handleUsersScroll = () => {
+      const c = userListRef.current;
+      if (!c || usersLoadingMore || !hasMoreUsers) return;
+      if (c.scrollHeight - c.scrollTop <= c.clientHeight + 20) {
+        fetchUsers(usersPage + 1);
+      }
+    };
+    const handleMessagesScroll = async () => {
+      const c = messagesContainerRef.current;
+      if (!c || messagesLoadingMore || !hasMoreMessages) return;
+      if (c.scrollTop === 0) {
+        setMessagesLoadingMore(true);
+        const next = messagesPage + 1;
+        const older = await fetchMessages(selectedUser, next);
+        if (older.length) {
+          setMessages(prev => ({ ...prev, [selectedUser]: [...older, ...prev[selectedUser]] }));
+          setMessagesPage(next);
+          setHasMoreMessages(older.length === MESSAGES_PAGE_SIZE);
+          setTimeout(() => {
+            if (c) c.scrollTop = older.length * 60; // adjust roughly
+          }, 0);
+        }
+        setMessagesLoadingMore(false);
+      }
+    };
+
+    // User list item component
+    const UserListItem = ({ user }) => {
+      return e('div', {
+        className: `user-list-item flex items-center p-4 border-b border-gray-100 cursor-pointer ${selectedUser === user.id ? 'active' : ''}`,
+        onClick: () => handleSelectUser(user.id)
+      }, [
+        e('div', { className: 'relative', key: 'avatar-container' }, [
+          e('img', {
+            src: user.avatar,
+            alt: user.name,
+            className: 'w-10 h-10 rounded-full mr-3',
+            key: 'avatar'
+          }),
+          user.isOnline && e('div', {
+            className: 'absolute bottom-0 right-2 w-3 h-3 bg-green-500 rounded-full border-2 border-white',
+            key: 'online-indicator'
+          })
+        ]),
+        e('div', { className: 'flex-1', key: 'user-info' }, [
+          e('h3', { className: 'font-medium', key: 'user-name' }, user.name),
+          e('p', { className: 'text-sm text-gray-500 truncate', key: 'last-message' }, user.lastMessage)
+        ]),
+        e('div', { className: 'flex flex-col items-end', key: 'message-meta' }, [
+          e('span', { className: 'text-xs text-gray-400 mb-1', key: 'time' }, user.lastMessageTime),
+          user.unreadCount > 0 && e('span', { className: 'unread-badge', key: 'unread-badge' }, user.unreadCount)
+        ])
+      ]);
+    };
+
+    // Message component
+    const Message = ({ message, user }) => {
+      const isSelf = message.sender === 'self';
+
+      return e('div', {
+        className: `flex mb-4 ${isSelf ? 'justify-end' : 'justify-start'}`
+      }, [
+        !isSelf && e('img', {
+          src: user?.avatar,
+          alt: 'User avatar',
+          className: 'w-8 h-8 rounded-full mr-2 self-end',
+          key: 'avatar'
+        }),
+        e('div', { className: 'max-w-xs md:max-w-md', key: 'message-container' }, [
+          e('div', {
+            className: `p-3 ${isSelf ? 'chat-bubble-self' : 'chat-bubble-other'}`,
+            key: 'bubble'
+          }, [
+            message.text && e('p', { key: 'text' }, message.text),
+            message.file && message.file.type === 'image' && e('div', { className: 'mt-2', key: 'image-container' }, [
+              e('img', {
+                src: message.file.data,
+                alt: 'Attached image',
+                className: 'rounded-md max-w-full h-auto',
+                key: 'image'
+              }),
+              e('p', { className: `text-xs mt-1 ${isSelf ? 'text-blue-100' : 'text-gray-500'}`, key: 'file-name' }, message.file.name)
+            ]),
+            message.file && message.file.type === 'document' && e('div', {
+              className: isSelf ? 'mt-2 bg-blue-700 rounded-md p-2 flex items-center' : 'mt-2 bg-gray-200 rounded-md p-2 flex items-center',
+              key: 'doc-container'
+            }, [
+              e('div', { className: 'mr-2', key: 'doc-icon' }, '📄'),
+              e('p', {
+                className: `text-sm ${isSelf ? 'text-blue-100' : 'text-gray-700'} truncate`,
+                key: 'doc-name'
+              }, message.file.name)
+            ])
+          ]),
+          e('div', { className: 'flex items-center mt-1', key: 'message-footer' }, [
+            e('span', {
+              className: `text-xs ${isSelf ? 'ml-auto' : 'mr-auto'} text-gray-500`,
+              key: 'meta'
+            }, [
+              message.time,
+              isSelf && e('span', { className: 'ml-1', key: 'read-status' }, message.isRead ? '✓✓' : '✓')
+            ])
+          ])
+        ])
+      ]);
+    };
+
+    // Chat Header Component
+    const ChatHeader = ({ selectedUser }) => {
+      const user = users.find(u => u.id === selectedUser);
+      return e('div', { className: 'p-4 bg-blue-800 text-white flex items-center border-b border-blue-700' }, [
+        e('img', {
+          src: user?.avatar,
+          alt: user?.name,
+          className: 'w-10 h-10 rounded-full mr-3',
+          key: 'avatar'
+        }),
+        e('div', { key: 'info' }, [
+          e('h3', { className: 'font-medium', key: 'name' }, user?.name),
+          e('p', { className: 'text-xs text-blue-200', key: 'status' }, user?.isOnline ? 'Online' : 'Offline')
+        ])
+      ]);
+    };
+
+    // Message Input Component
+    const MessageInput = () => {
+      return e('div', { className: 'p-4 border-t border-gray-200 bg-white' }, [
+        filePreview && e('div', {
+          className: 'mb-2 p-2 bg-gray-100 rounded-md flex items-center',
+          key: 'preview'
+        }, [
+          filePreview.type === 'image'
+            ? e('div', { className: 'file-preview mr-2', key: 'image-preview' }, [
+                e('img', {
+                  src: filePreview.data,
+                  alt: 'File preview',
+                  className: 'w-16 h-16 object-cover rounded'
+                })
+              ])
+            : e('div', { className: 'mr-2', key: 'doc-icon' }, '📄'),
+          e('div', { className: 'flex-1 truncate', key: 'filename' }, filePreview.name),
+          e('button', {
+            className: 'text-red-500 hover:text-red-700 ml-2',
+            onClick: () => setFilePreview(null),
+            key: 'remove'
+          }, '×')
+        ]),
+        e('div', { className: 'flex items-center', key: 'input-container' }, [
+          e('button', {
+            className: 'p-2 text-blue-800 rounded-full hover:bg-blue-100',
+            onClick: () => fileInputRef.current.click(),
+            key: 'attach'
+          }, [
+            '📎',
+            e('input', {
+              type: 'file',
+              ref: fileInputRef,
+              className: 'hidden',
+              onChange: handleFileChange,
+              key: 'file-input'
+            })
+          ]),
+          e('input', {
+            type: 'text',
+            className: 'flex-1 border border-gray-300 rounded-full px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-800 focus:border-transparent',
+            placeholder: 'Type a message...',
+            value: newMessage,
+            onChange: (e) => setNewMessage(e.target.value),
+            onKeyPress: (e) => e.key === 'Enter' && handleSendMessage(),
+            key: 'text-input'
+          }),
+          e('button', {
+            className: 'ml-2 bg-blue-800 text-white rounded-full p-2 hover:bg-blue-900 focus:outline-none focus:ring-2 focus:ring-blue-800 focus:ring-opacity-50',
+            onClick: handleSendMessage,
+            key: 'send'
+          }, [
+            e('svg', {
+              xmlns: 'http://www.w3.org/2000/svg',
+              className: 'h-5 w-5',
+              viewBox: '0 0 20 20',
+              fill: 'currentColor',
+              key: 'send-icon'
+            }, [
+              e('path', {
+                fillRule: 'evenodd',
+                d: 'M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z',
+                clipRule: 'evenodd',
+                key: 'path'
+              })
+            ])
+          ])
+        ])
+      ]);
+    };
+
+    // WelcomeScreen Component
+    const WelcomeScreen = () => {
+      return e('div', { className: 'flex-1 flex flex-col items-center justify-center bg-blue-50 text-blue-800' }, [
+        e('svg', {
+          xmlns: 'http://www.w3.org/2000/svg',
+          className: 'h-16 w-16 mb-4 text-blue-800 opacity-50',
+          fill: 'none',
+          viewBox: '0 0 24 24',
+          stroke: 'currentColor',
+          key: 'chat-icon'
+        }, [
+          e('path', {
+            strokeLinecap: 'round',
+            strokeLinejoin: 'round',
+            strokeWidth: 2,
+            d: 'M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z',
+            key: 'path'
+          })
+        ]),
+        e('h3', { className: 'text-xl font-medium mb-2', key: 'title' }, 'Welcome to Chat'),
+        e('p', { className: 'text-blue-600', key: 'subtitle' }, 'Select a conversation to start messaging')
+      ]);
+    };
+
+    // Loading Component
+    const LoadingScreen = () => {
+      return e('div', { className: 'flex-1 flex flex-col items-center justify-center bg-blue-50 text-blue-800' }, [
+        e('div', { className: 'animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-800 mb-4' }),
+        e('p', { className: 'text-blue-600' }, 'Loading conversations...')
+      ]);
+    };
+
+    // Render the main App
+    return e('div', {
+      className: 'chat-main-flex',
+      style: { width: '100%', height: '100%' }
+    }, [
+      // User List - Left Sidebar
+      e('div', { className: 'w-full md:w-1/3 h-full bg-gray-50 border-r border-gray-200 flex-shrink-0', key: 'sidebar' }, [
+        e('div', { className: 'p-4 border-b border-gray-200 bg-blue-800 text-white', key: 'sidebar-header' }, [
+          e('h2', { className: 'text-lg font-medium' }, 'Conversations')
+        ]),
+        loading 
+          ? e(LoadingScreen)
+          : e('div', {
+              className: 'overflow-y-auto h-full max-h-full pb-24 scrollbar-hide',
+              ref: userListRef,
+              onScroll: handleUsersScroll,
+              key: 'user-list'
+            },
+              sortedUsers.length > 0 
+                ? sortedUsers.map(user => e(UserListItem, { user, key: user.id }))
+                : e('div', { className: 'p-4 text-center text-gray-500' }, 'No conversations yet')
+            )
+      ]),
+      // Chat Area - Right Side
+      e('div', { className: 'w-full md:w-2/3 h-full flex flex-col bg-blue-50', key: 'chat-area' }, 
+        selectedUser ? [
+          // Chat Header
+          e(ChatHeader, { selectedUser, key: 'header' }),
+          // Messages Area
+          e('div', {
+            className: 'flex-1 overflow-y-auto p-4 bg-gray-50 scrollbar-hide',
+            ref: messagesContainerRef,
+            onScroll: handleMessagesScroll,
+            key: 'messages'
+          }, [
+            messages[selectedUser]?.map(message => 
+              e(Message, { 
+                message, 
+                user: users.find(u => u.id === message.sender),
+                key: message.id 
+              })
+            ),
+            e('div', { ref: messageEndRef, key: 'message-end' })
+          ]),
+          // Message Input
+          e(MessageInput, { key: 'input' })
+        ] : e(WelcomeScreen, { key: 'welcome' })
+      )
+    ]);
+  };
+
+  ReactDOM.render(React.createElement(App), document.getElementById('root'));
+</script>
 {% endblock %}
