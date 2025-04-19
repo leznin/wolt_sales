@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Получаем элементы интерфейса (с правильными ID)
     const processButton = document.getElementById('processButton');
-    const processBar = document.getElementById('processBar');
+    const progressBar = document.getElementById('progressBar');
     const processStatus = document.getElementById('processStatus');
     const proxyList = document.getElementById('proxyList');
     
-    if (!processButton || !processBar || !processStatus || !proxyList) {
+    if (!processButton || !progressBar || !processStatus || !proxyList) {
         console.error("Не удалось найти один или несколько элементов интерфейса");
         return; // Прерываем выполнение при отсутствии элементов
     }
@@ -31,17 +31,18 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(data => {
             // Обновляем прогресс-бар
             const progress = data.progress || 0;
-            processBar.style.width = `${progress}%`;
-            processBar.textContent = `${progress}%`;
-            processBar.setAttribute('aria-valuenow', progress);
-            
+            progressBar.style.width = `${progress}%`;
+            progressBar.textContent = `${progress}%`;
+            progressBar.setAttribute('aria-valuenow', progress);
             // Меняем цвет прогресс-бара в зависимости от прогресса
+            progressBar.className = 'progress-bar';
+            progressBar.classList.remove('bg-danger', 'bg-warning', 'bg-success', 'progress-bar-success');
             if (progress < 30) {
-                processBar.className = 'progress-bar bg-danger';
+                progressBar.classList.add('bg-danger');
             } else if (progress < 70) {
-                processBar.className = 'progress-bar bg-warning';
+                progressBar.classList.add('bg-warning');
             } else {
-                processBar.className = 'progress-bar bg-success';
+                progressBar.classList.add('progress-bar-success');
             }
             
             // Обновляем статус процесса

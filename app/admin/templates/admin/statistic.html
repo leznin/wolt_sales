@@ -103,8 +103,8 @@
     </div>
     
     <!-- Блок с прогрессом выполнения -->
-    <div class="card shadow mb-4 progress-card-enhanced">
-        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between progress-header-enhanced">
+    <div class="progress-card-enhanced">
+        <div class="progress-header-enhanced">
             <h6 class="m-0 font-weight-bold text-primary progress-title-enhanced">Прогресс обработки магазинов</h6>
             <div id="processControls" class="process-controls">
                 <button style="margin-top: 22px;" id="stopButton" class="btn btn-light mr-2 control-btn" disabled>
@@ -115,23 +115,16 @@
                 </button>
             </div>
         </div>
-        <div class="card-body progress-body-enhanced">
-            <div class="progress-container">
-                <div class="progress progress-enhanced">
-                    <div id="progressBar" class="progress-bar progress-bar-striped progress-bar-animated bg-info" 
-                         role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" 
-                         style="width: 0%;">0%</div>
-                </div>
-                <div id="statusText" class="status-text">Проверка статуса процесса...</div>
-                
-                <!-- Добавляем текстовый (ASCII) прогресс-бар для визуализации -->
-                <div id="terminalOutput" class="terminal-output mt-3 mb-3">
-                    [----------------------------------------] 0.0% (0/0)
-                </div>
-                
-                <div id="proxyList" class="proxy-list">
-                    <div class="no-data">Нет данных о прокси</div>
-                </div>
+        <div class="progress-body-enhanced">
+            <div class="progress progress-enhanced">
+                <div id="progressBar" class="progress-bar progress-bar-striped progress-bar-animated" 
+                     role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" 
+                     style="width: 0%;">0%</div>
+            </div>
+            <div id="statusText" class="status-text">Проверка статуса процесса...</div>
+            <div id="terminalOutput" class="terminal-output mt-3 mb-3" style="display:none;"></div>
+            <div id="proxyList" class="proxy-list">
+                <div class="no-data">Нет данных о прокси</div>
             </div>
         </div>
     </div>
@@ -405,7 +398,7 @@
         font-size: 0.8rem;
         font-weight: 600;
         transition: all 0.3s ease;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     }
     
     .period-btn-enhanced:hover {
@@ -489,10 +482,6 @@
     }
     
     /* Стили для блока прогресса */
-    .progress-container {
-        margin-bottom: 1.5rem;
-    }
-    
     .progress-card {
         background-color: #ffffff;
         border-radius: 12px;
@@ -511,121 +500,94 @@
     
     /* Улучшенные стили для карточки прогресса */
     .progress-card-enhanced {
-        background-color: #ffffff;
+        background-color: #fff;
         border-radius: 16px;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-        overflow: hidden;
-        transition: all 0.3s ease;
-        border: 1px solid rgba(240, 240, 250, 0.8);
-        backdrop-filter: blur(10px);
+        box-shadow: 0 8px 24px rgba(60,72,88,0.10);
+        padding: 1.5rem 2rem;
+        margin-bottom: 2rem;
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
     
     .progress-header-enhanced {
-        background: linear-gradient(120deg, #f8faff, rgba(59, 130, 246, 0.05));
-        border-bottom: 1px solid rgba(230, 235, 245, 0.8);
-        padding: 1.2rem 1.5rem;
-    }
-    
-    .progress-title-enhanced {
-        font-size: 1.1rem;
-        font-weight: 700;
-        color: #3a4a5e;
-        position: relative;
-        padding-left: 15px;
-        letter-spacing: 0.5px;
-    }
-    
-    .progress-title-enhanced:before {
-        content: '';
-        position: absolute;
-        left: 0;
-        top: 50%;
-        transform: translateY(-50%);
-        height: 18px;
-        width: 5px;
-        background: linear-gradient(to bottom, #4263eb, #0c8599);
-        border-radius: 3px;
+        padding: 1.2rem 1.5rem 1rem 1.5rem;
     }
     
     .progress-body-enhanced {
-        padding: 1.5rem;
-        background-color: #ffffff;
+        padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+        background-color: #fff;
     }
     
-    .progress-enhanced {
-        height: 12px;
-        border-radius: 6px;
-        overflow: hidden;
-        background-color: #f1f5f9;
-        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
-    }
-    
-    .progress-title {
-        margin: 0;
-        font-weight: 700;
-        font-size: 0.9rem;
-        color: #4e73df;
-    }
-    
-    .progress-body {
-        padding: 1.25rem;
-    }
-    
-    .progress-bar-container {
-        margin-bottom: 1rem;
-    }
-    
-    .progress-text {
-        font-size: 0.9rem;
+    .process-controls {
+        display: flex;
+        gap: 0.75rem;
+        flex-wrap: wrap;
+        margin-top: 1rem;
         margin-bottom: 0.5rem;
-        font-family: 'JetBrains Mono', monospace;
-        white-space: pre-wrap;
-        color: #3a4a5e;
-        font-weight: 500;
-    }
-    
-    .proxy-stats {
-        font-size: 0.8rem;
-        color: #64748b;
-        font-family: 'JetBrains Mono', monospace;
-        background-color: #f8faff;
-        padding: 8px 12px;
-        border-radius: 8px;
-        border: 1px solid rgba(230, 235, 245, 0.8);
-    }
-
-    /* Новые стили для кнопки и статусов */
-    #processButton {
-        min-width: 120px; /* Фиксированная ширина для избежания скачков */
-        margin-top: 10px;
-        transition: all 0.3s ease;
-    }
-
-    #processButton.btn-checking {
-        background-color: #6c757d;
-        border-color: #6c757d;
-        cursor: not-allowed;
-    }
-
-    #processButton.btn-running {
-        background-color: #0ca678;
-        border-color: #0ca678;
-        cursor: not-allowed;
     }
     
     .control-btn {
         border-radius: 10px;
         font-weight: 600;
-        padding: 0.5rem 1rem;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-        transition: all 0.3s ease;
+        padding: 0.5rem 1.2rem;
+        font-size: 1rem;
+        transition: all 0.3s;
+        margin: 0 !important;
     }
     
-    .control-btn:hover:not([disabled]) {
-        transform: translateY(-2px);
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    .control-btn + .control-btn {
+        margin-left: 0.5rem !important;
     }
-
+    
+    /* Прокси и прогрессбар растягиваются на всю ширину */
+    .proxy-list, #statusText, #terminalOutput {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .progress, .progress-enhanced {
+        width: 100%;
+        min-width: 100px;
+        position: relative;
+        background: #e9ecef;
+        border-radius: 12px;
+        height: 28px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+        overflow: hidden;
+        margin-bottom: 1rem;
+        display: block;
+    }
+    
+    .progress-bar {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        min-height: 20px;
+        height: 100%;
+        border-radius: 12px;
+        transition: width 0.4s cubic-bezier(.4,0,.2,1);
+        font-size: 1.1rem;
+        font-weight: 700;
+        box-sizing: border-box;
+        text-align: center;
+        line-height: 1;
+        background: linear-gradient(90deg, #1cc88a 0%, #51e2a7 100%);
+        color: #fff;
+    }
+    .bg-danger {
+        background: linear-gradient(90deg, #e74a3b 0%, #f87171 100%) !important;
+        color: #fff !important;
+    }
+    .bg-warning {
+        background: linear-gradient(90deg, #f6c23e 0%, #f9d976 100%) !important;
+        color: #212529 !important;
+    }
+    .bg-success {
+        background: linear-gradient(90deg, #1cc88a 0%, #51e2a7 100%) !important;
+        color: #fff !important;
+    }
+    
     .proxy-item {
         display: flex;
         justify-content: space-between;
@@ -678,6 +640,26 @@
         background-color: #f1f5f9;
         border-radius: 8px;
         display: inline-block;
+    }
+    
+    /* Стили для полосы успеха внутри прогресс-бара */
+    .progress-bar-success {
+        background: linear-gradient(90deg, #1cc88a 0%, #51e2a7 100%);
+        box-shadow: 0 2px 8px rgba(28, 200, 138, 0.12);
+        transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    /* Исправляем высоту и вертикальное выравнивание текста для progress-bar */
+    .progress-bar {
+        height: 100%;
+        min-height: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 1.2;
+        padding: 0;
     }
 </style>
 {% endblock %}

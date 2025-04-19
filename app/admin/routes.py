@@ -1060,7 +1060,8 @@ def get_process_status():
         "progress": 0,
         "status": "Готов к запуску",
         "proxyStats": {},
-        "running": False
+        "running": False,
+        "skipped_stores": 0
     }
     
     try:
@@ -1084,6 +1085,7 @@ def get_process_status():
                     # Общий прогресс
                     processed_stores = stats.get("processed_stores", 0)
                     total_stores = stats.get("total_stores", 0)
+                    skipped_stores = stats.get("skipped_stores", 0)
                     
                     # Избегаем деления на ноль
                     if total_stores > 0:
@@ -1092,6 +1094,7 @@ def get_process_status():
                         progress = 0
                     
                     response_data["progress"] = progress
+                    response_data["skipped_stores"] = skipped_stores
                     
                     # Статус выполнения
                     if is_running:
@@ -1162,7 +1165,8 @@ def start_process():
                     "failed_stores": 0,
                     "stores_with_errors": [],
                     "proxy_stats": {},
-                    "last_update": datetime.now().isoformat()
+                    "last_update": datetime.now().isoformat(),
+                    "skipped_stores": 0
                 }
                 json.dump(initial_stats, f)
         except Exception as e:

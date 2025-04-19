@@ -39,30 +39,38 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Функция для обновления UI на основе данных прогресса
     function updateUI(data) {
-        // Обновляем прогресс-бар
-        const progress = data.progress || 0;
+        // Новый расчет прогресса: и обработанные, и пропущенные считаются успешными
+        const processed = data.processed_stores || 0;
+        const skipped = data.skipped_stores || 0;
+        const total = data.total_stores || 0;
+        let progress = 0;
+        if (total > 0) {
+            progress = ((processed + skipped) / total) * 100;
+            progress = Math.round(progress * 100) / 100; // округление до сотых
+        }
+
         progressBar.style.width = `${progress}%`;
         progressBar.setAttribute('aria-valuenow', progress);
-        progressBar.textContent = `${progress}%`;
+        progressBar.textContent = `${progress.toFixed(2)}%`;
         
         // Обновляем цвет прогресс-бара в зависимости от прогресса
         progressBar.className = 'progress-bar progress-bar-striped progress-bar-animated';
+        progressBar.style.background = '';
+        progressBar.style.color = '#212529'; // Цвет текста по умолчанию (темный)
+        progressBar.classList.remove('progress-bar-success', 'bg-danger', 'bg-warning', 'bg-success');
         if (progress < 30) {
             progressBar.classList.add('bg-danger');
         } else if (progress < 70) {
             progressBar.classList.add('bg-warning');
+            progressBar.style.color = '#212529'; // Темный текст на желтом
         } else {
-            progressBar.classList.add('bg-success');
+            progressBar.classList.add('progress-bar-success'); // Для зелёного градиента
+            progressBar.style.color = '#fff'; // Белый текст на зелёном
         }
-        
-        // Проверяем наличие общего количества магазинов
-        const total = data.total_stores || 0;
-        const processed = data.processed_stores || 0;
 
         // Обновляем текстовый прогресс-бар
         if (textProgressBar) {
-            // Убираем информацию о прокси из текстового прогресс-бара
-            textProgressBar.update(processed, total, '');
+            textProgressBar.update(processed, total);
         }
 
         // Обновляем текст статуса с учетом общего количества магазинов
