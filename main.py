@@ -208,7 +208,7 @@ async def get_stores_and_items():
                     print(f"\rМагазин {store_name} уже обновлялся недавно. Пропускаем.", end='', flush=True)
                     existing_items = db.get_store_discounts(store_id)
                     discounted_items_count = len(existing_items)
-                    
+                    update_stats()
                     return 0, discounted_items_count, discounted_items_count, "skipped"
 
                 # Создаем отдельный экземпляр API для каждого магазина с выделенным прокси
