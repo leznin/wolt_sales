@@ -73,6 +73,13 @@ def get_db():
             db_local.db = None
     return db_local.db
 
+# Import webhook at the end to avoid circular imports
+try:
+    from telegram_bot.webhook import webhook
+except Exception as e:
+    logger.error(f"Error importing webhook module: {e}")
+    webhook = None
+
 @app.route('/api/stores', methods=['GET'])
 def get_stores_with_discounts():
     """Get all stores that have discounted items"""

@@ -62,41 +62,46 @@ class WoltTelegramDatabase:
         self._init_db()
 
     def _init_db(self):
-        """Инициализация таблиц базы данных, если они не существуют"""
+        """Initialize the database with required tables"""
         conn = self.pool.get_connection()
         cursor = None
         try:
             cursor = conn.cursor()
-            # Создание таблиц с поддержкой UTF-8
+            
+            # Create the stores table if it doesn't exist with VARCHAR(255) for id
             cursor.execute('''
-                CREATE TABLE IF NOT EXISTS stores (
-                    id VARCHAR(255) PRIMARY KEY,
-                    name VARCHAR(255),
-                    slug VARCHAR(255),
-                    lat DOUBLE,
-                    lon DOUBLE,
-                    city VARCHAR(100),
-                    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-                ) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci
+            CREATE TABLE IF NOT EXISTS stores (
+                id VARCHAR(255) PRIMARY KEY,
+                name VARCHAR(255) NOT NULL,
+                slug VARCHAR(255),
+                city VARCHAR(100),
+                address VARCHAR(255),
+                venue_type VARCHAR(100),
+                lat DECIMAL(10, 8),
+                lon DECIMAL(11, 8),
+                currency VARCHAR(10),
+                country VARCHAR(50)
+            ) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci
             ''')
+            
+            # Create discounted_items table with VARCHAR(255) for store_id to match stores.id
             cursor.execute('''
-                CREATE TABLE IF NOT EXISTS discounted_items (
-                    id INTEGER PRIMARY KEY AUTO_INCREMENT,
-                    id_venue VARCHAR(255),
-                    store_id VARCHAR(255),
-                    name VARCHAR(255),
-                    description TEXT,
-                    category VARCHAR(100),
-                    image_url VARCHAR(512),
-                    current_price DOUBLE,
-                    original_price DOUBLE,
-                    base_price DOUBLE,
-                    discount_percentage DOUBLE,
-                    currency VARCHAR(10) DEFAULT 'GEL',
-                    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                    FOREIGN KEY (store_id) REFERENCES stores(id) ON DELETE CASCADE
-                ) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci
+            CREATE TABLE IF NOT EXISTS discounted_items (
+                id INT AUTO_INCREMENT PRIMARY KEY,
+                id_venue VARCHAR(255) NOT NULL,
+                store_id VARCHAR(255),
+                name VARCHAR(255) NOT NULL,
+                description TEXT,
+                image_url TEXT,
+                current_price DECIMAL(10, 2),
+                original_price DECIMAL(10, 2),
+                discount_percentage DECIMAL(5, 2),
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+                FOREIGN KEY (store_id) REFERENCES stores(id) ON DELETE CASCADE
+            ) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci
             ''')
+            
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS telegram_users (
                     id INTEGER PRIMARY KEY AUTO_INCREMENT,
