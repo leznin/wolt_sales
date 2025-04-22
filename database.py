@@ -60,6 +60,7 @@ class WoltDatabase:
     def __init__(self, pool_size: int = 5):
         self.pool = ConnectionPool(max_connections=pool_size)
         self._init_db()
+        self.migrate_database()
         
     def migrate_database(self):
         """Миграция базы данных для добавления поддержки валют и обновления структуры."""
@@ -82,14 +83,47 @@ class WoltDatabase:
             cursor.execute("DESCRIBE stores")
             columns = {col[0] for col in cursor.fetchall()}
             
+            # Проверка на наличие updated_at и создание если отсутствует
+            if 'updated_at' not in columns:
+                logging.info("Добавление колонки updated_at в таблицу stores")
+                cursor.execute("""
+                    ALTER TABLE stores 
+                    ADD COLUMN updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                """)
+                logging.info("Колонка updated_at успешно добавлена")
+            
+            # Старая логика для переименования last_updated в updated_at
             if 'updated_at' not in columns and 'last_updated' in columns:
-                logging.info("Обновление структуры таблицы stores")
+                logging.info("Переименование колонки last_updated в updated_at")
                 cursor.execute("""
                     ALTER TABLE stores 
                     CHANGE COLUMN last_updated updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
                 """)
-                logging.info("Таблица stores успешно обновлена")
+                logging.info("Колонка last_updated успешно переименована в updated_at")
             
+            # Проверка и добавление колонки image_url
+            if 'image_url' not in columns:
+                logging.info("Добавление колонки image_url в таблицу stores")
+                cursor.execute("""
+                    ALTER TABLE stores 
+                    ADD COLUMN image_url VARCHAR(512)
+                """)
+            logging.info("Колонка image_url успешно добавлена")
+
+            # Проверяем структуру таблицы discounted_items
+            cursor.execute("DESCRIBE discounted_items")
+            di_columns = {col[0] for col in cursor.fetchall()}
+            
+            # Проверка на наличие колонки base_price
+            if 'base_price' not in di_columns:
+                logging.info("Добавление колонки base_price в таблицу discounted_items")
+                cursor.execute("""
+                    ALTER TABLE discounted_items 
+                    ADD COLUMN base_price DOUBLE DEFAULT NULL
+                """)
+                logging.info("Колонка base_price успешно добавлена")
+        
+        
             conn.commit()
             logging.info("Миграция базы данных успешно завершена")
             
@@ -405,9 +439,10 @@ class WoltDatabase:
         cursor = None
         try:
             cursor = conn.cursor()
-            cursor.execute("UPDATE stores SET updated_at = %s WHERE id = %s", (datetime.now(), store_id))
+            now = datetime.now()
+            cursor.execute("UPDATE stores SET updated_at = %s WHERE id = %s", (now, store_id))
             conn.commit()
-            logging.info(f"Отметка о обновлении магазина (ID: {store_id}) установлена")
+            logging.info(f"Отметка о обновлении магазина (ID: {store_id}) установлена на {now}")
         except Exception as e:
             logging.error(f"Ошибка при обновлении времени магазина (ID: {store_id}): {e}")
             conn.rollback()
@@ -648,6 +683,7 @@ class WoltDatabase:
                 cursor.close()
             self.pool.release_connection(conn)
 
+    # Update is_store_recently_updated in database.py to log its decision
     def is_store_recently_updated(self, store_id: str, hours: int) -> bool:
         """Проверяет, был ли магазин обновлен за последние hours часов."""
         conn = self.pool.get_connection()
@@ -661,10 +697,12 @@ class WoltDatabase:
             result = cursor.fetchone()
             
             if not result:
+                logging.debug(f"Store {store_id} not found in database")
                 return False
                 
             last_update = result[0]
             if not last_update:
+                logging.debug(f"Store {store_id} has no update timestamp")
                 return False
                 
             # Приводим к datetime, если это не datetime
@@ -672,7 +710,11 @@ class WoltDatabase:
                 last_update = datetime.fromisoformat(last_update)
                 
             time_diff = datetime.now() - last_update
-            return time_diff.total_seconds() < hours * 3600
+            hours_diff = time_diff.total_seconds() / 3600
+            is_recent = hours_diff < hours
+            
+            logging.info(f"Store {store_id} last updated {hours_diff:.2f} hours ago. Skip: {is_recent}")
+            return is_recent
             
         except Exception as e:
             logging.error(f"Ошибка при проверке времени обновления магазина: {e}")

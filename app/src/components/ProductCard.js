@@ -109,6 +109,7 @@ const CurrentPrice = styled.span`
   }
 `;
 
+// eslint-disable-next-line no-unused-vars
 const OriginalPrice = styled.span`
   font-size: ${({ theme }) => theme.fontSizes.sm};
   color: ${({ theme }) => theme.colors.textLight};
